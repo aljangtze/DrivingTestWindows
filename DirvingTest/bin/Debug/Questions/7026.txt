@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=7026
+Url=http://tiba.jsyks.com/Post/f1301.htm
+Tittle=某日3时40分，孙某驾驶大客车（乘载54人、核载55人）行至随岳高速公路229公里加300米处，在停车下客过程中，被后方驶来李某驾驶的重型半挂机动车追尾，造成26人死亡，29人受伤。事后查明，李某从昨日18时许出发，途中一直未休息。双方驾驶人的主要违法行为是什么？
+TittleEmphasize=
+SkillEmphasize=孙，高速公路，停车下客，一直未休息
+ImagePath=
+FlashPath=
+SkillId=49
+MoudleId=7
+Type=3
+Classification=4
+BankId=29
+[SkillInfo]
+SkillNotice=一：孙某高速路上停车下客属于违法停车，二：途中一直未休息 属于疲劳驾驶，记住：孙某，选疲法。
+NormalNotice=高速路上不能随便停车，途中一直未休息 属于疲劳驾驶，所以选择AD
+[Options]
+Options1=孙某违法停车
+Options2=李某疲劳驾驶
+Options3=孙某客车超员
+Options4=李某超速
+Image1=法
+Image2=疲
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=1
+Answer3=0
+Answer4=0

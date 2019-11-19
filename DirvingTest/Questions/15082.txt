@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15082
+Url=http://tiba.jsyks.com/Post/3f4ea.htm
+Tittle=有下列哪种违法行为的机动车驾驶人将被一次记6分？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=《公安部令第123号》规定，驾驶机动车违反道路交通信号灯通行的，一次记6分 。
+NormalNotice=《公安部令第123号》规定，驾驶机动车违反道路交通信号灯通行的，一次记6分 。
+[Options]
+Options1=驾驶与准驾车型不符的机动车
+Options2=饮酒后驾驶机动车
+Options3=驾驶机动车违反道路交通信号灯
+Options4=未取得校车驾驶资格驾驶校车
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

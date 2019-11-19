@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16006
+Url=http://tiba.jsyks.com/Post/51168.htm
+Tittle=这是什么交通标志？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16006.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut6fnnd0j.jpg>    反向弯路</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6hqkguj.jpg>    连续弯路</p>
+NormalNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut6fnnd0j.jpg>    反向弯路</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6hqkguj.jpg>    连续弯路</p>
+[Options]
+Options1=易滑路段
+Options2=急转弯路
+Options3=反向弯路
+Options4=连续弯路
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

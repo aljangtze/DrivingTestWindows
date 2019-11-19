@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15241
+Url=http://tiba.jsyks.com/Post/a0c58.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=15241.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=红色禁令标志，黄色警告标志，蓝色指令标志与一般路段的指路标志，绿色高速路的指路标志，棕色旅游标志。黑色表示解除限制。    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utgwub64j.jpg>    限制最高时速    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utgyo23gj.jpg>    解除限制速度    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uus2sgq7j.jpg>NormalNotice=红色禁令标志，黄色警告标志，蓝色指令标志与一般路段的指路标志，绿色高速路的指路标志，棕色旅游标志。黑色表示解除限制。    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utgwub64j.jpg>    限制最高时速    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utgyo23gj.jpg>    解除限制速度    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uus2sgq7j.jpg>    限制最低时速</p>
+    限制最低时速</p>
+[Options]
+Options1=40米减速行驶路段
+Options2=最低时速40公里
+Options3=解除时速40公里限制
+Options4=最高时速40公里
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

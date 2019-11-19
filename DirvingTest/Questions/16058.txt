@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16058
+Url=http://tiba.jsyks.com/Post/f2097.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16058.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utf3lokqj.jpg>    禁止小客车通行    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uut96hlkj.jpg>    机动车行驶    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutaykxrj.jpg>    机动车道</p>    禁止小客车通行    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uut96hlkj.jpg>    机动车行驶    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uutaykxrj.jpg>    机动车道</p>    禁止小客车通行    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uut96hlkj.jpg>    机动车行驶    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uutaykxrj.jpg>NormalNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utf3lokqj.jpg>    禁止小客车通行    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uut96hlkj.jpg>    机动车行驶    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutaykxrj.jpg>    机动车道</p>    禁止小客车通行    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uut96hlkj.jpg>    机动车行驶    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uutaykxrj.jpg>    机动车道</p>    禁止小客车通行    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uut96hlkj.jpg>    机动车行驶    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uutaykxrj.jpg>    机动车道</p>
+    机动车道</p>
+[Options]
+Options1=禁止小型车行驶
+Options2=机动车行驶
+Options3=只准小型车行驶
+Options4=不准小型车通行
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

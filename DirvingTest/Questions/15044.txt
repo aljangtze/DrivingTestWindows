@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15044
+Url=http://tiba.jsyks.com/Post/581fd.htm
+Tittle=驾驶机动车遇到前方车辆停车排队等候或缓慢行驶时怎么办？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=《道路交通安全法》第四十五条：    机动车遇有前方车辆停车排队等候或者缓慢行驶时，不得借道超车或者占用对面车道，不得穿插等候的车辆。
+NormalNotice=《道路交通安全法》第四十五条：    机动车遇有前方车辆停车排队等候或者缓慢行驶时，不得借道超车或者占用对面车道，不得穿插等候的车辆。
+[Options]
+Options1=可借道超车
+Options2=占用对面车道
+Options3=穿插等候的车辆
+Options4=依次行驶
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6002
+Url=http://tiba.jsyks.com/Post/1295a.htm
+Tittle=饮酒后驾驶营运机动车的，处十五日拘留，并处多少罚款？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=2
+Classification=1
+[SkillInfo]
+SkillNotice=1、饮酒后驾驶机动车的，处暂扣1个月以上3个月以下驾驶证，并处200元以上500元以下罚款。    2、醉酒后驾驶机动车的，由公安机关交通管理部门约束至酒醒，处15日以下的拘留和暂扣3个月以上6个月以下驾驶证，并处500元以上2000元以下罚款。    3、饮酒后驾驶“营运机动车”的
+NormalNotice=1、饮酒后驾驶机动车的，处暂扣1个月以上3个月以下驾驶证，并处200元以上500元以下罚款。    2、醉酒后驾驶机动车的，由公安机关交通管理部门约束至酒醒，处15日以下的拘留和暂扣3个月以上6个月以下驾驶证，并处500元以上2000元以下罚款。    3、饮酒后驾驶“营运机动车”的
+[Options]
+Options1=20000元
+Options2=10000元
+Options3=5000元
+Options4=2000元
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

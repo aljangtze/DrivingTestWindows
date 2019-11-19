@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15193
+Url=http://tiba.jsyks.com/Post/ccfd7.htm
+Tittle=违反交通信号灯通行的一次记6分。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=《公安部令第123号》规定，驾驶机动车违反道路交通信号灯通行的，一次记6分 。
+NormalNotice=《公安部令第123号》规定，驾驶机动车违反道路交通信号灯通行的，一次记6分 。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

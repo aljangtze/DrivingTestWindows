@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15245
+Url=http://tiba.jsyks.com/Post/18d69.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=15245.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=向右转弯：表示只准一切车辆向右转弯。此标志设在车辆必须向右转弯的路口以前适当位置。    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uti6jlw6j.jpg>    向左转弯    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utidowmuj.jpg>NormalNotice=向右转弯：表示只准一切车辆向右转弯。此标志设在车辆必须向右转弯的路口以前适当位置。    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uti6jlw6j.jpg>    向左转弯    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utidowmuj.jpg>    向右转弯</p>
+    向右转弯</p>
+[Options]
+Options1=直行车道
+Options2=只准直行
+Options3=单行路
+Options4=向右转弯
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

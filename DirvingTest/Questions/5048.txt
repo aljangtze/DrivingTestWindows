@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5048
+Url=http://tiba.jsyks.com/Post/cf7ec.htm
+Tittle=机动车载物不得超过机动车行驶证上核定的载质量，装载长度、宽度超出车厢不得超过1米。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=1
+Classification=2
+[SkillInfo]
+SkillNotice=《交通安全法实施条例》第五十四条 机动车载物不得超过机动车行驶证上核定的载质量，装载长度、宽度不得超出车厢。 所以就是超出1cm都不可以！
+NormalNotice=《交通安全法实施条例》第五十四条 机动车载物不得超过机动车行驶证上核定的载质量，装载长度、宽度不得超出车厢。 所以就是超出1cm都不可以！
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16190
+Url=http://tiba.jsyks.com/Post/db17c.htm
+Tittle=摩托车在山区道路下急坡时，切忌超车。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=1
+Classification=6
+[SkillInfo]
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第七十三条 行经繁华路段、交叉路口、铁路道口、人行横道、急弯路、宽度不足4米的窄路或者窄桥、陡坡、隧道或者容易发生危险的路段，不得超车。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第七十三条 行经繁华路段、交叉路口、铁路道口、人行横道、急弯路、宽度不足4米的窄路或者窄桥、陡坡、隧道或者容易发生危险的路段，不得超车。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

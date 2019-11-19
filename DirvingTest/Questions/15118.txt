@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15118
+Url=http://tiba.jsyks.com/Post/c79d1.htm
+Tittle=驾驶机动车在道路上掉头时提前开启左转向灯。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第五十七条 机动车应当按照下列规定使用转向灯：     （一）向左转弯、向左变更车道、准备超车、驶离停车地点或者掉头时，应当提前开启左转向灯。    （二）向右转弯、向右变更车道、超车完毕驶回原车道、靠路边停车时，应当提前开启右转向灯。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第五十七条 机动车应当按照下列规定使用转向灯：     （一）向左转弯、向左变更车道、准备超车、驶离停车地点或者掉头时，应当提前开启左转向灯。    （二）向右转弯、向右变更车道、超车完毕驶回原车道、靠路边停车时，应当提前开启右转向灯。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

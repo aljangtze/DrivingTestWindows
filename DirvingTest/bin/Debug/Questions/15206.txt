@@ -1,0 +1,28 @@
+[QuesitonInfo]
+Id=15206
+Url=http://tiba.jsyks.com/Post/fc419.htm
+Tittle=这是什么交通标志？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=15206.jpg
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=两侧变窄：用以警告车辆驾驶人注意前方车行道或路面狭窄情况，遇有来车应予减速避让。设在双车道路面宽度缩减达到6 m以下的路段起点前方。NormalNotice=两侧变窄：用以警告车辆驾驶人注意前方车行道或路面狭窄情况，遇有来车应予减速避让。设在双车道路面宽度缩减达到6 m以下的路段起点前方。
+[Options]
+Options1=两侧变窄
+Options2=右侧变窄
+Options3=左侧变窄
+Options4=桥面变窄
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

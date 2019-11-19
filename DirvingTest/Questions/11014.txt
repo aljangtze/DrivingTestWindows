@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=11014
+Url=http://tiba.jsyks.com/Post/3b054.htm
+Tittle=驾驶机动车在山区道路怎样跟车行驶？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=46
+MoudleId=11
+Type=2
+Classification=4
+BankId=20
+[SkillInfo]
+SkillNotice=山区道路崎岖 应该加大安全距离 低速通行
+NormalNotice=山区道路崎岖 应该加大安全距离 低速通行
+[Options]
+Options1=加大安全距离
+Options2=减小纵向间距
+Options3=尽快超越前车
+Options4=紧随前车之后
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

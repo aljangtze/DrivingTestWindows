@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SerializableDictionaryOfInt32Int32>
+  <SerializableDictionary>
+    <key>
+      <int>0</int>
+    </key>
+    <value>
+      <int>100</int>
+    </value>
+  </SerializableDictionary>
+  <SerializableDictionary>
+    <key>
+      <int>1</int>
+    </key>
+    <value>
+      <int>200</int>
+    </value>
+  </SerializableDictionary>
+</SerializableDictionaryOfInt32Int32>

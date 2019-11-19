@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16021
+Url=http://tiba.jsyks.com/Post/75d2f.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16021.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=过水路面指的是通过平时无水或流水很少的宽浅河流而修筑的在洪水期间容许水流浸过的路面。    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utbxhb45j.jpg>    过水路面    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utamdtgxj.jpg>    渡口</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utbxhb45j.jpg>    过水路面    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utamdtgxj.jpg>    渡口</p>    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utbxhb45j.jpg>    过水路面    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utamdtgxj.jpg>NormalNotice=过水路面指的是通过平时无水或流水很少的宽浅河流而修筑的在洪水期间容许水流浸过的路面。    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utbxhb45j.jpg>    过水路面    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utamdtgxj.jpg>    渡口</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utbxhb45j.jpg>    过水路面    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utamdtgxj.jpg>    渡口</p>    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utbxhb45j.jpg>    过水路面    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utamdtgxj.jpg>    渡口</p>
+    渡口</p>
+[Options]
+Options1=过水路面
+Options2=渡口
+Options3=泥泞道路
+Options4=低洼路面
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

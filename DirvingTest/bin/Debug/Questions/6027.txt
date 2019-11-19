@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6027
+Url=http://tiba.jsyks.com/Post/a6cf0.htm
+Tittle=铰接式客车不得进入高速公路。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=《 中华人民共和国道路交通安全法》    第六十七条行人、非机动车、拖拉机、轮式专用机械车、铰接式客车、全挂拖斗车以及其他设计最高时速低于七十公里的机动车，不得进入高速公路。高速公路限速标志标明的最高时速不得超过一百二十公里。
+NormalNotice=《 中华人民共和国道路交通安全法》    第六十七条行人、非机动车、拖拉机、轮式专用机械车、铰接式客车、全挂拖斗车以及其他设计最高时速低于七十公里的机动车，不得进入高速公路。高速公路限速标志标明的最高时速不得超过一百二十公里。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

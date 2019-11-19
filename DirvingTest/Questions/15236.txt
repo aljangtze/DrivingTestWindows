@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15236
+Url=http://tiba.jsyks.com/Post/30284.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=15236.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=<p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgewzgij.jpg>    禁止超车    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgh05adj.jpg>NormalNotice=<p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgewzgij.jpg>    禁止超车    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgh05adj.jpg>    解除禁止超车</p>
+    解除禁止超车</p>
+[Options]
+Options1=解除禁止借道
+Options2=解除禁止变道
+Options3=准许变道行驶
+Options4=解除禁止超车
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

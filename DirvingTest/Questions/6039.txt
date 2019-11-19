@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6039
+Url=http://tiba.jsyks.com/Post/27d05.htm
+Tittle=客车行经转弯、上下坡、凹凸路时，应让乘客抓住车内固定物，尤其提醒后排乘客注意安全。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=因为在行经这些路面时，很容易发生颠簸，让人失去平衡。大家都有这样的感觉，坐在后排起伏的幅度较大，很多时候通过颠簸路面时，会有强烈的波动。    在这种情况下，若没有做好安全措施，很有可能因为惯性等因素发生危险。
+NormalNotice=因为在行经这些路面时，很容易发生颠簸，让人失去平衡。大家都有这样的感觉，坐在后排起伏的幅度较大，很多时候通过颠簸路面时，会有强烈的波动。    在这种情况下，若没有做好安全措施，很有可能因为惯性等因素发生危险。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

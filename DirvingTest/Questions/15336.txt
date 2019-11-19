@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15336
+Url=http://tiba.jsyks.com/Post/c5ad4.htm
+Tittle=雨天超车要开启前照灯，连续鸣喇叭迅速超越。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=这种天气里面能见度低，车辆应该慢行，就算要超车，也不能连续鸣喇叭，而且要确保安全的情况下超车。 所以此题的关键在“迅速”两字。 因此本题错误。
+NormalNotice=这种天气里面能见度低，车辆应该慢行，就算要超车，也不能连续鸣喇叭，而且要确保安全的情况下超车。 所以此题的关键在“迅速”两字。 因此本题错误。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

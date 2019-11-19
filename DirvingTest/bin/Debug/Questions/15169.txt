@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15169
+Url=http://tiba.jsyks.com/Post/41e71.htm
+Tittle=驾驶人有使用其他车辆保险标志嫌疑的，交通警察可依法扣留车辆。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=《道路交通安全违法行为处理程序规定》第二十五条规定，有下列情形之一的，依法扣留车辆：有伪造、变造或者使用伪造、变造的机动车登记证书、号牌、行驶证、检验合格标志、 保险标志、驾驶证或者使用其他车辆的机动车登记证书、号牌、行驶证、检验合格标志、保险标志嫌疑的。
+NormalNotice=《道路交通安全违法行为处理程序规定》第二十五条规定，有下列情形之一的，依法扣留车辆：有伪造、变造或者使用伪造、变造的机动车登记证书、号牌、行驶证、检验合格标志、 保险标志、驾驶证或者使用其他车辆的机动车登记证书、号牌、行驶证、检验合格标志、保险标志嫌疑的。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

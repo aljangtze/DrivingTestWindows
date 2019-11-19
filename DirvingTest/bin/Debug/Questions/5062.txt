@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5062
+Url=http://tiba.jsyks.com/Post/4c549.htm
+Tittle=全挂列车倒车，要避免牵引车与挂车形成较大的角度。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=1
+Classification=2
+[SkillInfo]
+SkillNotice=牵引车与挂车形成较大的角度，是对的 但是他说要避免较大角度，那他意思是以较小角度 所以他答案就是错的
+NormalNotice=牵引车与挂车形成较大的角度，是对的 但是他说要避免较大角度，那他意思是以较小角度 所以他答案就是错的
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

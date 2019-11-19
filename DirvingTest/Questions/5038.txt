@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5038
+Url=http://tiba.jsyks.com/Post/4ea0f.htm
+Tittle=准驾车型为大型货车的，可以驾驶以下哪种车型？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=2
+Classification=2
+[SkillInfo]
+SkillNotice=大型货车的驾照是B2，所以，准予驾驶的其他，准驾车型为C1、C2、C3、C4、M，    其中无轨电车的驾照是：N、两轮摩托车的驾照是：D、E、F，中型客车的驾照是：B1     所以只可以驾驶小型汽车！
+NormalNotice=大型货车的驾照是B2，所以，准予驾驶的其他，准驾车型为C1、C2、C3、C4、M，    其中无轨电车的驾照是：N、两轮摩托车的驾照是：D、E、F，中型客车的驾照是：B1     所以只可以驾驶小型汽车！
+[Options]
+Options1=小型汽车
+Options2=无轨电车
+Options3=中型客车.
+Options4=两轮摩托车
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

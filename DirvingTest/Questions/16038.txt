@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16038
+Url=http://tiba.jsyks.com/Post/e948a.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16038.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=禁止掉头：表示前方路口禁止一切车辆掉头。此标志设在禁止掉头的路口前适当位置。    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    禁止掉头    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    指示掉头    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>    禁止掉头</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    禁止掉头    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    指示掉头    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>    禁止掉头</p>    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    禁止掉头    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    指示掉头    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>NormalNotice=禁止掉头：表示前方路口禁止一切车辆掉头。此标志设在禁止掉头的路口前适当位置。    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    禁止掉头    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    指示掉头    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>    禁止掉头</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    禁止掉头    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    指示掉头    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>    禁止掉头</p>    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    禁止掉头    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    指示掉头    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>    禁止掉头</p>
+    禁止掉头</p>
+[Options]
+Options1=禁止直行
+Options2=禁止掉头
+Options3=禁止变道
+Options4=禁止左转
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

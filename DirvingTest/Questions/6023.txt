@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6023
+Url=http://tiba.jsyks.com/Post/ac7b9.htm
+Tittle=大型载客汽车允许牵引总质量700千克以下的挂车。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=客车是禁止拖挂车辆的，因为客车的用途是载客，要保证旅客的安全为本。        挂车分全挂及半挂，基本上是货车，全挂为一辆主车通过刚性导件连接拖挂一节货箱，半挂多为集装箱平板车，由一个车头拖挂货箱。挂车基本上可以与主车分离，比如集装箱可以放下后重新挂另外一货箱
+NormalNotice=客车是禁止拖挂车辆的，因为客车的用途是载客，要保证旅客的安全为本。        挂车分全挂及半挂，基本上是货车，全挂为一辆主车通过刚性导件连接拖挂一节货箱，半挂多为集装箱平板车，由一个车头拖挂货箱。挂车基本上可以与主车分离，比如集装箱可以放下后重新挂另外一货箱
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

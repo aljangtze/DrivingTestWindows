@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15239
+Url=http://tiba.jsyks.com/Post/a8ac2.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=15239.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=禁止鸣喇叭：表示禁止鸣喇叭。此标志设在需要禁止鸣喇叭的地方。禁止鸣喇叭的时间和范围可用辅助标志说明。    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utgpf8baj.jpg>    禁止鸣喇叭    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uury2312j.jpg>NormalNotice=禁止鸣喇叭：表示禁止鸣喇叭。此标志设在需要禁止鸣喇叭的地方。禁止鸣喇叭的时间和范围可用辅助标志说明。    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utgpf8baj.jpg>    禁止鸣喇叭    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uury2312j.jpg>    应当鸣喇叭</p>
+    应当鸣喇叭</p>
+[Options]
+Options1=禁止长时鸣喇叭
+Options2=断续鸣喇叭
+Options3=禁止鸣喇叭
+Options4=减速鸣喇叭
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

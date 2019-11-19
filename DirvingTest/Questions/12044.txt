@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=12044
+Url=http://tiba.jsyks.com/Post/5286a.htm
+Tittle=机动车在行驶中突遇制动失灵时，驾驶人要采取什么措施？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=52
+MoudleId=12
+Type=3
+Classification=4
+[SkillInfo]
+SkillNotice=机动车在行驶中突遇制动失灵时，应当握稳方向并开启危险报警闪光，抢挂低速挡减速，停车后使用驻车制动器，以防车子出现后溜的情况。 选项B：使用驻车制动器减速，是说慢慢使用制动器减速，而不是一下拉紧！
+NormalNotice=机动车在行驶中突遇制动失灵时，应当握稳方向并开启危险报警闪光，抢挂低速挡减速，停车后使用驻车制动器，以防车子出现后溜的情况。 选项B：使用驻车制动器减速，是说慢慢使用制动器减速，而不是一下拉紧！
+[Options]
+Options1=抢挂低速挡减速
+Options2=使用驻车制动器减速
+Options3=开启危险报警闪光灯
+Options4=握稳方向
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=1
+Answer3=1
+Answer4=1

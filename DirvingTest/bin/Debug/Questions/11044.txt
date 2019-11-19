@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=11044
+Url=http://tiba.jsyks.com/Post/503c6.htm
+Tittle=机动车在夜间发生故障时，驾驶人要做什么以确保安全？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=52
+MoudleId=11
+Type=3
+Classification=4
+BankId=18
+[SkillInfo]
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第六十条 机动车在道路上发生故障或者发生交通事故，妨碍交通又难以移动的，应当按照规定开启危险报警闪光灯并在车后50米至100米处设置警告标志，夜间还应当同时开启示廓灯和后位灯。 因此本题选ABCD。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第六十条 机动车在道路上发生故障或者发生交通事故，妨碍交通又难以移动的，应当按照规定开启危险报警闪光灯并在车后50米至100米处设置警告标志，夜间还应当同时开启示廓灯和后位灯。 因此本题选ABCD。
+[Options]
+Options1=选择安全区域停车
+Options2=开启危险报警闪光灯
+Options3=按规定设置警告标志
+Options4=开启示廓灯和后位灯
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=1
+Answer3=1
+Answer4=1

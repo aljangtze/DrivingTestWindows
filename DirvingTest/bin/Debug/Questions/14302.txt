@@ -1,0 +1,28 @@
+[QuesitonInfo]
+Id=14302
+Tittle=在图中所示有车道信号灯的路段，请判断哪辆机动车行驶的车道是正确的?
+SkillEmphasize=
+ImagePath=14302.png
+FlashPath=
+SkillId=70
+MoudleId=2
+BankId=14
+Type=2
+Classification=3
+[SkillInfo]
+SkillNotice=图中两侧车道都是红灯，只有在中间绿灯亮的车道行驶的蓝色小客车（C）是正确的。
+NormalNotice=
+[Options]
+Options1=灰色小型客车(A) 行驶车道是正确的
+Image1=
+Options2=蓝色小型客车(C) 行驶车道是正确的
+Image2=蓝色，(C)
+Options3=黄色小型客车(B) 行驶车道是正确的
+Image3=
+Options4=红色小型客车(E) 行驶车道是正确的
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=11130
+Url=http://tiba.jsyks.com/Post/2136b.htm
+Tittle=机动车因故障必须在高速公路上停车时，要采取的正确做法是什么
+TittleEmphasize=
+SkillEmphasize=因故障，停车
+ImagePath=
+FlashPath=
+SkillId=51
+MoudleId=11
+Type=3
+Classification=4
+BankId=17
+[SkillInfo]
+SkillNotice=答案里见150米和100米， 不选100米。 
+NormalNotice=在高速公路上因故障停车，首先要开启危险报警闪光灯，若是夜间的话，还要开启示廓灯和后位灯让其他驾驶员知道车子的轮廓及位置情况。此外，还要在车后150米处设置警示标志。 因此本题选ACD。
+[Options]
+Options1=夜间要开启示廓灯和后位灯
+Options2=在车后150米处设置故障警告标志
+Options3=在车后100米处设置故障警告标志
+Options4=要开启危险报警闪光灯
+Image1=
+Image2=
+Image3=100
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=1
+Answer3=0
+Answer4=1

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5024
+Url=http://tiba.jsyks.com/Post/92126.htm
+Tittle=图中标志的含义是什么？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=5024.jpg
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=2
+Classification=2
+[SkillInfo]
+SkillNotice=物理里面，质量就是指重量 。所以该题表示禁止总质量超过标志所示数值的车辆通行。此标志设在需要限制车辆质量的桥梁两端。以图为例：装载总质量不得超过10t。
+NormalNotice=物理里面，质量就是指重量 。所以该题表示禁止总质量超过标志所示数值的车辆通行。此标志设在需要限制车辆质量的桥梁两端。以图为例：装载总质量不得超过10t。
+[Options]
+Options1=限制质量
+Options2=限制速度
+Options3=限制长度
+Options4=限制轴重
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

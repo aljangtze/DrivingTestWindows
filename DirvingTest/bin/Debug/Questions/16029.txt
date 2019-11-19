@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16029
+Url=http://tiba.jsyks.com/Post/459a5.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16029.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utev9b6aj.jpg>    停车让行</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utey9xw6j.jpg>    减速让行</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    停车检查</p>
+NormalNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utev9b6aj.jpg>    停车让行</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utey9xw6j.jpg>    减速让行</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    停车检查</p>
+[Options]
+Options1=不准车辆驶入
+Options2=不准长时间停车
+Options3=停车让行
+Options4=不准临时停车
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

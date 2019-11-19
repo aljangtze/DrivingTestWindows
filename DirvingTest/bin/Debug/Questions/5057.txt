@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5057
+Url=http://tiba.jsyks.com/Post/4c1b3.htm
+Tittle=全挂车倒车时转向盘转动方向与单车倒车方向相反。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=1
+Classification=2
+[SkillInfo]
+SkillNotice=全挂车特点：本身无动力，独立承载，依靠其他车辆牵引行驶的车辆。    半挂车特点：本身无动力，与主车共同承载，依靠主车牵引行驶的车辆。
+NormalNotice=全挂车特点：本身无动力，独立承载，依靠其他车辆牵引行驶的车辆。    半挂车特点：本身无动力，与主车共同承载，依靠主车牵引行驶的车辆。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6029
+Url=http://tiba.jsyks.com/Post/0797e.htm
+Tittle=营运机动车在规定检验期限内经安全技术检验合格的，不再重复进行安全技术检验。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=所有机动车，十年内为安全期，十年内每年都要安检一次。过了十年后每半年要安检一次。     所以 在规定检验期限内经安全技术检验合格的，当然就不需要再重复进行安全技术检验。
+NormalNotice=所有机动车，十年内为安全期，十年内每年都要安检一次。过了十年后每半年要安检一次。     所以 在规定检验期限内经安全技术检验合格的，当然就不需要再重复进行安全技术检验。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

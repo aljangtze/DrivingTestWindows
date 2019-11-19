@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=11052
+Url=http://tiba.jsyks.com/Post/07ba3.htm
+Tittle=雨天安全行车的注意事项是什么？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=52
+MoudleId=11
+Type=3
+Classification=4
+BankId=29
+[SkillInfo]
+SkillNotice=雨天行车，受视线及路面的影响，要减速慢行，同时要注意行车和非机动车的动态，并与其他车辆保持较大的安全距离，也不能采取紧急制动或是急转方向的方法，因为容易造成侧滑或横滑状况。 因此本题选ABCD。
+NormalNotice=雨天行车，受视线及路面的影响，要减速慢行，同时要注意行车和非机动车的动态，并与其他车辆保持较大的安全距离，也不能采取紧急制动或是急转方向的方法，因为容易造成侧滑或横滑状况。 因此本题选ABCD。
+[Options]
+Options1=选择安全车速行驶
+Options2=注意非机动车和行人动态
+Options3=避免紧急制动、紧急转向
+Options4=保持足够的安全距离
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=1
+Answer3=1
+Answer4=1

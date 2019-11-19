@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16071
+Url=http://tiba.jsyks.com/Post/92669.htm
+Tittle=机动车在雪天临时停车时，应开启什么灯？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=报警灯就是前后两黄灯的一亮一灭，四个灯是同时的。 示廓灯就是指表示整车轮廓的，在车的最边最高处，一般是红色小灯。 后位灯一般是指让后面车辆看到本车而使用的，一般是红色，晚上打开车灯时发亮。 因此本题选D。
+NormalNotice=报警灯就是前后两黄灯的一亮一灭，四个灯是同时的。 示廓灯就是指表示整车轮廓的，在车的最边最高处，一般是红色小灯。 后位灯一般是指让后面车辆看到本车而使用的，一般是红色，晚上打开车灯时发亮。 因此本题选D。
+[Options]
+Options1=前后防雾灯、示廓灯和后位灯
+Options2=倒车灯、示廓灯和后位灯
+Options3=前大灯、示廓灯和后位灯
+Options4=危险报警闪光灯、示廓灯和后位灯
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15115
+Url=http://tiba.jsyks.com/Post/923b2.htm
+Tittle=驾驶机动车不能进入红色叉形灯或者红色箭头灯亮的车道。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=《道路交通安全法实施条例》第四十条规定： 红色叉形灯或者箭头灯亮时，禁止本车道车辆通行。
+NormalNotice=《道路交通安全法实施条例》第四十条规定： 红色叉形灯或者箭头灯亮时，禁止本车道车辆通行。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

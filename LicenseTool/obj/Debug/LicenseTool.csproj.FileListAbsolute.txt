@@ -1,0 +1,10 @@
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\bin\Debug\LicenseTool.exe.config
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\bin\Debug\LicenseTool.exe
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\bin\Debug\LicenseTool.pdb
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\obj\Debug\LicenseTool.Form1.resources
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\obj\Debug\LicenseTool.Properties.Resources.resources
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\obj\Debug\LicenseTool.csproj.GenerateResource.Cache
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\obj\Debug\LicenseTool.exe
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\obj\Debug\LicenseTool.pdb
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\bin\Debug\PriKey.xml
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\LicenseTool\obj\Debug\LicenseTool.csprojResolveAssemblyReference.cache

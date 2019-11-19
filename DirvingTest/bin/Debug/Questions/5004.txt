@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5004
+Url=http://tiba.jsyks.com/Post/265c7.htm
+Tittle=机动车运载超限不可解体物品影响交通安全的，应当按照哪个部门指定的时间、路线、速度行驶，并悬挂明显标志？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=2
+Classification=2
+[SkillInfo]
+SkillNotice=《中华人民共和国道路交通安全法》第四十八条第二款：机动车运载超限的不可解体的物品，影响交通安全的，应当按照公安机关交通管理部门指定的时间、路线、速度行驶，悬挂明显标志。在公路上运载超限的不可解体的物品，并应当依照公路法的规定执行。        所以这题选B
+NormalNotice=《中华人民共和国道路交通安全法》第四十八条第二款：机动车运载超限的不可解体的物品，影响交通安全的，应当按照公安机关交通管理部门指定的时间、路线、速度行驶，悬挂明显标志。在公路上运载超限的不可解体的物品，并应当依照公路法的规定执行。        所以这题选B
+[Options]
+Options1=城市管理部门
+Options2=公安机关交通管理部门
+Options3=道路运输管理机构
+Options4=安全监督部门
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

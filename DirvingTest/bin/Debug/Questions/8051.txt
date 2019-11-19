@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=8051
+Url=http://tiba.jsyks.com/Post/1c1fa.htm
+Tittle=驾驶机动车在这个路段允许超车。
+TittleEmphasize=
+SkillEmphasize=允许超车
+ImagePath=8051.jpg
+FlashPath=
+SkillId=41
+MoudleId=8
+Type=1
+Classification=4
+BankId=24
+[SkillInfo]
+SkillNotice=标志上 禁止超车，路上是实线。题目说允许超车，错！
+NormalNotice=标志上 不准超车
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

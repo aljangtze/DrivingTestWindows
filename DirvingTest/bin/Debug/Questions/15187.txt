@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15187
+Url=http://tiba.jsyks.com/Post/0b878.htm
+Tittle=机动车驾驶人在实习期内有记满12分记录的，注销其实习的准驾车型驾驶资格。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=公安部123号令规定：    第六十四条 机动车驾驶人初次申请机动车驾驶证和增加准驾车型后的12个月为实习期。    第六十九条 机动车驾驶人在实习期内有记满12分记录的，注销其实习的准驾车型驾驶资格。
+NormalNotice=公安部123号令规定：    第六十四条 机动车驾驶人初次申请机动车驾驶证和增加准驾车型后的12个月为实习期。    第六十九条 机动车驾驶人在实习期内有记满12分记录的，注销其实习的准驾车型驾驶资格。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

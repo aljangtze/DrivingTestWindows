@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6038
+Url=http://tiba.jsyks.com/Post/2e6a6.htm
+Tittle=营运客车起步前，乘务人员应提醒乘客系好安全带。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=安全第一，开车前不管是乘客还是驾驶人 都一定要系好安全带！
+NormalNotice=安全第一，开车前不管是乘客还是驾驶人 都一定要系好安全带！
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

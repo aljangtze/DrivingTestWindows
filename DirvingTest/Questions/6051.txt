@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6051
+Url=http://tiba.jsyks.com/Post/8dd42.htm
+Tittle=持有大型客车、牵引车、城市公交车、中型客车、大型货车驾驶证的驾驶人联系电话、联系地址以及从业单位等信息发生变化的，应当在信息变更后三十日内，向驾驶证核发地车辆管理所备案。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=2013年公安部123号令 第七十条：     机动车驾驶人联系电话、联系地址等信息发生变化，以及持有大型客车、牵引车、城市公交车、中型客车、大型货车驾驶证的驾驶人从业单位等信息发生变化的，应当在信息变更后三十日内，向驾驶证核发地车辆管理所备案。
+NormalNotice=2013年公安部123号令 第七十条：     机动车驾驶人联系电话、联系地址等信息发生变化，以及持有大型客车、牵引车、城市公交车、中型客车、大型货车驾驶证的驾驶人从业单位等信息发生变化的，应当在信息变更后三十日内，向驾驶证核发地车辆管理所备案。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6031
+Url=http://tiba.jsyks.com/Post/a563a.htm
+Tittle=载客汽车除车身外部的行李架和内置的行李箱外，不得载货。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=《交通安全法实施条例》第五十四条 机动车载物不得超过机动车行驶证上核定的载质量，装载长度、宽度不得超出车厢，并应当遵守下列规定：    载客汽车除车身外部的行李架和内置的行李箱外，不得载货。载客汽车行李架载货，从车顶起高度不得超过0.5米，从地面起高度不得超过4?
+NormalNotice=《交通安全法实施条例》第五十四条 机动车载物不得超过机动车行驶证上核定的载质量，装载长度、宽度不得超出车厢，并应当遵守下列规定：    载客汽车除车身外部的行李架和内置的行李箱外，不得载货。载客汽车行李架载货，从车顶起高度不得超过0.5米，从地面起高度不得超过4?
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

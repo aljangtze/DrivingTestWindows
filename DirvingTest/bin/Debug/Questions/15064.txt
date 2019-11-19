@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15064
+Url=http://tiba.jsyks.com/Post/ac554.htm
+Tittle=驾驶人将机动车交由什么样的人驾驶的，交通警察可依法扣留机动车驾驶证？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=六种情形下可以扣留驾驶证 新法规定，有下列情形之一的，可以扣留机动车驾驶证： (一)饮酒、醉酒后驾驶机动车的；(二)机动车驾驶人将机动车交由未取得机动车驾驶证或者机动车驾驶证被吊销、暂扣的人驾驶的； (三)机动车行驶超过规定时速百分之五十的； (四)驾驶拼装或者已达到报废标准的机动车的； (五)发生重大交通事故，构成犯罪的； (六)在一个记分周期内累积记分达到12分的。
+NormalNotice=六种情形下可以扣留驾驶证 新法规定，有下列情形之一的，可以扣留机动车驾驶证： (一)饮酒、醉酒后驾驶机动车的；(二)机动车驾驶人将机动车交由未取得机动车驾驶证或者机动车驾驶证被吊销、暂扣的人驾驶的； (三)机动车行驶超过规定时速百分之五十的； (四)驾驶拼装或者已达到报废标准的机动车的； (五)发生重大交通事故，构成犯罪的； (六)在一个记分周期内累积记分达到12分的。
+[Options]
+Options1=实习期驾驶人
+Options2=取得驾驶证的人
+Options3=驾驶证被吊销的人
+Options4=驾驶证记分达到6分的人
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

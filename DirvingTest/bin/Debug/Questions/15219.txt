@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15219
+Url=http://tiba.jsyks.com/Post/af442.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=15219.jpg
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utbz6kxbj.jpg>    有人看守铁路口</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utc15bhkj.jpg>    无人看守铁路口</p>
+NormalNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utbz6kxbj.jpg>    有人看守铁路口</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utc15bhkj.jpg>    无人看守铁路口</p>
+[Options]
+Options1=多股铁路与道路相交
+Options2=有人看守铁路道口
+Options3=无人看守铁路道口
+Options4=注意长时鸣喇叭
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

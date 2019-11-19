@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6042
+Url=http://tiba.jsyks.com/Post/47acf.htm
+Tittle=客运驾驶人日间连续驾驶不得超过4小时，夜间连续驾驶不得超过2小时，每次停车休息时间不少于20分钟。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=请大家记住这些硬性规定：        夜间10时至次日凌晨5时行驶速度不得超过日间限速的80%        　24小时累计驾驶时间原则上不超过8小时        　日间连续驾驶不超过4小时        　夜间10时至次日凌晨5时连续驾驶不超过2小时        　每次停车休息时间不少于20分钟
+NormalNotice=请大家记住这些硬性规定：        夜间10时至次日凌晨5时行驶速度不得超过日间限速的80%        　24小时累计驾驶时间原则上不超过8小时        　日间连续驾驶不超过4小时        　夜间10时至次日凌晨5时连续驾驶不超过2小时        　每次停车休息时间不少于20分钟
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

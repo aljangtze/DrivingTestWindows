@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=8029
+Url=http://tiba.jsyks.com/Post/515d9.htm
+Tittle=在这种情况下怎样会车最安全？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=8029.jpg
+FlashPath=
+SkillId=46
+MoudleId=8
+Type=2
+Classification=4
+BankId=21
+[SkillInfo]
+SkillNotice=前方有车过来  安全起见当然是再往右侧避让了
+NormalNotice=前方有车过来  安全起见当然是再往右侧避让了
+[Options]
+Options1=向路右侧避让
+Options2=开前照灯行驶
+Options3=靠中心线行驶
+Options4=向车左侧避让
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

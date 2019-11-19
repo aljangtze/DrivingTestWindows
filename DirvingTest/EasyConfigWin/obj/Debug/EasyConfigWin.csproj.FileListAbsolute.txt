@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\EasyConfig.root\EasyConfigWin\bin\Debug\EasyConfigWin.dll
+C:\Users\Administrator\Desktop\EasyConfig.root\EasyConfigWin\bin\Debug\EasyConfigWin.pdb
+C:\Users\Administrator\Desktop\EasyConfig.root\EasyConfigWin\obj\Debug\EasyConfigWin.dll
+C:\Users\Administrator\Desktop\EasyConfig.root\EasyConfigWin\obj\Debug\EasyConfigWin.pdb
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\bin\Debug\EasyConfigWin.dll
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\bin\Debug\EasyConfigWin.pdb
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.dll
+D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.pdb

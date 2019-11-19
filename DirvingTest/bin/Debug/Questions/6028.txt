@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6028
+Url=http://tiba.jsyks.com/Post/f96c2.htm
+Tittle=营运机动车改为非营运机动车的，机动车所有人不需要向公安机关交通管理部门申请登记。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=　第十条 已注册登记的机动车有下列情形之一的，机动车所有人应当向登记地车辆管理所申请变更登记：         　　(一)改变车身颜色的；         　　(二)更换发动机的；         　　(三)更换车身或者车架的；         　　(四)因质量问题更换整车的；         　　(五)营运
+NormalNotice=　第十条 已注册登记的机动车有下列情形之一的，机动车所有人应当向登记地车辆管理所申请变更登记：         　　(一)改变车身颜色的；         　　(二)更换发动机的；         　　(三)更换车身或者车架的；         　　(四)因质量问题更换整车的；         　　(五)营运
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

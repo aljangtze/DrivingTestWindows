@@ -1,0 +1,28 @@
+[QuesitonInfo]
+Id=15209
+Url=http://tiba.jsyks.com/Post/2b963.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=15209.jpg
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=窄桥：用以警告车辆驾驶人注意前方桥面宽度变窄，应谨慎驾驶。设在桥面净宽较两端路面宽度变窄，且桥的净宽小于6 m的桥梁以前适当位置。NormalNotice=窄桥：用以警告车辆驾驶人注意前方桥面宽度变窄，应谨慎驾驶。设在桥面净宽较两端路面宽度变窄，且桥的净宽小于6 m的桥梁以前适当位置。
+[Options]
+Options1=窄路
+Options2=右侧变窄
+Options3=左侧变窄
+Options4=窄桥
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

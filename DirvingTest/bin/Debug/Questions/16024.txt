@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16024
+Url=http://tiba.jsyks.com/Post/fa2c1.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16024.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utcc5ifjj.jpg>    注意非机动车</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uutfddfpj.jpg>    非机动车行驶</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uuthlu9qj.jpg>    非机动车道</p>
+NormalNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utcc5ifjj.jpg>    注意非机动车</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uutfddfpj.jpg>    非机动车行驶</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uuthlu9qj.jpg>    非机动车道</p>
+[Options]
+Options1=避让非机动车
+Options2=非机动车道
+Options3=禁止非机动车通行
+Options4=注意非机动车
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

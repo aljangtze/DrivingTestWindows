@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=2273
+Url=http://tiba.jsyks.com/Post/37fe2.htm
+Tittle=这种标志的作用是警告车辆驾驶人前方有危险，谨慎通行。
+TittleEmphasize=
+SkillEmphasize=有危险，谨慎通行
+ImagePath=2273.jpg
+FlashPath=
+SkillId=36
+MoudleId=2
+Type=1
+Classification=3
+BankId=5
+[SkillInfo]
+SkillNotice=这种标志的作用是'警告'车辆驾驶人前方有危险，谨慎通行    警告标志
+NormalNotice=这种标志的作用是'警告'车辆驾驶人前方有危险，谨慎通行    警告标志
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

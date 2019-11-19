@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16009
+Url=http://tiba.jsyks.com/Post/4b642.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16009.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=警告标志，前方有两个及以上的连续下坡路段。当连续下坡总长大于3 km后，应重复设置。
+NormalNotice=警告标志，前方有两个及以上的连续下坡路段。当连续下坡总长大于3 km后，应重复设置。
+[Options]
+Options1=提醒车辆驾驶人前方有两个及以上的连续上坡路段
+Options2=提醒车辆驾驶人前方有向上的陡坡路段
+Options3=提醒车辆驾驶人前方有向下的陡坡路段
+Options4=提醒车辆驾驶人前方有两个及以上的连续下坡路段
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=0
+Answer4=1

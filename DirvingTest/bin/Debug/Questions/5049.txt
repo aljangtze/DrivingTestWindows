@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5049
+Url=http://tiba.jsyks.com/Post/938c8.htm
+Tittle=挂车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=1
+Classification=2
+[SkillInfo]
+SkillNotice=挂车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。错!    货车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。对!    一字之差!“挂”与“货”
+NormalNotice=挂车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。错!    货车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。对!    一字之差!“挂”与“货”
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

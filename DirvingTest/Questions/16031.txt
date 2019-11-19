@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16031
+Url=http://tiba.jsyks.com/Post/865c9.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16031.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=此标志表示禁止通行，禁止一切车辆和行人通行。    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    禁止通行    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>    禁止驶入</p>    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    禁止通行    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>    禁止驶入</p>    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    禁止通行    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>NormalNotice=此标志表示禁止通行，禁止一切车辆和行人通行。    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    禁止通行    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>    禁止驶入</p>    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    禁止通行    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>    禁止驶入</p>    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    禁止通行    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>    禁止驶入</p>
+    禁止驶入</p>
+[Options]
+Options1=禁止驶入
+Options2=禁止通行
+Options3=减速行驶
+Options4=限时进入
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

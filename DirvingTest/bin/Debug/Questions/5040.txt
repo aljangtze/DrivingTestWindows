@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5040
+Url=http://tiba.jsyks.com/Post/bc155.htm
+Tittle=图中标志设在禁止运输危险品车辆驶入路段的入口处。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=5040.jpg
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=1
+Classification=2
+[SkillInfo]
+SkillNotice=首先明确这个是禁令标志，其次标志上有火苗的图案，这说明易燃易爆很危险。既然是 禁止运输危险品车辆驶入的标志，自然设在禁止运输危险品车辆驶入路段的入口处。
+NormalNotice=首先明确这个是禁令标志，其次标志上有火苗的图案，这说明易燃易爆很危险。既然是 禁止运输危险品车辆驶入的标志，自然设在禁止运输危险品车辆驶入路段的入口处。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

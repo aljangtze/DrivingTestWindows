@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16051
+Url=http://tiba.jsyks.com/Post/86a40.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16051.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=直行和向左转弯：表示只准一切车辆直行和向左转弯。此标志设在车辆必须直行和向左转弯的路口以前适当位置。    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    直行右转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    直行左转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    向左和向右转弯</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    直行右转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    直行左转弯    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    向左和向右转弯</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    直行右转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    直行左转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>NormalNotice=直行和向左转弯：表示只准一切车辆直行和向左转弯。此标志设在车辆必须直行和向左转弯的路口以前适当位置。    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    直行右转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    直行左转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    向左和向右转弯</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    直行右转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    直行左转弯    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    向左和向右转弯</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    直行右转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    直行左转弯    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    向左和向右转弯</p>
+    向左和向右转弯</p>
+[Options]
+Options1=直行和向右转弯
+Options2=直行和向左转弯
+Options3=禁止直行和向左转弯
+Options4=只准向右和向左转弯
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

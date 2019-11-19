@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6013
+Url=http://tiba.jsyks.com/Post/ccae5.htm
+Tittle=公路客运车辆载客超过核定乘员，公安机关交通管理部门依法扣留机动车后，驾驶人应当将超载的乘车人转运，费用由谁承担？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=2
+Classification=1
+[SkillInfo]
+SkillNotice=《交通安全法实施条例》第一百零六条 公路客运载客汽车超过核定乘员、载货汽车超过核定载质量的，公安机关交通管理部门依法扣留机动车后，驾驶人应当将超载的乘车人转运、将超载的货物卸载，费用由超载机动车的驾驶人或者所有人承担。
+NormalNotice=《交通安全法实施条例》第一百零六条 公路客运载客汽车超过核定乘员、载货汽车超过核定载质量的，公安机关交通管理部门依法扣留机动车后，驾驶人应当将超载的乘车人转运、将超载的货物卸载，费用由超载机动车的驾驶人或者所有人承担。
+[Options]
+Options1=超载机动车的驾驶人或者所有人
+Options2=乘客
+Options3=公安机关交通管理部门
+Options4=转运机动车的驾驶人或者所有人
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15350
+Url=http://tiba.jsyks.com/Post/95162.htm
+Tittle=机动车涉水后，驾驶人要间断轻踩制动踏板，以恢复制动效能。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=通过积水路面时，会进水，若持续轻踏制动踏板，磨擦后会产生污物，粘附在轮毂内后会影响制动效果。 因此本题正确。
+NormalNotice=通过积水路面时，会进水，若持续轻踏制动踏板，磨擦后会产生污物，粘附在轮毂内后会影响制动效果。 因此本题正确。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

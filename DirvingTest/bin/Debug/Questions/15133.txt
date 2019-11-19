@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15133
+Url=http://tiba.jsyks.com/Post/8cb88.htm
+Tittle=夜间驾驶机动车在窄路、窄桥会车时正确的做法是使用远光灯。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=《道路交通安全法实施条例》第四十八条： 在没有中心隔离设施或者没有中心线的道路上，夜间会车应当在距相对方向来车150米以外改用近光灯，在窄路、窄桥与非机动车会车时应当使用近光灯。
+NormalNotice=《道路交通安全法实施条例》第四十八条： 在没有中心隔离设施或者没有中心线的道路上，夜间会车应当在距相对方向来车150米以外改用近光灯，在窄路、窄桥与非机动车会车时应当使用近光灯。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

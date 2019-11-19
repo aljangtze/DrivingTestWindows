@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5019
+Url=http://tiba.jsyks.com/Post/844bc.htm
+Tittle=下列关于载货汽车、半挂牵引车、拖拉机牵引挂车的说法正确的是？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=2
+Classification=2
+[SkillInfo]
+SkillNotice=载货汽车不准牵引挂车。。牵引车 和拖拉机机牵引 只可牵引一辆挂车
+NormalNotice=载货汽车不准牵引挂车。。牵引车 和拖拉机机牵引 只可牵引一辆挂车
+[Options]
+Options1=允许牵引2辆
+Options2=不得牵引
+Options3=只允许牵引1辆
+Options4=允许牵引3辆
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

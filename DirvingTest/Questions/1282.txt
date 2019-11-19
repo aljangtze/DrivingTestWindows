@@ -1,0 +1,30 @@
+[QuesitonInfo]
+Id=1282
+Url=http://tiba.jsyks.com/Post/dcbf0.htm
+Tittle=道路交通事故中，驾驶人有饮酒、醉酒嫌疑时，要保护现场并立即报警。
+TittleEmphasize=
+SkillEmphasize=立即报警
+ImagePath=
+FlashPath=
+SkillId=14
+MoudleId=1
+Type=1
+Classification=3
+BankId=8
+[SkillInfo]
+SkillNotice=记住：立即报警对，题中有立即报警、迅速报警，带有“报警”两个字的对。 　　    &
+NormalNotice=《道路交通事故处理程序规定》 第八条 道路交通事故有下列情形之一的，当事人应当保护现场并立即报警： 　　    （一）造成人员死亡、受伤的； 　　    （二）发生财产损失事故，当事人对事实或者成因有争议的，以及虽然对事实或者成因无争议，但协商损害赔偿未达成协议的；
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15129
+Url=http://tiba.jsyks.com/Post/9f7d4.htm
+Tittle=驾驶机动车超车应该提前开启左转向灯、变换使用远近光灯或鸣喇叭。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=14
+Type=1
+Classification=5
+[SkillInfo]
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第四十七条：    机动车超车时，应当提前开启左转向灯、变换使用远、近光灯或者鸣喇叭。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第四十七条：    机动车超车时，应当提前开启左转向灯、变换使用远、近光灯或者鸣喇叭。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

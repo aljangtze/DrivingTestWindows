@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16062
+Url=http://tiba.jsyks.com/Post/6ad66.htm
+Tittle=这个标志是何含义？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=16062.jpg
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=6
+[SkillInfo]
+SkillNotice=<p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uti6jlw6j.jpg>    左转    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    掉头</p>    左转    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    掉头</p>    左转    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>NormalNotice=<p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uti6jlw6j.jpg>    左转    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    掉头</p>    左转    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    掉头</p>    左转    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    掉头</p>
+    掉头</p>
+[Options]
+Options1=掉头
+Options2=倒车
+Options3=左转
+Options4=绕行
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=1
+Answer2=0
+Answer3=0
+Answer4=0

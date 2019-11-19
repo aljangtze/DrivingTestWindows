@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16170
+Url=http://tiba.jsyks.com/Post/7b669.htm
+Tittle=乘坐两轮摩托车的人应当侧向骑坐。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=1
+Classification=6
+[SkillInfo]
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第七十七条  乘坐机动车应当遵守下列规定：    （一）不得在机动车道上拦乘机动车；    （二）在机动车道上不得从机动车左侧上下车；    （三）开关车门不得妨碍其他车辆和行人通行；    （四）机动车行驶中，不得干扰驾驶，不得将身体任何部分伸出车外，不得跳车；    （五）乘坐两轮摩托车应当正向骑坐。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第七十七条  乘坐机动车应当遵守下列规定：    （一）不得在机动车道上拦乘机动车；    （二）在机动车道上不得从机动车左侧上下车；    （三）开关车门不得妨碍其他车辆和行人通行；    （四）机动车行驶中，不得干扰驾驶，不得将身体任何部分伸出车外，不得跳车；    （五）乘坐两轮摩托车应当正向骑坐。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=5037
+Url=http://tiba.jsyks.com/Post/31f8b.htm
+Tittle=全挂车倒车，要避免牵引车与挂车形成怎样的角度？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=37
+MoudleId=5
+Type=2
+Classification=2
+[SkillInfo]
+SkillNotice=交小是对的。你把想成尖三角型就可以。    →作为头∧←作为尾巴 尖角处为挂车连接处。    你自己在把想成倒车场景 就明白了。    
+NormalNotice=交小是对的。你把想成尖三角型就可以。    →作为头∧←作为尾巴 尖角处为挂车连接处。    你自己在把想成倒车场景 就明白了。    
+[Options]
+Options1=直线
+Options2=较小的角度
+Options3=直角
+Options4=较大的角度
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

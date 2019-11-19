@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=6035
+Url=http://tiba.jsyks.com/Post/c3da3.htm
+Tittle=客车在起步前，应检查行李包是否装捆牢固，长、宽、高及重量是否符合规定，可将行李放置在门道或者过道上。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=38
+MoudleId=6
+Type=1
+Classification=1
+[SkillInfo]
+SkillNotice=应检查行李包是否装捆牢固，长、宽、高及重量是否符合规定----这个说的很对；    可将行李放置在门道或者过道上----这个说的就不对了。    通道上严禁放置任何物品，那是逃生通道。    所以这题错在了后半句。
+NormalNotice=应检查行李包是否装捆牢固，长、宽、高及重量是否符合规定----这个说的很对；    可将行李放置在门道或者过道上----这个说的就不对了。    通道上严禁放置任何物品，那是逃生通道。    所以这题错在了后半句。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=15054
+Url=http://tiba.jsyks.com/Post/acda3.htm
+Tittle=驾驶人违反交通运输管理法规发生重大事故致人死亡且逃逸的，处多少年有期徒刑？
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=2
+Classification=5
+[SkillInfo]
+SkillNotice=判断这一类型的题目，重点在是否逃逸，并且逃逸时是否致人死亡。    3年以下：未逃逸    3年—7年：已逃逸且情节严重    7年以上：因逃逸导致人死亡        参考：《中华人民共和国刑法》第一百三十三条：违反交通运输管理法规，因而发生重大事故，致人重伤、死亡或者使公私财产遭受重大损失的，处三年以下有期徒刑或者拘役；交通运输肇事后逃逸或者有其他特别恶劣情节的，处三年以上七年以下有期徒刑；因逃逸致人死亡的，处七年以上有期徒刑。　
+NormalNotice=判断这一类型的题目，重点在是否逃逸，并且逃逸时是否致人死亡。    3年以下：未逃逸    3年—7年：已逃逸且情节严重    7年以上：因逃逸导致人死亡        参考：《中华人民共和国刑法》第一百三十三条：违反交通运输管理法规，因而发生重大事故，致人重伤、死亡或者使公私财产遭受重大损失的，处三年以下有期徒刑或者拘役；交通运输肇事后逃逸或者有其他特别恶劣情节的，处三年以上七年以下有期徒刑；因逃逸致人死亡的，处七年以上有期徒刑。　
+[Options]
+Options1=7年以上
+Options2=3年以下
+Options3=3年以上7年以下
+Options4=10年以上
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=0
+Answer3=1
+Answer4=0

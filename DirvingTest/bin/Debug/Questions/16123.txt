@@ -1,0 +1,29 @@
+[QuesitonInfo]
+Id=16123
+Url=http://tiba.jsyks.com/Post/5afed.htm
+Tittle=道路划设专用车道的，在专用车道内，其他机动车可以借道超车。
+TittleEmphasize=
+SkillEmphasize=
+ImagePath=
+FlashPath=
+SkillId=0
+MoudleId=15
+Type=1
+Classification=6
+[SkillInfo]
+SkillNotice=《中华人民共和国道路交通安全法》第四章第一节 第三十七条 道路划设专用车道的，在专用车道内，只准许规定的车辆通行，其他车辆不得进入专用车道内行驶。所以本题是错的。
+NormalNotice=《中华人民共和国道路交通安全法》第四章第一节 第三十七条 道路划设专用车道的，在专用车道内，只准许规定的车辆通行，其他车辆不得进入专用车道内行驶。所以本题是错的。
+[Options]
+Options1=对
+Options2=错
+Options3=
+Options4=
+Image1=
+Image2=
+Image3=
+Image4=
+[AnswerInfo]
+Answer1=0
+Answer2=1
+Answer3=0
+Answer4=0

@@ -6,3 +6,7 @@ D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\bin\Debu
 D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\bin\Debug\EasyConfigWin.pdb
 D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.dll
 D:\Projects\CSharp\DirvingTest\SVNDrivingTest\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.pdb
+I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\bin\Debug\EasyConfigWin.dll
+I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\bin\Debug\EasyConfigWin.pdb
+I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.dll
+I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.pdb

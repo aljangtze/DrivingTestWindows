@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirvingTest", "DirvingTest\DirvingTest.csproj", "{384472F1-6E20-4C05-8354-001B8054166C}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotrolLibrary", "CotrolLibrary\CotrolLibrary.csproj", "{119A2C15-ECBF-48DC-AF6A-2E732905A38E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyConfigWin", "DirvingTest\EasyConfigWin\EasyConfigWin.csproj", "{A0B5EF10-A812-449E-9E60-93B1D1AA38C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteHelper", "SQLiteHelper\SQLiteHelper.csproj", "{01DB247A-5722-432A-99BF-8E0C12961D30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,8 +77,27 @@ Global
 		{A0B5EF10-A812-449E-9E60-93B1D1AA38C5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A0B5EF10-A812-449E-9E60-93B1D1AA38C5}.Release|Win32.ActiveCfg = Release|Any CPU
 		{A0B5EF10-A812-449E-9E60-93B1D1AA38C5}.Release|x86.ActiveCfg = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|Win32.Build.0 = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Debug|x86.Build.0 = Debug|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|Win32.ActiveCfg = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|Win32.Build.0 = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|x86.ActiveCfg = Release|Any CPU
+		{01DB247A-5722-432A-99BF-8E0C12961D30}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0FFA242-C297-4D81-BECD-AC7A194B771F}
 	EndGlobalSection
 EndGlobal

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=10052
 Url=http://tiba.jsyks.com/Post/fa908.htm
-Tittle=��ʻ��Ƶ��������������ڼ�ʻªϰ��
+Tittle=驾驶人频繁变更车道不属于驾驶陋习。
 TittleEmphasize=
-SkillEmphasize=�����ڼ�ʻªϰ
+SkillEmphasize=不属于驾驶陋习
 ImagePath=
 FlashPath=
-SkillId=44
+SkillId=48
 MoudleId=10
 Type=1
 Classification=4
-BankId=28
+BankId=50
 [SkillInfo]
-SkillNotice=Ƶ���������Ӱ�������г����ڼ�ʻªϰ����Ŀ˵������ªϰ������
-NormalNotice=Ƶ���������Ӱ�������г� ���ڼ�ʻªϰ
+SkillNotice=频繁变更车道影响他人行车属于驾驶陋习，题目说不属于陋习，错！
+NormalNotice=频繁变更车道影响他人行车 属于驾驶陋习
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

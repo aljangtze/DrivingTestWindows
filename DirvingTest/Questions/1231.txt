@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1231
 Url=http://tiba.jsyks.com/Post/f1fb9.htm
-Tittle=�������ڸ��ٹ�·�Ϸ�����ͨ�¹��޷�������ʻʱ���þ�Ԯ�������ϳ���ҷ��ǣ����
+Tittle=机动车在高速公路上发生交通事故无法正常行驶时，用救援车、清障车拖曳、牵引。
 TittleEmphasize=
-SkillEmphasize=��Ԯ����
+SkillEmphasize=救援车、
 ImagePath=
 FlashPath=
 SkillId=13
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=3
 [SkillInfo]
-SkillNotice=���ɣ��þ�Ԯ���ԣ������о�Ԯ�������Ķԡ�
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��������ʮ������ �������ڸ��ٹ�·�Ϸ�������ʱ��Ӧ�����ձ�������ʮ�������йع涨������ ���ǣ������־Ӧ�������ڹ��ϳ���������һ����ʮ�����⣬������ԱӦ��Ѹ��ת�Ƶ��Ҳ�·���ϻ���Ӧ�������ڣ�����Ѹ�ٱ����� �������ڸ��ٹ�·�Ϸ���?
+SkillNotice=技巧，用救援车对，题中有救援，救助的对。
+NormalNotice=《中华人民共和国道路交通安全法》第六十八条： 机动车在高速公路上发生故障时，应当依照本法第五十二条的有关规定办理； 但是，警告标志应当设置在故障车来车方向一百五十米以外，车上人员应当迅速转移到右侧路肩上或者应急车道内，并且迅速报警。 机动车在高速公路上发生?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

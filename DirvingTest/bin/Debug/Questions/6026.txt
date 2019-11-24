@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6026
 Url=http://tiba.jsyks.com/Post/3476c.htm
-Tittle=�������Ա�����Ľ�ͨ�¹��ге���Ҫ���εģ������������Ӵ��Ϳͳ�׼�ݳ��ͣ������������������Ϳͳ�׼�ݳ��͡�
+Tittle=在造成人员死亡的交通事故中承担主要责任的，不得申请增加大型客车准驾车型，但可以申请增加中型客车准驾车型。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=��������Ԥ���ش��·��ͨ�¹ʹ��������    ��������͡����Ϳͳ�׼�ݳ��͵���ԱҪ�ϸ���˰ѹأ������������Ա�����Ľ�ͨ�¹��ге�ȫ�����λ�����Ҫ���μ�¼�ģ������������Խ�3���н�ͨ���������¹ʼ�¼�ļ�ʻ�ˣ����齻ͨ���Ų���׼���μӿ��˴�ҵ�ʸ��ԡ�
-NormalNotice=��������Ԥ���ش��·��ͨ�¹ʹ��������    ��������͡����Ϳͳ�׼�ݳ��͵���ԱҪ�ϸ���˰ѹأ������������Ա�����Ľ�ͨ�¹��ге�ȫ�����λ�����Ҫ���μ�¼�ģ������������Խ�3���н�ͨ���������¹ʼ�¼�ļ�ʻ�ˣ����齻ͨ���Ų���׼���μӿ��˴�ҵ�ʸ��ԡ�
+SkillNotice=公安机关预防特大道路交通事故工作意见：    对申请大型、中型客车准驾车型的人员要严格审核把关，对有在造成人员死亡的交通事故中承担全部责任或者主要责任记录的，不予受理。对近3年有交通死亡责任事故记录的驾驶人，建议交通部门不予准许参加客运从业资格考试。
+NormalNotice=公安机关预防特大道路交通事故工作意见：    对申请大型、中型客车准驾车型的人员要严格审核把关，对有在造成人员死亡的交通事故中承担全部责任或者主要责任记录的，不予受理。对近3年有交通死亡责任事故记录的驾驶人，建议交通部门不予准许参加客运从业资格考试。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

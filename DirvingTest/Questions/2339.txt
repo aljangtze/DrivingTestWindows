@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2339
 Url=http://tiba.jsyks.com/Post/56848.htm
-Tittle=��ͼ��ʾ����·�������������־������ʾ��ʻ��ǰ��·���е���������
+Tittle=如图所示，铁路道口设置这个标志，是提示驾驶人前方路口有单股铁道。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=单股
 ImagePath=2339.jpg
 FlashPath=
 SkillId=36
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=��Ŀ���ǵ�����������־�Ƕ�ɣ�����
-NormalNotice=���η��ű�־    ��ʾ����������·���档�÷�����ɫΪ�׵׺�ߡ�������·���ڱ�־�϶ˡ����η��Ž���㵽�����־�����ζ���ľ���Ϊ40cm��
+SkillNotice=题目上是单股铁道。标志是多股，错！
+NormalNotice=叉形符号标志    表示多股铁道与道路交叉。该符号颜色为白底红边。设在铁路道口标志上端。叉形符号交叉点到警告标志三角形顶点的距离为40cm。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

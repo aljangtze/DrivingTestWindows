@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=8047
 Url=http://tiba.jsyks.com/Post/4f318.htm
-Tittle=¼ÝÊ»»ú¶¯³µÓöµ½ÕâÖÖÇé¿öÔõÑùÐÐÊ»£¿
+Tittle=é©¾é©¶æœºåŠ¨è½¦é‡åˆ°è¿™ç§æƒ…å†µæ€Žæ ·è¡Œé©¶ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=8047.jpg
@@ -10,21 +10,21 @@ SkillId=45
 MoudleId=8
 Type=2
 Classification=4
-BankId=19
+BankId=28
 [SkillInfo]
-SkillNotice=°²È«ÎÄÃ÷¼ÝÊ» µ±È»ÊÇÈÃ·Ç»ú¶¯³µÏÈÐÐÁË
-NormalNotice=°²È«ÎÄÃ÷¼ÝÊ» µ±È»ÊÇÈÃ·Ç»ú¶¯³µÏÈÐÐÁË
+SkillNotice=æœ‰å‡é€Ÿé€‰å‡é€Ÿã€‚
+NormalNotice=å®‰å…¨æ–‡æ˜Žé©¾é©¶ å½“ç„¶æ˜¯è®©éžæœºåŠ¨è½¦å…ˆè¡Œäº†
 [Options]
-Options1=´Ó·Ç»ú¶¯³µ×ó²àÈÆ¹ý
-Options2=Á¬ÐøÃùÀ®°È¸æÖªÈÃµÀ
-Options3=¼õËÙÈÃ·Ç»ú¶¯³µÏÈÐÐ
-Options4=Õ¼¶ÔÏò³µµÀ¼ÓËÙ³¬Ô½
-Image1=
+Options1=å‡é€Ÿè®©éžæœºåŠ¨è½¦å…ˆè¡Œ
+Options2=ä»ŽéžæœºåŠ¨è½¦å·¦ä¾§ç»•è¿‡
+Options3=è¿žç»­é¸£å–‡å­å‘ŠçŸ¥è®©é“
+Options4=å å¯¹å‘è½¦é“åŠ é€Ÿè¶…è¶Š
+Image1=å‡é€Ÿ
 Image2=
 Image3=
 Image4=
 [AnswerInfo]
-Answer1=0
+Answer1=1
 Answer2=0
-Answer3=1
+Answer3=0
 Answer4=0

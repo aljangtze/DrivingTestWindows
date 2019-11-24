@@ -395,20 +395,27 @@ namespace DirvingTest
 
             //    Console.WriteLine();
             //}
-
+            string txt = File.ReadAllText(filePath);
 
             Question question = new Question();
             question.Id = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["Id"].RawValue);
-
+            try 
+            {
+                question.Url = configFile.SettingGroups["QuesitonInfo"].Settings["Url"].RawValue;
+            }
+            catch
+            {
+                question.Url = "";
+            }
             question.Tittle = configFile.SettingGroups["QuesitonInfo"].Settings["Tittle"].RawValue;
             question.TittleEmphasize = configFile.SettingGroups["QuesitonInfo"].Settings["SkillEmphasize"].RawValue;
-            question.ImagePath = configFile.SettingGroups["QuesitonInfo"].Settings["ImagePath"].RawValue; 
-            question.FlashPath = configFile.SettingGroups["QuesitonInfo"].Settings["FlashPath"].RawValue; 
-            question.Module = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["MoudleId"].RawValue); 
+            question.ImagePath = configFile.SettingGroups["QuesitonInfo"].Settings["ImagePath"].RawValue;
+            question.FlashPath = configFile.SettingGroups["QuesitonInfo"].Settings["FlashPath"].RawValue;
+            question.Module = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["MoudleId"].RawValue);
 
             try
             {
-                question.Skill = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["SkillId"].RawValue); 
+                question.Skill = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["SkillId"].RawValue);
                 if (0 != question.Skill)
                 {
                     m_Relation_Question_Skill[question.Id] = question.Skill;
@@ -421,7 +428,7 @@ namespace DirvingTest
 
             try
             {
-                question.BankId = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["BankId"].RawValue); 
+                question.BankId = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["BankId"].RawValue);
                 if (0 != question.BankId)
                 {
                     m_Relation_Question_Suite[question.Id] = question.BankId;
@@ -434,7 +441,7 @@ namespace DirvingTest
 
             try
             {
-                question.IntensifyId = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["IntensifyId"].RawValue); 
+                question.IntensifyId = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["IntensifyId"].RawValue);
             }
             catch
             {
@@ -446,7 +453,7 @@ namespace DirvingTest
             }
 
             question.Type = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["Type"].RawValue);
-            question.Classification = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["Classification"].RawValue); 
+            question.Classification = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["Classification"].RawValue);
 
             question.Options = new List<string>();
             question.OptionsEmphasize = new List<string>();
@@ -465,15 +472,28 @@ namespace DirvingTest
                         ret = rnd.Next(1, 5);
                     }
                 }
+
+#if _SaveToSqlite
+                //HACK:这里不随机
+                questionOrder.Clear();
+                questionOrder.Add(1);
+                questionOrder.Add(2);
+                questionOrder.Add(3);
+                questionOrder.Add(4);
+#endif
                 int index = 0;
                 foreach (var i in questionOrder)
                 {
                     index++;
                     question.Options.Add(configFile.SettingGroups["Options"].Settings["Options" + i.ToString()].RawValue);
                     question.OptionsEmphasize.Add(configFile.SettingGroups["Options"].Settings["Image" + i.ToString()].RawValue);
-
+#if! _SaveToSqlite
                     if ("1".Equals(configFile.SettingGroups["AnswerInfo"].Settings["Answer" + i.ToString()].RawValue))
                         question.CorrectAnswer.Add(index);
+#else
+                    //HACK:
+                    question.CorrectAnswer.Add(Convert.ToInt32(configFile.SettingGroups["AnswerInfo"].Settings["Answer" + i.ToString()].RawValue));
+#endif
                 }
             }
             else
@@ -482,9 +502,13 @@ namespace DirvingTest
                 {
                     question.Options.Add(configFile.SettingGroups["Options"].Settings["Options" + i.ToString()].RawValue);
                     question.OptionsEmphasize.Add(configFile.SettingGroups["Options"].Settings["Image" + i.ToString()].RawValue);
-
+#if! _SaveToSqlite
                     if ("1".Equals(configFile.SettingGroups["AnswerInfo"].Settings["Answer" + i.ToString()].RawValue))
                         question.CorrectAnswer.Add(i);
+#else
+                    //HACK:
+                    question.CorrectAnswer.Add(Convert.ToInt32(configFile.SettingGroups["AnswerInfo"].Settings["Answer" + i.ToString()].RawValue));
+#endif
                 }
             }
             if (question.CorrectAnswer.Count == 0)
@@ -493,12 +517,12 @@ namespace DirvingTest
             }
 
             question.SkillNotice = configFile.SettingGroups["SkillInfo"].Settings["SkillNotice"].RawValue;
-            question.NormalNotice = configFile.SettingGroups["SkillInfo"].Settings["NormalNotice"].RawValue; 
+            question.NormalNotice = configFile.SettingGroups["SkillInfo"].Settings["NormalNotice"].RawValue;
 
             TimeSpan timeSpan = DateTime.Now - dateStart;
             Console.WriteLine(string.Format("Question ID: {0} Read Time: {1} ms", question.Id, timeSpan.TotalMilliseconds));
             return question;
-        }
+            }
 
 
         public static void SaveQuestionMaxNum()
@@ -539,6 +563,10 @@ namespace DirvingTest
                     if (null == question)
                         continue;
 
+                    if(question.Id!=i)
+                    {
+                        int x = 100;
+                    }
                     m_QuestionsDictionary[question.Id] = question;
                     m_QuestionsList.Add(question);
                 }
@@ -725,7 +753,7 @@ namespace DirvingTest
             }
         }
 
-        #region 不使用的数据
+#region 不使用的数据
         //public static void SaveQuestion2(Question question, string path)
         //{
         //    SystemConfig.IniWriteValue("QuesitonInfo", "Id", question.Id.ToString(), path);
@@ -1030,7 +1058,7 @@ namespace DirvingTest
             
         //    return questionList;
         //}
-        #endregion
+#endregion
 
         public static List<Question> GenQuestionsByExam(int examType, int driverType)
         {
@@ -1828,7 +1856,7 @@ namespace DirvingTest
 
             return true;
         }
-        #endregion
+#endregion
 
     }
 }

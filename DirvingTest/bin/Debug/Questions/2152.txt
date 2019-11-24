@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2152
 Url=http://tiba.jsyks.com/Post/f4472.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2152.jpg
@@ -12,13 +12,13 @@ Type=2
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=��ƽ�����죬�����־����Y��·�ڡ�
-NormalNotice=�Լ���һ���� �ٷֳ���������  ��������ǰ���϶���Y�͵�
+SkillNotice=王平，新屿，这个标志叫做Y型路口。
+NormalNotice=自己走一条道 再分出来两条道  而且是在前方肯定是Y型的
 [Options]
-Options1=���ֽ���·��Ԥ��
-Options2=ʮ�ֽ���·��Ԥ��
-Options3=���н���·��Ԥ��
-Options4=Y�ͽ���·��Ԥ��
+Options1=丁字交叉路口预告
+Options2=十字交叉路口预告
+Options3=环行交叉路口预告
+Options4=Y型交叉路口预告
 Image1=
 Image2=
 Image3=

@@ -1,23 +1,23 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15290
 Url=http://tiba.jsyks.com/Post/53515.htm
-Tittle=�ڱ�ѩ·���ϼ��ٻ�ͣ����Ҫ�������ͳ��٣�
+Tittle=在冰雪路面上减速或停车，要怎样降低车速？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=��Ƚ϶��ԣ��������ƶ����ȫ�ġ�NormalNotice=��Ƚ϶��ԣ��������ƶ����ȫ�ġ�    �������ƶ������������ص㣺һ�����ڲ����������ã��ɽ��ƶ�����ƽ���ط��������ҳ����ϣ����ٲ໬��˦β�Ŀ����ԣ�������Ч�ؼ��ٽ��ƶ���ʹ��Ƶ�ʣ�������ʱ��ʹ���ƶ����������ƶ���Ħ��Ƭ���¶����ߣ�ʹ�ƶ����½�������ʧȥ���ã����ǳ���ʼ�ձ��޶���һ����Χ�ڣ������ڼ�ʱ���ٻ�ͣ����ȷ���г���ȫ�� ��˱���ѡB��
-    �������ƶ������������ص㣺һ�����ڲ����������ã��ɽ��ƶ�����ƽ���ط��������ҳ����ϣ����ٲ໬��˦β�Ŀ����ԣ�������Ч�ؼ��ٽ��ƶ���ʹ��Ƶ�ʣ�������ʱ��ʹ���ƶ����������ƶ���Ħ��Ƭ���¶����ߣ�ʹ�ƶ����½�������ʧȥ���ã����ǳ���ʼ�ձ��޶���һ����Χ�ڣ������ڼ�ʱ���ٻ�ͣ����ȷ���г���ȫ�� ��˱���ѡB��
+SkillNotice=相比较而言，发动机制动是最安全的。NormalNotice=相比较而言，发动机制动是最安全的。    发动机制动有三个显着特点：一是由于差速器的作用，可将制动力矩平均地分配在左右车轮上，减少侧滑、甩尾的可能性；二是有效地减少脚制动的使用频率，避免因长时间使用制动器，导致制动器摩擦片的温度升高，使制动力下降，甚至失去作用；三是车速始终被限定在一定范围内，有利于及时降速或停车，确保行车安全。 因此本题选B。
+    发动机制动有三个显着特点：一是由于差速器的作用，可将制动力矩平均地分配在左右车轮上，减少侧滑、甩尾的可能性；二是有效地减少脚制动的使用频率，避免因长时间使用制动器，导致制动器摩擦片的温度升高，使制动力下降，甚至失去作用；三是车速始终被限定在一定范围内，有利于及时降速或停车，确保行车安全。 因此本题选B。
 [Options]
-Options1=��������г��ƶ���
-Options2=������÷�������ǣ������
-Options3=�������פ���ƶ���
-Options4=������û�����
+Options1=充分利用行车制动器
+Options2=充分利用发动机的牵制作用
+Options3=充分利用驻车制动器
+Options4=充分利用缓速器
 Image1=
 Image2=
 Image3=

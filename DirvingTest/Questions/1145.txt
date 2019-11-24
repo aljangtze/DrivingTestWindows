@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1145
 Url=http://tiba.jsyks.com/Post/f703f.htm
-Tittle=��ʻ������ͨ��û�н�ͨ�źŵĽ���·��������ʻ��
+Tittle=驾驶机动车通过没有交通信号的交叉路口怎样行驶？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=���𰸣�ѡ�������У��м���ֱ��ѡ���٣�
-NormalNotice=��������ԭ��ת��Ļ�������ֱ�еĳ������У��ҷ���·�������У���ת�䳵����ת�䳵���С�    �������в��ҹ۲�·�����㲻������ɳ���������
+SkillNotice=看答案：选减速慢行，有减速直接选减速，
+NormalNotice=三个先行原则：转弯的机动车让直行的车辆先行，右方道路来车先行，右转弯车让左转弯车先行。    减速慢行并且观察路况，搞不好哪里飞出辆车来。
 [Options]
-Options1=��೵������
-Options2=��������
-Options3=����ͨ��
-Options4=���ͳ�����
+Options1=左侧车辆先行
+Options2=减速慢行
+Options3=加速通过
+Options4=大型车先行
 Image1=
-Image2=��������
+Image2=减速慢行
 Image3=
 Image4=
 [AnswerInfo]

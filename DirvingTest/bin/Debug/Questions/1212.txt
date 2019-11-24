@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1212
 Url=http://tiba.jsyks.com/Post/454f5.htm
-Tittle=��ʻС���ؿ������ڸ��ٹ�·��ʻ����ͳ���Ϊ90����/Сʱ��
+Tittle=驾驶小型载客汽车在高速公路行驶的最低车速为90公里/小时。
 TittleEmphasize=
-SkillEmphasize=90����
+SkillEmphasize=90公里
 ImagePath=
 FlashPath=
-SkillId=15
+SkillId=55
 MoudleId=1
 Type=1
 Classification=3
 BankId=10
 [SkillInfo]
-SkillNotice=��ס��90�������������40���70���90���ﶼ�Ǵ��ġ�&
-NormalNotice=������ͬ���涨��ͬ���������ٳ����б�ʾ����90/100/110 80/70/60������ʲô���͵ĳ������˸���·����ͳ��ٶ�������60ǧ��/Сʱ���ϡ���������ʻ������·�����й涨�ĳ��⡣
+SkillNotice=记住：90公里错，题中有40公里，70公里，90公里都是错的。&
+NormalNotice=车道不同，规定不同。正常高速车道有标示：如90/100/110 80/70/60不管是什么类型的车，上了高速路，最低车速都必须在60千米/小时以上。（正常行驶）特殊路段另有规定的除外。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

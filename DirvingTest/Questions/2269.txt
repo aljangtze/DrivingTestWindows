@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2269
 Url=http://tiba.jsyks.com/Post/a3036.htm
-Tittle=��һ�齻ͨ����������ʲô�źţ�
+Tittle=这一组交通警察手势是什么信号？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2269.jpg
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=�����ƣ�����̧ƽ�����¼������С�
-NormalNotice=���칲�а������ƣ�    ֹͣ���ر�򵥾���ֱֱ̧��ۣ�    ֱ�У��������첲�ſ�������������ǰ������ֱ��ͨ�������ֳ�0��    ��ת��ת������ֻ�ֵģ�����һ�£����Ұڶ�����������ת��������ƣ����ֳ�45��    ���ת�����������°ڶ���45�ȵ�30��    �������������ˮƽ?
+SkillNotice=看手势：右手抬平、放下减速慢行。
+NormalNotice=警察共有八种手势，    停止，特别简单就是直直抬左臂；    直行，先是两胳膊张开，右手弯曲胸前允许右直行通过；两手成0度    左转右转都是两只手的，以上一下，向右摆动的下手向左转，反向递推；两手成45度    左待转就是左手上下摆动从45度到30度    变更车道，右手水平?
 [Options]
-Options1=����ͣ���ź�
-Options2=����ź�
-Options3=���������ź�
-Options4=��ת���ź�
+Options1=靠边停车信号
+Options2=变道信号
+Options3=减速慢行信号
+Options4=右转弯信号
 Image1=
 Image2=
-Image3=��
+Image3=慢
 Image4=
 [AnswerInfo]
 Answer1=0

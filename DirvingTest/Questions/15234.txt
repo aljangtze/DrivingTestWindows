@@ -1,23 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15234
 Url=http://tiba.jsyks.com/Post/e948a.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=15234.jpg
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=��ֹ��ͷ����ʾǰ��·�ڽ�ֹһ�г�����ͷ���˱�־���ڽ�ֹ��ͷ��·��ǰ�ʵ�λ�á�    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    ��ֹ��ͷ    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    ָʾ��ͷ    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>NormalNotice=��ֹ��ͷ����ʾǰ��·�ڽ�ֹһ�г�����ͷ���˱�־���ڽ�ֹ��ͷ��·��ǰ�ʵ�λ�á�    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utgc6c8xj.jpg>    ��ֹ��ͷ    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uutnn1bpj.jpg>    ָʾ��ͷ    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uwn9atv0j.jpg>    ��ֹ��ͷ</p>
-    ��ֹ��ͷ</p>
+SkillNotice=禁止掉头：表示前方路口禁止一切车辆掉头。此标志设在禁止掉头的路口前适当位置。NormalNotice=禁止掉头：表示前方路口禁止一切车辆掉头。此标志设在禁止掉头的路口前适当位置。
 [Options]
-Options1=��ֱֹ��
-Options2=��ֹ��ͷ
-Options3=��ֹ���
-Options4=��ֹ��ת
+Options1=禁止直行
+Options2=禁止掉头
+Options3=禁止变道
+Options4=禁止左转
 Image1=
 Image2=
 Image3=

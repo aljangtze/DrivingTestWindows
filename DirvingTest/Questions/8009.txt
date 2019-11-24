@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8009
 Url=http://tiba.jsyks.com/Post/0bca9.htm
-Tittle=��ʻ��ABSϵͳ�Ļ������ڽ����ƶ���ͬʱת����ܻᷢ���໬��
+Tittle=驾驶有ABS系统的机动车在紧急制动的同时转向可能会发生侧滑。
 TittleEmphasize=
 SkillEmphasize=ABS
 ImagePath=
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=21
 [SkillInfo]
-SkillNotice=ABS����Ŀ������û�д�������־��Ƕԡ�
-NormalNotice=ABSʹ�����ڽ���ɲ��ʱ���ֲ��ᱧ������������ʹ�����ڽ����ƶ�ʱ���ܱ��ֽϺõķ����ȶ��ԡ��������ַ������ƶ�ϵͳ�����ſ���ת�����������ˣ����ƶ��������п����ƹ��ϰ��������ܷ������¹ʡ�Ȼ������ʻ��ABS ϵͳ�Ļ������ڽ����ƶ���ͬʱת��ᷢ���໬��
+SkillNotice=见ABS带大错，没带大的ABS全对。
+NormalNotice=ABS使汽车在紧急刹车时车轮不会抱死，这样就能使汽车在紧急制动时仍能保持较好的方向稳定性。由于四轮防抱死制动系统保留着控制转向的能力，因此，在制动过程中有可能绕过障碍物，避免可能发生的事故。然而，驾驶有ABS 系统的机动车在紧急制动的同时转向会发生侧滑。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

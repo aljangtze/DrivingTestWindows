@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15224
 Url=http://tiba.jsyks.com/Post/e2349.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=15224.jpg
@@ -11,12 +11,12 @@ MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=��ɫ����ע�⣬��̾����ǰ����Σ�գ� ������ע��Σ�ա�NormalNotice=��ɫ����ע�⣬��̾����ǰ����Σ�գ� ������ע��Σ�ա�
+SkillNotice=黄色代表注意，感叹号是前方有危险， 所以是注意危险。NormalNotice=黄色代表注意，感叹号是前方有危险， 所以是注意危险。
 [Options]
-Options1=�¹ʶ෢·��
-Options2=��������
-Options3=ע��Σ��
-Options4=ӵ��·��
+Options1=事故多发路段
+Options2=减速慢行
+Options3=注意危险
+Options4=拥堵路段
 Image1=
 Image2=
 Image3=

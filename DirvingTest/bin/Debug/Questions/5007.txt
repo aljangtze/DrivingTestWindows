@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=5007
 Url=http://tiba.jsyks.com/Post/aeccf.htm
-Tittle=×í¾Æ¼ÝÊ»ÓªÔË»ú¶¯³µµÄ£¬ÓÉ¹«°²»ú¹Ø½»Í¨¹ÜÀí²¿ÃÅÔ¼ÊøÖÁ¾ÆÐÑ£¬²¢×öÔõÑù´¦Àí£¿
+Tittle=é†‰é…’é©¾é©¶è¥è¿æœºåŠ¨è½¦çš„ï¼Œç”±å…¬å®‰æœºå…³äº¤é€šç®¡ç†éƒ¨é—¨çº¦æŸè‡³é…’é†’ï¼Œå¹¶åšæ€Žæ ·å¤„ç†ï¼Ÿ
 TittleEmphasize=
-SkillEmphasize=×í¾Æ
+SkillEmphasize=é†‰é…’
 ImagePath=
 FlashPath=
 SkillId=37
@@ -12,16 +12,16 @@ Type=2
 Classification=2
 BankId=0
 [SkillInfo]
-SkillNotice=×í¾Æ¼ÝÊ»ÓªÔË»ú¶¯³µ£¬µõÏú¼ÝÊ»Ö¤¡£
-NormalNotice=Î¥·¨ÐÐÎª£º¡¡¡¡          ´¦·£´ëÊ©£º    ×í¼Ý£º¡¡¡¡¡¡¡¡          ×·¾¿ÐÌÔð£¬µõÏú¼ÝÕÕ£¬5Äê½û¼Ý    ×í¼Ý£¨ÓªÔË³µ£©£º      ×·¾¿ÐÌÔð£¬µõÏú¼ÝÕÕ£¬10Äê½û¼Ý£¬ÖØÐÂ¿¼¼ÝÕÕºó½û¼ÝÓªÔË³µ    ³õ´Î¾Æ¼Ý£º¡¡¡¡          ¿Û¼ÝÕÕ6¸öÔÂ£¬·£¿î1000-2000Ôª    ÔÙ´Î¾Æ¼Ý£º¡¡¡¡          µõ?
+SkillNotice=é†‰é…’é©¾é©¶è¥è¿æœºåŠ¨è½¦ï¼ŒåŠé”€é©¾é©¶è¯ã€‚
+NormalNotice=è¿æ³•è¡Œä¸ºï¼šã€€ã€€          å¤„ç½šæŽªæ–½ï¼š    é†‰é©¾ï¼šã€€ã€€ã€€ã€€          è¿½ç©¶åˆ‘è´£ï¼ŒåŠé”€é©¾ç…§ï¼Œ5å¹´ç¦é©¾    é†‰é©¾ï¼ˆè¥è¿è½¦ï¼‰ï¼š      è¿½ç©¶åˆ‘è´£ï¼ŒåŠé”€é©¾ç…§ï¼Œ10å¹´ç¦é©¾ï¼Œé‡æ–°è€ƒé©¾ç…§åŽç¦é©¾è¥è¿è½¦    åˆæ¬¡é…’é©¾ï¼šã€€ã€€          æ‰£é©¾ç…§6ä¸ªæœˆï¼Œç½šæ¬¾1000-2000å…ƒ    å†æ¬¡é…’é©¾ï¼šã€€ã€€          åŠ?
 [Options]
-Options1=ÔÝ¿ÛÐÐÊ»Ö¤
-Options2=ÖÕÉí½û¼Ý
-Options3=µõÏú»ú¶¯³µ¼ÝÊ»Ö¤
-Options4=ÔÝ¿Û»ú¶¯³µ
+Options1=æš‚æ‰£è¡Œé©¶è¯
+Options2=ç»ˆèº«ç¦é©¾
+Options3=åŠé”€æœºåŠ¨è½¦é©¾é©¶è¯
+Options4=æš‚æ‰£æœºåŠ¨è½¦
 Image1=
 Image2=
-Image3=µõÏú
+Image3=åŠé”€
 Image4=
 [AnswerInfo]
 Answer1=0

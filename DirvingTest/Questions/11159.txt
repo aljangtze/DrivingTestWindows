@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11159
 Url=http://tiba.jsyks.com/Post/681cc.htm
-Tittle=���ڱ�ѩ·�治��ʹ�ý����ƶ�������ͻȻ����ɲ�ȡ��ת��ķ�����ܡ�
+Tittle=由于冰雪路面不能使用紧急制动，遇到突然情况可采取急转向的方法躲避。
 TittleEmphasize=
-SkillEmphasize=��ת��
+SkillEmphasize=急转向
 ImagePath=
 FlashPath=
 SkillId=40
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=20
 [SkillInfo]
-SkillNotice=��ס����ת�򣬴����м�ת����ͽ����ƶ����Ǵ���
-NormalNotice=��ѩ·����ɽ���ת�򣬱����Ͳ��ÿ����㻹��Ư�ơ�    ���Ա�ѩ״̬�������У�������ɲ���������÷������ƶ����Զ�����ɲ��
+SkillNotice=记住：急转向，错。有急转方向和紧急制动都是错。
+NormalNotice=冰雪路面最忌紧急转向，本来就不好控制你还玩漂移。    所以冰雪状态开车慢行，尽量早刹车，可以用发动机制动，自动档点刹。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

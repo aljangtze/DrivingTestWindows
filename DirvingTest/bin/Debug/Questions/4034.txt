@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4034
 Url=http://tiba.jsyks.com/Post/46759.htm
-Tittle=����ǰ�յƽ���ʱ�Ǳ����ϣ���ͼ��ʾ������
+Tittle=开启前照灯近光时仪表板上（如图所示）亮起。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=近光
 ImagePath=4034.jpg
 FlashPath=
-SkillId=36
+SkillId=35
 MoudleId=4
 Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=Զ��Ƴ��˽���ƣ���    
-NormalNotice=���ͼ���ʾ����Զ�������    ����ƹ������£���ʾ�ƹ��յأ���    Զ�����ֱ�ߣ���ʾ����Զ������    ������б�߱������ڵ�����ʾ�����������ڵ�����    ���������ʾǰ�ƣ��������ʾ��ơ�    
+SkillNotice=远光灯成了近光灯，错    
+NormalNotice=这个图标表示的是远光灯亮起。    近光灯光线向下（表示灯光照地）；    远光灯是直线（表示照向远方）；    雾灯是斜线被曲线遮挡（表示光束被雾气遮挡）。    光束向左表示前灯；向右则表示后灯。    
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

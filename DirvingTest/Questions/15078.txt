@@ -1,23 +1,23 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15078
 Url=http://tiba.jsyks.com/Post/17dd0.htm
-Tittle=ʹ��α�졢����Ļ���������һ�μǼ��֣�
+Tittle=使用伪造、变造的机动车号牌一次记几分？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=�����������123�š��涨��ʹ��α�졢����Ļ��������ơ���ʻ֤����ʻ֤��У�����ƻ���ʹ���������������ơ���ʻ֤�ģ�һ�μ�12�� ��
-NormalNotice=�����������123�š��涨��ʹ��α�졢����Ļ��������ơ���ʻ֤����ʻ֤��У�����ƻ���ʹ���������������ơ���ʻ֤�ģ�һ�μ�12�� ��
+SkillNotice=《公安部令第123号》规定，使用伪造、变造的机动车号牌、行驶证、驾驶证、校车标牌或者使用其他机动车号牌、行驶证的，一次记12分 。
+NormalNotice=《公安部令第123号》规定，使用伪造、变造的机动车号牌、行驶证、驾驶证、校车标牌或者使用其他机动车号牌、行驶证的，一次记12分 。
 [Options]
-Options1=2��
-Options2=3��
-Options3=6��
-Options4=12��
+Options1=2分
+Options2=3分
+Options3=6分
+Options4=12分
 Image1=
 Image2=
 Image3=

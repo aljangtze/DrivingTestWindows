@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12005
 Url=http://tiba.jsyks.com/Post/de6ca.htm
-Tittle=�ڸ��ٹ�·�������������ʱ��Ҫ���׼�ת����á�
+Tittle=在高速公路上遇到紧急情况时不要轻易急转向避让。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=0
 Type=1
 Classification=0
 [SkillInfo]
-SkillNotice=��Ҫ���׼�ת����õ�ԭ����Ϊ�˱������������״������˱�����ȷ��
-NormalNotice=��Ҫ���׼�ת����õ�ԭ����Ϊ�˱������������״������˱�����ȷ��
+SkillNotice=不要轻易急转向避让的原因是为了避免引发更大的状况，因此本题正确。
+NormalNotice=不要轻易急转向避让的原因是为了避免引发更大的状况，因此本题正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

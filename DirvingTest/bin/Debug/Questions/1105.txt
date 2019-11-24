@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1105
 Url=http://tiba.jsyks.com/Post/8c018.htm
-Tittle=��ʻ������ͨ��խ·��խ��ʱ������ٶȲ��ܳ���ÿСʱ30���
+Tittle=驾驶机动车通过窄路、窄桥时的最高速度不能超过每小时30公里。
 TittleEmphasize=
-SkillEmphasize=30����
+SkillEmphasize=30公里
 ImagePath=
 FlashPath=
-SkillId=15
+SkillId=55
 MoudleId=1
 Type=1
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=��ס��30����ԣ����г��ֵĹ����������200����30���ǶԵġ�
-NormalNotice=��������ʻ��������������֮һ�ģ������ʻ�ٶȲ��ó���ÿСʱ30�����������������ƿ������ʽר�û�е�����ó���ÿСʱ15�������     ��һ�������ǻ���������ͨ����·���ڡ�����·��խ·��խ��ʱ������     ��������ͷ��ת�䡢�¶���ʱ������     �������������ꡢѩ?
+SkillNotice=记住：30公里对，题中出现的公里带有数字200或者30都是对的。
+NormalNotice=机动车行驶中遇有下列情形之一的，最高行驶速度不得超过每小时30公里，其中拖拉机、电瓶车、轮式专用机械车不得超过每小时15公里：　　     （一）进出非机动车道，通过铁路道口、急弯路、窄路、窄桥时；　　     （二）掉头、转弯、下陡坡时；　　     （三）遇雾、雨、雪?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

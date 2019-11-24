@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15398
 Url=http://tiba.jsyks.com/Post/801a9.htm
-Tittle=��ʻĦ�г�ʱӦ�������нź����Ь�ײ����׻���Ь��ѥ���Ա�֤�ýŻ�������׼ȷ���ɿ���
+Tittle=驾驶摩托车时应当穿着有脚后跟、鞋底不容易滑的鞋或靴，以保证用脚换档的灵活，准确而可靠。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=������Ь�ӻ���ѥ�ӱȽ����׸�֪ɲ���������ţ��Ӷ����׳��ֲȿջ����������͵������
-NormalNotice=������Ь�ӻ���ѥ�ӱȽ����׸�֪ɲ���������ţ��Ӷ����׳��ֲȿջ����������͵������
+SkillNotice=穿跟脚鞋子或者靴子比较容易感知刹车或者油门，从而不易出现踩空或者用力过猛的情况。
+NormalNotice=穿跟脚鞋子或者靴子比较容易感知刹车或者油门，从而不易出现踩空或者用力过猛的情况。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2223
 Url=http://tiba.jsyks.com/Post/d71f1.htm
-Tittle=Õâ¸öµ¼Ïò¼ıÍ·ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªå¯¼å‘ç®­å¤´æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2223.jpg
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=Ö±ĞĞ  Ö±ĞĞ
-NormalNotice=ÊúÏò¼ıÍ·Ö¸Ê¾Ö±ĞĞ¡£
+SkillNotice=ç›´è¡Œ  ç›´è¡Œ
+NormalNotice=ç«–å‘ç®­å¤´æŒ‡ç¤ºç›´è¡Œã€‚
 [Options]
-Options1=Ö¸Ê¾ºÏÁ÷
-Options2=Ö¸Ê¾½ûĞĞ
-Options3=Ö¸Ê¾³µµÀ
-Options4=Ö¸Ê¾Ö±ĞĞ
+Options1=æŒ‡ç¤ºåˆæµ
+Options2=æŒ‡ç¤ºç¦è¡Œ
+Options3=æŒ‡ç¤ºè½¦é“
+Options4=æŒ‡ç¤ºç›´è¡Œ
 Image1=
 Image2=
 Image3=
-Image4=Ö±ĞĞ
+Image4=ç›´è¡Œ
 [AnswerInfo]
 Answer1=0
 Answer2=0

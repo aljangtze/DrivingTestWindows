@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=4075
 Url=http://tiba.jsyks.com/Post/46c54.htm
-Tittle=ÕâÊÇÊ²Ã´Ì¤°å£¿
+Tittle=è¿™æ˜¯ä»€ä¹ˆè¸æ¿ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4075.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=´Ó×óÍùÓÒÊýÆð£¬×îÓÒ±ßµÄÕâ¸ö½Ð×öÓÍÃÅ£¬Ò²½Ð¼ÓËÙÌ¤°å¡£
-NormalNotice=Æû³µ¿É·ÖÊÖ¶¯µµ MT ºÍ×Ô¶¯µµ AT £¬MT£º ¹²Èý¸öÌ¤°å£¬´Ó×óÍùÓÒÊýÆð£¬·Ö±ðÊÇÀëºÏ£¬ÖÆ¶¯£¨É²³µ£©£¬ÓÍÃÅ¡£     ×ó½Å¸ºÔðÀëºÏ£¬ÓÒ½Å¸ºÔðÖÆ¶¯£¬ÓÍÃÅ¡£AT£º¹²Á½¸öÌ¤°å£¬·Ö±ðÊÇÖÆ¶¯£¬ÓÍÃÅ¡£¶¼ÊÇÓÉÓÒ½Å¸ºÔð£¨´Ó×óÍùÓÒÊý£©¡£
+SkillNotice=ä»Žå·¦å¾€å³æ•°èµ·ï¼Œæœ€å³è¾¹çš„è¿™ä¸ªå«åšæ²¹é—¨ï¼Œä¹Ÿå«åŠ é€Ÿè¸æ¿ã€‚
+NormalNotice=æ±½è½¦å¯åˆ†æ‰‹åŠ¨æ¡£ MT å’Œè‡ªåŠ¨æ¡£ AT ï¼ŒMTï¼š å…±ä¸‰ä¸ªè¸æ¿ï¼Œä»Žå·¦å¾€å³æ•°èµ·ï¼Œåˆ†åˆ«æ˜¯ç¦»åˆï¼Œåˆ¶åŠ¨ï¼ˆåˆ¹è½¦ï¼‰ï¼Œæ²¹é—¨ã€‚     å·¦è„šè´Ÿè´£ç¦»åˆï¼Œå³è„šè´Ÿè´£åˆ¶åŠ¨ï¼Œæ²¹é—¨ã€‚ATï¼šå…±ä¸¤ä¸ªè¸æ¿ï¼Œåˆ†åˆ«æ˜¯åˆ¶åŠ¨ï¼Œæ²¹é—¨ã€‚éƒ½æ˜¯ç”±å³è„šè´Ÿè´£ï¼ˆä»Žå·¦å¾€å³æ•°ï¼‰ã€‚
 [Options]
-Options1=×¤³µÖÆ¶¯Æ÷
-Options2=¼ÓËÙÌ¤°å
-Options3=ÀëºÏÆ÷Ì¤°å
-Options4=ÖÆ¶¯Ì¤°å
+Options1=é©»è½¦åˆ¶åŠ¨å™¨
+Options2=åŠ é€Ÿè¸æ¿
+Options3=ç¦»åˆå™¨è¸æ¿
+Options4=åˆ¶åŠ¨è¸æ¿
 Image1=
-Image2=¼ÓËÙ
+Image2=åŠ é€Ÿ
 Image3=
 Image4=
 [AnswerInfo]

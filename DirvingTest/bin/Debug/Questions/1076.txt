@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1076
 Url=http://tiba.jsyks.com/Post/c79d1.htm
-Tittle=��ʻ�������ڵ�·�ϵ�ͷʱ��ǰ������ת��ơ�
+Tittle=驾驶机动车在道路上掉头时提前开启左转向灯。
 TittleEmphasize=
-SkillEmphasize=��ǰ��&��ת���
+SkillEmphasize=提前开&左转向灯
 ImagePath=
 FlashPath=
 SkillId=14
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=���ɣ���ǰ������ת��ƶԣ����е�ת�������ǰ���ģ������ֵ�ת��ƶԡ�
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ����������ʮ���� ������Ӧ���������й涨ʹ��ת��ƣ�     ������һ������ת�䡢������������׼��������ʻ��ͣ���ص���ߵ�ͷʱ��Ӧ����ǰ������ת��ƣ�     ��������������ת�䡢���ұ���������������ʻ��ԭ��������·��ͣ��ʱ��?
+SkillNotice=技巧：提前开启左转向灯对，题中的转向灯是提前开的，带左字的转向灯对。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第五十七条 机动车应当按照下列规定使用转向灯：     　　（一）向左转弯、向左变更车道、准备超车、驶离停车地点或者掉头时，应当提前开启左转向灯；     　　（二）向右转弯、向右变更车道、超车完毕驶回原车道、靠路边停车时，?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

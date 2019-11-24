@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11119
 Url=http://tiba.jsyks.com/Post/657d8.htm
-Tittle=���ٹ�·��ȫ����ȷ��·������ȷ�ϳ�����ÿСʱ100����ʱ�İ�ȫ���롣
+Tittle=高速公路安全距离确认路段用于确认车速在每小时100公里时的安全距离。
 TittleEmphasize=
-SkillEmphasize=��ȫ����
+SkillEmphasize=安全距离
 ImagePath=11119.jpg
 FlashPath=
 SkillId=41
 MoudleId=11
 Type=1
 Classification=4
-BankId=0
+BankId=23
 [SkillInfo]
-SkillNotice=��ȫ���룬�ԣ�
-NormalNotice=��ͼ��ʾ��һ��������������ɫ�����ӣ���������ֱַ�Ϊ��0m��50m����Զ����һ����Ȼ�����������Ҳ���������100m�����ӣ�Ҳ����Ҫ������100���ڳ��ӵ��ٶȡ� ���˵����������ȷ��
+SkillNotice=安全距离，对！
+NormalNotice=如图所示，一共竖立了三块绿色的牌子，上面的数字分别为，0m、50m，在远处的一个虽然看不清楚，但也可推算出是100m的牌子，也就是要看在这100米内车子的速度。 如此说来，本题正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

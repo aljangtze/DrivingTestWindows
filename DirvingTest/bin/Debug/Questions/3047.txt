@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3047
 Url=http://tiba.jsyks.com/Post/4bdab.htm
-Tittle=������ʱ����ͣ����׼����ʱ��Ӧ����������
+Tittle=车辆临时靠边停车后准备起步时，应先怎样做？
 TittleEmphasize=
-SkillEmphasize=��
+SkillEmphasize=起步
 ImagePath=
 FlashPath=
 SkillId=32
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=��ס��׼����Ҫ�۲죬�𰸾�ѡ�۲���Χ��������³����ϳ����𲽣�ͣ�� �����복��������Ů����ȵȶ�Ҫ�۲졣
-NormalNotice=�ȹ۲죬������
+SkillNotice=记住：准备起步要观察，答案就选观察周围情况，在下车，上车，起步，停车 ，汇入车流，处男女对象等等都要观察。
+NormalNotice=先观察，后喇叭
 [Options]
-Options1=��߷�����ת��
-Options2=������
-Options3=������
-Options4=�۲���Χ��ͨ���
+Options1=提高发动机转速
+Options2=加油起步
+Options3=鸣喇叭
+Options4=观察周围交通情况
 Image1=
 Image2=
 Image3=
-Image4=�۲�
+Image4=观察
 [AnswerInfo]
 Answer1=0
 Answer2=0

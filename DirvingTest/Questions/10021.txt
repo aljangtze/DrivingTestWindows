@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=10021
 Url=http://tiba.jsyks.com/Post/85d3d.htm
-Tittle=¼İÊ»»ú¶¯³µÓöµ½ÕâÑùµÄĞĞÈËÔõÑùÀñÈÃ£¿
+Tittle=é©¾é©¶æœºåŠ¨è½¦é‡åˆ°è¿™æ ·çš„è¡Œäººæ€æ ·ç¤¼è®©ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=10021.jpg
@@ -10,21 +10,21 @@ SkillId=45
 MoudleId=10
 Type=2
 Classification=4
-BankId=0
+BankId=29
 [SkillInfo]
-SkillNotice=Ñ¡¼õËÙ»òÍ£³µÈÃĞĞ¡£
-NormalNotice=ÀñÈÃĞĞÈË
+SkillNotice=é€‰å‡é€Ÿæˆ–åœè½¦è®©è¡Œã€‚
+NormalNotice=ç¤¼è®©è¡Œäºº
 [Options]
-Options1=¼ÓËÙ´ÓÉíºóÈÆĞĞ
-Options2=Á¬ĞøÃùÀ®°ÈÌáĞÑ
-Options3=¼õËÙ»òÍ£³µÈÃĞĞ
-Options4=¼ÓËÙ´ÓÇ°·½ÈÆ¹ı
-Image1=
+Options1=å‡é€Ÿæˆ–åœè½¦è®©è¡Œ
+Options2=è¿ç»­é¸£å–‡å­æé†’
+Options3=åŠ é€Ÿä»èº«åç»•è¡Œ
+Options4=åŠ é€Ÿä»å‰æ–¹ç»•è¿‡
+Image1=å‡é€Ÿ
 Image2=
-Image3=¼õËÙ
+Image3=
 Image4=
 [AnswerInfo]
-Answer1=0
+Answer1=1
 Answer2=0
-Answer3=1
+Answer3=0
 Answer4=0

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5054
 Url=http://tiba.jsyks.com/Post/7fc68.htm
-Tittle=������60�����ϳ���׼�ݳ���Ϊ���ͻ����ļ�ʻ�ˣ�Ӧ������ʻ֤�˷��س�������������׼�ݳ���ΪС��������С���Զ��������ļ�ʻ֤��
+Tittle=年龄在60岁以上持有准驾车型为大型货车的驾驶人，应当到驾驶证核发地车辆管理所换领准驾车型为小型汽车或小型自动挡汽车的驾驶证。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=����ʻ֤�����ʹ�ù涨������ʮ�����涨��    ����ﵽ60���꣬����׼�ݳ���Ϊ���Ϳͳ���ǣ���������й����������Ϳͳ������ͻ����Ļ�������ʻ�ˣ�Ӧ������������ʻ֤�˷��س�������������׼�ݳ���ΪС����������С���Զ��������Ļ�������ʻ֤������ﵽ70���꣬����׼�ݳ�
-NormalNotice=����ʻ֤�����ʹ�ù涨������ʮ�����涨��    ����ﵽ60���꣬����׼�ݳ���Ϊ���Ϳͳ���ǣ���������й����������Ϳͳ������ͻ����Ļ�������ʻ�ˣ�Ӧ������������ʻ֤�˷��س�������������׼�ݳ���ΪС����������С���Զ��������Ļ�������ʻ֤������ﵽ70���꣬����׼�ݳ�
+SkillNotice=《驾驶证申领和使用规定》第三十七条规定：    年龄达到60周岁，持有准驾车型为大型客车、牵引车、城市公交车、中型客车、大型货车的机动车驾驶人，应当到机动车驾驶证核发地车辆管理所换领准驾车型为小型汽车或者小型自动挡汽车的机动车驾驶证；年龄达到70周岁，持有准驾车
+NormalNotice=《驾驶证申领和使用规定》第三十七条规定：    年龄达到60周岁，持有准驾车型为大型客车、牵引车、城市公交车、中型客车、大型货车的机动车驾驶人，应当到机动车驾驶证核发地车辆管理所换领准驾车型为小型汽车或者小型自动挡汽车的机动车驾驶证；年龄达到70周岁，持有准驾车
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

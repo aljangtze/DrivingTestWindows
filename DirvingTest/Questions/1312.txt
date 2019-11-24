@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1312
 Url=http://tiba.jsyks.com/Post/f9601.htm
-Tittle=��ʻ������������Υ����Ϊһ�μ�12�֣�
+Tittle=驾驶人有下列哪种违法行为一次记12分？
 TittleEmphasize=
-SkillEmphasize=һ�μ�12��
+SkillEmphasize=一次记12分
 ImagePath=
 FlashPath=
 SkillId=68
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=8
 [SkillInfo]
-SkillNotice=���⣺һ�μ�12�ֵ�ѡ���ƣ�ѡ���������ں��Ƶĺͼ�ʻ��׼�ݳ��Ͳ����Ķ��Ǽ�12�֡���ס����Ŀ��12�֣��𰸾�ѡ���ƣ�û�к��Ƶľ�ѡ������    
-NormalNotice=��������ʻ��������Υ����Ϊ֮һ��һ�μ�12�֣�        ��һ����ʻ��׼�ݳ��Ͳ����Ļ������ģ�        ���������ƺ��ʻ�������ģ�        ��������ʻӪ�˿ͳ���������������������У�����˳����˶�����20�����ϵģ�        ���ģ���ɽ�ͨ�¹ʺ����ݣ��в����ɷ���ģ�    
+SkillNotice=看题：一次记12分的选号牌，选不符。关于号牌的和驾驶与准驾车型不符的都是记12分。记住：题目有12分，答案就选号牌，没有号牌的就选不符。    
+NormalNotice=机动车驾驶人有下列违法行为之一，一次记12分：        （一）驾驶与准驾车型不符的机动车的；        （二）饮酒后驾驶机动车的；        （三）驾驶营运客车（不包括公共汽车）、校车载人超过核定人数20％以上的；        （四）造成交通事故后逃逸，尚不构成犯罪的；    
 [Options]
-Options1=���򡢽����ֻ���
-Options2=ʹ��α�����������
-Options3=Υ�������־ָʾ
-Options4=Υ����ͨ�źŵ�
+Options1=拨打、接听手机的
+Options2=使用伪造机动车号牌
+Options3=违反禁令标志指示
+Options4=违反交通信号灯
 Image1=
-Image2=α�����������
+Image2=伪造机动车号牌
 Image3=
 Image4=
 [AnswerInfo]

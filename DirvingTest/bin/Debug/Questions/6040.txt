@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6040
 Url=http://tiba.jsyks.com/Post/cd35d.htm
-Tittle=�Ͻ��ڳ���δͣ�Ȼ���ʻ;�п������ţ��Է��˿ͱ�˦������¹ʡ�
+Tittle=严禁在车辆未停稳或行驶途中开启车门，以防乘客被甩出酿成事故。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=�����İ�ȫ��ʶ��һ��Ҫ֪����
-NormalNotice=�����İ�ȫ��ʶ��һ��Ҫ֪����
+SkillNotice=基本的安全常识，一定要知道。
+NormalNotice=基本的安全常识，一定要知道。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

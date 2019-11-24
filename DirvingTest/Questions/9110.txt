@@ -1,22 +1,22 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=9110
 Url=http://tiba.jsyks.com/Post/f308d.htm
-Tittle=ÓÒ²à±êÖ¾Ö¸Ê¾Ç°·½ÉèÓĞ±ÜÈÃÀ´³µµÄ´¦Ëù¡£
+Tittle=å³ä¾§æ ‡å¿—æŒ‡ç¤ºå‰æ–¹è®¾æœ‰é¿è®©æ¥è½¦çš„å¤„æ‰€ã€‚
 TittleEmphasize=
-SkillEmphasize=±ÜÈÃÀ´³µ
+SkillEmphasize=é¿è®©æ¥è½¦
 ImagePath=9110.jpg
 FlashPath=
 SkillId=42
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=24
 [SkillInfo]
-SkillNotice=±êÖ¾ÊÇ´í³µµÀ£¬Ò²¾ÍÊÇ±ÜÈÃÀ´³µµÄ´¦Ëù£¬¶Ô£¡
-NormalNotice=´í³µµÀ
+SkillNotice=æ ‡å¿—æ˜¯é”™è½¦é“ï¼Œä¹Ÿå°±æ˜¯é¿è®©æ¥è½¦çš„å¤„æ‰€ï¼Œå¯¹ï¼
+NormalNotice=é”™è½¦é“
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

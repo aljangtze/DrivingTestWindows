@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11050
 Url=http://tiba.jsyks.com/Post/c5ad4.htm
-Tittle=���쳬��Ҫ����ǰ�յƣ�����������Ѹ�ٳ�Խ��
+Tittle=雨天超车要开启前照灯，连续鸣喇叭迅速超越。
 TittleEmphasize=
-SkillEmphasize=Ѹ�ٳ�Խ
+SkillEmphasize=迅速超越
 ImagePath=
 FlashPath=
 SkillId=40
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=16
 [SkillInfo]
-SkillNotice=��ס����Ѹ�ٳ���������������Ѹ�ٳ�����
-NormalNotice=�������������ܼ��ȵͣ�����Ӧ�����У�����Ҫ������Ҳ�������������ȣ�����Ҫȷ����ȫ������³����� ���Դ���Ĺؼ��ڡ�Ѹ�١����֡� ��˱������
+SkillNotice=记住：有迅速超车，错。鸣喇叭迅速超，错
+NormalNotice=这种天气里面能见度低，车辆应该慢行，就算要超车，也不能连续鸣喇叭，而且要确保安全的情况下超车。 所以此题的关键在“迅速”两字。 因此本题错误。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

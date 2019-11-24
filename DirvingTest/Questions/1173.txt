@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1173
 Url=http://tiba.jsyks.com/Post/4fac5.htm
-Tittle=�����·�ڿ��Ե�ͷ��
+Tittle=在这个路口可以掉头。
 TittleEmphasize=
-SkillEmphasize=���Ե�ͷ
+SkillEmphasize=可以掉头
 ImagePath=1173.jpg
 FlashPath=
 SkillId=15
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=��ͼ��ͼ�н�ֹ��ת�ı�־���Ե�ͷ����
-NormalNotice=����ʮ���� ���������н�ֹ��ͷ���߽�ֹ��ת���־�����ߵĵص��Լ�����·���ڡ����к�������������䡢���¡������������׷���Σ�յ�·�Σ����õ�ͷ��    ��������û�н�ֹ��ͷ����û�н�ֹ��ת���־�����ߵĵص���Ե�ͷ�������÷���������ʻ���������������˵�ͨ�С�
+SkillNotice=看图：图中禁止左转的标志可以掉头错。
+NormalNotice=第四十九条 机动车在有禁止掉头或者禁止左转弯标志、标线的地点以及在铁路道口、人行横道、桥梁、急弯、陡坡、隧道或者容易发生危险的路段，不得掉头。    机动车在没有禁止掉头或者没有禁止左转弯标志、标线的地点可以掉头，但不得妨碍正常行驶的其他车辆和行人的通行。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

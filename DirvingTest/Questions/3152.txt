@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=3152
 Url=http://tiba.jsyks.com/Post/11bdc.htm
-Tittle=Ò¹¼äĞĞ³µÖĞ£¬Ç°·½³öÏÖÍäµÀÊ±£¬µÆ¹âÕÕÉä»á·¢ÉúÔõÑùµÄ±ä»¯£¿
+Tittle=å¤œé—´è¡Œè½¦ä¸­ï¼Œå‰æ–¹å‡ºç°å¼¯é“æ—¶ï¼Œç¯å…‰ç…§å°„ä¼šå‘ç”Ÿæ€æ ·çš„å˜åŒ–ï¼Ÿ
 TittleEmphasize=
-SkillEmphasize=ÍäµÀ
+SkillEmphasize=å¼¯é“
 ImagePath=
 FlashPath=
 SkillId=32
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=¿´Ìâ£º³öÏÖÍäµÀ£¬µÆ¹âÓÉÂ·ÖĞµ½Â·²â¡£
+SkillNotice=çœ‹é¢˜ï¼šå‡ºç°å¼¯é“ï¼Œç¯å…‰ç”±è·¯ä¸­åˆ°è·¯æµ‹ã€‚
 NormalNotice=
 [Options]
-Options1=ÓÉÂ·ÖĞÒÆµ½Â·²à
-Options2=ÓÉ¸ß±äµÍ
-Options3=Àë¿ªÂ·Ãæ
-Options4=¾àÀë²»±ä
-Image1=ÖĞ
+Options1=ç”±è·¯ä¸­ç§»åˆ°è·¯ä¾§
+Options2=ç”±é«˜å˜ä½
+Options3=ç¦»å¼€è·¯é¢
+Options4=è·ç¦»ä¸å˜
+Image1=ä¸­
 Image2=
 Image3=
 Image4=

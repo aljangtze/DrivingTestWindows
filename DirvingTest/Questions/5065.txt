@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5065
 Url=http://tiba.jsyks.com/Post/d011a.htm
-Tittle=���д��Ϳͳ���ǣ���������й����������Ϳͳ������ͻ�����ʻ֤�ļ�ʻ�ˣ��ڼǷ��������мǷֵģ�Ӧ���ڼǷ����ڽ�������ʮ���ڵ��������ؽ�ͨ�������Ž������顣
+Tittle=持有大型客车、牵引车、城市公交车、中型客车、大型货车驾驶证的驾驶人，在记分周期内有记分的，应当在记分周期结束后三十日内到公安机关交通管理部门接受审验。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=Ӳ�Թ涨�����Ҫ�����ˣ��ǼǷ����ڽ�������ʮ���ڣ������ǼǷ����ڽ���ǰ��ʮ���ڣ�
-NormalNotice=Ӳ�Թ涨�����Ҫ�����ˣ��ǼǷ����ڽ�������ʮ���ڣ������ǼǷ����ڽ���ǰ��ʮ���ڣ�
+SkillNotice=硬性规定，大家要记牢了，是记分周期结束后三十日内，而不是记分周期结束前三十日内！
+NormalNotice=硬性规定，大家要记牢了，是记分周期结束后三十日内，而不是记分周期结束前三十日内！
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

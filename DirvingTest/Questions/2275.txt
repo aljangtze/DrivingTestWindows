@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2275
 Url=http://tiba.jsyks.com/Post/52045.htm
-Tittle=Õâ¸ö±êÖ¾µÄº¬ÒåÊÇÇ°·½¼´½«ÐÐÊ»ÖÁYÐÍ½»²æÂ·¿Ú¡£
+Tittle=è¿™ä¸ªæ ‡å¿—çš„å«ä¹‰æ˜¯å‰æ–¹å³å°†è¡Œé©¶è‡³Yåž‹äº¤å‰è·¯å£ã€‚
 TittleEmphasize=
 SkillEmphasize=Y
 ImagePath=2275.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=Õâ¸öÊÇT×ÖÂ·¿Ú£¬²»ÊÇy¡£´í
-NormalNotice=Õâ¸öÊÇT×ÖÂ·¿Ú£¬²»ÊÇy
+SkillNotice=è¿™ä¸ªæ˜¯Tå­—è·¯å£ï¼Œä¸æ˜¯yã€‚é”™
+NormalNotice=è¿™ä¸ªæ˜¯Tå­—è·¯å£ï¼Œä¸æ˜¯y
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

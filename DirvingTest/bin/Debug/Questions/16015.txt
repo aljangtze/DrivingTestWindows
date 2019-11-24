@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=16015
 Url=http://tiba.jsyks.com/Post/33b74.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16015.jpg
@@ -11,13 +11,12 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=
-NormalNotice=
+SkillNotice=NormalNotice=
 [Options]
-Options1=×¢ÒâĞĞÈË
-Options2=ÈËĞĞºáµÀ
-Options3=×¢Òâ¶ùÍ¯
-Options4=Ñ§Ğ£ÇøÓò
+Options1=æ³¨æ„è¡Œäºº
+Options2=äººè¡Œæ¨ªé“
+Options3=æ³¨æ„å„¿ç«¥
+Options4=å­¦æ ¡åŒºåŸŸ
 Image1=
 Image2=
 Image3=

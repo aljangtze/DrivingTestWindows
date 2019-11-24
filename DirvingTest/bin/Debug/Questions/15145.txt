@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15145
 Url=http://tiba.jsyks.com/Post/50de0.htm
-Tittle=��ʻ�������Ҳ���ͣ��λʱ���Խ����е�ͣ�š�
+Tittle=驾驶机动车找不到停车位时可以借人行道停放。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=���л����񹲺͹���·��ͨ��ȫ��������ʮ������������Ӧ���ڹ涨�ص�ͣ�ţ���ֹ�����е���ͣ�Ż���������
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��������ʮ������������Ӧ���ڹ涨�ص�ͣ�ţ���ֹ�����е���ͣ�Ż���������
+SkillNotice=《中华人民共和国道路交通安全法》第五十六条“机动车应当在规定地点停放，禁止在人行道上停放机动车。”
+NormalNotice=《中华人民共和国道路交通安全法》第五十六条“机动车应当在规定地点停放，禁止在人行道上停放机动车。”
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

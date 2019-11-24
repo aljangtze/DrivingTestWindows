@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8246
 Url=http://tiba.jsyks.com/Post/6aae7.htm
-Tittle=��·�ڵ�ͷʱ��Ӧ��ǰ������ת��ƽ��뵼�򳵵������÷������˺�������������ͨ�С�
+Tittle=在路口掉头时，应提前开启左转向灯进入导向车道，不得妨碍行人和其他车辆正常通行。
 TittleEmphasize=
-SkillEmphasize=��ͷ����ǰ������ת��ƣ����÷���
+SkillEmphasize=掉头，提前开启左转向灯，不得妨碍
 ImagePath=
 FlashPath=
 SkillId=44
 MoudleId=8
 Type=1
 Classification=4
-BankId=0
+BankId=31
 [SkillInfo]
-SkillNotice=��ͷ��ʱ�򣬾Ͳ��÷������˺ͳ���ͨ�С��ԣ�
-NormalNotice=���ݡ��л����񹲺͹���·��ͨ��ȫ��������ʮ�����Ĺ涨����·�ڣ����������������к���ϵ�ͷ��        ��ȷ��������Ϊ�Ĳ���             һ���������뵼�򳵵��󣬿ɽ����������������������ʻ��             ������������ֹͣ��ʱ���ɽ�������������ת���ó�ͷ������
+SkillNotice=掉头的时候，就不得妨碍行人和车辆通行。对！
+NormalNotice=根据《中华人民共和国道路交通安全法》第四十九条的规定，在路口，机动车不能在人行横道上掉头。        正确的做法分为四步：             一、当车进入导向车道后，可将车尽量贴近车道的左侧行驶；             二、行至车辆停止线时，可将方向盘稍向右转，让车头向“两点
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1259
 Url=http://tiba.jsyks.com/Post/e0378.htm
-Tittle=�ϵ�·��ʻ�Ļ��������������ν�ͨ�������������������
+Tittle=上道路行驶的机动车有哪种情形交通警察可依法扣留车辆？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=3
 [SkillInfo]
-SkillNotice=���𰸣��ĸ�δ��ѡδ�Һ��ƣ��ĸ�ѡ��С�δ����ѡ�к��ƣ��б��ձ�־���м���ϸ��־��ѡ�
-NormalNotice=�ڶ�ʮ���� ����������֮һ�ģ���������������        ����(һ)�ϵ�·��ʻ�Ļ�����δ���һ��������ƣ�δ���ü���ϸ��־�����ձ�־������δ�泵Я����������ʻ֤����ʻ֤�ģ�        ����(��)��α�졢�������ʹ��α�졢����Ļ������Ǽ�֤�顢���ơ���ʻ֤������ϸ��־?
+SkillNotice=看答案：四个未字选未挂号牌，四个选项都有“未”，选有号牌，有保险标志，有检验合格标志的选项。
+NormalNotice=第二十五条 有下列情形之一的，依法扣留车辆：        　　(一)上道路行驶的机动车未悬挂机动车号牌，未放置检验合格标志、保险标志，或者未随车携带机动车行驶证、驾驶证的；        　　(二)有伪造、变造或者使用伪造、变造的机动车登记证书、号牌、行驶证、检验合格标志?
 [Options]
-Options1=δ���ó��л�����־
-Options2=δЯ�����պ�ͬ
-Options3=δЯ������֤
-Options4=δ���һ���������
-Image1=δ
-Image2=δ
-Image3=δ
-Image4=δ&����
+Options1=未放置城市环保标志
+Options2=未携带保险合同
+Options3=未携带身份证
+Options4=未悬挂机动车号牌
+Image1=未
+Image2=未
+Image3=未
+Image4=未&号牌
 [AnswerInfo]
 Answer1=0
 Answer2=0

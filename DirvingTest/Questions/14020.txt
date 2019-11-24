@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14020
-Tittle=���ٹ�·�ϳ����������Ϻ󣬿���Σ�ձ�������ƺͰڷž����־�������Ǿ����������ע����á�
-SkillEmphasize=ע�����
+Tittle=高速公路上车辆发生故障后，开启危险报警闪光灯和摆放警告标志的作用是警告后续车辆注意避让。
+SkillEmphasize=注意避让
 ImagePath=
 FlashPath=
 SkillId=12
@@ -10,12 +10,12 @@ Type=1
 Classification=3
 BankId=3
 [SkillInfo]
-SkillNotice=��ס��ע����öԣ�������ע��Ķ��ԡ�
+SkillNotice=记住：注意避让对，题中有注意的都对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

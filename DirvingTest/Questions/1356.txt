@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1356
 Url=http://tiba.jsyks.com/Post/6e2a2.htm
-Tittle=����ʳ��ע�䶾Ʒ���ʻ������Ϊ�Ļ�������ʻ�ˣ����ᱻע����ʻ֤��
+Tittle=有吸食、注射毒品后驾驶车辆行为的机动车驾驶人，不会被注销驾驶证。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=不会
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=���ɣ����ᱻע�������в���������е���˼��ע���˵Ķԣ�����ע���Ĵ���׷�����εĶԣ���׷���Ĵ���            
+SkillNotice=技巧：不会被注销错，有不会错，题中的意思被注销了的对，不会注销的错。追究责任的对，不追究的错。            
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

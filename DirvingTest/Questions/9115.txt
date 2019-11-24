@@ -1,22 +1,22 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=9115
 Url=http://tiba.jsyks.com/Post/fe055.htm
-Tittle=Õâ¸ö±êÖ¾±íÊ¾Ç°·½³µµÀÊıÁ¿Ôö¼Ó¡£
+Tittle=è¿™ä¸ªæ ‡å¿—è¡¨ç¤ºå‰æ–¹è½¦é“æ•°é‡å¢åŠ ã€‚
 TittleEmphasize=
-SkillEmphasize=¼Ó
+SkillEmphasize=åŠ 
 ImagePath=9115.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=34
 [SkillInfo]
-SkillNotice=±êÖ¾ÓĞÁ½Ìõ±äÈıÌõÈıÌõ±äÁ½Ìõ¶¼£¬´í£¡
-NormalNotice=³µµÀÊı±äÉÙ
+SkillNotice=æ ‡å¿—æœ‰ä¸¤æ¡å˜ä¸‰æ¡ä¸‰æ¡å˜ä¸¤æ¡éƒ½ï¼Œé”™ï¼
+NormalNotice=è½¦é“æ•°å˜å°‘
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

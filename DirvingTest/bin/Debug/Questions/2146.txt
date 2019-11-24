@@ -1,27 +1,27 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2146
 Url=http://tiba.jsyks.com/Post/6ad66.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2146.jpg
 FlashPath=
-SkillId=30
+SkillId=34
 MoudleId=2
 Type=2
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=¼ıÍ·ÍäÏòÏÂ£¬½ĞµôÍ·¡£
-NormalNotice=ÔÊĞíµôÍ·±êÖ¾
+SkillNotice=ç®­å¤´å¼¯å‘ä¸‹ï¼Œå«æ‰å¤´ã€‚
+NormalNotice=å…è®¸æ‰å¤´æ ‡å¿—
 [Options]
-Options1=ÈÆĞĞ
-Options2=×ó×ª
-Options3=µôÍ·
-Options4=µ¹³µ
+Options1=å·¦è½¬
+Options2=ç»•è¡Œ
+Options3=æ‰å¤´
+Options4=å€’è½¦
 Image1=
 Image2=
-Image3=µôÍ·
+Image3=æ‰å¤´
 Image4=
 [AnswerInfo]
 Answer1=0

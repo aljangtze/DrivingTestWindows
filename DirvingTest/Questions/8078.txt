@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8078
 Url=http://tiba.jsyks.com/Post/af074.htm
-Tittle=��ʻ�����������·�ڿ����ص�ͷ����ֱ�ӵ�ͷ��
+Tittle=驾驶机动车在这个路口可以沿掉头车道直接掉头。
 TittleEmphasize=
-SkillEmphasize=ֱ�ӵ�ͷ
+SkillEmphasize=直接掉头
 ImagePath=8078.jpg
 FlashPath=
 SkillId=42
 MoudleId=8
 Type=1
 Classification=4
-BankId=0
+BankId=33
 [SkillInfo]
-SkillNotice=��ƶ����ˣ����ܵ�ͷ��ֱ�ӵ�ͷ����ֱ�ӵĴ���
-NormalNotice=������ ���ɵ�ͷ���ͷ�ƺ��������~
+SkillNotice=红灯都亮了，不能掉头，直接掉头错，直接的错！
+NormalNotice=很明显 不可掉头嘛，掉头灯红灯亮着呢~
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

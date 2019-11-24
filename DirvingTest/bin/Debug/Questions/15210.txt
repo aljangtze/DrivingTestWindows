@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=15210
 Url=http://tiba.jsyks.com/Post/5cbe8.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=15210.jpg
@@ -14,10 +14,10 @@ Classification=5
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=ÈËĞĞºáµÀ
-Options2=×¢ÒâĞĞÈË
-Options3=×¢Òâ¶ùÍ¯
-Options4=Ñ§Ğ£ÇøÓò
+Options1=äººè¡Œæ¨ªé“
+Options2=æ³¨æ„è¡Œäºº
+Options3=æ³¨æ„å„¿ç«¥
+Options4=å­¦æ ¡åŒºåŸŸ
 Image1=
 Image2=
 Image3=

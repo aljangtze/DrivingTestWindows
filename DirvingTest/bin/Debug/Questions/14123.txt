@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14123
-Tittle=��ǰ��·�γ���������ʻ������Ϊ�����򡢰�ȫ��Ӧ���ν���ͨ�С�
-SkillEmphasize=����������
+Tittle=遇前方路段车道减少行驶缓慢，为了有序、安全，应依次交替通行。
+SkillEmphasize=缓慢，依次
 ImagePath=
 FlashPath=
 SkillId=13
@@ -10,12 +10,12 @@ BankId=0
 Type=1
 Classification=3
 [SkillInfo]
-SkillNotice=��ס���л�������ȫ������ͨ�еĶԡ�
+SkillNotice=记住：有缓慢，安全，依次通行的对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

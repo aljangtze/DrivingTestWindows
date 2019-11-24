@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14103
-Tittle=����Ţ·���г���Ҫƽ�ȵ�ת�������̣������ɿ���ת�������̶�����໬��
-SkillEmphasize=����
+Tittle=在泥泞路段行车，要平稳地转动方向盘，避免由快速转动方向盘而引起侧滑。
+SkillEmphasize=避免
 ImagePath=
 FlashPath=
 SkillId=48
@@ -10,12 +10,12 @@ Type=1
 Classification=4
 BankId=19
 [SkillInfo]
-SkillNotice=�������ת�����򣬶ԡ�������٣���Ҫ�����ģ����ԡ�
+SkillNotice=避免快速转动方向，对。避免快速，或不要紧急的，都对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

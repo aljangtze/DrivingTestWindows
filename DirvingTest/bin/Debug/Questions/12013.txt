@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12013
 Url=http://tiba.jsyks.com/Post/b4173.htm
-Tittle=�г�����̥ͻȻ����ʱ��Ӧ����ʩ��ʲô��
+Tittle=行车中轮胎突然爆裂时的应急措施是什么？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,16 +12,16 @@ Type=2
 Classification=4
 BankId=30
 [SkillInfo]
-SkillNotice=�����м��ٺ�ͣ��ʱ��ѡͣ����ƽ��ͣ����Ѹ�ټ��ٸ���ȫ��
-NormalNotice=���Բ������ƶ����٣���ʱ��������ƫ��̥һ�ߣ��ƶ���Ӿ�����ƫ�ƣ���ɷ����� ��̥ʱҪע����պ÷������ʶ�������һ����ٱ�̥ʱ�����ӻἱ��ƫ��̥���򣬴�ʱ�������侲������������ʵķ����������ȣ����ӽ��޷���֤��ʻ�����ڹ�·������ҡ�������Ƿǳ�Σ�յ�?
+SkillNotice=答案中有减速和停车时，选停车。平稳停车比迅速减速更安全。
+NormalNotice=绝对不可以制动减速，此时车子重心偏向爆胎一边，制动会加剧重心偏移，造成翻车。 爆胎时要注意把握好方向，做适度修正。一般高速爆胎时，车子会急速偏向爆胎方向，此时若不能冷静处理，给予合适的方向修正力度，车子将无法保证行驶方向，在公路上来回摇动，这是非常危险的?
 [Options]
-Options1=Ѹ���ƶ�����
-Options2=������ʻ��Ѱ�һ���̥�ص�
-Options3=����ת���̣�����ƽ��ͣ��
-Options4=Ѹ��ת��ת���̵�������
-Image1=Ѹ�٣�����
+Options1=迅速制动减速
+Options2=低速行驶，寻找换轮胎地点
+Options3=紧握转向盘，尽快平稳停车
+Options4=迅速转动转向盘调整方向
+Image1=迅速，减速
 Image2=
-Image3=ƽ��ͣ��
+Image3=平稳停车
 Image4=
 [AnswerInfo]
 Answer1=0

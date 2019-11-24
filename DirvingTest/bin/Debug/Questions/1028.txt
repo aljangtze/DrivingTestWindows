@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1028
 Url=http://tiba.jsyks.com/Post/df836.htm
-Tittle=��������֤���Ǽ�ʻ��������·��ʻӦ���泵Я����
+Tittle=下列哪种证件是驾驶机动车上路行驶应当随车携带？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=���𰸣�ѡ�����м���֤���Ҽ�ʻ֤��û�м�ʻ֤�ľ�ѡ��ʻ֤��
-NormalNotice=����·��ͨ��ȫ������ʮһ��������ʻ�������ϵ�·��ʻ��Ӧ�����һ��������ƣ����ü���ϸ��־�����ձ�־�����泵Я����������ʻ֤��
+SkillNotice=看答案：选项中有几个证的找驾驶证，没有驾驶证的就选行驶证。
+NormalNotice=《道路交通安全法》第十一条：　驾驶机动车上道路行驶，应当悬挂机动车号牌，放置检验合格标志、保险标志，并随车携带机动车行驶证。
 [Options]
-Options1=���������յ�
-Options2=�������Ǽ�֤
-Options3=�����ϸ�֤��
-Options4=��������ʻ֤
+Options1=机动车保险单
+Options2=机动车登记证
+Options3=出厂合格证明
+Options4=机动车行驶证
 Image1=
-Image2=֤
-Image3=֤
-Image4=��ʻ֤
+Image2=证
+Image3=证
+Image4=行驶证
 [AnswerInfo]
 Answer1=0
 Answer2=0

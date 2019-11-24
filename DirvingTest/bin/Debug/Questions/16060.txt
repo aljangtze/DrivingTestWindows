@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=16060
 Url=http://tiba.jsyks.com/Post/7e143.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16060.jpg
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=<p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utcc5ifjj.jpg>    ×¢Òâ·Ç»ú¶¯³µ</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uutfddfpj.jpg>    ·Ç»ú¶¯³µÐÐÊ»</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uuthlu9qj.jpg>    ·Ç»ú¶¯³µµÀ</p>
-NormalNotice=<p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utcc5ifjj.jpg>    ×¢Òâ·Ç»ú¶¯³µ</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uutfddfpj.jpg>    ·Ç»ú¶¯³µÐÐÊ»</p><p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uuthlu9qj.jpg>    ·Ç»ú¶¯³µµÀ</p>
+SkillNotice=
+NormalNotice=
 [Options]
-Options1=·Ç»ú¶¯³µÍ£³µÎ»
-Options2=µç¶¯×ÔÐÐ³µÐÐÊ»
-Options3=·Ç»ú¶¯³µÍ£·ÅÇø
-Options4=·Ç»ú¶¯³µÐÐÊ»
+Options1=éžæœºåŠ¨è½¦åœè½¦ä½
+Options2=ç”µåŠ¨è‡ªè¡Œè½¦è¡Œé©¶
+Options3=éžæœºåŠ¨è½¦åœæ”¾åŒº
+Options4=éžæœºåŠ¨è½¦è¡Œé©¶
 Image1=
 Image2=
 Image3=

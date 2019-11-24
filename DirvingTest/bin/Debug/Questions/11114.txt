@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11114
 Url=http://tiba.jsyks.com/Post/24fc4.htm
-Tittle=��ʻ�������ڸ��ٹ�·�ѵ��ϲ�׼ͣ����
+Tittle=驾驶机动车在高速公路匝道上不准停车。
 TittleEmphasize=
-SkillEmphasize=��׼ͣ��
+SkillEmphasize=不准停车
 ImagePath=
 FlashPath=
 SkillId=39
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=35
 [SkillInfo]
-SkillNotice=��ס���ѵ��ϲ�׼ͣ���ԣ����ٹ�·���ѵ���׼ͣ������������׼ͣ���ǶԵġ�
-NormalNotice=����Ҫ֪�������ٹ�·�ѵ��Ǹ��ٹ�·���ڻ���ڿ��Ҳ��һ����·��Ҳ����˵�Ǹ��ٹ�·��һ���֡� �����йع涨���ڸ��ٹ�·�ϲ�׼��ͷ��������ͣ��������ڸ��ٹ�·�ѵ���Ҳ���ܵ�ͷ����������ͣ���� ��˱�����ȷ��
+SkillNotice=记住：匝道上不准停车对，高速公路的匝道不准停车，倒车。不准停车是对的。
+NormalNotice=首先要知道，高速公路匝道是高速公路出口或入口靠右侧的一条道路，也就是说是高速公路的一部分。 根据有关规定，在高速公路上不准掉头、倒车或停车，因此在高速公路匝道上也不能掉头、倒车或是停车。 因此本题正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

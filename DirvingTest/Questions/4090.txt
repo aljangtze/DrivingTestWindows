@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4090
 Url=http://tiba.jsyks.com/Post/af009.htm
-Tittle=�ƹ⿪���ڸ�λ��ʱ�������Ƶ�����
+Tittle=灯光开关在该位置时，后雾灯点亮。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4090.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=�㿴��ͣ��λ�������ǳ��ҵģ���Ϊ�����ƣ�����ȷ��
-NormalNotice=�㿴��ͣ��λ�������ǳ��ҵģ���Ϊ�����ƣ�����ȷ��
+SkillNotice=你看它停的位置雾灯是冲右的，此为后雾灯，故正确。
+NormalNotice=你看它停的位置雾灯是冲右的，此为后雾灯，故正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

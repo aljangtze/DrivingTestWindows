@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1342
 Url=http://tiba.jsyks.com/Post/7a9a5.htm
-Tittle=��������ʻ֤��Ч�ڷ�Ϊ6�ꡢ10�ꡢ20�ꡣ
+Tittle=机动车驾驶证有效期分为6年、10年、20年。
 TittleEmphasize=
-SkillEmphasize=20��
+SkillEmphasize=20年
 ImagePath=
 FlashPath=
-SkillId=55
+SkillId=14
 MoudleId=1
 Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=���⣺20�������ס�ж����������ֵ�20�꣬���ֵ�ʮ�궼�Ǵ��ġ���ʻ֤��Ч��û��20���4��ġ�
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ�������ڶ�ʮ������ȷ�涨 ��������ʻ���ڻ�������ʻ֤��6����Ч���ڣ�ÿ���Ƿ����ھ�δ�ﵽ12�ֵģ�����10����Ч�ڵĻ�������ʻ֤���ڻ�������ʻ֤��10����Ч���ڣ�ÿ���Ƿ����ھ�δ�ﵽ12�ֵģ�����������Ч�Ļ�������ʻ֤
+SkillNotice=看题：20年错，记住判断题中有数字的20年，汉字的十年都是错的。驾驶证有效期没有20年和4年的。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第二十六条明确规定 机动车驾驶人在机动车驾驶证的6年有效期内，每个记分周期均未达到12分的，换发10年有效期的机动车驾驶证；在机动车驾驶证的10年有效期内，每个记分周期均未达到12分的，换发长期有效的机动车驾驶证
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

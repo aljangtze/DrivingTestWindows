@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16128
 Url=http://tiba.jsyks.com/Post/bc16b.htm
-Tittle=���������м���·ʱҪ�ڽ�����·����١�
+Tittle=机动车遇有急弯路时要在进入弯路后减速。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=��������·Ӧ����ǰ�������У��ȵ�������·����ٺ����׷����໬��෭����˱������
-NormalNotice=��������·Ӧ����ǰ�������У��ȵ�������·����ٺ����׷����໬��෭����˱������
+SkillNotice=遇到急弯路应当提前减速慢行，等到进入弯路后减速很容易发生侧滑或侧翻。因此本题错误。
+NormalNotice=遇到急弯路应当提前减速慢行，等到进入弯路后减速很容易发生侧滑或侧翻。因此本题错误。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3167
 Url=http://tiba.jsyks.com/Post/74417.htm
-Tittle=�硢�ꡢѩ�����ȸ���������������ǰ���ٶȽϵ�ʱ��Ӧ����ǰ�յƣ�����������Ѹ�ٳ�Խ��
+Tittle=风、雨、雪、雾等复杂气象条件，遇前车速度较低时，应开启前照灯，连续鸣喇叭迅速超越。
 TittleEmphasize=
-SkillEmphasize=Ѹ�ٳ�Խ
+SkillEmphasize=迅速超越
 ImagePath=
 FlashPath=
 SkillId=13
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=���ɣ�������Ѹ�ٳ�Խ������Ѹ�ٳ�Խ�����Գ�������Խʵ�߳�����ȫ����
-NormalNotice=��ȫ��һ,�����Ͻ�����������/���굼�¹�������������Ҫ��ʱ��ѡ��ȫ�ص�ͣ������ɳ�ر��ʱ����ͣ��·�Ϸ紦����ͷ�����ɳ���رհ�Ҷ������ѩ�г���װ���������÷������ƶ����Ƴ��٣�������ʻ�������ᳵ�У�ѡ��ϰ�ȫ�� ���Ҳ����У��ʵ���������������룬����·�߱�?
+SkillNotice=技巧：鸣喇叭迅速超越错，有迅速超越，可以超车，可越实线超车的全错。
+NormalNotice=安全第一,雾天严禁超车；暴雨/大雨导致刮雨器不能满足要求时，选择安全地点停车；风沙特别大时，车停道路上风处，车头背向风沙，关闭百叶窗；冰雪行车，装防滑链，用发动机制动控制车速，低速行驶，超，会车市，选择较安全地 靠右侧慢行，适当增大两车横向距离，且与路边保?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

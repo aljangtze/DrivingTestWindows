@@ -1,21 +1,21 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=15142
 Url=http://tiba.jsyks.com/Post/ccc2b.htm
-Tittle=ÐÐ³µÖÐÓöµ½Ö´ÐÐ½ô¼±ÈÎÎñµÄÏû·À³µ¡¢¾È»¤³µ¡¢¹¤³Ì¾ÈÏÕ³µÊ±Òª¼°Ê±ÈÃÐÐ¡£
+Tittle=è¡Œè½¦ä¸­é‡åˆ°æ‰§è¡Œç´§æ€¥ä»»åŠ¡çš„æ¶ˆé˜²è½¦ã€æ•‘æŠ¤è½¦ã€å·¥ç¨‹æ•‘é™©è½¦æ—¶è¦åŠæ—¶è®©è¡Œã€‚
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=¡¶µÀÂ··¨¡·µÚÎåÊ®ÈýÌõµÚ1¿î¡¡¾¯³µ¡¢Ïû·À³µ¡¢¾È»¤³µ¡¢¹¤³Ì¾ÈÏÕ³µÖ´ÐÐ½ô¼±ÈÎÎñÊ±£¬ÆäËû³µÁ¾ºÍÐÐÈËÓ¦µ±ÈÃÐÐ¡£
-NormalNotice=¡¶µÀÂ··¨¡·µÚÎåÊ®ÈýÌõµÚ1¿î¡¡¾¯³µ¡¢Ïû·À³µ¡¢¾È»¤³µ¡¢¹¤³Ì¾ÈÏÕ³µÖ´ÐÐ½ô¼±ÈÎÎñÊ±£¬ÆäËû³µÁ¾ºÍÐÐÈËÓ¦µ±ÈÃÐÐ¡£
+SkillNotice=ã€Šé“è·¯æ³•ã€‹ç¬¬äº”åä¸‰æ¡ç¬¬1æ¬¾ã€€è­¦è½¦ã€æ¶ˆé˜²è½¦ã€æ•‘æŠ¤è½¦ã€å·¥ç¨‹æ•‘é™©è½¦æ‰§è¡Œç´§æ€¥ä»»åŠ¡æ—¶ï¼Œå…¶ä»–è½¦è¾†å’Œè¡Œäººåº”å½“è®©è¡Œã€‚
+NormalNotice=ã€Šé“è·¯æ³•ã€‹ç¬¬äº”åä¸‰æ¡ç¬¬1æ¬¾ã€€è­¦è½¦ã€æ¶ˆé˜²è½¦ã€æ•‘æŠ¤è½¦ã€å·¥ç¨‹æ•‘é™©è½¦æ‰§è¡Œç´§æ€¥ä»»åŠ¡æ—¶ï¼Œå…¶ä»–è½¦è¾†å’Œè¡Œäººåº”å½“è®©è¡Œã€‚
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

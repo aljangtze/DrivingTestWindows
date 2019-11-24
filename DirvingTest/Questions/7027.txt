@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=7027
 Url=http://tiba.jsyks.com/Post/75642.htm
-Tittle=��ĳ��ʻ���Ϳͳ�������33�ˣ���������ƽ�ϸ��ٹ�·163���ﴦʱ����120����/Сʱ���ٶ���ͣ�����ڲ೵���ϰ�ĳ��ʻ�����¹��޷��ƶ���С�ͳ���δ���þ�ʾ��־����ײ�����Ϳͳ�ײ���Ҳ໤���෭�����16������15�����ˡ�˫����ʻ�˵���ҪΥ����Ϊ��ʲô��
+Tittle=陶某驾驶中型客车（乘载33人），行至许平南高速公路163公里处时，以120公里/小时的速度与停在最内侧车道上安某驾驶的因事故无法移动的小客车（未设置警示标志）相撞，中型客车撞开右侧护栏侧翻，造成16死亡、15人受伤。双方驾驶人的主要违法行为是什么？
 TittleEmphasize=
-SkillEmphasize=
+SkillEmphasize=陶，中型客车（乘载33人），120公里/小时，未设置警示标志
 ImagePath=
 FlashPath=
 SkillId=49
@@ -12,19 +12,19 @@ Type=3
 Classification=4
 BankId=20
 [SkillInfo]
-SkillNotice=���Ϳͳ��˶��ؿ�����10��19�ˣ���19�ˣ���    ���Ϳͳ��ĸ�����ʻ�ٶȲ��ó���80����/Сʱ��    ��ĳδ���þ�ʾ��־��
-NormalNotice=���Ϳͳ��˶��ؿ�����10��19�ˣ���19�ˣ���    ���Ϳͳ��ĸ�����ʻ�ٶȲ��ó���80����/Сʱ��    ��ĳδ���þ�ʾ��־��
+SkillNotice=一：中型客车核载人数为19人，乘载33人属于超员，二：以120公里/小时的速度行驶为超速，三：有故障未设置警告标志。陶某不要法，其它全部选。
+NormalNotice=中型客车核定载客人数10—19人（含19人）；    中型客车的高速行驶速度不得超过80公里/小时；    安某未设置警示标志。
 [Options]
-Options1=��ĳ�ͳ���Ա
-Options2=��ĳδ���涨���þ�ʾ���棩��־
-Options3=��ĳΥ��ͣ��
-Options4=��ĳ������ʻ
+Options1=安某违法停车
+Options2=陶某客车超员
+Options3=陶某超速行驶
+Options4=安某未按规定设置警示（告）标志
 Image1=
-Image2=
-Image3=
-Image4=
+Image2=超员
+Image3=超速
+Image4=未，警示
 [AnswerInfo]
-Answer1=1
+Answer1=0
 Answer2=1
-Answer3=0
+Answer3=1
 Answer4=1

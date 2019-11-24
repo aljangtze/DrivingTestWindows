@@ -1,7 +1,7 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=2255
 Url=http://tiba.jsyks.com/Post/27e7c.htm
-Tittle=б╥цФио╣д╩фи╚╠Й╪гйг╨н╨╛рЕё©
+Tittle=Х╥╞И²╒Д╦┼Г └И╩└Х┴╡Ф═┤Х╝╟Ф≤╞Д╫∙Е░╚Д╧┴О╪÷
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2255.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=р╩╦Ж╡Ф╪сиор╩╦Жсрв╙ё╛╪ср╩фП╬мйг╫Шж╧срв╙ё╛я║╫Шж╧срв╙║ё
-NormalNotice=р╩╦ЖX╪сиор╩╦Жсрв╙ё╛╪ср╩фП╬мйг╫Шж╧срв╙ё╛рР╢к╠╬лБя║C
+SkillNotice=Д╦─Д╦╙Е▐┴Е┼═Д╦┼Д╦─Д╦╙Е▐ЁХ╫╛О╪▄Е┼═Д╦─Х╣╥Е╟╠Ф≤╞Г╕│Ф╜╒Е▐ЁХ╫╛О╪▄И─┴Г╕│Ф╜╒Е▐ЁХ╫╛Ц─┌
+NormalNotice=Д╦─Д╦╙XЕ┼═Д╦┼Д╦─Д╦╙Е▐ЁХ╫╛О╪▄Е┼═Д╦─Х╣╥Е╟╠Ф≤╞Г╕│Ф╜╒Е▐ЁХ╫╛О╪▄Е⌡═Ф╜╓Ф°╛И╒≤И─┴C
 [Options]
-Options1=╫Шж╧вСв╙
-Options2=╫Шж╧срв╙
-Options3=╫Шж╧ж╠пп
-Options4=╫Шж╧╣Тм╥
+Options1=Г╕│Ф╜╒Е╥╕Х╫╛
+Options2=Г╕│Ф╜╒Е▐ЁХ╫╛
+Options3=Г╕│Ф╜╒Г⌡╢Х║▄
+Options4=Г╕│Ф╜╒Ф▌┴Е╓╢
 Image1=
-Image2=╫Шж╧срв╙
+Image2=Г╕│Ф╜╒Е▐ЁХ╫╛
 Image3=
 Image4=
 [AnswerInfo]

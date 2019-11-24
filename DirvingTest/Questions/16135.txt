@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16135
 Url=http://tiba.jsyks.com/Post/2fa6c.htm
-Tittle=��ʻ�˱߼ݳ����ߴ��ֳֵ绰��Υ����Ϊ��
+Tittle=驾驶人边驾车，边打手持电话是违法行为。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=����·��ͨ��ȫ��ʵʩ����������ʮ��������ʻ������������������Ϊ����������ֳֵ绰���ۿ����ӵȷ�����ȫ��ʻ����Ϊ��
-NormalNotice=����·��ͨ��ȫ��ʵʩ����������ʮ��������ʻ������������������Ϊ����������ֳֵ绰���ۿ����ӵȷ�����ȫ��ʻ����Ϊ��
+SkillNotice=《道路交通安全法实施条例》第六十二条：驾驶机动车不得有下列行为：拨打接听手持电话、观看电视等妨碍安全驾驶的行为。
+NormalNotice=《道路交通安全法实施条例》第六十二条：驾驶机动车不得有下列行为：拨打接听手持电话、观看电视等妨碍安全驾驶的行为。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

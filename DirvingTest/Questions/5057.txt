@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=5057
 Url=http://tiba.jsyks.com/Post/4c1b3.htm
-Tittle=È«¹Ò³µµ¹³µÊ±×ªÏòÅÌ×ª¶¯·½ÏòÓëµ¥³µµ¹³µ·½ÏòÏà·´¡£
+Tittle=å…¨æŒ‚è½¦å€’è½¦æ—¶è½¬å‘ç›˜è½¬åŠ¨æ–¹å‘ä¸Žå•è½¦å€’è½¦æ–¹å‘ç›¸åã€‚
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=È«¹Ò³µÌØµã£º±¾ÉíÎÞ¶¯Á¦£¬¶ÀÁ¢³ÐÔØ£¬ÒÀ¿¿ÆäËû³µÁ¾Ç£ÒýÐÐÊ»µÄ³µÁ¾¡£    °ë¹Ò³µÌØµã£º±¾ÉíÎÞ¶¯Á¦£¬ÓëÖ÷³µ¹²Í¬³ÐÔØ£¬ÒÀ¿¿Ö÷³µÇ£ÒýÐÐÊ»µÄ³µÁ¾¡£
-NormalNotice=È«¹Ò³µÌØµã£º±¾ÉíÎÞ¶¯Á¦£¬¶ÀÁ¢³ÐÔØ£¬ÒÀ¿¿ÆäËû³µÁ¾Ç£ÒýÐÐÊ»µÄ³µÁ¾¡£    °ë¹Ò³µÌØµã£º±¾ÉíÎÞ¶¯Á¦£¬ÓëÖ÷³µ¹²Í¬³ÐÔØ£¬ÒÀ¿¿Ö÷³µÇ£ÒýÐÐÊ»µÄ³µÁ¾¡£
+SkillNotice=å…¨æŒ‚è½¦ç‰¹ç‚¹ï¼šæœ¬èº«æ— åŠ¨åŠ›ï¼Œç‹¬ç«‹æ‰¿è½½ï¼Œä¾é å…¶ä»–è½¦è¾†ç‰µå¼•è¡Œé©¶çš„è½¦è¾†ã€‚    åŠæŒ‚è½¦ç‰¹ç‚¹ï¼šæœ¬èº«æ— åŠ¨åŠ›ï¼Œä¸Žä¸»è½¦å…±åŒæ‰¿è½½ï¼Œä¾é ä¸»è½¦ç‰µå¼•è¡Œé©¶çš„è½¦è¾†ã€‚
+NormalNotice=å…¨æŒ‚è½¦ç‰¹ç‚¹ï¼šæœ¬èº«æ— åŠ¨åŠ›ï¼Œç‹¬ç«‹æ‰¿è½½ï¼Œä¾é å…¶ä»–è½¦è¾†ç‰µå¼•è¡Œé©¶çš„è½¦è¾†ã€‚    åŠæŒ‚è½¦ç‰¹ç‚¹ï¼šæœ¬èº«æ— åŠ¨åŠ›ï¼Œä¸Žä¸»è½¦å…±åŒæ‰¿è½½ï¼Œä¾é ä¸»è½¦ç‰µå¼•è¡Œé©¶çš„è½¦è¾†ã€‚
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

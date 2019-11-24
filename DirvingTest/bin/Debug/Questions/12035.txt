@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12035
 Url=http://tiba.jsyks.com/Post/3af32.htm
-Tittle=�����г����г��ƶ�ͻȻʧ��ʱ����ʻ��Ҫ����ƶ���
+Tittle=高速行车中行车制动突然失灵时，驾驶人要如何制动？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,21 +10,21 @@ SkillId=45
 MoudleId=12
 Type=2
 Classification=4
-BankId=30
+BankId=39
 [SkillInfo]
-SkillNotice=�м���ѡ���٣�û�м���ѡ���١���ȫ�����������õĴ𰸡�
-NormalNotice=û��ɲ�����������Ǽ���������һ����Ҫ��ϰ�ſ�����ɵĶ�������һ������2��������3�����ڶ�������������ɲ����������������������˦β���¹ʸ��󡣵�����ץ�÷���ץסһ�п��Լ��ٵĻ��ᣬ�����ɹ��󲻿ɲ�������� ��˱���ѡB��
+SkillNotice=有减速选减速，没有减速选低速、安全、文明、礼让的答案。
+NormalNotice=没有刹车首先做的是减档，这是一个需要练习才可以完成的动作，第一，减到2档或者是3档，第二，慢慢拉起手刹，不可拉死，后轮拉死会甩尾，事故更大。第三，抓好方向，抓住一切可以减速的机会，减档成功后不可踩离合器。 因此本题选B。
 [Options]
-Options1=������̤�ƶ�̤��
-Options2=���ҵ��ٵ����ٺ�ʹ��פ���ƶ�
-Options3=Ѹ��̤�������̤��
-Options4=Ѹ������פ���ƶ������ݸ�
+Options1=迅速拉紧驻车制动器操纵杆
+Options2=连续踩踏制动踏板
+Options3=迅速踏下离合器踏板
+Options4=抢挂低速档减速后，使用驻车制动
 Image1=
-Image2=���ٵ�����
+Image2=
 Image3=
-Image4=
+Image4=低速档减速
 [AnswerInfo]
 Answer1=0
-Answer2=1
+Answer2=0
 Answer3=0
-Answer4=0
+Answer4=1

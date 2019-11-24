@@ -1,13 +1,13 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=14125
-Tittle=ÐÐ³µÖÐÐèÒª½èµÀÈÆ¹ýÇ°·½ÕÏ°­Îï£¬µ«¶ÔÏòÀ´³µÒÑ½Ó½üÕÏ°­ÎïÊ±£¬Ó¦ÔõÑù×ö£¿
+Tittle=è¡Œè½¦ä¸­éœ€è¦å€Ÿé“ç»•è¿‡å‰æ–¹éšœç¢ç‰©ï¼Œä½†å¯¹å‘æ¥è½¦å·²æŽ¥è¿‘éšœç¢ç‰©æ—¶ï¼Œåº”æ€Žæ ·åšï¼Ÿ
 
 
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=69
-MoudleId=8
+MoudleId=15
 BankId=37
 Type=2
 Classification=4
@@ -15,16 +15,16 @@ Classification=4
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=Ñ¸ËÙÕ¼ÓÃ³µµÀ£¬ÆÈÊ¹¶ÔÏòÀ´³µÍ£³µÈÃµÀ
+Options1=é™ä½Žé€Ÿåº¦æˆ–åœè½¦ï¼Œè®©å¯¹å‘æ¥è½¦ä¼˜å…ˆé€šè¡Œ
 Image1=
-Options2=ÃùÀ®°ÈÊ¾Òâ¶ÔÏò³µÁ¾ÈÃµÀ
+Options2=è¿…é€Ÿå ç”¨è½¦é“ï¼Œè¿«ä½¿å¯¹å‘æ¥è½¦åœè½¦è®©é“
 Image2=
-Options3=¼ÓËÙÌáÇ°ÇÀ¹ý
+Options3=åŠ é€Ÿæå‰æŠ¢è¿‡
 Image3=
-Options4=½µµÍËÙ¶È»òÍ£³µ£¬ÈÃ¶ÔÏòÀ´³µÓÅÏÈÍ¨ÐÐ
+Options4=é¸£å–‡å­ç¤ºæ„å¯¹å‘è½¦è¾†è®©é“
 Image4=
 [AnswerInfo]
-Answer1=0
+Answer1=1
 Answer2=0
 Answer3=0
-Answer4=1
+Answer4=0

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14016
-Tittle=�ڸ��ٹ�·�ϳ���������е��ֽ�����ʻ����ͬʱռ���������������º󷽳�����ʻ���ѣ���������ͨ�¹ʡ�
-SkillEmphasize=��
+Tittle=在高速公路上长期骑、轧车行道分界线行驶，会同时占用两个车道，导致后方车辆行驶困难，易引发交通事故。
+SkillEmphasize=易
 ImagePath=
 FlashPath=
 SkillId=12
@@ -10,12 +10,12 @@ Type=1
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=��ס����������ͨ�¹ʶԣ����д������ֵĶԡ�
+SkillNotice=记住：易引发交通事故对，题中带有易字的对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=1412
 Url=http://tiba.jsyks.com/Post/898ae.htm
-Tittle=ÔÚ½»²æÂ·¿Ú¡¢ËíµÀÄÚ¾ù²»ÄÜµ¹³µ¡£
+Tittle=åœ¨äº¤å‰è·¯å£ã€éš§é“å†…å‡ä¸èƒ½å€’è½¦ã€‚
 TittleEmphasize=
-SkillEmphasize=²»ÄÜ
+SkillEmphasize=ä¸èƒ½
 ImagePath=
 FlashPath=
 SkillId=12
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=¼¼ÇÉ£º²»ÄÜµ¹³µ¶Ô£¬´øÓÐµ¹³µ£¬²»µÃ³¬³µ£¬²»µÃÍ£³µ µÄ¶Ô¡£
-NormalNotice=¸ù¾Ý½»Í¨·¨£¬»ú¶¯³µÔÚ½»²æÂ·¿Ú¡¢ËíµÀÄÚ¾ù²»ÄÜµ¹³µ¡£
+SkillNotice=æŠ€å·§ï¼šä¸èƒ½å€’è½¦å¯¹ï¼Œå¸¦æœ‰å€’è½¦ï¼Œä¸å¾—è¶…è½¦ï¼Œä¸å¾—åœè½¦ çš„å¯¹ã€‚
+NormalNotice=æ ¹æ®äº¤é€šæ³•ï¼ŒæœºåŠ¨è½¦åœ¨äº¤å‰è·¯å£ã€éš§é“å†…å‡ä¸èƒ½å€’è½¦ã€‚
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

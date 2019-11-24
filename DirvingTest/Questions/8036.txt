@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8036
 Url=http://tiba.jsyks.com/Post/f1e50.htm
-Tittle=�綯����ʾ����ʻ�����������������Ҫ��δ��ã�
+Tittle=如动画所示，驾驶机动车遇到这种情况要如何处置？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,21 +10,21 @@ SkillId=46
 MoudleId=8
 Type=2
 Classification=4
-BankId=0
+BankId=22
 [SkillInfo]
-SkillNotice=ǰ�����ϰ����ѳ�ƽ��ͣ����
-NormalNotice=��Զ����Ϳ����� ��Ȼ�ǿ���ƽ��ͣ����
+SkillNotice=前方有障碍，把车平稳停下来
+NormalNotice=很远距离就看到了 当然是可以平稳停车的
 [Options]
-Options1=�����ƶ�
-Options2=Ѹ�ٶ�ܲ�������ײ
-Options3=ƽ��ͣ��
-Options4=��ת��Ѹ���ƹ�
+Options1=迅速躲避不发生碰撞
+Options2=急转向迅速绕过
+Options3=紧急制动
+Options4=平稳停车
 Image1=
 Image2=
-Image3=ƽ��ͣ��
-Image4=
+Image3=
+Image4=平稳停车
 [AnswerInfo]
 Answer1=0
 Answer2=0
-Answer3=1
-Answer4=0
+Answer3=0
+Answer4=1

@@ -1,25 +1,25 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8169
 Url=http://tiba.jsyks.com/Post/981ea.htm
-Tittle=��ʻ�������ꡢѩ���������߲����·��ϻ�ʱ������ȫ�ᳵ��
+Tittle=驾驶汽车遇雨、雪、雾等视线不清或路面较滑时怎样安全会车？
 TittleEmphasize=
-SkillEmphasize=���߲���
+SkillEmphasize=视线不清
 ImagePath=
 FlashPath=
 SkillId=50
 MoudleId=8
 Type=3
 Classification=4
-BankId=28
+BankId=41
 [SkillInfo]
-SkillNotice=���߲��岻Ҫ���٣�
-NormalNotice=A D ���Ǳ�Ҫ��    B �����ĺ���ȫ������ָ�����ڲ�����ʻ�����У����߳���ʱ������ʻʱ���ܱ�֤������ȫ���������¹ʵ���С���롣    C �����㲻Ҫ���� �����ų�
+SkillNotice=视线不清不要加速，
+NormalNotice=A D 都是必要的    B 汽车的横向安全间距就是指汽车在并排行驶过程中，或者超车时并排行驶时，能保证两车安全，不发生事故的最小距离。    C 除非你不要命了 可以排除
 [Options]
-Options1=Ӧ��������ʻ
-Options2=���ͳ�����ʻ
-Options3=��Ҫʱͣ������
-Options4=�Ӵ������
-Image1=����
+Options1=应当加速行驶
+Options2=加大横向间距
+Options3=必要时停车避让
+Options4=降低车速行驶
+Image1=加速
 Image2=
 Image3=
 Image4=

@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6062
-Tittle=ȫ���г�������Ҫ����ǣ������ҳ��γɽϴ�ĽǶȡ�
+Tittle=全挂列车倒车，要避免牵引车与挂车形成较大的角度。
 SkillEmphasize=
 ImagePath=
 FlashPath=
@@ -12,8 +12,8 @@ Classification=0
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

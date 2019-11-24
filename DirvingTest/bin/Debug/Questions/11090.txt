@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11090
 Url=http://tiba.jsyks.com/Post/3bda1.htm
-Tittle=��ʻ������ͨ����ˮ·ʱ��ʻ��Ҫ�ҵ��ٵ�����ͨ����
+Tittle=驾驶机动车通过漫水路时驾驶人要挂低速挡匀速通过。
 TittleEmphasize=
-SkillEmphasize=���٣�����
+SkillEmphasize=低速，匀速
 ImagePath=
 FlashPath=
 SkillId=40
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=23
 [SkillInfo]
-SkillNotice=��ס���е�������ͨ���Ķԡ���ѭ���ԣ������ԭ��
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ����������ʮ���� �������о���ˮ·������ˮ��ʱ��Ӧ��ͣ������ˮ�飬ȷ�ϰ�ȫ�󣬵���ͨ����
+SkillNotice=记住：有低速匀速通过的对。遵循慢对，快错的原则。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第六十四条 机动车行经漫水路或者漫水桥时，应当停车察明水情，确认安全后，低速通过。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9094
 Url=http://tiba.jsyks.com/Post/61b21.htm
-Tittle=�Ҳ��־��ʾ��߳��ٲ�׼����ÿСʱ50���
+Tittle=右侧标志表示最高车速不准超过每小时50公里。
 TittleEmphasize=
-SkillEmphasize=��߳���
+SkillEmphasize=最高车速
 ImagePath=9094.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=18
 [SkillInfo]
-SkillNotice=Ҫ��ɫ��50�Ŷԣ���ɫ��50��
-NormalNotice=�������     ��ʾ������ʻ��ǰ����·�����ʱ�����ơ�
+SkillNotice=要红色的50才对，蓝色的50错
+NormalNotice=最低限速     表示机动车驶入前方道路的最低时速限制。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

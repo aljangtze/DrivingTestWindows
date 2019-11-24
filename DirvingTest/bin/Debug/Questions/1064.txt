@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1064
 Url=http://tiba.jsyks.com/Post/923b2.htm
-Tittle=��ʻ���������ܽ����ɫ���εƻ��ߺ�ɫ��ͷ�����ĳ�����
+Tittle=驾驶机动车不能进入红色叉形灯或者红色箭头灯亮的车道。
 TittleEmphasize=
-SkillEmphasize=����&��ɫ
+SkillEmphasize=不能&红色
 ImagePath=
 FlashPath=
-SkillId=15
+SkillId=13
 MoudleId=1
 Type=1
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=���⣺���ܽ�������ԣ��������⣬��Ƶĳ������ܽ��Ͷ��ˡ�
-NormalNotice=����·��ͨ��ȫ��ʵʩ����������ʮ�� ��ɫ���εƻ��߼�ͷ����ʱ����ֹ����������ͨ�С�
+SkillNotice=看题：不能进红灯区对，出门在外，红灯的车道不能进就对了。
+NormalNotice=《道路交通安全法实施条例》第四十条 红色叉形灯或者箭头灯亮时，禁止本车道车辆通行。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

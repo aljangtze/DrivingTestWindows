@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14008
-Tittle=�¹ʱ���ʱ��Ҫ�򽻾��ṩ�¹ʵص㡢��Ա���顢�������Ƶ���Ϣ��Э���������ٶ�λ�����ֳ���
-SkillEmphasize=������Э��
+Tittle=事故报警时，要向交警提供事故地点、人员伤情、车辆号牌等信息，协助交警快速定位到达现场。
+SkillEmphasize=报警，协助
 ImagePath=
 FlashPath=
 SkillId=14
@@ -10,12 +10,12 @@ Type=1
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=ע�⣺Э��������ʱ�����ֳ��ԣ���Э���������ԡ�
+SkillNotice=注意：协助交警及时到达现场对，有协助、帮助对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

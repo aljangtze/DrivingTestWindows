@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=15243
 Url=http://tiba.jsyks.com/Post/50fd7.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=15243.jpg
@@ -13,10 +13,10 @@ Classification=5
 [SkillInfo]
 SkillNotice=NormalNotice=
 [Options]
-Options1=Ö±ĞĞ³µµÀ
-Options2=Ö»×¼Ö±ĞĞ
-Options3=µ¥ĞĞÂ·
-Options4=½ûÖ¹Ö±ĞĞ
+Options1=ç›´è¡Œè½¦é“
+Options2=åªå‡†ç›´è¡Œ
+Options3=å•è¡Œè·¯
+Options4=ç¦æ­¢ç›´è¡Œ
 Image1=
 Image2=
 Image3=

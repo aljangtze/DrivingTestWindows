@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1292
 Url=http://tiba.jsyks.com/Post/cc0e9.htm
-Tittle=��ɽ�ͨ�¹ʺ����ݹ��ɷ�����˲��������������ʻ֤��
+Tittle=造成交通事故后逃逸构成犯罪的人不能申请机动车驾驶证。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=不能
 ImagePath=
 FlashPath=
 SkillId=12
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=���ɣ���������ԣ������в��ã����ܶԣ����ݷ���������������룬��
-NormalNotice=��ͨ����һ����һ�� Υ����·��ͨ��ȫ���ɡ�����Ĺ涨�������ش�ͨ�¹ʣ����ɷ���ģ�����׷���������Σ����ɹ������ؽ�ͨ�������ŵ�����������ʻ֤��    ������ɽ�ͨ�¹ʺ����ݵģ��ɹ������ؽ�ͨ�������ŵ�����������ʻ֤����������������ȡ�û�������ʻ֤��
+SkillNotice=技巧：不能申请对，题中有不得，不能对，逃逸犯罪的终身不能申请，对
+NormalNotice=交通法第一百零一条 违反道路交通安全法律、法规的规定，发生重大交通事故，构成犯罪的，依法追究刑事责任，并由公安机关交通管理部门吊销机动车驾驶证。    　　造成交通事故后逃逸的，由公安机关交通管理部门吊销机动车驾驶证，且终生不得重新取得机动车驾驶证。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

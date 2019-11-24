@@ -1,29 +1,30 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=5006
 Url=http://tiba.jsyks.com/Post/f97a9.htm
-Tittle=Òû¾Æºó¼ÝÊ»ÓªÔË»ú¶¯³µµÄ£¬µõÏú»ú¶¯³µ¼ÝÊ»Ö¤£¬ÇÒ¶à³¤Ê±¼äÄÚ²»µÃÖØÐÂÈ¡µÃ»ú¶¯³µ¼ÝÊ»Ö¤£¿
+Tittle=é¥®é…’åŽé©¾é©¶è¥è¿æœºåŠ¨è½¦çš„ï¼ŒåŠé”€æœºåŠ¨è½¦é©¾é©¶è¯ï¼Œä¸”å¤šé•¿æ—¶é—´å†…ä¸å¾—é‡æ–°å–å¾—æœºåŠ¨è½¦é©¾é©¶è¯ï¼Ÿ
 TittleEmphasize=
-SkillEmphasize=
+SkillEmphasize=é¥®é…’
 ImagePath=
 FlashPath=
 SkillId=37
 MoudleId=5
 Type=2
 Classification=2
+BankId=0
 [SkillInfo]
-SkillNotice=Ê×ÏÈÒª¿´ÇåÌâ¿â£¬ËµµÄÊÇ¡°Òû¾Æ¡±¡¢¡°¼ÝÊ»ÓªÔË»ú¶¯³µ¡±£¡        Òû¾Æ¼ÝÊ»»ú¶¯³µ6¸öÔÂ ×í¾Æ¼ÝÊ»»ú¶¯³µ5Äê    Òû¾Æ¼ÝÊ»ÓªÔË»ú¶¯³µ5Äê  ×í¾Æ¼ÝÊ»ÓªÔË»ú¶¯³µ10Äê
-NormalNotice=Ê×ÏÈÒª¿´ÇåÌâ¿â£¬ËµµÄÊÇ¡°Òû¾Æ¡±¡¢¡°¼ÝÊ»ÓªÔË»ú¶¯³µ¡±£¡        Òû¾Æ¼ÝÊ»»ú¶¯³µ6¸öÔÂ ×í¾Æ¼ÝÊ»»ú¶¯³µ5Äê    Òû¾Æ¼ÝÊ»ÓªÔË»ú¶¯³µ5Äê  ×í¾Æ¼ÝÊ»ÓªÔË»ú¶¯³µ10Äê
+SkillNotice=é¥®é…’åŽé©¾é©¶è¥è¿æœºåŠ¨è½¦ï¼ŒåŠé”€åŽ5å¹´ä¸å¾—é‡æ–°å–å¾—ã€‚é¥®é…’é€‰5å¹´ï¼Œé†‰é…’é€‰åŠé”€é©¾é©¶è¯ã€‚
+NormalNotice=é¦–å…ˆè¦çœ‹æ¸…é¢˜åº“ï¼Œè¯´çš„æ˜¯â€œé¥®é…’â€ã€â€œé©¾é©¶è¥è¿æœºåŠ¨è½¦â€ï¼        é¥®é…’é©¾é©¶æœºåŠ¨è½¦6ä¸ªæœˆ é†‰é…’é©¾é©¶æœºåŠ¨è½¦5å¹´    é¥®é…’é©¾é©¶è¥è¿æœºåŠ¨è½¦5å¹´  é†‰é…’é©¾é©¶è¥è¿æœºåŠ¨è½¦10å¹´
 [Options]
-Options1=5Äê
-Options2=1Äê
-Options3=10Äê
-Options4=2Äê
+Options1=1å¹´
+Options2=2å¹´
+Options3=5å¹´
+Options4=10å¹´
 Image1=
 Image2=
-Image3=
+Image3=5å¹´
 Image4=
 [AnswerInfo]
-Answer1=1
+Answer1=0
 Answer2=0
-Answer3=0
+Answer3=1
 Answer4=0

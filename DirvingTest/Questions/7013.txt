@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=7013
 Url=http://tiba.jsyks.com/Post/faa42.htm
-Tittle=��ĳ��ʻһ������53�˵Ĵ�ͳ�������47�ˣ����������ϸ��ٹ�·�Ͼ�����454�����100�״�����һ�����Ͱ��ǣ����׷β�����´�ͳ�����·�໤�������ȼ�գ����17��������27�����ˡ���ĳ����ҪΥ����Ϊ��ʲô��
+Tittle=何某驾驶一辆乘载53人的大客车（核载47人），行至宁合高速公路南京境内454公里加100米处，被一辆重型半挂牵引车追尾，导致大客车翻出路侧护栏并起火燃烧，造成17人死亡、27人受伤。何某的主要违法行为是什么？
 TittleEmphasize=
-SkillEmphasize=����53�ˣ�����47��
+SkillEmphasize=乘载53人，核载47人
 ImagePath=
 FlashPath=
 SkillId=48
@@ -12,17 +12,17 @@ Type=2
 Classification=4
 BankId=15
 [SkillInfo]
-SkillNotice=���أ���ʵ���ؿ�53�ˣ����������أ��涨�ؿ�����47�ˣ�Ϊ�ͳ���Ա��
-NormalNotice=���أ���ʵ���ؿ������������أ����ǹ涨���ؿ������� ����ѡ��ͳ���Ա
+SkillNotice=乘载，是实际载客53人，超过（核载）规定载客人数47人，为客车超员。
+NormalNotice=乘载，是实际载客人数。（核载），是规定的载客人数。 所以选择客车超员
 [Options]
-Options1=��ʻ����δ��������
-Options2=��������
-Options3=������ʻ
-Options4=�ͳ���Ա
+Options1=驾驶逾期未年检机动车
+Options2=操作不当
+Options3=超速行驶
+Options4=客车超员
 Image1=
 Image2=
 Image3=
-Image4=��Ա
+Image4=超员
 [AnswerInfo]
 Answer1=0
 Answer2=0

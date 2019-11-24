@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6036
 Url=http://tiba.jsyks.com/Post/6d4cb.htm
-Tittle=�ͳ��𲽡���ʻ��ͣ��ʱ��Ӧ��ƽ�ȣ�����˿����ˡ�
+Tittle=客车起步、行驶和停车时，应当平稳，避免乘客受伤。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=��ȫ������ʻ��
-NormalNotice=��ȫ������ʻ��
+SkillNotice=安全文明驾驶！
+NormalNotice=安全文明驾驶！
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

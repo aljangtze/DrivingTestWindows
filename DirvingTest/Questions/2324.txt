@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2324
 Url=http://tiba.jsyks.com/Post/6f82e.htm
-Tittle=��ͼ��ʾ��ͨ���������־��·��ʱӦ�ü������С�
+Tittle=如图所示，通过有这个标志的路口时应该减速让行。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2324.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=��ͼ��ͼ����ͣ�ı�־��Ӧ�ü����Ǵ��ġ�
-NormalNotice=����ͣ�����еı�־��������ǲ����ġ�������ʾһ�£����ǵ��Ǽ������У��˽ǵ���ͣ�����С�
+SkillNotice=看图：图中有停的标志，应该减速是错的。
+NormalNotice=个是停车让行的标志，光减速是不够的。另外提示一下，三角的是减速让行，八角的是停车让行。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

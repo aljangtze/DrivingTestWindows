@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1183
 Url=http://tiba.jsyks.com/Post/8afff.htm
-Tittle=�������ڵ�·�Ϸ������ϣ���Ҫͣ���ų�ʱ����ʻ��Ӧ����ô�죿
+Tittle=机动车在道路上发生故障，需要停车排除时，驾驶人应该怎么办？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=10
 [SkillInfo]
-SkillNotice=���𰸣��в���������Ӱ���ѡ�ֱ��ѡ��ͣ���ų�����ʱ������ͣ����������ͨ�ĵط���
-NormalNotice=�򿪽�������ƣ�˫���� ���Ƿ����Ǹ�����ͣ��·�ߣ�������ԵĻ���������·��    Ȼ��ȡ���泵�����е������ƣ������ڳ�������20�׵ĵط���    ���·�γ��ٱȽϿ��ͣ���ĵط�����Σ�գ����뿪��������ǰ��10�����ϣ���绰��Ԯ��    ����Լ����ų���һ��Ҫȷ��������?
+SkillNotice=看答案：有不妨碍，不影响的选项都直接选。停车排除故障时，将车停到不妨碍交通的地方。
+NormalNotice=打开紧急警告灯（双闪灯 三角符号那个），停靠路边，如果可以的话尽量靠近路边    然后取下随车工具中的三角牌，放置在车后方最少20米的地方，    如果路段车速比较快而停靠的地方存在危险，人离开车辆，往前走10米以上，打电话救援，    如果自己能排除，一定要确保三角牌?
 [Options]
-Options1=����ͣ����������ͨ�ĵط�
-Options2=����ͣ�ڵ�·�м�
-Options3=��������ƻ�����
-Options4=�͵�ͣ���ų�����
-Image1=������&�ط�
+Options1=将车停到不妨碍交通的地方
+Options2=将车停在道路中间
+Options3=开启近光灯或雾灯
+Options4=就地停车排除故障
+Image1=不妨碍&地方
 Image2=
 Image3=
 Image4=

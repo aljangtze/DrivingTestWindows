@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1149
 Url=http://tiba.jsyks.com/Post/06ec7.htm
-Tittle=�������������·����Ҫ����ͨ����
+Tittle=在这种情况的铁路道口要加速通过。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=加速
 ImagePath=1149.jpg
 FlashPath=
-SkillId=15
+SkillId=13
 MoudleId=1
 Type=1
 Classification=3
 BankId=3
 [SkillInfo]
-SkillNotice=��ס��Ҫ����ͨ������ͼ�в����Ǻ����źŵƣ������ܼ���ͨ����������Ŀ���м���ͨ���Ǵ���&
-NormalNotice=ǰ���ǻ𳵵������ں���Ѿ����𣬱��������л�ͨ�������ʱ��Ȼ�ǵȴ��ˣ��Ȼ𳵹�ȥ�ˣ�����ͨ����    ����ͨ���������ײ�����𳵵ġ���˵�����ͣ���г��Ļ���ԭ�򰡡�
+SkillNotice=记住：要加速通过错，图中不管是何种信号灯，都不能加速通过，所以题目中有加速通过是错。&
+NormalNotice=前面是火车道，道口红灯已经亮起，表明即将有火车通过。这个时候当然是等待了，等火车过去了，你再通过。    加速通过，你可是撞不过火车的。再说，红灯停是行车的基本原则啊。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

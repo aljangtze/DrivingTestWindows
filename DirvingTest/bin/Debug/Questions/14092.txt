@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14092
-Tittle=��ʻ�������ڸ��ٹ�·������ײ����ʱ��ӦѸ�����෴����ת��������
-SkillEmphasize=Ѹ�٣�ת��
+Tittle=驾驶机动车在高速公路意外碰撞护栏时，应迅速向相反方向转向修正。
+SkillEmphasize=迅速，转向
 ImagePath=
 FlashPath=
 SkillId=13
@@ -10,12 +10,12 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=��ס��Ѹ��ת�򣬴�����Ѹ��ת��Ѹ��ʻ�붼����
+SkillNotice=记住：迅速转向，错。有迅速转向迅速驶入都错。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

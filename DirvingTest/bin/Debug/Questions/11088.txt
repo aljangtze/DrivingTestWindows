@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11088
 Url=http://tiba.jsyks.com/Post/95162.htm
-Tittle=��������ˮ�󣬼�ʻ��Ҫ�������ƶ�̤�壬�Իָ��ƶ�Ч�ܡ�
+Tittle=机动车涉水后，驾驶人要间断轻踩制动踏板，以恢复制动效能。
 TittleEmphasize=
-SkillEmphasize=��
+SkillEmphasize=轻
 ImagePath=
 FlashPath=
-SkillId=40
+SkillId=48
 MoudleId=11
 Type=1
 Classification=4
-BankId=17
+BankId=50
 [SkillInfo]
-SkillNotice=��ס�������ֶ��Ƕԡ�
-NormalNotice=ͨ����ˮ·��ʱ�����һЩˮ����������̤�ƶ�̤�壬ĥ�����������ճ�����ֹ��ں��Ӱ���ƶ�Ч���� ��˱�����ȷ��
+SkillNotice=记住：见轻字都是对。
+NormalNotice=通过积水路面时，会进一些水，若持续轻踏制动踏板，磨擦后会产生污物，粘附在轮鼓内后会影响制动效果。 因此本题正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2002
 Url=http://tiba.jsyks.com/Post/51b33.htm
-Tittle=��ʻ��������ʻ�����λ��ʱ�������ǰ����Խ��ֹͣ�߿��Լ���ͨ����
+Tittle=驾驶机动车行驶到这个位置时，如果车前轮已越过停止线可以继续通过。
 TittleEmphasize=
-SkillEmphasize=���Լ���
+SkillEmphasize=可以继续
 ImagePath=2002.jpg
 FlashPath=
 SkillId=15
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=��ͼ��һ���źŵƴ����Һ��ŵĴ���ͼ��ֻ��һ���źŵ�ʱ������ͨ�����źŵƵġ��ᡱ���������жϣ���Ĵ������Ķԡ�
-NormalNotice=ͣ������ǰ��Ҳ�����ˣ�ͣ�Ų����Ͳ��۷֣����̵�������ͨ��    Ӧ���ǳ�ȫ��Խ��ͣ���߲ſ��Լ���ͨ����ǰ�ָչ��߾ͺ�Ʊ���ͣ��������Ȼ����ơ�
+SkillNotice=看图：一颗信号灯从左到右横着的错，图中只有一块信号灯时，可以通过看信号灯的“横”“竖”来判断，横的错，竖的对。
+NormalNotice=停车，不前进也不后退，停着不动就不扣分，等绿灯亮了在通过    应该是车全部越过停车线才可以继续通过，前轮刚过线就红灯必须停下来，不然闯红灯。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

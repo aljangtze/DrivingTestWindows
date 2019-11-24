@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=15334
 Url=http://tiba.jsyks.com/Post/fa908.htm
-Tittle=¼ÝÊ»ÈËÆµ·±±ä¸ü³µµÀ²»ÊôÓÚ¼ÝÊ»ÂªÏ°¡£
+Tittle=é©¾é©¶äººé¢‘ç¹å˜æ›´è½¦é“ä¸å±žäºŽé©¾é©¶é™‹ä¹ ã€‚
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=±ä¸ü³µµÀ²»ÄÜÌ«¹ýÆµ·±£¬·ñÔò»áÓ°ÏìÕý³£½»Í¨£¬ÊôÓÚÂªÏ°£¬Òò´Ë±¾Ìâ´íÎó¡£
-NormalNotice=±ä¸ü³µµÀ²»ÄÜÌ«¹ýÆµ·±£¬·ñÔò»áÓ°ÏìÕý³£½»Í¨£¬ÊôÓÚÂªÏ°£¬Òò´Ë±¾Ìâ´íÎó¡£
+SkillNotice=å˜æ›´è½¦é“ä¸èƒ½å¤ªè¿‡é¢‘ç¹ï¼Œå¦åˆ™ä¼šå½±å“æ­£å¸¸äº¤é€šï¼Œå±žäºŽé™‹ä¹ ï¼Œå› æ­¤æœ¬é¢˜é”™è¯¯ã€‚
+NormalNotice=å˜æ›´è½¦é“ä¸èƒ½å¤ªè¿‡é¢‘ç¹ï¼Œå¦åˆ™ä¼šå½±å“æ­£å¸¸äº¤é€šï¼Œå±žäºŽé™‹ä¹ ï¼Œå› æ­¤æœ¬é¢˜é”™è¯¯ã€‚
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

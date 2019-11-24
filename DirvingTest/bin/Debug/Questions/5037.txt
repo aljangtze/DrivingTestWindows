@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5037
 Url=http://tiba.jsyks.com/Post/31f8b.htm
-Tittle=ȫ�ҳ�������Ҫ����ǣ������ҳ��γ������ĽǶȣ�
+Tittle=全挂车倒车，要避免牵引车与挂车形成怎样的角度？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,13 +11,13 @@ MoudleId=5
 Type=2
 Classification=2
 [SkillInfo]
-SkillNotice=��С�ǶԵġ������ɼ������;Ϳ��ԡ�    ����Ϊͷ�ġ���Ϊβ�� ��Ǵ�Ϊ�ҳ����Ӵ���    ���Լ��ڰ���ɵ������� �������ˡ�    
-NormalNotice=��С�ǶԵġ������ɼ������;Ϳ��ԡ�    ����Ϊͷ�ġ���Ϊβ�� ��Ǵ�Ϊ�ҳ����Ӵ���    ���Լ��ڰ���ɵ������� �������ˡ�    
+SkillNotice=交小是对的。你把想成尖三角型就可以。    →作为头∧←作为尾巴 尖角处为挂车连接处。    你自己在把想成倒车场景 就明白了。    
+NormalNotice=交小是对的。你把想成尖三角型就可以。    →作为头∧←作为尾巴 尖角处为挂车连接处。    你自己在把想成倒车场景 就明白了。    
 [Options]
-Options1=ֱ��
-Options2=��С�ĽǶ�
-Options3=ֱ��
-Options4=�ϴ�ĽǶ�
+Options1=直线
+Options2=较小的角度
+Options3=直角
+Options4=较大的角度
 Image1=
 Image2=
 Image3=

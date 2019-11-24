@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3071
 Url=http://tiba.jsyks.com/Post/ef513.htm
-Tittle=�������ڵ�·����ʱͣ��ʱ��Ӧ��������
+Tittle=机动车在道路边临时停车时，应怎样做？
 TittleEmphasize=
-SkillEmphasize=·����ʱͣ��
+SkillEmphasize=路边临时停车
 ImagePath=
 FlashPath=
 SkillId=31
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=��ѡ�������ѡ��п��֣��ų������ֵ�ֱ��ѡ���õ�ѡ��С�����ѡ���֡���������·��ͣ�������������ͣ�š�
-NormalNotice=�����ǡ���ͨ��������ʮ������ ������Ӧ���ڹ涨�ص�ͣ�š���ֹ�����е���ͣ�Ż����������ǣ����ձ�������ʮ�����涨ʩ����ͣ����λ���⡣    ���ڵ�·����ʱͣ���ģ����÷�����������������ͨ�С�         ����ͣ���Ͳ���ͣ�Ŷ��������������������ͨ�С�
+SkillNotice=看选项：有两个选项都有可字，排除带可字的直接选不得的选项。有“可字选不字”。解析：路边停车不得逆向或并列停放。
+NormalNotice=依据是《交通法》第五十六条： 机动车应当在规定地点停放。禁止在人行道上停放机动车；但是，依照本法第三十三条规定施划的停车泊位除外。    　在道路上临时停车的，不得妨碍其他车辆和行人通行。         逆向停车和并列停放都会妨碍其他车辆和行人通行。
 [Options]
-Options1=�����������ͣ��
-Options2=ֻҪ��ȥ���㣬������ͣ��
-Options3=������ͣ��
-Options4=�ɲ���ͣ��
-Image1=����
+Options1=不得逆向或并列停放
+Options2=只要出去方便，可随意停放
+Options3=可逆向停放
+Options4=可并列停放
+Image1=不得
 Image2=
-Image3=��
-Image4=��
+Image3=可
+Image4=可
 [AnswerInfo]
 Answer1=1
 Answer2=0

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2149
 Url=http://tiba.jsyks.com/Post/30b06.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2149.jpg
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=��ɫ��־��ָ����·�ģ�����ָ·��־������·�ڡ�
-NormalNotice=������ʲô·��������ʲô·��ֱ����ʲô·��˵���ǽ���·�ڡ�    �����������ʲô·�����Ҷ�������ʲô·��������������Ժ���ʲô·������Ԥ�档    �ۺϣ������ǽ���·��Ԥ�档
+SkillNotice=蓝色标志有指明道路的，就是指路标志，交叉路口。
+NormalNotice=向左是什么路，向右是什么路，直行是什么路；说的是交叉路口。    向左多少米是什么路，向右多少米是什么路；告诉你多少米以后是什么路，就是预告。    综合，本题是交叉路口预告。
 [Options]
-Options1=�ֵ���ϢԤ��
-Options2=�ֲ���Ԥ��
-Options3=��������Ԥ��
-Options4=����·��Ԥ��
+Options1=分道信息预告
+Options2=分岔处预告
+Options3=车道方向预告
+Options4=交叉路口预告
 Image1=
 Image2=
 Image3=
-Image4=·��
+Image4=路口
 [AnswerInfo]
 Answer1=0
 Answer2=0

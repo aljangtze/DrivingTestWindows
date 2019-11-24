@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16194
 Url=http://tiba.jsyks.com/Post/6a566.htm
-Tittle=����������Ţ�򷭽�·��ʱ��Ӧͣ���۲죬ѡ��ƽ������ʵ��·�λ���ͨ����
+Tittle=车辆行至泥泞或翻浆路段时，应停车观察，选择平整、坚实的路段缓慢通过。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=��Ţ����·���г����׷����໬��Ӧ��ͣ����ϸ�۲�󣬽��ͳ��٣�ѡ��ƽ������ʵ��·�λ���ͨ����
-NormalNotice=��Ţ����·���г����׷����໬��Ӧ��ͣ����ϸ�۲�󣬽��ͳ��٣�ѡ��ƽ������ʵ��·�λ���ͨ����
+SkillNotice=泥泞翻浆路段行车容易发生侧滑，应该停车仔细观察后，降低车速，选择平整、坚实的路段缓慢通过。
+NormalNotice=泥泞翻浆路段行车容易发生侧滑，应该停车仔细观察后，降低车速，选择平整、坚实的路段缓慢通过。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

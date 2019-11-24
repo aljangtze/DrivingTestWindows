@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=9111
 Url=http://tiba.jsyks.com/Post/df4cc.htm
-Tittle=ÓÒ²à±êÖ¾¸æÖªÓÒÇ°·½100Ã×ÊÇÓ¦¼±±ÜÄÑ³¡Ëù¡£
+Tittle=å³ä¾§æ ‡å¿—å‘ŠçŸ¥å³å‰æ–¹100ç±³æ˜¯åº”æ€¥é¿éš¾åœºæ‰€ã€‚
 TittleEmphasize=
-SkillEmphasize=100Ã×
+SkillEmphasize=100ç±³
 ImagePath=9111.jpg
 FlashPath=
 SkillId=43
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=0
 [SkillInfo]
-SkillNotice=200Ã×£¬100Ã×£¬¶Ô
-NormalNotice=ÓÒÇ°·½100Ã×ÊÇÓ¦¼±±ÜÄÑ³¡Ëù
+SkillNotice=200ç±³ï¼Œ100ç±³ï¼Œå¯¹
+NormalNotice=å³å‰æ–¹100ç±³æ˜¯åº”æ€¥é¿éš¾åœºæ‰€
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

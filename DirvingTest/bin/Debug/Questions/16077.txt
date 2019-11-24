@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16077
 Url=http://tiba.jsyks.com/Post/0b215.htm
-Tittle=������ʻ��˫����ʻ����ǰ��Ҫ���ʹ�õƹ⣿
+Tittle=机动车驶入双向行驶隧道前，要如何使用灯光？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=���ǳ�������˫����ʻ������һ�㶼Ӧ�ÿ�������ƣ�����Ҫ����Զ��ơ� ������������û�еƹ�ģ����Ա任�ƹ���ʻ�����ǻᳵǰҪתΪ����ơ�
-NormalNotice=���ǳ�������˫����ʻ������һ�㶼Ӧ�ÿ�������ƣ�����Ҫ����Զ��ơ� ������������û�еƹ�ģ����Ա任�ƹ���ʻ�����ǻᳵǰҪתΪ����ơ�
+SkillNotice=凡是车辆进入双向行驶隧道，一般都应该开启近光灯，而不要开启远光灯。 若是隧道本身没有灯光的，可以变换灯光行驶，但是会车前要转为近光灯。
+NormalNotice=凡是车辆进入双向行驶隧道，一般都应该开启近光灯，而不要开启远光灯。 若是隧道本身没有灯光的，可以变换灯光行驶，但是会车前要转为近光灯。
 [Options]
-Options1=����Σ�ձ��������
-Options2=����Զ���
-Options3=��������
-Options4=���������
+Options1=开启危险报警闪光灯
+Options2=开启远光灯
+Options3=开启雾灯
+Options4=开启近光灯
 Image1=
 Image2=
 Image3=

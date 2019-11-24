@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4108
 Url=http://tiba.jsyks.com/Post/b79d0.htm
-Tittle=��ȫ������һ��ʲôװ�ã�
+Tittle=安全气囊是一种什么装置？
 TittleEmphasize=
-SkillEmphasize=��ȫ����
+SkillEmphasize=安全气囊
 ImagePath=
 FlashPath=
 SkillId=35
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=��ȫ���ҵ����þ���Ϊ�˱�����Ա�İ�ȫ��
-NormalNotice=��ȫ���ң������ڳ���ǰ����������ʻλ�����෽������ǰ�źͺ��ţ��ͳ�����������װ�а�ȫ����ϵͳ�������ⲿ��ӡ��Supplemental Inflatable Restraint System�����SRS)��������ֱ�������Ϊ�������ɳ���Լ��ϵͳ����ּ�ڼ����Ա���˺��̶ȣ���������ײ�¹�ʱ�������Ա
+SkillNotice=安全气囊的作用就是为了保护人员的安全。
+NormalNotice=安全气囊，设置在车内前方（正副驾驶位），侧方（车内前排和后排）和车顶三个方向。装有安全气囊系统的容器外部都印有Supplemental Inflatable Restraint System，简称SRS)的字样，直译成中文为“辅助可充气约束系统”。旨在减轻乘员的伤害程度，当发生碰撞事故时，避免乘员
 [Options]
-Options1=��ʻ��ͷ������ϵͳ
-Options2=�����ƶ�������ϵͳ
-Options3=�������ƶ�ϵͳ
-Options4=�����ݳ���Ա����ϵͳ
+Options1=驾驶人头颈保护系统
+Options2=电子制动力分配系统
+Options3=防抱死制动系统
+Options4=辅助驾乘人员保护系统
 Image1=
 Image2=
 Image3=
-Image4=��Ա����
+Image4=人员保护
 [AnswerInfo]
 Answer1=0
 Answer2=0

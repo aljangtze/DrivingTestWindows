@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4011
 Url=http://tiba.jsyks.com/Post/68834.htm
-Tittle=�������Ǳ����ϣ���ͼ��ʾ������ʾʲô��
+Tittle=机动车仪表板上（如图所示）亮表示什么？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4011.jpg
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=λ�õƾ��ǳ���ʾ���ƣ������������Ƶ����ͼƬ������ǰ��λ�õơ�
-NormalNotice=λ�õƾ��ǳ���ʾ���ƣ�Ҳ���ǵ��㿪��˫���ƺ�ǰ�������ĸ����ĵ� ���ƾ���ת���źŵ�ͬʱ��˸�����ھ������á�
+SkillNotice=位置灯就是车辆示宽灯，当看见两个灯的这个图片，答案是前后位置灯。
+NormalNotice=位置灯就是车辆示宽灯，也就是当你开启双跳灯后，前后左右四个闪的灯 宽灯就是转向信号灯同时闪烁，用于警告作用。
 [Options]
-Options1=Σ�ձ�������ƿ���
-Options2=ǰ�����ƿ���
-Options3=ǰ��λ�õƿ���
-Options4=ǰ�յƿ���
+Options1=危险报警闪光灯开启
+Options2=前后雾灯开启
+Options3=前后位置灯开启
+Options4=前照灯开启
 Image1=
 Image2=
-Image3=ǰ��λ�õ�
+Image3=前后位置灯
 Image4=
 [AnswerInfo]
 Answer1=0

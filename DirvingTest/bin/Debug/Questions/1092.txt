@@ -1,30 +1,30 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1092
 Url=http://tiba.jsyks.com/Post/53a9c.htm
-Tittle=��ʻ�������������ꡢѩ���ܼ�����50������ʱ������ٶȲ��ܳ������٣�
+Tittle=驾驶机动车遇雾、雨、雪等能见度在50米以内时，最高速度不能超过多少？
 TittleEmphasize=
-SkillEmphasize=�ܼ�����50������
+SkillEmphasize=能见度在50米以内
 ImagePath=
 FlashPath=
-SkillId=34
+SkillId=15
 MoudleId=1
 Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=���⣺ ��50��ѡ30���100��ѡ40���200��ѡ60�����ס���ĸ��𰸶��ǹ������ģ�ֻҪû��ͼƬ��ֱ��ѡ30�����Ŀ���ܼ�����50�����ڵģ�����20�����30���
-NormalNotice=��������ʻ��������������֮һ�ģ������ʻ�ٶȲ��ó���ÿСʱ30�����������������ƿ������ʽר�û�е�����ó���ÿСʱ15�������     ��һ�������ǻ���������ͨ����·���ڡ�����·��խ·��խ��ʱ������     ��������ͷ��ת�䡢�¶���ʱ������     �������������ꡢѩ?
+SkillNotice=看题： 有50米选30公里。100米选40公里，200米选60公里。记住：四个答案都是公里数的，只要没有图片都直接选30公里。题目中能见度在50米以内的，答案找20公里或30公里。
+NormalNotice=机动车行驶中遇有下列情形之一的，最高行驶速度不得超过每小时30公里，其中拖拉机、电瓶车、轮式专用机械车不得超过每小时15公里：　　     （一）进出非机动车道，通过铁路道口、急弯路、窄路、窄桥时；　　     （二）掉头、转弯、下陡坡时；　　     （三）遇雾、雨、雪?
 [Options]
-Options1=70����/Сʱ
-Options2=40����/Сʱ
-Options3=50����/Сʱ
-Options4=30����/Сʱ
+Options1=40公里/小时
+Options2=70公里/小时
+Options3=30公里/小时
+Options4=50公里/小时
 Image1=
 Image2=
-Image3=
-Image4=30
+Image3=30
+Image4=
 [AnswerInfo]
 Answer1=0
 Answer2=0
-Answer3=0
-Answer4=1
+Answer3=1
+Answer4=0

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16165
 Url=http://tiba.jsyks.com/Post/066b7.htm
-Tittle=Ħ�г���ʻ�˼�������ԱӦ�����涨����ȫͷ����
+Tittle=摩托车驾驶人及乘坐人员应当按规定戴安全头盔。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=��ȫͷ����Ϊ�˱���ͷ���ģ���ȫ������϶���Ҫ���ġ�
-NormalNotice=��ȫͷ����Ϊ�˱���ͷ���ģ���ȫ������϶���Ҫ���ġ�
+SkillNotice=安全头盔是为了保护头部的，安全起见，肯定是要戴的。
+NormalNotice=安全头盔是为了保护头部的，安全起见，肯定是要戴的。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

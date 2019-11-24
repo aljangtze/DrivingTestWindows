@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9179
 Url=http://tiba.jsyks.com/Post/4f718.htm
-Tittle=��ɫб�������ָʾ�������ֹ�����ѹ����ʻ��
+Tittle=黄色斜线填充线指示该区域禁止进入或压线行驶。
 TittleEmphasize=
-SkillEmphasize=��ֹ
+SkillEmphasize=禁止
 ImagePath=9179.jpg
 FlashPath=
 SkillId=41
 MoudleId=9
 Type=1
 Classification=4
-BankId=32
+BankId=40
 [SkillInfo]
-SkillNotice=��ͼ��ͼ����ʵ�ߣ���ֹ���롣�ԣ�
-NormalNotice=��ɫб������߽�ֹ��Խ, ��·��Ͽ�ʱ��Ϊ��֤���е����Ȳ�����3. 75 m��˫���߼������ʵ���������˫���߼�����50 cmʱ,Ӧ�û�ɫб�߻�������ʩ���������ʵ�߼�Ĳ��֣���ֹ����ѹ�߻���������
+SkillNotice=看图，图中是实线，禁止进入。对！
+NormalNotice=黄色斜线填充线禁止跨越, 在路面较宽时，为保证车行道宽度不大于3. 75 m，双黄线间距可以适当调整。在双黄线间距大于50 cm时,应用黄色斜线或其他设施填充两条黄实线间的部分，禁止车辆压线或进入该区域。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

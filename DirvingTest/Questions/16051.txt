@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16051
 Url=http://tiba.jsyks.com/Post/86a40.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16051.jpg
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=ֱ�к�����ת�䣺��ʾֻ׼һ�г���ֱ�к�����ת�䡣�˱�־���ڳ�������ֱ�к�����ת���·����ǰ�ʵ�λ�á�    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    ���������ת��</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    ֱ����ת��    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    ���������ת��</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>NormalNotice=ֱ�к�����ת�䣺��ʾֻ׼һ�г���ֱ�к�����ת�䡣�˱�־���ڳ�������ֱ�к�����ת���·����ǰ�ʵ�λ�á�    <p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    ���������ת��</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    ֱ����ת��    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    ���������ת��</p>    <p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utig306yj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utijpoicj.jpg>    ֱ����ת��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utio7vl3j.jpg>    ���������ת��</p>
-    ���������ת��</p>
+SkillNotice=直行和向左转弯：表示只准一切车辆直行和向左转弯。此标志设在车辆必须直行和向左转弯的路口以前适当位置。NormalNotice=直行和向左转弯：表示只准一切车辆直行和向左转弯。此标志设在车辆必须直行和向左转弯的路口以前适当位置。
+NormalNotice=直行和向左转弯：表示只准一切车辆直行和向左转弯。此标志设在车辆必须直行和向左转弯的路口以前适当位置。NormalNotice=直行和向左转弯：表示只准一切车辆直行和向左转弯。此标志设在车辆必须直行和向左转弯的路口以前适当位置。
 [Options]
-Options1=ֱ�к�����ת��
-Options2=ֱ�к�����ת��
-Options3=��ֱֹ�к�����ת��
-Options4=ֻ׼���Һ�����ת��
+Options1=直行和向右转弯
+Options2=直行和向左转弯
+Options3=禁止直行和向左转弯
+Options4=只准向右和向左转弯
 Image1=
 Image2=
 Image3=

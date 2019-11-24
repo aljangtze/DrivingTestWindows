@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12077
 Url=http://tiba.jsyks.com/Post/f935c.htm
-Tittle=�ƶ�ʱ���ֱ������ܻ���໬˦β�������
+Tittle=制动时后车轮抱死可能会出侧滑甩尾的情况。
 TittleEmphasize=
-SkillEmphasize=���ֱ���
+SkillEmphasize=后车轮抱死
 ImagePath=
 FlashPath=
 SkillId=44
 MoudleId=12
 Type=1
 Classification=4
-BankId=29
+BankId=51
 [SkillInfo]
-SkillNotice=ǰ�ֱ��������ֱ������ԣ�
-NormalNotice=��ν���໬�����ǳ��������١�ͻȻ�ƶ�������ʱŤ�ع���������Ĳ���˦���������׳ơ�˦β������ɳ����໬�����غܶࡣѩ�죬���졢�������г�ʱͻȻ̧�����Ż�ͻȻ���٣���ȡ�����ƶ����ƶ�ʱ���ֱ�ǰ���ȱ����������׷��������໬������¹ʡ� ���Ա�����ȷ��
+SkillNotice=前轮抱死，后轮抱死，对！
+NormalNotice=所谓“侧滑”就是车辆急加速、突然制动或启动时扭矩过大而产生的侧向甩动的现象，俗称“甩尾”。造成车辆侧滑的因素很多。雪天，雨天、冰面上行车时突然抬起油门或突然加速；采取紧急制动，制动时后轮比前轮先抱死；都极易发生车辆侧滑而造成事故。 所以本题正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

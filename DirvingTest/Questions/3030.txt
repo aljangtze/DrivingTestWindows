@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3030
 Url=http://tiba.jsyks.com/Post/77b66.htm
-Tittle=����ʻ�����о������зǻ�������ʻ���л�ˮ��·��ʱ��Ӧ��������
+Tittle=当驾驶车辆行经两侧有非机动车行驶且有积水的路面时，应怎样做？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=��ѡ�ѡ�������У��м��پ�ѡ�������еĴ𰸡����ٲ�ѡ��ѡ���١�
-NormalNotice=��ʶ�⣬���ٿ��Է�ֹ��ˮ�������������ѵ����ã������ܷ�ֹ��ˮ�� ��������û����ʱ���ǲ��Ǻ�������Щ�ڻ�ˮ·�濪�쳵�ģ��ðɣ����ǻ��ǲ�Ҫ���ñ�����������˰ɣ�
+SkillNotice=看选项：选减速慢行，有减速就选减速慢行的答案。加速不选，选减速。
+NormalNotice=常识题，减速可以防止溅水，按喇叭有提醒的作用，但不能防止溅水。 想想我们没车的时候是不是很讨厌那些在积水路面开快车的？好吧，我们还是不要做让别人讨厌的人了吧！
 [Options]
-Options1=��������
-Options2=����ͨ��
-Options3=����������
-Options4=������ʻ
-Image1=��������
-Image2=����
+Options1=减速慢行
+Options2=加速通过
+Options3=连续鸣喇叭
+Options4=正常行驶
+Image1=减速慢行
+Image2=加速
 Image3=
 Image4=
 [AnswerInfo]

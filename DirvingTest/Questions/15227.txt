@@ -1,23 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15227
 Url=http://tiba.jsyks.com/Post/865c9.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=15227.jpg
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=�˱�־��ʾ��ֹͨ�У���ֹһ�г���������ͨ�С�    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    ��ֹͨ��    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>NormalNotice=�˱�־��ʾ��ֹͨ�У���ֹһ�г���������ͨ�С�    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    ��ֹͨ��    <img src=http://sucimg.itc.cn/sblog/j6w5w43EziG>    ��ֹʻ��</p>
-    ��ֹʻ��</p>
+SkillNotice=此标志表示禁止通行，禁止一切车辆和行人通行。NormalNotice=此标志表示禁止通行，禁止一切车辆和行人通行。
 [Options]
-Options1=��ֹʻ��
-Options2=��ֹͨ��
-Options3=������ʻ
-Options4=��ʱ����
+Options1=禁止驶入
+Options2=禁止通行
+Options3=减速行驶
+Options4=限时进入
 Image1=
 Image2=
 Image3=

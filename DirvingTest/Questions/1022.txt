@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1022
 Url=http://tiba.jsyks.com/Post/2b592.htm
-Tittle=�Լ�ʻ�Ѵﵽ���ϱ�׼�Ļ�������·��ʻ�ļ�ʻ�ˣ����ܵ��������ִ�����
+Tittle=对驾驶已达到报废标准的机动车上路行驶的驾驶人，会受到下列哪种处罚？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=���𰸣�20Ԫ�ķ����ѡ������ѡ������
-NormalNotice=��һ��������ʻƴװ�Ļ����������Ѵﵽ���ϱ�׼�Ļ������ϵ�·��ʻ�ģ��������ؽ�ͨ��������Ӧ�������սɣ�ǿ�Ʊ��ϡ�        �Լ�ʻǰ�����л������ϵ�·��ʻ�ļ�ʻ�ˣ�������Ԫ���϶�ǧԪ���·����������������ʻ֤��
+SkillNotice=看答案：20元的罚款不能选，还是选吊销。
+NormalNotice=第一百条　驾驶拼装的机动车或者已达到报废标准的机动车上道路行驶的，公安机关交通管理部门应当予以收缴，强制报废。        对驾驶前款所列机动车上道路行驶的驾驶人，处二百元以上二千元以下罚款，并吊销机动车驾驶证。
 [Options]
-Options1=��20����200Ԫ���·���
-Options2=������������ʻ֤
-Options3=��15�����¾���
-Options4=׷����������
-Image1=20&����
-Image2=����
+Options1=处20以上200元以下罚款
+Options2=吊销机动车驾驶证
+Options3=处15日以下拘留
+Options4=追究刑事责任
+Image1=20&罚款
+Image2=吊销
 Image3=
 Image4=
 [AnswerInfo]

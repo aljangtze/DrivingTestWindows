@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1385
 Url=http://tiba.jsyks.com/Post/07a25.htm
-Tittle=��ͼ��ʾ��A�����Դ���೬ԽB����
+Tittle=如图所示，A车可以从左侧超越B车。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=1385.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=��ͼ����ʵ��һ�೬������
-NormalNotice=B�������Ϊʵ�ߣ�B������ѹ��ʵ�߳�����
+SkillNotice=看图：在实线一侧超车错。
+NormalNotice=B车的左边为实线，B车不能压过实线超车。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

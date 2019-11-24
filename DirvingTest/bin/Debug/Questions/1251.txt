@@ -1,30 +1,30 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=1251
 Url=http://tiba.jsyks.com/Post/acda3.htm
-Tittle=╪щй╩хкн╔╥╢╫╩м╗ткйД╧эюМ╥╗╧Ф╥╒иЗжь╢Сйб╧йжбхккюмЖгрлсрщ╣дё╛╢╕╤ЮиыдЙспфзм╫плё©
+Tittle=И╘╬И╘╤Д╨╨Х©²Е▐█Д╨╓И─ Х©░Х╬⌠Г╝║Г░├ФЁ∙Х╖└Е▐▒Г■÷И┤█Е╓╖Д╨▀Ф∙┘Х┤╢Д╨╨Ф╜╩Д╨║Д╦■И─┐И─╦Г └О╪▄Е╓└Е╓ Е╟▒Е╧╢Ф°┴Ф°÷Е╬▓Е┬▒О╪÷
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
-SkillId=32
+SkillId=33
 MoudleId=1
 Type=2
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=©╢╢П╟╦ё╨╢Ьртиортоб╣д╢П╟╦ё╛╡╩р╩яЫЁ╓╣дё╛я║вНЁ╓ё╛н╗р╩р╩╦Жя║3ё╛7,21╣д╢П╟╦║ё
-NormalNotice=рРн╙лсрщжбкюмЖ╣д╡ейг7дЙртиоё╛жбхккюмЖгрлсрщ╣дйг3дЙртио7дЙртоб║ё
+SkillNotice=Г°▀Г╜■Ф║┬О╪ Е╦╕Д╩╔Д╦┼Д╩╔Д╦▀Г └Г╜■Ф║┬О╪▄Д╦█Д╦─Ф═╥И∙©Г └О╪▄И─┴Ф°─И∙©О╪▄Е■╞Д╦─Д╦─Д╦╙И─┴3О╪▄7,21Г └Г╜■Ф║┬Ц─┌
+NormalNotice=Е⌡═Д╦╨И─┐И─╦Х┤╢Ф╜╩Д╨║Г └Ф┴█Ф≤╞7Е╧╢Д╩╔Д╦┼О╪▄Х┤╢Д╨╨Ф╜╩Д╨║Д╦■И─┐И─╦Г └Ф≤╞3Е╧╢Д╩╔Д╦┼7Е╧╢Д╩╔Д╦▀Ц─┌
 [Options]
-Options1=7дЙртио
-Options2=10дЙртио
-Options3=3дЙртоб
-Options4=3дЙртио7дЙртоб
+Options1=3Е╧╢Д╩╔Д╦▀
+Options2=3Е╧╢Д╩╔Д╦┼7Е╧╢Д╩╔Д╦▀
+Options3=10Е╧╢Д╩╔Д╦┼
+Options4=7Е╧╢Д╩╔Д╦┼
 Image1=
-Image2=
+Image2=3&7
 Image3=
-Image4=3&7
+Image4=
 [AnswerInfo]
 Answer1=0
-Answer2=0
+Answer2=1
 Answer3=0
-Answer4=1
+Answer4=0

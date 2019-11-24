@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1067
 Url=http://tiba.jsyks.com/Post/550a2.htm
-Tittle=��ʻ�������ڵ�·������������ʱ���ʹ�õƹ⣿
+Tittle=驾驶机动车在道路上向左变更车道时如何使用灯光？
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=向左
 ImagePath=
 FlashPath=
 SkillId=32
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=ע�⣺��������Ҫ��ǰ������ת��ơ���Ŀ����������ѡ��ת��ơ�
-NormalNotice=����·��ͨ��ȫ��ʵʩ����������ʮ����,������Ӧ���������й涨ʹ��ת��ƣ� (һ)����ת�䡢������������׼��������ʻ��ͣ���ص���ߵ�ͷʱ��Ӧ����ǰ������ת��ƣ� (��)����ת�䡢���ұ���������������ʻ��ԭ��������·��ͣ��ʱ��Ӧ����ǰ������ת��ơ�
+SkillNotice=注意：向左变道就要提前开启左转向灯。题目向左变道，答案选左转向灯。
+NormalNotice=《道路交通安全法实施条例》第五十七条,机动车应当按照下列规定使用转向灯： (一)向左转弯、向左变更车道、准备超车、驶离停车地点或者掉头时，应当提前开启左转向灯； (二)向右转弯、向右变更车道、超车完毕驶回原车道、靠路边停车时，应当提前开启右转向灯。
 [Options]
-Options1=��ǰ������ת���
-Options2=���ÿ���ת���
-Options3=��ǰ������ת���
-Options4=��ǰ���������
-Image1=��&��
+Options1=提前开启左转向灯
+Options2=不用开启转向灯
+Options3=提前开启右转向灯
+Options4=提前开启近光灯
+Image1=左&向
 Image2=
 Image3=
 Image4=

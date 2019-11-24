@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2268
 Url=http://tiba.jsyks.com/Post/6f23b.htm
-Tittle=��һ�齻ͨ����������ʲô�źţ�
+Tittle=这一组交通警察手势是什么信号？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2268.jpg
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=�����ƣ�������������Ұڶ��б���źš�
-NormalNotice=���칲�а������ƣ�    ֹͣ���ر�򵥾���ֱֱ̧��ۣ�    ֱ�У��������첲�ſ�������������ǰ������ֱ��ͨ�������ֳ�0��    ��ת��ת������ֻ�ֵģ�����һ�£����Ұڶ�����������ת��������ƣ����ֳ�45��    ���ת�����������°ڶ���45�ȵ�30��    �������������ˮƽ?
+SkillNotice=看手势：单手伸出，左右摆动叫变道信号。
+NormalNotice=警察共有八种手势，    停止，特别简单就是直直抬左臂；    直行，先是两胳膊张开，右手弯曲胸前允许右直行通过；两手成0度    左转右转都是两只手的，以上一下，向右摆动的下手向左转，反向递推；两手成45度    左待转就是左手上下摆动从45度到30度    变更车道，右手水平?
 [Options]
-Options1=����ͣ���ź�
-Options2=���������ź�
-Options3=��ת���ź�
-Options4=����ź�
+Options1=靠边停车信号
+Options2=减速慢行信号
+Options3=右转弯信号
+Options4=变道信号
 Image1=
 Image2=
 Image3=
-Image4=����ź�
+Image4=变道信号
 [AnswerInfo]
 Answer1=0
 Answer2=0

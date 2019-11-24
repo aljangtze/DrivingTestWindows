@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14044
-Tittle=���½�ͨ��־��ʾ�ĺ�����ʲô��
+Tittle=以下交通标志表示的含义是什么？
 
 SkillEmphasize=
 ImagePath=14044.jpg
@@ -11,16 +11,16 @@ Type=2
 Classification=3
 BankId=3
 [SkillInfo]
-SkillNotice=��ͼ��ͼ�еı�־�ǽ�ֹһ�л�����ʻ�롣
+SkillNotice=看图：图中的标志是禁止一切机动车驶入。
 NormalNotice=
 [Options]
-Options1=��ֹ�ǻ�����ʻ��
+Options1=禁止非机动车驶入
 Image1=
-Options2=��ֹС�ͳ�ʻ��
+Options2=禁止小客车驶入
 Image2=
-Options3=��ֹ������ʻ��
-Image3=��ֹ������ʻ��
-Options4=��ֹ���г���ʻ��
+Options3=禁止机动车驶入
+Image3=禁止机动车驶入
+Options4=禁止所有车辆驶入
 Image4=
 [AnswerInfo]
 Answer1=0

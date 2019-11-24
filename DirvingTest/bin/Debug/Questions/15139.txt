@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15139
 Url=http://tiba.jsyks.com/Post/3c2be.htm
-Tittle=�������ڵ�·�Ϸ������������ƶ�ʱҪ�ڳ���50���������þ����־��
+Tittle=机动车在道路上发生故障难以移动时要在车后50米以内设置警告标志。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=�������ڵ�·�Ϸ������ϻ��߷�����ͨ�¹ʣ�������ͨ�������ƶ��ģ�Ӧ�����չ涨����Σ�ձ�������Ʋ��ڳ���50����100�״����þ����־��ҹ�仹Ӧ��ͬʱ����ʾ���ƺͺ�λ�ơ� ���Բ�����50���ڣ�Ӧ����50������100���ڡ���չ��ʾ�����ٹ�·��Ҫ�ڳ���150�������þ����־��
-NormalNotice=�������ڵ�·�Ϸ������ϻ��߷�����ͨ�¹ʣ�������ͨ�������ƶ��ģ�Ӧ�����չ涨����Σ�ձ�������Ʋ��ڳ���50����100�״����þ����־��ҹ�仹Ӧ��ͬʱ����ʾ���ƺͺ�λ�ơ� ���Բ�����50���ڣ�Ӧ����50������100���ڡ���չ��ʾ�����ٹ�·��Ҫ�ڳ���150�������þ����־��
+SkillNotice=机动车在道路上发生故障或者发生交通事故，妨碍交通又难以移动的，应当按照规定开启危险报警闪光灯并在车后50米至100米处设置警告标志，夜间还应当同时开启示廓灯和后位灯。 所以不是在50米内，应该是50米以外100米内。扩展提示：高速公路上要在车后150米外设置警告标志。
+NormalNotice=机动车在道路上发生故障或者发生交通事故，妨碍交通又难以移动的，应当按照规定开启危险报警闪光灯并在车后50米至100米处设置警告标志，夜间还应当同时开启示廓灯和后位灯。 所以不是在50米内，应该是50米以外100米内。扩展提示：高速公路上要在车后150米外设置警告标志。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

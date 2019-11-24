@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1327
 Url=http://tiba.jsyks.com/Post/a8500.htm
-Tittle=ʹ���������������ơ���ʻ֤��һ�μ�3�֡�
+Tittle=使用其他机动车号牌、行驶证的一次记3分。
 TittleEmphasize=
-SkillEmphasize=һ�μ�3��
+SkillEmphasize=一次记3分
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=��ס��һ�μ�3��ȫ�����Ƿ��ж����ס��12ȫ�ԣ���3��ȫ����
-NormalNotice=�����������123�š�����2��ʹ��α�졢����Ļ��������ơ���ʻ֤����ʻ֤��У�����ƻ���ʹ���������������ơ���ʻ֤�ģ�һ�μ�12�� ��
+SkillNotice=记住：一次记3分全错。记分判断题记住记12全对，记3分全错。
+NormalNotice=《公安部令第123号》附件2，使用伪造、变造的机动车号牌、行驶证、驾驶证、校车标牌或者使用其他机动车号牌、行驶证的，一次记12分 。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

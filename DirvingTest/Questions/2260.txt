@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2260
 Url=http://tiba.jsyks.com/Post/1de22.htm
-Tittle=·���ϵ����ο������Ǻκ��壿
+Tittle=路面上的菱形块虚线是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2260.jpg
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=8
 [SkillInfo]
-SkillNotice=���е�������ٱ���Ϊһ��ƽ���ڳ��е��ֽ��ߵ����ο����ߡ��ڳ��е�������ٱ��ߵ���ʼλ�ã�����30 m�Ľ���Σ����ο�������խ���
-NormalNotice=���е�������ٱ���Ϊһ��ƽ���ڳ��е��ֽ��ߵ����ο����ߡ��ڳ��е�������ٱ��ߵ���ʼλ�ã�����30 m�Ľ���Σ����ο�������խ���
+SkillNotice=车行道纵向减速标线为一组平行于车行道分界线的菱形块虚线。在车行道纵向减速标线的起始位置，设置30 m的渐变段，菱形块虚线由窄变宽
+NormalNotice=车行道纵向减速标线为一组平行于车行道分界线的菱形块虚线。在车行道纵向减速标线的起始位置，设置30 m的渐变段，菱形块虚线由窄变宽
 [Options]
-Options1=��·ʩ����ʾ����
-Options2=���е�������ٱ���
-Options3=����������ʾ����
-Options4=���е�������ٱ���
+Options1=道路施工提示标线
+Options2=车行道横向减速标线
+Options3=车道变少提示标线
+Options4=车行道纵向减速标线
 Image1=
 Image2=
 Image3=
-Image4=����
+Image4=纵向
 [AnswerInfo]
 Answer1=0
 Answer2=0

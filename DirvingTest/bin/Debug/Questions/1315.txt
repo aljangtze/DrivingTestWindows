@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1315
 Url=http://tiba.jsyks.com/Post/bda94.htm
-Tittle=��ɽ�ͨ�¹ʺ����ݣ��в����ɷ����һ�μǼ��֣�
+Tittle=造成交通事故后逃逸，尚不构成犯罪的一次记几分？
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=逃逸
 ImagePath=
 FlashPath=
 SkillId=33
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=3
 [SkillInfo]
-SkillNotice=���⣺���ݵ�ѡ12�֣�ѡ�����г����źŵ�ѡ6�֣�������ѡ12�֡�
-NormalNotice=�����������123�š�����2����ɽ�ͨ�¹ʺ����ݣ��в����ɷ���ģ�һ�μ�12�� ��
+SkillNotice=看题：逃逸的选12分，选择题中除了信号灯选6分，其他都选12分。
+NormalNotice=《公安部令第123号》附件2，造成交通事故后逃逸，尚不构成犯罪的，一次记12分 。
 [Options]
-Options1=3��
-Options2=6��
-Options3=2��
-Options4=12��
+Options1=3分
+Options2=6分
+Options3=2分
+Options4=12分
 Image1=
 Image2=
 Image3=
-Image4=12��
+Image4=12分
 [AnswerInfo]
 Answer1=0
 Answer2=0

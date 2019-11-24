@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9207
 Url=http://tiba.jsyks.com/Post/f6bf8.htm
-Tittle=�������������ź�ʱ��������ת�䡣
+Tittle=看到这种手势信号时可以向左转弯。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=9207.jpg
@@ -10,13 +10,13 @@ SkillId=42
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=34
 [SkillInfo]
-SkillNotice=�������ƣ��������������Լ��Ķԡ�3ֻ�ֵĽ������ԣ��������ǵģ����Ǵ���û��3ֻ�֡���
-NormalNotice=��ת���ź�     ����ʾ�⣺׼��������ת�䣬�ڲ����������г���ͨ�е�����¿��Ե�ͷ��
+SkillNotice=交警手势，交警看着我们自己的对、3只手的交警、对，不看我们的，就是错，没有3只手。错
+NormalNotice=左转弯信号     手势示意：准许车辆左转弯，在不妨碍被放行车辆通行的情况下可以掉头。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

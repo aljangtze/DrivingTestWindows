@@ -1,26 +1,26 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=13034
 Url=http://tiba.jsyks.com/Post/94f69.htm
-Tittle=Һ��ʯ�����޳�������;�з�������й©ʱ�����д�ʩ�������ʲô��
+Tittle=液化石油气罐车在运输途中发生大量泄漏时，下列措施错误的是什么？
 TittleEmphasize=
-SkillEmphasize=ʯ��������
+SkillEmphasize=石油气，错
 ImagePath=
 FlashPath=
 SkillId=46
 MoudleId=13
 Type=2
 Classification=4
-BankId=0
+BankId=15
 [SkillInfo]
-SkillNotice=ʯ�������޳���������й©��������������ǽ������·緽�����롣
-NormalNotice=Ϊ�˷�ֹй©�¼���ɸ�����˺�����ʧ����˲�ȡ�Ĵ�ʩӦ���Ǵ��÷�����ߺ����ס��ж�һ�е�Դ���رշ�����ֹ��©������֯��Ա���Ϸ緽����ɢ�� �����⿼���Ǵ���Ĵ�ʩ�����һ����ֻ��ѡ��D�Ǵ���ġ��������·緽�򣬶���Ӧ�����Ϸ緽��
+SkillNotice=石油气气罐车发生大量泄漏，错误的做法就是叫人往下风方向逃离。
+NormalNotice=为了防止泄漏事件造成更大的伤害和损失，因此采取的措施应该是戴好防护面具和手套、切断一切电源、关闭阀门制止渗漏，并组织人员向上风方向疏散。 而本题考的是错误的措施，如此一来，只有选项D是错误的。不是往下风方向，而是应当往上风方向。
 [Options]
-Options1=�رշ�����ֹ��©
-Options2=��֯��Ա���·緽����ɢ
-Options3=���÷�����ߺ�����
-Options4=�ж�һ�е�Դ
+Options1=切断一切电源
+Options2=组织人员向下风方向疏散
+Options3=关闭阀门制止渗漏
+Options4=戴好防护面具和手套
 Image1=
-Image2=�·�
+Image2=下风
 Image3=
 Image4=
 [AnswerInfo]

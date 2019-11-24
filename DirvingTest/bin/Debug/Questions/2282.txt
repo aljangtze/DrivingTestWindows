@@ -1,22 +1,22 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2282
 Url=http://tiba.jsyks.com/Post/68fb4.htm
-Tittle=Õâ¸ö±êÖ¾µÄº¬ÒåÊÇÌáÐÑÇ°·½×ó²àÐÐ³µµÀ»òÂ·Ãæ±äÕ­¡£
+Tittle=è¿™ä¸ªæ ‡å¿—çš„å«ä¹‰æ˜¯æé†’å‰æ–¹å·¦ä¾§è¡Œè½¦é“æˆ–è·¯é¢å˜çª„ã€‚
 TittleEmphasize=
-SkillEmphasize=×ó²à
+SkillEmphasize=å·¦ä¾§
 ImagePath=2282.jpg
 FlashPath=
-SkillId=36
+SkillId=29
 MoudleId=2
 Type=1
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=×ó²à±äÕ­£¬¶Ô£¡
-NormalNotice=×ó²à±äÕ­£ºÓÃÒÔ¾¯¸æ³µÁ¾¼ÝÊ»ÈË×¢ÒâÇ°·½³µÐÐµÀ»òÂ·ÃæÏÁÕ­Çé¿ö£¬ÓöÓÐÀ´³µÓ¦Óè¼õËÙ±ÜÈÃ¡£ÉèÔÚË«³µµÀÂ·Ãæ¿í¶ÈËõ¼õÎª6 mÒÔÏÂµÄÂ·¶ÎÆðµãÇ°·½¡£
+SkillNotice=å·¦ä¾§å˜çª„ï¼Œå¯¹ï¼
+NormalNotice=å·¦ä¾§å˜çª„ï¼šç”¨ä»¥è­¦å‘Šè½¦è¾†é©¾é©¶äººæ³¨æ„å‰æ–¹è½¦è¡Œé“æˆ–è·¯é¢ç‹­çª„æƒ…å†µï¼Œé‡æœ‰æ¥è½¦åº”äºˆå‡é€Ÿé¿è®©ã€‚è®¾åœ¨åŒè½¦é“è·¯é¢å®½åº¦ç¼©å‡ä¸º6 mä»¥ä¸‹çš„è·¯æ®µèµ·ç‚¹å‰æ–¹ã€‚
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

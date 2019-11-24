@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5002
 Url=http://tiba.jsyks.com/Post/24732.htm
-Tittle=���͡������ػ���������ҳ�����߶ȴӵ����𲻵ó��������ף�
+Tittle=重型、中型载货汽车，半挂车载物，高度从地面起不得超过多少米？
 TittleEmphasize=
-SkillEmphasize=�߶�
+SkillEmphasize=高度
 ImagePath=
 FlashPath=
 SkillId=37
@@ -12,8 +12,8 @@ Type=2
 Classification=2
 BankId=0
 [SkillInfo]
-SkillNotice=���͡������ػ���������ҳ�����߶Ȳ��ó���4�ס�
-NormalNotice=���͡������ػ���������ҳ�����߶ȴӵ����𲻵ó���4�ף����˼�װ��ĳ������ó���4.2�ס������ػ��Ļ���������߶ȴӵ����𲻵ó���2.5�ס�
+SkillNotice=重型、中型载货汽车，半挂车载物高度不得超过4米。
+NormalNotice=重型、中型载货汽车，半挂车载物，高度从地面起不得超过4米，载运集装箱的车辆不得超过4.2米。其他载货的机动车载物，高度从地面起不得超过2.5米。
 [Options]
 Options1=4
 Options2=4.2

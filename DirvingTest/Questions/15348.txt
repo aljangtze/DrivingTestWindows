@@ -1,21 +1,21 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15348
 Url=http://tiba.jsyks.com/Post/11fbd.htm
-Tittle=������������Ţ�򷭽�·��ʱ��Ҫͣ���۲죬ѡ��ƽ������ʵ���г��޵�·�λ���ͨ����
+Tittle=机动车行至泥泞或翻浆路段时，要停车观察，选择平整、坚实或有车辙的路段缓慢通过。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=ͣ���۲�����ͨ����Ţ�򷭽�·��֮ǰ�Ĳ�����Ҳ����˵�����·��֮������ʻ�����������������Ҷ�֪��Ҫ�ߺ��ߵ�·����ôʲô����·�Ǻ��ߵģ�����ƽ������ʵ�Ļ����г��޵ġ��������ǲ��еģ�������һ��Ҫͬʱ����������������������ѡ��һ�� ��������ǶԵġ�
-NormalNotice=ͣ���۲�����ͨ����Ţ�򷭽�·��֮ǰ�Ĳ�����Ҳ����˵�����·��֮������ʻ�����������������Ҷ�֪��Ҫ�ߺ��ߵ�·����ôʲô����·�Ǻ��ߵģ�����ƽ������ʵ�Ļ����г��޵ġ��������ǲ��еģ�������һ��Ҫͬʱ����������������������ѡ��һ�� ��������ǶԵġ�
+SkillNotice=停车观察是在通过泥泞或翻浆路段之前的操作，也就是说看清楚路况之后再行驶。遇到这类情况，大家都知道要走好走的路，那么什么样的路是好走的？就是平整、坚实的或是有车辙的。这三种是并列的，并不是一定要同时满足这三个条件，可以任选其一。 因此这题是对的。
+NormalNotice=停车观察是在通过泥泞或翻浆路段之前的操作，也就是说看清楚路况之后再行驶。遇到这类情况，大家都知道要走好走的路，那么什么样的路是好走的？就是平整、坚实的或是有车辙的。这三种是并列的，并不是一定要同时满足这三个条件，可以任选其一。 因此这题是对的。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

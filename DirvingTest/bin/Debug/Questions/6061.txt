@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6061
-Tittle=�����г���ת������У�Ҫע����ǰ�����ó�׼����
+Tittle=汽车列车在转弯过程中，要注意提前做好让车准备。
 SkillEmphasize=
 ImagePath=
 FlashPath=
@@ -12,8 +12,8 @@ Classification=0
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

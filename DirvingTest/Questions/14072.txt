@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14072
-Tittle=�����ĸ��Ǳ���ʾȼ�ͱ���
-SkillEmphasize=ȼ�ͱ�
+Tittle=以下哪个仪表表示燃油表？
+SkillEmphasize=燃油表
 ImagePath=14072.jpg
 FlashPath=
 SkillId=35
@@ -10,16 +10,16 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=��ͼ��ȼ�ͱ�ѡͼ4��ȼ�ͱ��Ŀ̶��м��и���עȼ�͵�ͼ�ꡣ
+SkillNotice=看图：燃油表选图4。燃油表的刻度中间有个加注燃油的图标。
 NormalNotice=
 [Options]
-Options1=ͼ2
+Options1=图2
 Image1=
-Options2=ͼ1
+Options2=图1
 Image2=
-Options3=ͼ3
+Options3=图3
 Image3=
-Options4=ͼ4
+Options4=图4
 Image4=
 [AnswerInfo]
 Answer1=0

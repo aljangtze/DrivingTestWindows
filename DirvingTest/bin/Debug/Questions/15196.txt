@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15196
 Url=http://tiba.jsyks.com/Post/ce80e.htm
-Tittle=��ʻ�����������չ涨����У���ģ�һ�μ�6�֡�
+Tittle=驾驶机动车不按照规定避让校车的，一次记6分。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=���ݹ涨����ʻ�����������չ涨����У���ģ�һ�μ�6�� ��
-NormalNotice=���ݹ涨����ʻ�����������չ涨����У���ģ�һ�μ�6�� ��
+SkillNotice=根据规定，驾驶机动车不按照规定避让校车的，一次记6分 。
+NormalNotice=根据规定，驾驶机动车不按照规定避让校车的，一次记6分 。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

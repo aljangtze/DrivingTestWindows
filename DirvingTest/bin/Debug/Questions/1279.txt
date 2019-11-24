@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1279
 Url=http://tiba.jsyks.com/Post/f4c08.htm
-Tittle=��ʻ����һ���Ƿ��������ۻ��Ƿִﵽ12�ֵģ���ͨ��������������ʻ֤��
+Tittle=驾驶人在一个记分周期内累积记分达到12分的，交通警察依法扣留驾驶证。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=依法
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=���ɣ�����������ʻ֤�ԣ�������֤����һ��Ҫ���壬����������ʻ֤��������������ʻ֤�ԡ�
-NormalNotice=���������¿��Կ�����ʻ֤ �·��涨������������֮һ�ģ����Կ�����������ʻ֤�� (һ)���ơ����ƺ��ʻ�������ģ� (��)��������ʻ�˽�����������δȡ�û�������ʻ֤���߻�������ʻ֤���������ݿ۵��˼�ʻ�ģ� (��)��������ʻ�����涨ʱ�ٰٷ�֮��ʮ�ģ� (��)��ʻƴװ������?
+SkillNotice=技巧：依法扣留驾驶证对，依法扣证的题一定要看清，依法扣留行驶证错，依法扣留驾驶证对。
+NormalNotice=六种情形下可以扣留驾驶证 新法规定，有下列情形之一的，可以扣留机动车驾驶证： (一)饮酒、醉酒后驾驶机动车的； (二)机动车驾驶人将机动车交由未取得机动车驾驶证或者机动车驾驶证被吊销、暂扣的人驾驶的； (三)机动车行驶超过规定时速百分之五十的； (四)驾驶拼装或者已?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

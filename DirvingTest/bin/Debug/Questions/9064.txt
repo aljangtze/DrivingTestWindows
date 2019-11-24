@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9064
 Url=http://tiba.jsyks.com/Post/7b165.htm
-Tittle=����־����ǰ��ע�����·���л��복����
+Tittle=左侧标志警告前方注意左侧路口有汇入车辆。
 TittleEmphasize=
-SkillEmphasize=��
+SkillEmphasize=左
 ImagePath=9064.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=33
+BankId=46
 [SkillInfo]
-SkillNotice=��־��ʾ���󣬲��л��복������Ŀ�����󣬶ԡ�
-NormalNotice=ע�����     ���Ծ��泵����ʻ��ע��ǰ���г�����Ͻ�����             ��ɫ�Ǿ����־
+SkillNotice=标志表示，左，侧有汇入车辆，题目中有左，对。
+NormalNotice=注意合流     用以警告车辆驾驶人注意前方有车辆汇合进来。             黄色是警告标志
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

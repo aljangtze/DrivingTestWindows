@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6050
 Url=http://tiba.jsyks.com/Post/3f220.htm
-Tittle=��װ�˿Ͱ�ȫ���ĳ�����ӦҪ��˿�����ǰ���涨ʹ�ð�ȫ����
+Tittle=安装乘客安全带的车辆，应要求乘客在起步前按规定使用安全带。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=��ȫ��һ������һ��ҪҪ��˿�����ǰ���涨ʹ�ð�ȫ����
-NormalNotice=��ȫ��һ������һ��ҪҪ��˿�����ǰ���涨ʹ�ð�ȫ����
+SkillNotice=安全第一，所以一定要要求乘客在起步前按规定使用安全带。
+NormalNotice=安全第一，所以一定要要求乘客在起步前按规定使用安全带。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

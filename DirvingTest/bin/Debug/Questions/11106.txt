@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=11106
 Url=http://tiba.jsyks.com/Post/f9b21.htm
-Tittle=»ú¶¯³µÉÏ¸ßËÙ¹«Â·£¬ÒÔÏÂÄÄÖÖËµ·¨ÊÇÕýÈ·µÄ£¿
+Tittle=æœºåŠ¨è½¦ä¸Šé«˜é€Ÿå…¬è·¯ï¼Œä»¥ä¸‹å“ªç§è¯´æ³•æ˜¯æ­£ç¡®çš„ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,17 +12,17 @@ Type=2
 Classification=4
 BankId=30
 [SkillInfo]
-SkillNotice=¿´´ð°¸£ºÓÐ¿É×ÖÑ¡²»×Ö£¬ÉÏ¸ßËÙ¹«Â·²»×¼µ¹³µ¡¢ÄæÐÐ¡¢¡¢¡¢¡¢
-NormalNotice=¡¶ÖÐ»ªÈËÃñ¹²ºÍ¹úµÀÂ·½»Í¨°²È«·¨ÊµÊ©ÌõÀý¡·µÚ°ËÊ®¶þÌõ »ú¶¯³µÔÚ¸ßËÙ¹«Â·ÉÏÐÐÊ»£¬²»µÃÓÐÏÂÁÐÐÐÎª£º ¡¡¡¡    £¨Ò»£©µ¹³µ¡¢ÄæÐÐ¡¢´©Ô½ÖÐÑë·Ö¸ô´øµôÍ·»òÕßÔÚ³µµÀÄÚÍ£³µ£» ¡¡¡¡    £¨¶þ£©ÔÚÔÑµÀ¡¢¼ÓËÙ³µµÀ»òÕß¼õËÙ³µµÀÉÏ³¬³µ£» ¡¡¡¡    £¨Èý£©Æï¡¢Ôþ³µÐÐµÀ·Ö½çÏß»òÕßÔÚÂ·¼çÉÏÐÐÊ»
+SkillNotice=çœ‹ç­”æ¡ˆï¼šæœ‰å¯å­—é€‰ä¸å­—ï¼Œä¸Šé«˜é€Ÿå…¬è·¯ä¸å‡†å€’è½¦ã€é€†è¡Œã€ã€ã€ã€
+NormalNotice=ã€Šä¸­åŽäººæ°‘å…±å’Œå›½é“è·¯äº¤é€šå®‰å…¨æ³•å®žæ–½æ¡ä¾‹ã€‹ç¬¬å…«åäºŒæ¡ æœºåŠ¨è½¦åœ¨é«˜é€Ÿå…¬è·¯ä¸Šè¡Œé©¶ï¼Œä¸å¾—æœ‰ä¸‹åˆ—è¡Œä¸ºï¼š ã€€ã€€    ï¼ˆä¸€ï¼‰å€’è½¦ã€é€†è¡Œã€ç©¿è¶Šä¸­å¤®åˆ†éš”å¸¦æŽ‰å¤´æˆ–è€…åœ¨è½¦é“å†…åœè½¦ï¼› ã€€ã€€    ï¼ˆäºŒï¼‰åœ¨åŒé“ã€åŠ é€Ÿè½¦é“æˆ–è€…å‡é€Ÿè½¦é“ä¸Šè¶…è½¦ï¼› ã€€ã€€    ï¼ˆä¸‰ï¼‰éª‘ã€è½§è½¦è¡Œé“åˆ†ç•Œçº¿æˆ–è€…åœ¨è·¯è‚©ä¸Šè¡Œé©¶
 [Options]
-Options1=¿ÉÒÔÊÔ³µ»òÑ§Ï°¼ÝÊ»
-Options2=¿ÉÔÚÔÑµÀ¡¢¼ÓËÙ³µµÀ¡¢¼õËÙ³µµÀÉÏ³¬³µ
-Options3=²»×¼µ¹³µ¡¢ÄæÐÐ¡¢´©Ô½ÖÐÑë·Ö¸ô´øµôÍ·
-Options4=·Ç½ô¼±Çé¿öÊ±¿ÉÔÚÓ¦¼±³µµÀÐÐÊ»
-Image1=¿ÉÒÔ
-Image2=¿É
-Image3=²»×¼
-Image4=¿ÉÔÚ
+Options1=å¯ä»¥è¯•è½¦æˆ–å­¦ä¹ é©¾é©¶
+Options2=å¯åœ¨åŒé“ã€åŠ é€Ÿè½¦é“ã€å‡é€Ÿè½¦é“ä¸Šè¶…è½¦
+Options3=ä¸å‡†å€’è½¦ã€é€†è¡Œã€ç©¿è¶Šä¸­å¤®åˆ†éš”å¸¦æŽ‰å¤´
+Options4=éžç´§æ€¥æƒ…å†µæ—¶å¯åœ¨åº”æ€¥è½¦é“è¡Œé©¶
+Image1=å¯ä»¥
+Image2=å¯
+Image3=ä¸å‡†
+Image4=å¯åœ¨
 [AnswerInfo]
 Answer1=0
 Answer2=0

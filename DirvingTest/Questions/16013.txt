@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=16013
 Url=http://tiba.jsyks.com/Post/2b963.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16013.jpg
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=Õ­ÇÅ£ºÓÃÒÔ¾¯¸æ³µÁ¾¼ÝÊ»ÈË×¢ÒâÇ°·½ÇÅÃæ¿í¶È±äÕ­£¬Ó¦½÷É÷¼ÝÊ»¡£ÉèÔÚÇÅÃæ¾»¿í½ÏÁ½¶ËÂ·Ãæ¿í¶È±äÕ­£¬ÇÒÇÅµÄ¾»¿íÐ¡ÓÚ6 mµÄÇÅÁºÒÔÇ°ÊÊµ±Î»ÖÃ¡£    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut6q71q7j.jpg>    Õ­Â·£¨Á½²à±äÕ­£©    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut88be7yj.jpg>    Õ­ÇÅ</p>    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut6q71q7j.jpg>    Õ­Â·£¨Á½²à±äÕ­£©    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut88be7yj.jpg>    Õ­ÇÅ</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6q71q7j.jpg>    Õ­Â·£¨Á½²à±äÕ­£©    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut88be7yj.jpg>NormalNotice=Õ­ÇÅ£ºÓÃÒÔ¾¯¸æ³µÁ¾¼ÝÊ»ÈË×¢ÒâÇ°·½ÇÅÃæ¿í¶È±äÕ­£¬Ó¦½÷É÷¼ÝÊ»¡£ÉèÔÚÇÅÃæ¾»¿í½ÏÁ½¶ËÂ·Ãæ¿í¶È±äÕ­£¬ÇÒÇÅµÄ¾»¿íÐ¡ÓÚ6 mµÄÇÅÁºÒÔÇ°ÊÊµ±Î»ÖÃ¡£    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut6q71q7j.jpg>    Õ­Â·£¨Á½²à±äÕ­£©    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut88be7yj.jpg>    Õ­ÇÅ</p>    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut6q71q7j.jpg>    Õ­Â·£¨Á½²à±äÕ­£©    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut88be7yj.jpg>    Õ­ÇÅ</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6q71q7j.jpg>    Õ­Â·£¨Á½²à±äÕ­£©    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2ut88be7yj.jpg>    Õ­ÇÅ</p>
-    Õ­ÇÅ</p>
+SkillNotice=çª„æ¡¥ï¼šç”¨ä»¥è­¦å‘Šè½¦è¾†é©¾é©¶äººæ³¨æ„å‰æ–¹æ¡¥é¢å®½åº¦å˜çª„ï¼Œåº”è°¨æ…Žé©¾é©¶ã€‚è®¾åœ¨æ¡¥é¢å‡€å®½è¾ƒä¸¤ç«¯è·¯é¢å®½åº¦å˜çª„ï¼Œä¸”æ¡¥çš„å‡€å®½å°äºŽ6 mçš„æ¡¥æ¢ä»¥å‰é€‚å½“ä½ç½®ã€‚
+NormalNotice=çª„æ¡¥ï¼šç”¨ä»¥è­¦å‘Šè½¦è¾†é©¾é©¶äººæ³¨æ„å‰æ–¹æ¡¥é¢å®½åº¦å˜çª„ï¼Œåº”è°¨æ…Žé©¾é©¶ã€‚è®¾åœ¨æ¡¥é¢å‡€å®½è¾ƒä¸¤ç«¯è·¯é¢å®½åº¦å˜çª„ï¼Œä¸”æ¡¥çš„å‡€å®½å°äºŽ6 mçš„æ¡¥æ¢ä»¥å‰é€‚å½“ä½ç½®ã€‚
 [Options]
-Options1=Õ­Â·
-Options2=ÓÒ²à±äÕ­
-Options3=×ó²à±äÕ­
-Options4=Õ­ÇÅ
+Options1=çª„è·¯
+Options2=å³ä¾§å˜çª„
+Options3=å·¦ä¾§å˜çª„
+Options4=çª„æ¡¥
 Image1=
 Image2=
 Image3=

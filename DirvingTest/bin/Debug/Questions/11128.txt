@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=11128
 Url=http://tiba.jsyks.com/Post/c8367.htm
-Tittle=ÎªÈ·±£»ú¶¯³µÔÚ¸ßËÙ¹«Â·ÐÐÊ»µÄ°²È«£¬²»µÃÓÐÏÂÁÐÄÄÐ©ÐÐÎª£¿
+Tittle=ä¸ºç¡®ä¿æœºåŠ¨è½¦åœ¨é«˜é€Ÿå…¬è·¯è¡Œé©¶çš„å®‰å…¨ï¼Œä¸å¾—æœ‰ä¸‹åˆ—å“ªäº›è¡Œä¸ºï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,15 +10,15 @@ SkillId=52
 MoudleId=11
 Type=3
 Classification=4
-BankId=20
+BankId=0
 [SkillInfo]
-SkillNotice=¸ù¾Ý¡¶ÖÐ»ªÈËÃñ¹²ºÍ¹úµÀÂ·½»Í¨°²È«·¨ÊµÊ©ÌõÀý¡·µÚ°ËÊ®¶þÌõ »ú¶¯³µÔÚ¸ßËÙ¹«Â·ÉÏÐÐÊ»£¬²»µÃÓÐÏÂÁÐÐÐÎª£º     £¨Ò»£©µ¹³µ¡¢ÄæÐÐ¡¢´©Ô½ÖÐÑë·Ö¸ô´øµôÍ·»òÕßÔÚ³µµÀÄÚÍ£³µ£»     £¨¶þ£©ÔÚÔÑµÀ¡¢¼ÓËÙ³µµÀ»òÕß¼õËÙ³µµÀÉÏ³¬³µ£»     £¨Èý£©Æï¡¢Ôþ³µÐÐµÀ·Ö½çÏß»òÕßÔÚÂ·¼çÉÏÐÐÊ»£»     ?
-NormalNotice=¸ù¾Ý¡¶ÖÐ»ªÈËÃñ¹²ºÍ¹úµÀÂ·½»Í¨°²È«·¨ÊµÊ©ÌõÀý¡·µÚ°ËÊ®¶þÌõ »ú¶¯³µÔÚ¸ßËÙ¹«Â·ÉÏÐÐÊ»£¬²»µÃÓÐÏÂÁÐÐÐÎª£º     £¨Ò»£©µ¹³µ¡¢ÄæÐÐ¡¢´©Ô½ÖÐÑë·Ö¸ô´øµôÍ·»òÕßÔÚ³µµÀÄÚÍ£³µ£»     £¨¶þ£©ÔÚÔÑµÀ¡¢¼ÓËÙ³µµÀ»òÕß¼õËÙ³µµÀÉÏ³¬³µ£»     £¨Èý£©Æï¡¢Ôþ³µÐÐµÀ·Ö½çÏß»òÕßÔÚÂ·¼çÉÏÐÐÊ»£»     ?
+SkillNotice=æ ¹æ®ã€Šä¸­åŽäººæ°‘å…±å’Œå›½é“è·¯äº¤é€šå®‰å…¨æ³•å®žæ–½æ¡ä¾‹ã€‹ç¬¬å…«åäºŒæ¡ æœºåŠ¨è½¦åœ¨é«˜é€Ÿå…¬è·¯ä¸Šè¡Œé©¶ï¼Œä¸å¾—æœ‰ä¸‹åˆ—è¡Œä¸ºï¼š     ï¼ˆä¸€ï¼‰å€’è½¦ã€é€†è¡Œã€ç©¿è¶Šä¸­å¤®åˆ†éš”å¸¦æŽ‰å¤´æˆ–è€…åœ¨è½¦é“å†…åœè½¦ï¼›     ï¼ˆäºŒï¼‰åœ¨åŒé“ã€åŠ é€Ÿè½¦é“æˆ–è€…å‡é€Ÿè½¦é“ä¸Šè¶…è½¦ï¼›     ï¼ˆä¸‰ï¼‰éª‘ã€è½§è½¦è¡Œé“åˆ†ç•Œçº¿æˆ–è€…åœ¨è·¯è‚©ä¸Šè¡Œé©¶ï¼›     ?
+NormalNotice=æ ¹æ®ã€Šä¸­åŽäººæ°‘å…±å’Œå›½é“è·¯äº¤é€šå®‰å…¨æ³•å®žæ–½æ¡ä¾‹ã€‹ç¬¬å…«åäºŒæ¡ æœºåŠ¨è½¦åœ¨é«˜é€Ÿå…¬è·¯ä¸Šè¡Œé©¶ï¼Œä¸å¾—æœ‰ä¸‹åˆ—è¡Œä¸ºï¼š     ï¼ˆä¸€ï¼‰å€’è½¦ã€é€†è¡Œã€ç©¿è¶Šä¸­å¤®åˆ†éš”å¸¦æŽ‰å¤´æˆ–è€…åœ¨è½¦é“å†…åœè½¦ï¼›     ï¼ˆäºŒï¼‰åœ¨åŒé“ã€åŠ é€Ÿè½¦é“æˆ–è€…å‡é€Ÿè½¦é“ä¸Šè¶…è½¦ï¼›     ï¼ˆä¸‰ï¼‰éª‘ã€è½§è½¦è¡Œé“åˆ†ç•Œçº¿æˆ–è€…åœ¨è·¯è‚©ä¸Šè¡Œé©¶ï¼›     ?
 [Options]
-Options1=ÊÔ³µ»òÕßÑ§Ï°¼ÝÊ»»ú¶¯³µ
-Options2=ÆïÔþ³µÐÐµÀ·Ö½çÏß»òÕßÔÚÂ·¼çÉÏÐÐÊ»
-Options3=µ¹³µÄæÐÐ£¬´©Ô½ÖÐÑë·Ö¸ô´øµôÍ·£¬»òÔÚ³µµÀÄÚÍ£³µ
-Options4=ÔÚÔÑµÀ¡¢¼ÓËÙ³µµÀ»òÕßÔÚ¼õËÙ³µµÀÉÏ³¬³µ
+Options1=åœ¨åŒé“ã€åŠ é€Ÿè½¦é“æˆ–è€…åœ¨å‡é€Ÿè½¦é“ä¸Šè¶…è½¦
+Options2=éª‘è½§è½¦è¡Œé“åˆ†ç•Œçº¿æˆ–è€…åœ¨è·¯è‚©ä¸Šè¡Œé©¶
+Options3=å€’è½¦é€†è¡Œï¼Œç©¿è¶Šä¸­å¤®åˆ†éš”å¸¦æŽ‰å¤´ï¼Œæˆ–åœ¨è½¦é“å†…åœè½¦
+Options4=è¯•è½¦æˆ–è€…å­¦ä¹ é©¾é©¶æœºåŠ¨è½¦
 Image1=
 Image2=
 Image3=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15370
 Url=http://tiba.jsyks.com/Post/4615a.htm
-Tittle=���߸�Ь��ʻĦ�г��������ڰ�ȫ�г���
+Tittle=穿高跟鞋驾驶摩托车，不利于安全行车。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=�߸�Ь��ɲ���а�ȫ�����������ڰ�ȫ�����Դ����ǶԵġ�
-NormalNotice=�߸�Ь��ɲ���а�ȫ�����������ڰ�ȫ�����Դ����ǶԵġ�
+SkillNotice=高跟鞋踩刹车有安全隐患，不利于安全，所以此题是对的。
+NormalNotice=高跟鞋踩刹车有安全隐患，不利于安全，所以此题是对的。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

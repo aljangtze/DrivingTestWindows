@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1264
 Url=http://tiba.jsyks.com/Post/0aa26.htm
-Tittle=��δ���ü���ϸ��־�ϵ�·��ʻ�ĳ�������ͨ������������Կ�����
+Tittle=对未放置检验合格标志上道路行驶的车辆，交通警察可依法予以扣留。
 TittleEmphasize=
-SkillEmphasize=����&����
+SkillEmphasize=依法&扣留
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=���ɣ��������Կ����ԣ����д�����������������׷���Ķԣ���ס�������Ͷԡ�
-NormalNotice=Ӧ�ÿ�����Ȼ�󽻱��ս�����������,    �ڶ�ʮ���� ����������֮һ�ģ���������������     ��һ���ϵ�·��ʻ�Ļ�����δ���һ��������ƣ�δ���ü���ϸ��־�����ձ�־������δ�泵Я����������ʻ֤����ʻ֤�ģ�     2����δ���չ��ҹ涨Ͷ����ǿ�յĳ�������ͨ���������?
+SkillNotice=技巧：依法予以扣留对，题中带有依法扣留，依法追究的对，记住有依法就对。
+NormalNotice=应该扣留车然后交保险金额的两倍罚款,    第二十五条 有下列情形之一的，依法扣留车辆：     （一）上道路行驶的机动车未悬挂机动车号牌，未放置检验合格标志、保险标志，或者未随车携带机动车行驶证、驾驶证的；     2：对未按照国家规定投保交强险的车辆，交通警察可依法?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

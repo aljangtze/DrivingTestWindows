@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3035
 Url=http://tiba.jsyks.com/Post/f1345.htm
-Tittle=�ڵ�·�ϸ�����ʻʱ���������벻����Ҫ�ģ�ֻ�뱣����ǰ����ȵ��ٶȣ����ɷ�ֹ����׷β�¹ʡ�
+Tittle=在道路上跟车行驶时，跟车距离不是主要的，只须保持与前车相等的速度，即可防止发生追尾事故。
 TittleEmphasize=
-SkillEmphasize=ֻ��
+SkillEmphasize=只须
 ImagePath=
 FlashPath=
 SkillId=14
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=��ס��ֻ��������������ֻ�롢ֻ���ж��Ǵ���&
+SkillNotice=记住：只须错，题中有这个只须、只进行都是错。&
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

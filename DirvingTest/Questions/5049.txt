@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5049
 Url=http://tiba.jsyks.com/Post/938c8.htm
-Tittle=�ҳ������������а�ȫλ�õ�����£����Ը�����ʱ��ҵ��Ա1����5�ˡ�
+Tittle=挂车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=�ҳ������������а�ȫλ�õ�����£����Ը�����ʱ��ҵ��Ա1����5�ˡ���!    ���������������а�ȫλ�õ�����£����Ը�����ʱ��ҵ��Ա1����5�ˡ���!    һ��֮��!���ҡ��롰����
-NormalNotice=�ҳ������������а�ȫλ�õ�����£����Ը�����ʱ��ҵ��Ա1����5�ˡ���!    ���������������а�ȫλ�õ�����£����Ը�����ʱ��ҵ��Ա1����5�ˡ���!    һ��֮��!���ҡ��롰����
+SkillNotice=挂车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。错!    货车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。对!    一字之差!“挂”与“货”
+NormalNotice=挂车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。错!    货车车厢内在留有安全位置的情况下，可以附载临时作业人员1人至5人。对!    一字之差!“挂”与“货”
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

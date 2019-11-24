@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1157
 Url=http://tiba.jsyks.com/Post/bf8f2.htm
-Tittle=��ʻ�������ڳ������ٵ�·�ڣ�����ǰ����������ͣ��������ʻʱ��ô�죿
+Tittle=驾驶机动车在车道减少的路口，遇到前方车辆依次停车或缓慢行驶时怎么办？
 TittleEmphasize=
-SkillEmphasize=����ͣ��
+SkillEmphasize=依次停车
 ImagePath=
 FlashPath=
 SkillId=31
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=8
 [SkillInfo]
-SkillNotice=���𰸣������ξ�ѡ���Σ�����ǰ����������ͣ������ѡÿ����һ�����ν���ʻ��·�ڡ�
-NormalNotice=��Զѡ���г�Ĵ𰸡�    ����ʮ�������������ڳ������ٵ�·�ڡ�·�Σ�����ǰ��������ͣ���ŶӵȺ���߻�����ʻ�ģ�Ӧ��ÿ����һ�����ν���ʻ�복�����ٺ��·�ڡ�·�Ρ�
+SkillNotice=看答案：有依次就选依次，遇到前方车辆依次停车，就选每车道一辆依次交替驶入路口。
+NormalNotice=永远选最和谐的答案。    第五十三条：机动车在车道减少的路口、路段，遇有前方机动车停车排队等候或者缓慢行驶的，应当每车道一辆依次交替驶入车道减少后的路口、路段。
 [Options]
-Options1=�������������·��
-Options2=���п�϶һ�����·��
-Options3=��ǰ���Ҳ�·�����·��
-Options4=ÿ����һ�����ν���ʻ��·��
+Options1=向左变道穿插进入路口
+Options2=从有空隙一侧进入路口
+Options3=从前车右侧路肩进入路口
+Options4=每车道一辆依次交替驶入路口
 Image1=
 Image2=
 Image3=
-Image4=����
+Image4=依次
 [AnswerInfo]
 Answer1=0
 Answer2=0

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11025
 Url=http://tiba.jsyks.com/Post/bbd1c.htm
-Tittle=��ʻ�������������������ʱͣ����Ϊ�������������ɽ�ת��������ת��
+Tittle=驾驶机动车在这种情况下临时停车后，为避免机动车后溜可将转向盘向右转。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=后溜
 ImagePath=11025.jpg
 FlashPath=
 SkillId=42
 MoudleId=11
 Type=1
 Classification=4
-BankId=17
+BankId=42
 [SkillInfo]
-SkillNotice=����·����������·�����������Ҷ��ԡ�Ϊ���Ƿ�ֹ���Ӻ���ԣ�
-NormalNotice=���µ�ʱ��������򣬳�����������ôǰ������ӻῨ��·���ϣ��Ͳ������������     ���µ�ʱ�����Ҵ��򣬳�������ǰ������ôǰ��б�����Ĳ���Ҳ�Ῠ��·���ϣ���ֹ������
+SkillNotice=上坡路或者是下坡路。轮子向左右都对。为的是防止车子后溜。对！
+NormalNotice=上坡的时候，向左打方向，车子如果后溜，那么前面的轮子会卡在路肩上，就不会继续后溜了     下坡的时候，向右打方向，车子若往前滑，那么前轮斜出来的部分也会卡在路肩上，防止滑下坡
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

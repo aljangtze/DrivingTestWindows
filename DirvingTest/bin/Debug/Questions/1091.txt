@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1091
 Url=http://tiba.jsyks.com/Post/88f79.htm
-Tittle=��ʻ����������ɳ�����������ꡢ����������������������ʻ��
+Tittle=驾驶机动车遇到沙尘、冰雹、雨、雾、结冰等气象条件如何行驶？
 TittleEmphasize=
-SkillEmphasize=����ɳ��
+SkillEmphasize=遇到沙尘
 ImagePath=
 FlashPath=
 SkillId=31
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=��ѡ�ѡ������ʻ�ٶȣ�����û�м��پ�ѡ���ͳ��١�
-NormalNotice=���ݡ��л����񹲺͹���·��ͨ��ȫ���� ����ʮ�������������ϵ�·��ʻ�����ó������ٱ�־���������ʱ�١���û�����ٱ�־��·�Σ�Ӧ�����ְ�ȫ���١� ����    ҹ����ʻ���������׷���Σ�յ�·����ʻ���Լ�����ɳ�����������ꡢѩ�������������������ʱ��Ӧ��������ʻ�ٶȡ�
+SkillNotice=看选项：选降低行驶速度，答案中没有减速就选降低车速。
+NormalNotice=根据《中华人民共和国道路交通安全法》 第四十二条　机动车上道路行驶，不得超过限速标志标明的最高时速。在没有限速标志的路段，应当保持安全车速。 　　    夜间行驶或者在容易发生危险的路段行驶，以及遇有沙尘、冰雹、雨、雪、雾、结冰等气象条件时，应当降低行驶速度。
 [Options]
-Options1=�ʵ���߳���
-Options2=��ƽ���ٶ���ʻ
-Options3=������ʻ�ٶ�
-Options4=����������ʻ
+Options1=适当提高车速
+Options2=按平常速度行驶
+Options3=降低行驶速度
+Options4=保持匀速行驶
 Image1=
 Image2=
-Image3=����
+Image3=降低
 Image4=
 [AnswerInfo]
 Answer1=0

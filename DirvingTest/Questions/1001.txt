@@ -1,9 +1,9 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=1001
 Url=http://tiba.jsyks.com/Post/02dec.htm
-Tittle=╪щй╩╩З╤╞Ё╣тз╣юб╥ион╔╥╢╣юб╥╫╩м╗╟╡х╚╥╗╣дппн╙ё╛йТсзй╡ц╢ппн╙ё©
+Tittle=И╘╬И╘╤Ф°╨Е┼╗Х╫╕Е°╗И│⌠Х╥╞Д╦┼Х©²Е▐█И│⌠Х╥╞Д╨╓И─ Е╝┴Е┘╗ФЁ∙Г └Х║▄Д╦╨О╪▄Е╠·Д╨▌Д╩─Д╧┬Х║▄Д╦╨О╪÷
 TittleEmphasize=
-SkillEmphasize=╥╗
+SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=31
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=©╢обцФя║оНё╨╢П╟╦жпх╚йгппн╙╣дж╠╫ся║н╔╥╗ппн╙║ё
-NormalNotice=кд╦Жппн╙╬мя║н╔╥╗ппн╙║ё
+SkillNotice=Г°▀Д╦▀И²╒И─┴И║╧О╪ Г╜■Ф║┬Д╦╜Е┘╗Ф≤╞Х║▄Д╦╨Г └Г⌡╢Ф▌╔И─┴Х©²ФЁ∙Х║▄Д╦╨Ц─┌
+NormalNotice=Е⌡⌡Д╦╙Х║▄Д╦╨Е╟╠И─┴Х©²ФЁ∙Х║▄Д╦╨Ц─┌
 [Options]
-Options1=н╔убппн╙
-Options2=н╔╧Фппн╙
-Options3=╧Щй╖ппн╙
-Options4=н╔╥╗ппн╙
-Image1=ппн╙
-Image2=ппн╙
-Image3=ппн╙
-Image4=╥╗ппн╙
+Options1=Х©┤Е╓╠Х║▄Д╦╨
+Options2=Х©²Х╖└Х║▄Д╦╨
+Options3=Х©²Г╚═Х║▄Д╦╨
+Options4=Х©²ФЁ∙Х║▄Д╦╨
+Image1=Х║▄Д╦╨
+Image2=Х║▄Д╦╨
+Image3=Х║▄Д╦╨
+Image4=ФЁ∙Х║▄Д╦╨
 [AnswerInfo]
 Answer1=0
 Answer2=0

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1061
 Url=http://tiba.jsyks.com/Post/ab37e.htm
-Tittle=��·�����н�ͨ�źŵƺͽ�ͨ����ָ�Ӳ�һ��ʱ�����ս�ͨ�źŵ�ͨ�С�
+Tittle=在路口遇有交通信号灯和交通警察指挥不一致时，按照交通信号灯通行。
 TittleEmphasize=
-SkillEmphasize=��һ��
+SkillEmphasize=不一致
 ImagePath=
 FlashPath=
 SkillId=15
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=���⣺�����в�һ�µ��������źŵƺͽ���ָ�Ӳ�һ�£���Ȼ���ս���ָʾ�����ǻ�ģ��������ģ������źŵ�ͨ���Ǵ���
-NormalNotice=��·�����н�ͨ�źŵƺͽ�ͨ����ָ�Ӳ�һ��ʱ�����ս�ͨ����ָ��ͨ�С� ��ȷ�Ĵ��ǣ����ս�ͨ����ָ�ӡ�
+SkillNotice=看题：看到有不一致的题答错，信号灯和交警指挥不一致，当然按照交警指示，人是活的，灯是死的，按照信号灯通行是错。
+NormalNotice=在路口遇有交通信号灯和交通警察指挥不一致时，按照交通警察指挥通行。 正确的答案是：按照交通警察指挥。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

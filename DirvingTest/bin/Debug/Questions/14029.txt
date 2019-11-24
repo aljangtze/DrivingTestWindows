@@ -1,21 +1,21 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=14029
-Tittle=╣╠╨СеевЫн╩ц╩спхкЁквЬй╠ё╛╨СЁ╣цен╢╧ь╨ц╬мфП╡╫р╡йг©ирт╣д║ё
-SkillEmphasize=н╢╧ь╨ц&©ирт╣д
+Tittle=Е╫⌠Е░▌Ф▌▓Е╨╖Д╫█Ф╡║Ф°┴Д╨╨Д╧≤Е²░Ф≈╤О╪▄Е░▌Х╫╕И≈╗Ф°╙Е┘ЁЕ╔╫Е╟╠Х╣╥Ф╜╔Д╧÷Ф≤╞Е▐╞Д╩╔Г └Ц─┌
+SkillEmphasize=Ф°╙Е┘ЁЕ╔╫&Е▐╞Д╩╔Г └
 ImagePath=
 FlashPath=
-SkillId=15
+SkillId=13
 MoudleId=1
 Type=1
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=╪гв║ё╨Ё╣цен╢╧ь╨ц╬мфП╡╫╢М║ёспн╢╧ьё╛н╢©╙╤╪╢М║ё
+SkillNotice=Х╝╟Д╫▐О╪ Х╫╕И≈╗Ф°╙Е┘ЁЕ╔╫Е╟╠Х╣╥Ф╜╔И■≥Ц─┌Ф°┴Ф°╙Е┘ЁО╪▄Ф°╙Е╪─И┐╫И■≥Ц─┌
 NormalNotice=
 [Options]
-Options1=уЩх╥
+Options1=Ф╜ёГ║╝
 Image1=
-Options2=╢МнС
+Options2=И■≥Х╞╞
 Image2=
 Options3=
 Image3=

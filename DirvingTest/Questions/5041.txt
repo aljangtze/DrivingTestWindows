@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5041
 Url=http://tiba.jsyks.com/Post/839e5.htm
-Tittle=����������Σ�ջ�ѧƷ��������������׼����ʻʱ�䡢·�߿ɲ������ơ�
+Tittle=机动车载运危险化学品，经公安部门批准后，行驶时间、路线可不受限制。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=������������׼����ʻʱ�䡢·�߶�Ҫ�ܵ����Ƶģ���Ϊ��װ��Σ��Ʒ��
-NormalNotice=������������׼����ʻʱ�䡢·�߶�Ҫ�ܵ����Ƶģ���Ϊ��װ��Σ��Ʒ��
+SkillNotice=经公安部门批准后，行驶时间、路线都要受到限制的，因为你装着危险品。
+NormalNotice=经公安部门批准后，行驶时间、路线都要受到限制的，因为你装着危险品。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

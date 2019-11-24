@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4089
 Url=http://tiba.jsyks.com/Post/b4f0d.htm
-Tittle=�ƹ⿪���ڸ�λ��ʱ��ǰ���Ƶ�����
+Tittle=灯光开关在该位置时，前雾灯点亮。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4089.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=�㿴��ͣ��λ�������ǳ���ģ���Ϊǰ���ƣ�����ȷ��
-NormalNotice=�㿴��ͣ��λ�������ǳ���ģ���Ϊǰ���ƣ�����ȷ��
+SkillNotice=你看它停的位置雾灯是冲左的，此为前雾灯，故正确。
+NormalNotice=你看它停的位置雾灯是冲左的，此为前雾灯，故正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

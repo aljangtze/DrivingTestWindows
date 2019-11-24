@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=4084
 Url=http://tiba.jsyks.com/Post/a28db.htm
-Tittle=ÌáÀ­Õâ¸ö¿ª¹Ø¿ØÖÆ»ú¶¯³µÄÄ¸ö²¿Î»£¿
+Tittle=ææ‹‰è¿™ä¸ªå¼€å…³æŽ§åˆ¶æœºåŠ¨è½¦å“ªä¸ªéƒ¨ä½ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4084.jpg
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=Õâ¸öÊÇ¿ØÖÆ×ªÏòµÆµÄ¸Ë×Ó£¬ÏòÉÏÌáÓÒ×ªÏò£¬ÏòÏÂÀ­×ó×ªÏò¡£×óÓÒ×ªÏòµÆ¡£
-NormalNotice=Ìá£ºÓÒ×ªÏòµÆÁÁ£¬£¨Ë³Ê±Õë·½Ïò£¬ÏòÓÒ´ò·½ÏòÅÌµÄ·½Ïò£©    À­£º×ó×ªÏòµÆÁÁ£¬£¨ÄæÊ±Õë·½Ïò£¬Ïò×ø´ò·½ÏòÅÌµÄ·½Ïò£©
+SkillNotice=è¿™ä¸ªæ˜¯æŽ§åˆ¶è½¬å‘ç¯çš„æ†å­ï¼Œå‘ä¸Šæå³è½¬å‘ï¼Œå‘ä¸‹æ‹‰å·¦è½¬å‘ã€‚å·¦å³è½¬å‘ç¯ã€‚
+NormalNotice=æï¼šå³è½¬å‘ç¯äº®ï¼Œï¼ˆé¡ºæ—¶é’ˆæ–¹å‘ï¼Œå‘å³æ‰“æ–¹å‘ç›˜çš„æ–¹å‘ï¼‰    æ‹‰ï¼šå·¦è½¬å‘ç¯äº®ï¼Œï¼ˆé€†æ—¶é’ˆæ–¹å‘ï¼Œå‘åæ‰“æ–¹å‘ç›˜çš„æ–¹å‘ï¼‰
 [Options]
-Options1=µ¹³µµÆ
-Options2=Ê¾ÀªµÆ
-Options3=×óÓÒ×ªÏòµÆ
-Options4=±¨¾¯ÉÁ¹âµÆ
+Options1=å€’è½¦ç¯
+Options2=ç¤ºå»“ç¯
+Options3=å·¦å³è½¬å‘ç¯
+Options4=æŠ¥è­¦é—ªå…‰ç¯
 Image1=
 Image2=
-Image3=×óÓÒ
+Image3=å·¦å³
 Image4=
 [AnswerInfo]
 Answer1=0

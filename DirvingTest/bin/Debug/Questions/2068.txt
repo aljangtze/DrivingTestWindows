@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2068
 Url=http://tiba.jsyks.com/Post/fa2c1.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2068.jpg
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=����־����ɫ�����εľ����־��ע�⣬ͼ����������г�����ʾ�ǻ�����������������������г�Ϊע��ǻ�������
-NormalNotice=���г���־���ǵ��Ǳ�־��ɫ�ǻ�ɫ.��ɫ��������.��ɫ������ֹ..��������˼���� ע��ǻ���������˼.Ҫ��û�л�ɫͼ������.�ǻ�������
+SkillNotice=看标志：黄色三角形的警告标志找注意，图标里面的自行车都表示非机动车。黄三角形里面的自行车为注意非机动车。
+NormalNotice=自行车标志就是但是标志颜色是黄色.黄色代表警告.红色代表禁止..那他的意思就是 注意非机动车的意思.要是没有黄色图暗就是.非机动车道
 [Options]
-Options1=ע��ǻ�����
-Options2=��ֹ�ǻ�����ͨ��
-Options3=�ǻ�������
-Options4=���÷ǻ�����
-Image1=ע��
+Options1=注意非机动车
+Options2=禁止非机动车通行
+Options3=非机动车道
+Options4=避让非机动车
+Image1=注意
 Image2=
 Image3=
 Image4=

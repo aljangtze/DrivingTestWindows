@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11129
 Url=http://tiba.jsyks.com/Post/330a4.htm
-Tittle=�������ڸ��ٹ�·����ʻ�����������ꡢѩ���ܼ�����100����200��֮��ʱ��Ӧ����ô����
+Tittle=机动车在高速公路上行驶，遇有雾、雨、雪且能见度在100米至200米之间时，应该怎么做？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,15 +12,15 @@ Type=3
 Classification=4
 BankId=16
 [SkillInfo]
-SkillNotice=100��200��ѡ���ڡ�
-NormalNotice=���ܼ���ֻ��100��200��֮�䣨����0.5���ʱ���ٹ�·��Ϊ������ʻ�ϰ�ȫ�ĵ�· ��Ȼ����Ҫ��������3���𰸵�Ҫ��    ˵�׵���������Ϊ�˰�ȫ����������ͨ��·���׳Ƶ׵����µ�����������·��ʻ  ����Ҳ������ͣ�� ���Դ𰸾�������
+SkillNotice=100到200不选出口。
+NormalNotice=当能见度只有100到200米之间（低于0.5华里）时高速公路作为车辆行驶较安全的道路 当然首先要做到以上3个答案的要求    说白点这种天气为了安全不可以在普通道路（俗称底道或下道）或市区道路行驶  高速也不可以停车 所以答案就是这样
 [Options]
-Options1=���ٲ�����60km/h
-Options2=������ĳ��ھ���ʻ����ٹ�·
-Options3=�������ơ�����ơ�ʾ���ơ�ǰ��λ��
-Options4=��ͬ����ǰ������100�����ϵľ���
+Options1=车速不超过60km/h
+Options2=从最近的出口尽快驶离高速公路
+Options3=开启雾灯、近光灯、示廓灯、前后位灯
+Options4=与同车道前车保持100米以上的距离
 Image1=
-Image2=����
+Image2=出口
 Image3=
 Image4=
 [AnswerInfo]

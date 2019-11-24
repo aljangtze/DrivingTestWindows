@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9081
 Url=http://tiba.jsyks.com/Post/e6d89.htm
-Tittle=�Ҳ��־��ʾǰ��·�ν��ʱ��40�������ơ�
+Tittle=右侧标志表示前方路段解除时速40公里限制。
 TittleEmphasize=
 SkillEmphasize=40
 ImagePath=9081.jpg
@@ -10,13 +10,13 @@ SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=16
 [SkillInfo]
-SkillNotice=��40��־ֻ�к�ɫ��40���ԡ�
-NormalNotice=��������ٶ�     ��ʾ�����ٶ�·�ν�����
+SkillNotice=见40标志只有黑色的40，对。
+NormalNotice=解除限制速度     表示限制速度路段结束。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

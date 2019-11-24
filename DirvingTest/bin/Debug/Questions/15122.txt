@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15122
 Url=http://tiba.jsyks.com/Post/c8d7c.htm
-Tittle=ҹ���ʻ������ͨ�����к��ʱ��Ҫ����ʹ��Զ����ơ�
+Tittle=夜间驾驶机动车通过人行横道时需要交替使用远近光灯。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=����·��ͨ��ȫ��ʵʩ����������ʮ��������������ҹ��ͨ�����䡢��·�����š����к������û�н�ͨ�źŵƿ��Ƶ�·��ʱ��Ӧ������ʹ��Զ�����ʾ�⡣
-NormalNotice=����·��ͨ��ȫ��ʵʩ����������ʮ��������������ҹ��ͨ�����䡢��·�����š����к������û�н�ͨ�źŵƿ��Ƶ�·��ʱ��Ӧ������ʹ��Զ�����ʾ�⡣
+SkillNotice=《道路交通安全法实施条例》第五十九条：机动车在夜间通过急弯、坡路、拱桥、人行横道或者没有交通信号灯控制的路口时，应当交替使用远近光灯示意。
+NormalNotice=《道路交通安全法实施条例》第五十九条：机动车在夜间通过急弯、坡路、拱桥、人行横道或者没有交通信号灯控制的路口时，应当交替使用远近光灯示意。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=1113
 Url=http://tiba.jsyks.com/Post/c046f.htm
-Tittle=Í¬³µµÀÐÐÊ»µÄ³µÁ¾Ç°·½Óöµ½ÏÂÁÐÄÄÖÖ³µÁ¾²»µÃ³¬³µ£¿
+Tittle=åŒè½¦é“è¡Œé©¶çš„è½¦è¾†å‰æ–¹é‡åˆ°ä¸‹åˆ—å“ªç§è½¦è¾†ä¸å¾—è¶…è½¦ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=¿´´ð°¸£ºËÄ¸öÑ¡Ïî¶¼ÓÐ³µµÄ£¬¾ÍÑ¡×Ö×î¶à£¬´ð°¸×î³¤µÄÄÇ¸ö³µ¡£²»µÃ³¬µÄ³µ¾ÍÊÇÖ´ÐÐÈÎÎñµÄ¾È»¤³µ£¬Õâ¸ö´ð°¸×î³¤¡£
-NormalNotice=¡¶ÖÐ»ªÈËÃñ¹²ºÍ¹úµÀÂ·½»Í¨°²È«·¨¡·µÚËÄÊ®ÈýÌõ Í¬³µµÀÐÐÊ»µÄ»ú¶¯³µ£¬ºó³µÓ¦µ±ÓëÇ°³µ±£³Ö×ãÒÔ²ÉÈ¡½ô¼±ÖÆ¶¯´ëÊ©µÄ°²È«¾àÀë¡£ÓÐÏÂÁÐÇéÐÎÖ®Ò»µÄ£¬²»µÃ³¬³µ£º    ¡¡¡¡£¨Ò»£©Ç°³µÕýÔÚ×ó×ªÍä¡¢µôÍ·¡¢³¬³µµÄ£»    ¡¡¡¡£¨¶þ£©Óë¶ÔÃæÀ´³µÓÐ»á³µ¿ÉÄÜµÄ£»    ¡¡¡¡£¨Èý£©Ç°³µÎªÖ´ÐÐ½ô¼±ÈÎ?
+SkillNotice=çœ‹ç­”æ¡ˆï¼šå››ä¸ªé€‰é¡¹éƒ½æœ‰è½¦çš„ï¼Œå°±é€‰å­—æœ€å¤šï¼Œç­”æ¡ˆæœ€é•¿çš„é‚£ä¸ªè½¦ã€‚ä¸å¾—è¶…çš„è½¦å°±æ˜¯æ‰§è¡Œä»»åŠ¡çš„æ•‘æŠ¤è½¦ï¼Œè¿™ä¸ªç­”æ¡ˆæœ€é•¿ã€‚
+NormalNotice=ã€Šä¸­åŽäººæ°‘å…±å’Œå›½é“è·¯äº¤é€šå®‰å…¨æ³•ã€‹ç¬¬å››åä¸‰æ¡ åŒè½¦é“è¡Œé©¶çš„æœºåŠ¨è½¦ï¼ŒåŽè½¦åº”å½“ä¸Žå‰è½¦ä¿æŒè¶³ä»¥é‡‡å–ç´§æ€¥åˆ¶åŠ¨æŽªæ–½çš„å®‰å…¨è·ç¦»ã€‚æœ‰ä¸‹åˆ—æƒ…å½¢ä¹‹ä¸€çš„ï¼Œä¸å¾—è¶…è½¦ï¼š    ã€€ã€€ï¼ˆä¸€ï¼‰å‰è½¦æ­£åœ¨å·¦è½¬å¼¯ã€æŽ‰å¤´ã€è¶…è½¦çš„ï¼›    ã€€ã€€ï¼ˆäºŒï¼‰ä¸Žå¯¹é¢æ¥è½¦æœ‰ä¼šè½¦å¯èƒ½çš„ï¼›    ã€€ã€€ï¼ˆä¸‰ï¼‰å‰è½¦ä¸ºæ‰§è¡Œç´§æ€¥ä»»?
 [Options]
-Options1=´óÐÍ¿Í»õ³µ
-Options2=Ö´ÐÐÈÎÎñµÄ¾È»¤³µ
-Options3=³ö×âÆû³µ
-Options4=¹«¹²Æû³µ
-Image1=³µ
-Image2=³µ
-Image3=³µ
-Image4=³µ
+Options1=å¤§åž‹å®¢è´§è½¦
+Options2=æ‰§è¡Œä»»åŠ¡çš„æ•‘æŠ¤è½¦
+Options3=å‡ºç§Ÿæ±½è½¦
+Options4=å…¬å…±æ±½è½¦
+Image1=è½¦
+Image2=è½¦
+Image3=è½¦
+Image4=è½¦
 [AnswerInfo]
 Answer1=0
 Answer2=1

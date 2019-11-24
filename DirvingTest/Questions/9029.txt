@@ -1,22 +1,22 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=9029
 Url=http://tiba.jsyks.com/Post/819ab.htm
-Tittle=ÓÒ²à±êÖ¾¾¯¸æÇ°·½Â·¶ÎÒª×¢Òâ¶ùÍ¯¡£
+Tittle=å³ä¾§æ ‡å¿—è­¦å‘Šå‰æ–¹è·¯æ®µè¦æ³¨æ„å„¿ç«¥ã€‚
 TittleEmphasize=
-SkillEmphasize=¶ùÍ¯
+SkillEmphasize=å„¿ç«¥
 ImagePath=9029.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=23
 [SkillInfo]
-SkillNotice=±êÖ¾±íÊ¾×¢ÒâĞĞÈË£¬ÌâÄ¿Ëµ×¢Òâ¶ùÍ¯£¬´í£¡
-NormalNotice=×¢ÒâĞĞÈË
+SkillNotice=æ ‡å¿—è¡¨ç¤ºæ³¨æ„è¡Œäººï¼Œé¢˜ç›®è¯´æ³¨æ„å„¿ç«¥ï¼Œé”™ï¼
+NormalNotice=æ³¨æ„è¡Œäºº
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3121
 Url=http://tiba.jsyks.com/Post/ce94d.htm
-Tittle=�����ڸ��ٹ�·��ÿСʱ100������ٶ���ʻʱ����ͬ����ǰ��100������Ϊ��ȫ���롣
+Tittle=车辆在高速公路以每小时100公里的速度行驶时，距同车道前车100米以上为安全距离。
 TittleEmphasize=
-SkillEmphasize=100����&100��
+SkillEmphasize=100公里&100米
 ImagePath=
 FlashPath=
 SkillId=15
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=��ס��100����ĺ��滹��100�ף��ǶԵģ���200�ԣ����г��ֵĹ���������100��100��200�ǶԵġ�
-NormalNotice=���ݡ��л����񹲺͹���·��ͨ��ȫ��ʵʩ�������ڰ�ʮ�� �������ڸ��ٹ�·����ʻ�����ٳ���ÿСʱ100����ʱ��Ӧ����ͬ����ǰ������100�����ϵľ��룬���ٵ���ÿСʱ100����ʱ����ͬ����ǰ����������ʵ����̣�����С���벻������50�ס�
+SkillNotice=记住：100公里的后面还有100米，是对的，有200对，题中出现的公里像这种100加100得200是对的。
+NormalNotice=根据《中华人民共和国道路交通安全法实施条例》第八十条 机动车在高速公路上行驶，车速超过每小时100公里时，应当与同车道前车保持100米以上的距离，车速低于每小时100公里时，与同车道前车距离可以适当缩短，但最小距离不得少于50米。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

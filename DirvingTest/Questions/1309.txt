@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1309
 Url=http://tiba.jsyks.com/Post/0b878.htm
-Tittle=��������ʻ����ʵϰ�����м���12�ּ�¼�ģ�ע����ʵϰ��׼�ݳ��ͼ�ʻ�ʸ�
+Tittle=机动车驾驶人在实习期内有记满12分记录的，注销其实习的准驾车型驾驶资格。
 TittleEmphasize=
-SkillEmphasize=12��&ע��
+SkillEmphasize=12分&注销
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=���ɣ���12�ֻ�����ע���Ķԣ������ж������12�ֶ��ԡ�
-NormalNotice=������123����涨������ʮ���� ��������ʻ�˳��������������ʻ֤������׼�ݳ��ͺ��12����Ϊʵϰ�ڡ�����ʮ���� ��������ʻ����ʵϰ�����м���12�ּ�¼�ģ�ע����ʵϰ��׼�ݳ��ͼ�ʻ�ʸ񡣱�ע���ļ�ʻ�ʸ��������׼�ݳ��͵ģ���Ӧ�����յ���ʮ������һ��涨��ע����?
+SkillNotice=技巧：有12分或者有注销的对，所有判断题带有12分都对。
+NormalNotice=公安部123号令规定：第六十四条 机动车驾驶人初次申请机动车驾驶证和增加准驾车型后的12个月为实习期。第六十九条 机动车驾驶人在实习期内有记满12分记录的，注销其实习的准驾车型驾驶资格。被注销的驾驶资格不属于最高准驾车型的，还应当按照第六十八条第一款规定，注销其?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

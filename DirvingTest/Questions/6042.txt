@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6042
 Url=http://tiba.jsyks.com/Post/47acf.htm
-Tittle=���˼�ʻ���ռ�������ʻ���ó���4Сʱ��ҹ��������ʻ���ó���2Сʱ��ÿ��ͣ����Ϣʱ�䲻����20���ӡ�
+Tittle=客运驾驶人日间连续驾驶不得超过4小时，夜间连续驾驶不得超过2小时，每次停车休息时间不少于20分钟。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=���Ҽ�ס��ЩӲ�Թ涨��        ҹ��10ʱ�������賿5ʱ��ʻ�ٶȲ��ó����ռ����ٵ�80%        ��24Сʱ�ۼƼ�ʻʱ��ԭ���ϲ�����8Сʱ        ���ռ�������ʻ������4Сʱ        ��ҹ��10ʱ�������賿5ʱ������ʻ������2Сʱ        ��ÿ��ͣ����Ϣʱ�䲻����20����
-NormalNotice=���Ҽ�ס��ЩӲ�Թ涨��        ҹ��10ʱ�������賿5ʱ��ʻ�ٶȲ��ó����ռ����ٵ�80%        ��24Сʱ�ۼƼ�ʻʱ��ԭ���ϲ�����8Сʱ        ���ռ�������ʻ������4Сʱ        ��ҹ��10ʱ�������賿5ʱ������ʻ������2Сʱ        ��ÿ��ͣ����Ϣʱ�䲻����20����
+SkillNotice=请大家记住这些硬性规定：        夜间10时至次日凌晨5时行驶速度不得超过日间限速的80%        　24小时累计驾驶时间原则上不超过8小时        　日间连续驾驶不超过4小时        　夜间10时至次日凌晨5时连续驾驶不超过2小时        　每次停车休息时间不少于20分钟
+NormalNotice=请大家记住这些硬性规定：        夜间10时至次日凌晨5时行驶速度不得超过日间限速的80%        　24小时累计驾驶时间原则上不超过8小时        　日间连续驾驶不超过4小时        　夜间10时至次日凌晨5时连续驾驶不超过2小时        　每次停车休息时间不少于20分钟
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

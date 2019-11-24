@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6054
-Tittle=������60�����ϳ���׼�ݳ���Ϊ���ͻ����ļ�ʻ�ˣ�Ӧ������ʻ֤�˷��س�������������׼�ݳ���ΪС��������С���Զ��������ļ�ʻ֤��
+Tittle=年龄在60岁以上持有准驾车型为大型货车的驾驶人，应当到驾驶证核发地车辆管理所换领准驾车型为小型汽车或小型自动挡汽车的驾驶证。
 SkillEmphasize=
 ImagePath=
 FlashPath=
@@ -12,8 +12,8 @@ Classification=0
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

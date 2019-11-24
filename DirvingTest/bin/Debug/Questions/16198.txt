@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16198
 Url=http://tiba.jsyks.com/Post/1576c.htm
-Tittle=Ħ�г���̥ʱ����ʻ��Ӧ�ڿ���ס���������²�ȡ�����ƶ�����ʹĦ�г�Ѹ��ͣס��
+Tittle=摩托车爆胎时，驾驶人应在控制住方向的情况下采取紧急制动，迫使摩托车迅速停住。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=���Ʒ����ǶԵģ�������ʹĦ�г�Ѹ��ͣס����仰�Ǵ��ģ������ᵼ�·�������ɸ�����¹ʣ�Ӧ���ǻ������١�
-NormalNotice=���Ʒ����ǶԵģ�������ʹĦ�г�Ѹ��ͣס����仰�Ǵ��ģ������ᵼ�·�������ɸ�����¹ʣ�Ӧ���ǻ������١�
+SkillNotice=控制方向是对的，但是迫使摩托车迅速停住，这句话是错的，这样会导致翻车，造成更大的事故，应该是缓慢降速。
+NormalNotice=控制方向是对的，但是迫使摩托车迅速停住，这句话是错的，这样会导致翻车，造成更大的事故，应该是缓慢降速。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

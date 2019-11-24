@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1170
 Url=http://tiba.jsyks.com/Post/1639c.htm
-Tittle=������������ʱҪͣ���������ˡ�
+Tittle=遇到这种情形时要停车避让行人。
 TittleEmphasize=
-SkillEmphasize=ͣ����������
+SkillEmphasize=停车避让行人
 ImagePath=1170.jpg
 FlashPath=
 SkillId=13
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=��ס��ͣ���������˶ԣ���ͣ���û������ã��������ˣ��öԷ����ⶼ�Ƕԡ�&
-NormalNotice=��������Ϊ����������ȷ��    ���ݵ�·��ͨ��ȫ������ʮ�������������о�û�н�ͨ�źŵĵ�·ʱ�������˺����·��Ӧ�����á�
+SkillNotice=记住：停车避让行人对，有停车让或主动让，有让行人，让对方的题都是对。&
+NormalNotice=答题以人为本，此题正确。    根据道路交通安全法第四十七条，机动车行经没有交通信号的道路时，遇行人横过道路，应当避让。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

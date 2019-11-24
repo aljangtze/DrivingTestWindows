@@ -1,25 +1,25 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=11155
 Url=http://tiba.jsyks.com/Post/a8539.htm
-Tittle=ÔÚÓêÌìÄÄÀàÂ·Ãæ×îÈÝÒ×·¢Éú²à»¬£¿
+Tittle=åœ¨é›¨å¤©å“ªç±»è·¯é¢æœ€å®¹æ˜“å‘ç”Ÿä¾§æ»‘ï¼Ÿ
 TittleEmphasize=
-SkillEmphasize=ÓêÌì
+SkillEmphasize=é›¨å¤©
 ImagePath=
 FlashPath=
 SkillId=46
 MoudleId=11
 Type=2
 Classification=4
-BankId=20
+BankId=42
 [SkillInfo]
-SkillNotice=ÓêÌì£¬¸ÕÏÂÓêµÄÂ·ÃæÊÇ×îÈÝÒ×»¬µÄ¡£
-NormalNotice=¸ÕÏÂÓêµÄÂ·Ãæ ·Û³¾»ìºÏÓêË®Ôì³ÉÄà°ÍÂ· ÈÝÒ×»¬
+SkillNotice=é›¨å¤©ï¼Œåˆšä¸‹é›¨çš„è·¯é¢æ˜¯æœ€å®¹æ˜“æ»‘çš„ã€‚
+NormalNotice=åˆšä¸‹é›¨çš„è·¯é¢ ç²‰å°˜æ··åˆé›¨æ°´é€ æˆæ³¥å·´è·¯ å®¹æ˜“æ»‘
 [Options]
-Options1=¸ÕÏÂÓêµÄÂ·Ãæ
-Options2=±©ÓêÖÐµÄÂ·Ãæ
-Options3=´óÓê¹ýºóÂ·Ãæ
-Options4=´óÓêÖÐµÄÂ·Ãæ
-Image1=¸ÕÏÂÓê
+Options1=åˆšä¸‹é›¨çš„è·¯é¢
+Options2=æš´é›¨ä¸­çš„è·¯é¢
+Options3=å¤§é›¨ä¸­çš„è·¯é¢
+Options4=å¤§é›¨è¿‡åŽè·¯é¢
+Image1=åˆšä¸‹é›¨
 Image2=
 Image3=
 Image4=

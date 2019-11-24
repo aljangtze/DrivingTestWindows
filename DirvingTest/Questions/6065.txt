@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6065
-Tittle=���д��Ϳͳ���ǣ���������й����������Ϳͳ������ͻ�����ʻ֤�ļ�ʻ�ˣ��ڼǷ��������мǷֵģ�Ӧ���ڼǷ����ڽ�������ʮ���ڵ��������ؽ�ͨ�������Ž������顣
+Tittle=持有大型客车、牵引车、城市公交车、中型客车、大型货车驾驶证的驾驶人，在记分周期内有记分的，应当在记分周期结束后三十日内到公安机关交通管理部门接受审验。
 SkillEmphasize=
 ImagePath=
 FlashPath=
@@ -12,8 +12,8 @@ Classification=0
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

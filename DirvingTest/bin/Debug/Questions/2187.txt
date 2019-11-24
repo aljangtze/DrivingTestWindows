@@ -1,26 +1,26 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2187
 Url=http://tiba.jsyks.com/Post/675b6.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2187.jpg
 FlashPath=
-SkillId=29
+SkillId=30
 MoudleId=2
 Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=����־�����ű�־���е���ѡ�𰸡�ETC�շ�վ 
-NormalNotice=ETC = Electronic Toll Collection�����Ӳ�ͣ���շ�ϵͳ��     ��ָ������ͨ���շ�վʱ��ͨ�������豸ʵ�ֳ���ʶ����Ϣд�루��ڣ����Զ���Ԥ�Ȱ󶨵�IC���������ʻ��Ͽ۳���Ӧ�ʽ𣨳��ڣ����ǹ���������Ŭ���������ƹ��ռ���һ�����ڵ�·�����ź������ĵ����շ�ϵͳ�� 
+SkillNotice=看标志：照着标志当中的字选答案。ETC收费站 
+NormalNotice=ETC = Electronic Toll Collection，电子不停车收费系统。     是指车辆在通过收费站时，通过车载设备实现车辆识别、信息写入（入口）并自动从预先绑定的IC卡或银行帐户上扣除相应资金（出口），是国际上正在努力开发并推广普及的一种用于道路、大桥和隧道的电子收费系统。 
 [Options]
-Options1=���ٹ�·���վ
-Options2=����ETC���շ�վ
-Options3=���ٹ�·�쿨��
-Options4=���ٹ�·�շѴ�
+Options1=高速公路检查站
+Options2=设有ETC的收费站
+Options3=高速公路收费处
+Options4=高速公路领卡处
 Image1=
-Image2=ETC���շ�վ
+Image2=ETC的收费站
 Image3=
 Image4=
 [AnswerInfo]

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6034
 Url=http://tiba.jsyks.com/Post/e5194.htm
-Tittle=Ϊ���ϳ˳��˲����˺����ͳ���ʻ�˻����ԱӦ����˿ͽ��ⰲȫ�ŵ�ʹ�÷�����
+Tittle=为保障乘车人不受伤害，客车驾驶人或乘务员应当向乘客讲解安全门的使用方法。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=������ϳ���ѧ�ĳ�ʶ�ˣ�
-NormalNotice=������ϳ���ѧ�ĳ�ʶ�ˣ�
+SkillNotice=这个是上车必学的常识了！
+NormalNotice=这个是上车必学的常识了！
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

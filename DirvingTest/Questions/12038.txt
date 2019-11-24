@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12038
 Url=http://tiba.jsyks.com/Post/85680.htm
-Tittle=����·�ƶ�ʧЧ���ڲ����ѵ�����£����ó��������ײɽ�£���ʹ����������ͣ����
+Tittle=下坡路制动失效后，在不得已的情况下，可用车身侧面擦撞山坡，迫使机动车减速停车。
 TittleEmphasize=
-SkillEmphasize=�����ѣ�����ͣ��
+SkillEmphasize=不得已，减速停车
 ImagePath=
 FlashPath=
 SkillId=40
 MoudleId=12
 Type=1
 Classification=4
-BankId=0
+BankId=22
 [SkillInfo]
-SkillNotice=��ס�������ѵ�����£���ʹ����������ͣ�����ԡ�
-NormalNotice=ɲ��ͻȻʧ��ʱ��Ħ�����ر��������湦Ч�����ó�ǰ���ոܡ�����ȸ��Բ�λ��·����ʯ������������Ħ������ײ���ڲ���в�˳��˰�ȫ�������ǿ��ͣ������������Գ�������𺦣����ɼ��ٽ�ͨ�¹ʷ����ʡ� ��˱�����ȷ��
+SkillNotice=记住：不得已的情况下，迫使机动车减速停车，对。
+NormalNotice=刹车突然失灵时，摩擦力特别能显神奇功效。可用车前保险杠、车厢等钢性部位与路边岩石、大树或土坡摩擦、碰撞，在不威胁乘车人安全的情况下强行停车。这样，虽对车会造成损害，但可减少交通事故发生率。 因此本题正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

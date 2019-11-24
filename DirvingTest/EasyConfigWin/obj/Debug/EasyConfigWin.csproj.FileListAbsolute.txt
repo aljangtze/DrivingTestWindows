@@ -10,3 +10,4 @@ I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\bin\Debug\EasyConfigWin.dll
 I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\bin\Debug\EasyConfigWin.pdb
 I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.dll
 I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.pdb
+I:\DrivingTestWindows2\DirvingTest\EasyConfigWin\obj\Debug\EasyConfigWin.csprojAssemblyReference.cache

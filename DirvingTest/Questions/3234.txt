@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3234
 Url=http://tiba.jsyks.com/Post/7c495.htm
-Tittle=�������ǰ����೬Խ������˵����ȷ��ʲô��
+Tittle=超车需从前车左侧超越，以下说法正确是什么？
 TittleEmphasize=
-SkillEmphasize=��೬Խ
+SkillEmphasize=左侧超越
 ImagePath=
 FlashPath=
 SkillId=31
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=8
 [SkillInfo]
-SkillNotice=���𰸣�ѡ��ȫ����೬��������ȫ��
-NormalNotice=˾��������߿���  �������˾���۲�
+SkillNotice=看答案：选安全，左侧超车有利安全。
+NormalNotice=司机坐在左边开车  左边利于司机观察
 [Options]
-Options1=���ڹ۲죬�����ڰ�ȫ
-Options2=�Ҳ�Ϊ���ٳ���
-Options3=�ҹ�ʵ�����ͨ��ԭ��
-Options4=���Ϊ���ٳ���
-Image1=��ȫ
+Options1=便于观察，有利于安全
+Options2=右侧为快速车道
+Options3=我国实行左侧通行原则
+Options4=左侧为慢速车道
+Image1=安全
 Image2=
 Image3=
 Image4=

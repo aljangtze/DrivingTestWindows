@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2318
 Url=http://tiba.jsyks.com/Post/724c3.htm
-Tittle=��ͼ��ʾ��B����������ͨ��Ȩ��
+Tittle=如图所示，B车具有优先通行权。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2318.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=��ͼ��ͼ��·������ǰ�ļ�ͷ����һ��Ĵ�������·��B����ת�����д���
-NormalNotice=ת����ֱ�У���˱������
+SkillNotice=看图：图中路口两车前的箭头并在一起的错，交叉路口B车右转弯先行错。
+NormalNotice=转弯让直行！因此本题错了
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

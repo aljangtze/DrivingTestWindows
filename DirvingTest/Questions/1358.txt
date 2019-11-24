@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1358
 Url=http://tiba.jsyks.com/Post/893a5.htm
-Tittle=�������Ǽ�֤�顢���ơ���ʻ֤��ʧ����ʧ������ٵģ�������������Ӧ�����ĸ��������벹�졢���졣
+Tittle=机动车登记证书、号牌、行驶证灭失、丢失或者损毁的，机动车所有人应当向哪个部门申请补领、换领。
 TittleEmphasize=
-SkillEmphasize=�Ǽ�֤��
+SkillEmphasize=登记证书
 ImagePath=
 FlashPath=
 SkillId=68
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=���⣺�Ǽ�֤�鶪ʧ���쵱Ȼ��ȥ�Ǽǵس��������졣��Ŀ�еǼ�֤�飬�𰸾�ѡ�Ǽǵء���ס���ڻ�����������Ǽǵľ�������ȥ���졣
-NormalNotice=���ݡ��������Ǽǹ涨������ʮ�����Ĺ涨 ���������ơ���ʻ֤��ʧ����ʧ������ٵģ�������������Ӧ����Ǽǵس������������벹�졢���졣����ʱ��������������Ӧ����д��������ύ����֤����
+SkillNotice=看题：登记证书丢失后补领当然是去登记地车管所补领。题目有登记证书，答案就选登记地。记住，在机动车在哪里登记的就在那里去补领。
+NormalNotice=根据《机动车登记规定》第四十四条的规定 机动车号牌、行驶证灭失、丢失或者损毁的，机动车所有人应当向登记地车辆管理所申请补领、换领。申请时，机动车所有人应当填写申请表并提交身份证明。
 [Options]
-Options1=�Ǽǵس���������
-Options2=��ʻ֤�˷��س���������
-Options3=���ع�����
-Options4=ס�ؽ���֧�ӳ���������
-Image1=�Ǽǵ�
+Options1=登记地车辆管理所
+Options2=驾驶证核发地车辆管理所
+Options3=当地公安局
+Options4=住地交警支队车辆管理所
+Image1=登记地
 Image2=
 Image3=
 Image4=

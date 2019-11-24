@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6041
 Url=http://tiba.jsyks.com/Post/149d1.htm
-Tittle=�ͳ���ʻ�����г��У�Ӧʼ�ձ������õ�����״̬�����ô��Ų���������ʻ������
+Tittle=客车驾驶人在行车中，应始终保持良好的心理状态，不得带着不良情绪驾驶车辆。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=������ˣ����κ����鶼�����о��񣡿ͳ���ʻ�˳е���һ���˵İ�΢�����Ը��ñ��������泩��
-NormalNotice=������ˣ����κ����鶼�����о��񣡿ͳ���ʻ�˳е���һ���˵İ�΢�����Ը��ñ��������泩��
+SkillNotice=心情好了，做任何事情都倍儿有精神！客车驾驶人承担着一车人的安微，所以更该保持心情舒畅！
+NormalNotice=心情好了，做任何事情都倍儿有精神！客车驾驶人承担着一车人的安微，所以更该保持心情舒畅！
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

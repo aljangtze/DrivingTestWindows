@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5044
 Url=http://tiba.jsyks.com/Post/2907c.htm
-Tittle=ȫ���϶������ý�����ٹ�·��
+Tittle=全挂拖斗车不得进入高速公路。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=�� �л����񹲺͹���·��ͨ��ȫ��������ʮ���� ���ˡ��ǻ�����������������ʽר�û�е�����½�ʽ�ͳ���ȫ���϶����Լ�����������ʱ�ٵ�����ʮ����Ļ����������ý�����ٹ�·��
-NormalNotice=�� �л����񹲺͹���·��ͨ��ȫ��������ʮ���� ���ˡ��ǻ�����������������ʽר�û�е�����½�ʽ�ͳ���ȫ���϶����Լ�����������ʱ�ٵ�����ʮ����Ļ����������ý�����ٹ�·��
+SkillNotice=《 中华人民共和国道路交通安全法》第六十七条 行人、非机动车、拖拉机、轮式专用机械车、铰接式客车、全挂拖斗车以及其他设计最高时速低于七十公里的机动车，不得进入高速公路。
+NormalNotice=《 中华人民共和国道路交通安全法》第六十七条 行人、非机动车、拖拉机、轮式专用机械车、铰接式客车、全挂拖斗车以及其他设计最高时速低于七十公里的机动车，不得进入高速公路。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

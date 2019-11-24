@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4055
 Url=http://tiba.jsyks.com/Post/cf855.htm
-Tittle=�������Ǳ����ϣ���ͼ��ʾ������ʾʲô��
+Tittle=机动车仪表板上（如图所示）亮表示什么？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4055.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=��ɫ���������˵Ĵ𰸶��Ǵ���ӭ����硣ѡӭ����硣
-NormalNotice=������ͷ��һ�������ˣ��϶���ӭ���ˣ�һ�����£��Ǿ�������ذ��ˡ�    ֱ��������ʾӭ����磬��ֱ���±�ʾ���ذ塣
+SkillNotice=白色的这两个人的答案都是带着迎面出风。选迎面出风。
+NormalNotice=两个箭头，一个对着人，肯定是迎面了，一个向下，那就是下面地板了。    直吹人脸表示迎面出风，垂直向下表示吹地板。
 [Options]
-Options1=������ѭ��
-Options2=�ذ弰ӭ�����
-Options3=���漰�ذ����
-Options4=������ѭ��
+Options1=空气外循环
+Options2=地板及迎面出风
+Options3=侧面及地板出风
+Options4=空气内循环
 Image1=
-Image2=ӭ�����
+Image2=迎面出风
 Image3=
 Image4=
 [AnswerInfo]

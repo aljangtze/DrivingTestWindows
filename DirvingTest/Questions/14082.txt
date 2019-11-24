@@ -1,7 +1,7 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=14082
-Tittle=ртобдд╦Жж╦й╬╣фаай╠ё╛╠Мй╬смоДдзх╪смря╣╫вН╣мр╨цФё©
-SkillEmphasize=х╪смря╣╫вН╣м
+Tittle=Д╩╔Д╦▀Е⌠╙Д╦╙Ф▄┤Г╓╨Г│╞Д╨╝Ф≈╤О╪▄Х║╗Г╓╨Ф╡╧Г╝╠Е├┘Г┤┐Ф╡╧Е╥╡Е┬╟Ф°─Д╫▌Ф╤╡И²╒О╪÷
+SkillEmphasize=Г┤┐Ф╡╧Е╥╡Е┬╟Ф°─Д╫▌
 ImagePath=14082.jpg
 FlashPath=
 SkillId=35
@@ -10,16 +10,16 @@ Type=2
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=©╢м╪ё╨смоДдзх╪смря╣╫вН╣мр╨цФ╣дя║м╪4║ёоЯ╪ссму╬ЁИсмл╗╣дм╪╠Й╬м╠Мй╬х╪смря╣╫вН╣мр╨цФ║ёкЫртя║м╪4║ё
+SkillNotice=Г°▀Е⌡╬О╪ Ф╡╧Г╝╠Е├┘Г┤┐Ф╡╧Е╥╡Е┬╟Ф°─Д╫▌Ф╤╡И²╒Г └И─┴Е⌡╬4Ц─┌Е┐▐Е┼═Ф╡╧Г╚≥Ф┼╫Ф╡╧Е▐╟Г └Е⌡╬Ф═┤Е╟╠Х║╗Г╓╨Г┤┐Ф╡╧Е╥╡Е┬╟Ф°─Д╫▌Ф╤╡И²╒Ц─┌Ф┴─Д╩╔И─┴Е⌡╬4Ц─┌
 NormalNotice=
 [Options]
-Options1=м╪3
+Options1=Е⌡╬3
 Image1=
-Options2=м╪4
+Options2=Е⌡╬4
 Image2=
-Options3=м╪2 
+Options3=Е⌡╬2 
 Image3=
-Options4=м╪1
+Options4=Е⌡╬1
 Image4=
 [AnswerInfo]
 Answer1=0

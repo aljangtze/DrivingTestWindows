@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=10012
 Url=http://tiba.jsyks.com/Post/68418.htm
-Tittle=�綯����ʾ����ʻ��Ӧ����������
+Tittle=如动画所示，驾驶人应当怎样做？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,21 +10,21 @@ SkillId=45
 MoudleId=10
 Type=2
 Classification=4
-BankId=0
+BankId=31
 [SkillInfo]
-SkillNotice=�����м���ͣ�������ε�ֱ��ѡ��
-NormalNotice=�³��ˣ�������߳����ܶ� ��Ӧ�ü���ͣ�����ŶӵȺ�
+SkillNotice=答案中有减速停车，依次的直接选。
+NormalNotice=堵车了，而且左边车辆很多 ，应该减速停车，排队等候。
 [Options]
-Options1=�����ȴߴ�
-Options2=����ͣ���������ŶӵȺ�
-Options3=�ӻ������ռ䴩��ͨ��
-Options4=Ѱ�һ��ᳬԽǰ��
+Options1=从机动车空间穿插通过
+Options2=寻找机会超越前车
+Options3=鸣喇叭催促
+Options4=减速停车，依次排队等候
 Image1=
-Image2=����ͣ��
+Image2=
 Image3=
-Image4=
+Image4=减速停车
 [AnswerInfo]
 Answer1=0
-Answer2=1
+Answer2=0
 Answer3=0
-Answer4=0
+Answer4=1

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=11013
 Url=http://tiba.jsyks.com/Post/d47f6.htm
-Tittle=¼İÊ»»ú¶¯³µÓöµ½ÕâÖÖÉ½Â·ÔõÑùÍ¨¹ı£¿
+Tittle=é©¾é©¶æœºåŠ¨è½¦é‡åˆ°è¿™ç§å±±è·¯æ€æ ·é€šè¿‡ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=11013.jpg
@@ -10,21 +10,21 @@ SkillId=46
 MoudleId=11
 Type=2
 Classification=4
-BankId=17
+BankId=40
 [SkillInfo]
-SkillNotice=°øÉ½ÏÕÂ·¿ª³µ¶¼Òª¿¿ÓÒ¡£
-NormalNotice=¿¿É½ÌåµÄÒ»·½µÍËÙÍ¨¹ı
+SkillNotice=å‚å±±é™©è·¯å¼€è½¦éƒ½è¦é å³ã€‚
+NormalNotice=é å±±ä½“çš„ä¸€æ–¹ä½é€Ÿé€šè¿‡
 [Options]
-Options1=¿¿Â·×ó²àĞĞÊ»
-Options2=Ç°·½×ó²àÊÇ°øÉ½ÏÕÂ·
-Options3=Ñ¡ÔñÂ·ÖĞĞÄĞĞÊ»
-Options4=¿¿ÓÒ²àµÍËÙÍ¨¹ı
+Options1=å‰æ–¹å·¦ä¾§æ˜¯å‚å±±é™©è·¯
+Options2=é å³ä¾§ä½é€Ÿé€šè¿‡
+Options3=é€‰æ‹©è·¯ä¸­å¿ƒè¡Œé©¶
+Options4=é è·¯å·¦ä¾§è¡Œé©¶
 Image1=
-Image2=
+Image2=å³
 Image3=
-Image4=ÓÒ
+Image4=
 [AnswerInfo]
 Answer1=0
-Answer2=0
+Answer2=1
 Answer3=0
-Answer4=1
+Answer4=0

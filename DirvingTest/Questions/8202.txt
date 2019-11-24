@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=8202
 Url=http://tiba.jsyks.com/Post/6d806.htm
-Tittle=Æû³µ¸÷ÂÖÌ¥ÆøÑ¹²»Ò»ÖÂÊ±£¬ÈİÒ×Ôì³ÉµÄºó¹ûÊÇÊ²Ã´£¿
+Tittle=æ±½è½¦å„è½®èƒæ°”å‹ä¸ä¸€è‡´æ—¶ï¼Œå®¹æ˜“é€ æˆçš„åæœæ˜¯ä»€ä¹ˆï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,14 +10,15 @@ SkillId=52
 MoudleId=8
 Type=3
 Classification=4
+BankId=22
 [SkillInfo]
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=¼Ó¾çÂÖÌ¥Ä¥Ëğ
-Options2=²Ù×İÊ§¿Ø
-Options3=±¬Ì¥
-Options4=Æû³µĞĞÊ»ÓÍºÄÔö´ó
+Options1=æ±½è½¦è¡Œé©¶æ²¹è€—å¢å¤§
+Options2=æ“çºµå¤±æ§
+Options3=åŠ å‰§è½®èƒç£¨æŸ
+Options4=çˆ†èƒ
 Image1=
 Image2=
 Image3=

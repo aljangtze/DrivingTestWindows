@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12070
 Url=http://tiba.jsyks.com/Post/42700.htm
-Tittle=����������ڸ��ٹ�·��ʻ������ˮ��������ʱ�������ã�
+Tittle=雨天机动车在高速公路行驶发生“水滑”现象时怎样处置？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,17 +12,17 @@ Type=2
 Classification=4
 BankId=24
 [SkillInfo]
-SkillNotice=��������������ʱ��ѡ�������٣�ѡ���Ҽ��٣�ѡ��ȫ�ļ��١�
-NormalNotice=��ν��ˮ��������������������ڻ�ˮ·���ϸ�����ʻʱ����̥��·���Ĵ�ˮ�����ų���ˮ��ѹ��ʹ��̥�ϸ����γ������ڻ�ˮ·���ϻ��е����� ѡ��ACD���п�����ɳ����໬���¹ʵķ�������ͨ����̧����̤��ķ�ʽ���ٲ��������ó�������������˱���ѡB��
+SkillNotice=答案中有两个减速时，选缓慢减速，选靠右减速，选安全的减速。
+NormalNotice=所谓“水滑”现象就是雨天汽车在积水路面上高速行驶时，轮胎与路面间的存水不能排除，水的压力使轮胎上浮，形成汽车在积水路面上滑行的现象。 选项ACD都有可能造成车辆侧滑等事故的发生，而通过缓抬加速踏板的方式减速才能真正让车渐渐减慢，因此本题选B。
 [Options]
-Options1=Ѹ��ת����е���
-Options2=��̧����̤�����
-Options3=������������ˮ��
-Options4=��̤�ƶ�̤�����
+Options1=迅速转向进行调整
+Options2=缓抬加速踏板减速
+Options3=提速增大车轮排水量
+Options4=急踏制动踏板减速
 Image1=
-Image2=��������
+Image2=缓，减速
 Image3=
-Image4=��������
+Image4=急，减速
 [AnswerInfo]
 Answer1=0
 Answer2=1

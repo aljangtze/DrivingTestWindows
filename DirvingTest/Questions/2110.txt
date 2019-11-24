@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2110
 Url=http://tiba.jsyks.com/Post/dc354.htm
-Tittle=ָʾ��־��������ʲô��
+Tittle=指示标志的作用是什么？
 TittleEmphasize=
-SkillEmphasize=ָʾ������
+SkillEmphasize=指示，作用
 ImagePath=
 FlashPath=
 SkillId=30
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=ָʾ��־����ָʾ�����������н���
-NormalNotice=ָʾ��־�ǽ�ͨ��־����Ҫ��־��һ�֣�����ָʾ���������˰��涨���򡢵ص���ʻ�� ָʾ��־����ɫΪ���ס���ͼ������״��ΪԲ�Ρ������κ������Ρ�
+SkillNotice=指示标志就是指示车辆、行人行进。
+NormalNotice=指示标志是交通标志中主要标志的一种，用以指示车辆和行人按规定方向、地点行驶。 指示标志的颜色为蓝底、白图案；形状分为圆形、长方形和正方形。
 [Options]
-Options1=ָʾ�����������н�
-Options2=����ǰ��Σ��
-Options3=���Ƴ���������ͨ��
-Options4=��֪������Ϣ
-Image1=ָʾ
+Options1=指示车辆、行人行进
+Options2=警告前方危险
+Options3=限制车辆、行人通行
+Options4=告知方向信息
+Image1=指示
 Image2=
 Image3=
 Image4=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8046
 Url=http://tiba.jsyks.com/Post/883e8.htm
-Tittle=��ʻ�������������������������
+Tittle=驾驶机动车在这种情况下怎样做？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=8046.jpg
@@ -10,21 +10,21 @@ SkillId=46
 MoudleId=8
 Type=2
 Classification=4
-BankId=19
+BankId=41
 [SkillInfo]
-SkillNotice=��������ʵ�� ��������г� ֻ�ܸ�ǰ����ʻ
-NormalNotice=��������ʵ�� ��������г� ֻ�ܸ�ǰ����ʻ
+SkillNotice=中心线是实线 而且左侧有车 只能跟前车行驶
+NormalNotice=中心线是实线 而且左侧有车 只能跟前车行驶
 [Options]
-Options1=��ǰ����೬Խ
-Options2=ռ���򳵵���Խ
-Options3=����ǰ������ʻ
-Options4=��ǰ���Ҳ೬Խ
+Options1=从前车左侧超越
+Options2=占对向车道超越
+Options3=从前车右侧超越
+Options4=跟在前车后行驶
 Image1=
 Image2=
-Image3=����ʻ
-Image4=
+Image3=
+Image4=后行驶
 [AnswerInfo]
 Answer1=0
 Answer2=0
-Answer3=1
-Answer4=0
+Answer3=0
+Answer4=1

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11075
 Url=http://tiba.jsyks.com/Post/5aea2.htm
-Tittle=��������г��У�����������Ϯ�����о���������������ƫ��ʱ��Ҫ��ת�����Իָ���ʻ����
+Tittle=大风天气行车中，如果遇到狂风袭来，感觉机动车产生横向偏移时，要急转方向以恢复行驶方向。
 TittleEmphasize=
-SkillEmphasize=��ת����
+SkillEmphasize=急转方向
 ImagePath=
 FlashPath=
-SkillId=40
+SkillId=48
 MoudleId=11
 Type=1
 Classification=4
-BankId=18
+BankId=50
 [SkillInfo]
-SkillNotice=��ס����ת���򣬴�����ת���򣬽����ƶ�����������������Ϊ���͵Ĵ���
-NormalNotice=�����������ʱ��������ĺ��ƣ���Ϊ�ں��Ƶ�˲�䳵�����뿪����ģ����ԲŻ���ƣ���õķ����������ͣ��ȳ����Լ������������Ϳ����ó��ָֻ�ץ������Ȼ���ٽ��д���ɲ���ȶ����� �����д���ԭ����Ҫ�ǵ�ʱ��������صģ�Ҳ����˵������û��ץ�����ģ������ʱ���ֵĻ���?
+SkillNotice=记住：急转方向，错。急转反向，紧急制动，动作过急过，行为过猛的错。
+NormalNotice=当车遇到横风时如果发生的横移，因为在横移的瞬间车轮是离开地面的，所以才会横移，最好的方法就是收油，等车速自己下来，这样就可以让车轮恢复抓地力，然后再进行打轮刹车等动作。 这题判错的原因主要是当时车轮是离地的，也就是说车轮是没有抓地力的，如果这时打轮的话不?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

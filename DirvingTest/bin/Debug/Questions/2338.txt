@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2338
 Url=http://tiba.jsyks.com/Post/9c2eb.htm
-Tittle=��ͼ��ʾ�������־���������˿��ص���·���ڣ���ʾ��ʻ�˾����˿��ص���·���ڵľ��뻹��100�ס�
+Tittle=如图所示，这个标志设置在有人看守的铁路道口，提示驾驶人距有人看守的铁路道口的距离还有100米。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=有人
 ImagePath=2338.jpg
 FlashPath=
-SkillId=36
+SkillId=29
 MoudleId=2
 Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=��Ŀ��˵���˿��أ���־�����˿���100�ס�����
-NormalNotice=���˿�����·����  100��
+SkillNotice=题目上说有人看守，标志是无人看守100米。错！
+NormalNotice=无人看守铁路道口  100米
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

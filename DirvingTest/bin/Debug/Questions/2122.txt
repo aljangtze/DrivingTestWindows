@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2122
 Url=http://tiba.jsyks.com/Post/ce8f5.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2122.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=��ɫ�������и�ֱ��ͷ�����ֱ�־�ǵ���·����ͷ��������·��
-NormalNotice=ֱ�г����ǣ�����ԲȦ��ͷ����    ����·�֣�ֱ�е���·�����������׼�ͷ���ϣ�����������ҵ���·�����������׼�ͷ��������ң���
+SkillNotice=蓝色方框内有个直箭头，这种标志是单行路，箭头向左，左单行路。
+NormalNotice=直行车道是：蓝底圆圈箭头向上    单行路分：直行单行路（长方形蓝底箭头向上）和向左或向右单行路（长方形蓝底箭头向左或向右）。
 [Options]
-Options1=���ҵ���·
-Options2=������·
-Options3=��ת����
-Options4=ֱ�е���·
+Options1=向右单行路
+Options2=向左单行路
+Options3=左转让行
+Options4=直行单行路
 Image1=
-Image2=����·
+Image2=左单行路
 Image3=
 Image4=
 [AnswerInfo]

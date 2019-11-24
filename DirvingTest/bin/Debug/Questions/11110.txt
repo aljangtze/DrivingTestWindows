@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11110
 Url=http://tiba.jsyks.com/Post/58158.htm
-Tittle=�������ڸ��ٹ�·���г�����������ʻ�����ڣ�����·�絹���˻س��ڴ���
+Tittle=机动车在高速公路上行车，如果因疏忽驶过出口，可沿路肩倒车退回出口处。
 TittleEmphasize=
-SkillEmphasize=·�絹��
+SkillEmphasize=路肩倒车
 ImagePath=
 FlashPath=
 SkillId=40
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=23
 [SkillInfo]
-SkillNotice=���ٹ�·���г����ʻ������ֻ����ǰ��ʻ�����ܵ�������Ŀ��˵Ҫ��·�絹��������
-NormalNotice=������ ֻ�ܼ�����ʻ ����һ�����ڳ�ȥ
+SkillNotice=高速公路上行车疏忽驶过出口只能向前行驶，不能倒车，题目中说要沿路肩倒车，错。
+NormalNotice=不可以 只能继续行驶 从下一个出口出去
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14111
-Tittle=��·�ڵ�ͷʱ��ֻҪ����������ͨ�п��������к����ɵ�ͷ��
-SkillEmphasize=ֻҪ��������
+Tittle=在路口掉头时，只要不妨碍行人通行可以在人行横道完成掉头。
+SkillEmphasize=只要，可以在
 ImagePath=
 FlashPath=
 SkillId=48
@@ -10,12 +10,12 @@ Type=1
 Classification=4
 BankId=16
 [SkillInfo]
-SkillNotice=������ֻҪ���п��ԣ�����
+SkillNotice=题中有只要，有可以，错。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

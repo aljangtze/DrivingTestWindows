@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2221
 Url=http://tiba.jsyks.com/Post/42e64.htm
-Tittle=��ɫԲȦ�ڱ��ߺ�����ʲô��
+Tittle=红色圆圈内标线含义是什么？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2221.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=10
 [SkillInfo]
-SkillNotice=��ͼ��ͼ�г��е�����ؿ������ĵط����и���ʽͣ��վ�����е����·��ֲ������к���ؿ������Զ�ܽ�ͨ�����ģ���Ϊ����ʽͣ��վ��
-NormalNotice=�ڵ�·���е���࣬��ȡ�ֲ��ؿ�·��Ĺ�����ͨͣ��վ����������� ������ʽͣ��վ�������Ļ�����ʽ��·�������е���������3�ף�����90�������γɲ������壬���й�����˾Ӫ�˰�ȫ����־�岿�����ܣ������Ƚ�վ���������������ƣ������������µ����˿ͺ򳵰�ȫ��˾��ʵ�ֹ淶
+SkillNotice=看图：图中车行道外侧拓宽弯曲的地方，叫港湾式停靠站。车行道外侧路面局部向人行横道拓宽，可以躲避交通车流的，就为港湾式停靠站。
+NormalNotice=在道路车行道外侧，采取局部拓宽路面的公共交通停靠站”——这就是 “港湾式停靠站”，它的基本形式是路面向人行道方向切入3米，长度90米以上形成泊车港湾，据市公交公司营运安全部黄志峰部长介绍，这种先进站点至少有三大优势：公交泊车不堵道；乘客候车安全；司机实现规范
 [Options]
-Options1=��ʱͣ��վ
-Options2=����ʽͣ��վ
-Options3=������ͣ��վ
-Options4=Ӧ��ͣ����
+Options1=临时停靠站
+Options2=港湾式停靠站
+Options3=公交车停靠站
+Options4=应急停车带
 Image1=
-Image2=����
+Image2=港湾
 Image3=
 Image4=
 [AnswerInfo]

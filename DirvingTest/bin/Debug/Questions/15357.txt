@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15357
 Url=http://tiba.jsyks.com/Post/86e55.htm
-Tittle=�����������̥����ȷ�����ǽ�����̥��ѹ��
+Tittle=避免机动车爆胎的正确做法是降低轮胎气压。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=��̥��ѹ���ͻᵼ�±�̥����̥ȱ����ʻ�Ǳ�̥�Ļ�����������ȱ������̥̥ѹ���ڱ�׼̥ѹ����ʻʱ������̥ѹ���½�����̥������Ħ���ɱ����ӣ�̥�¼������ߣ���̥������ǿ�ȼ����½�����������£��������������ʻ���Ϳ��ܵ��±�̥����˱������
-NormalNotice=��̥��ѹ���ͻᵼ�±�̥����̥ȱ����ʻ�Ǳ�̥�Ļ�����������ȱ������̥̥ѹ���ڱ�׼̥ѹ����ʻʱ������̥ѹ���½�����̥������Ħ���ɱ����ӣ�̥�¼������ߣ���̥������ǿ�ȼ����½�����������£��������������ʻ���Ϳ��ܵ��±�̥����˱������
+SkillNotice=轮胎气压过低会导致爆胎。轮胎缺气行驶是爆胎的祸根。车辆的缺气（轮胎胎压低于标准胎压）行驶时，随着胎压的下降，轮胎与地面的摩擦成倍增加，胎温急剧升高，轮胎变软，强度急剧下降。这种情况下，如果车辆高速行驶，就可能导致爆胎。因此本题错误。
+NormalNotice=轮胎气压过低会导致爆胎。轮胎缺气行驶是爆胎的祸根。车辆的缺气（轮胎胎压低于标准胎压）行驶时，随着胎压的下降，轮胎与地面的摩擦成倍增加，胎温急剧升高，轮胎变软，强度急剧下降。这种情况下，如果车辆高速行驶，就可能导致爆胎。因此本题错误。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

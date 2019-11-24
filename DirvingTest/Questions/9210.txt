@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9210
 Url=http://tiba.jsyks.com/Post/a2f3b.htm
-Tittle=��ͨ���췢�����������ź�ʱ����ֱ��ͨ����
+Tittle=交通警察发出这种手势信号时可以直行通过。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=9210.jpg
@@ -10,13 +10,13 @@ SkillId=42
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=15
 [SkillInfo]
-SkillNotice=�������ƣ��������������Լ��Ķԡ�3ֻ�ֵĽ������ԣ��������ǵģ����Ǵ���û��3ֻ�֡���
-NormalNotice=׼���ҷ��ĳ�����ת��    ����һ��������֪���������ظ�֪��һ���Ͳ���ֱ�У�����б�¸�֪������ת
+SkillNotice=交警手势，交警看着我们自己的对、3只手的交警、对，不看我们的，就是错，没有3只手。错
+NormalNotice=准许右方的车辆右转弯    面向一方代表告知，伸手拦截告知的一方就不能直行，右手斜下告知可以右转
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

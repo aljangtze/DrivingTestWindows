@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1128
 Url=http://tiba.jsyks.com/Post/86f88.htm
-Tittle=������������������ʻ��
+Tittle=遇到这种情形怎样行驶？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=1128.jpg
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=��ͼ�����������öԷ����ҷ���·ʩ������������ʱӦͣ���öԷ��������С�
-NormalNotice=����·��ͨ��ȫ��ʵʩ����������ʮ������ ��û�����ĸ�����ʩ����û�������ߵĵ�·�ϣ������ϰ���·�Σ����ϰ���һ�����У������ϰ���һ����ʻ���ϰ�·�ζ����ϰ���һ��δʻ��ʱ�����ϰ���һ�����С�
+SkillNotice=看图：对向来车让对方。我方道路施工，对向来车时应停车让对方车辆先行。
+NormalNotice=《道路交通安全法实施条例》第四十八条： 在没有中心隔离设施或者没有中心线的道路上，在有障碍的路段，无障碍的一方先行；但有障碍的一方已驶入障碍路段而无障碍的一方未驶入时，有障碍的一方先行。
 [Options]
-Options1=���ٳ�Խ�ϰ���ᳵ
-Options2=��ǰ�յƸ�֪�Է�����
-Options3=������ת���������ʻ
-Options4=ͣ���öԷ�����ͨ��
+Options1=加速超越障碍后会车
+Options2=开前照灯告知对方让行
+Options3=开启左转向灯向左行驶
+Options4=停车让对方车辆通过
 Image1=
 Image2=
 Image3=
-Image4=ͣ����
+Image4=停车让
 [AnswerInfo]
 Answer1=0
 Answer2=0

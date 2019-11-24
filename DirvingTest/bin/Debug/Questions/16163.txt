@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16163
 Url=http://tiba.jsyks.com/Post/a7f08.htm
-Tittle=�г�����ͻȻ��̥ʱ����ʻ��Ҫ��̤�ƶ�̤�����ͣ����
+Tittle=行车中遇突然爆胎时，驾驶人要急踏制动踏板减速停车。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=��������̥ʱ�������ƶ��Ļ���������ɳ��Ӳ෭��Ҫ��̤�ƶ�̤����������ͣ������˱������
-NormalNotice=��������̥ʱ�������ƶ��Ļ���������ɳ��Ӳ෭��Ҫ��̤�ƶ�̤����������ͣ������˱������
+SkillNotice=机动车爆胎时，紧急制动的话很容易造成车子侧翻，要轻踏制动踏板慢慢减速停车，因此本题错误。
+NormalNotice=机动车爆胎时，紧急制动的话很容易造成车子侧翻，要轻踏制动踏板慢慢减速停车，因此本题错误。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

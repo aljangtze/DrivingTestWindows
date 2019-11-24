@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14122
-Tittle=����������΢�в��¹ʣ�˫����ʻ����ִ���£������ԭ�صȴ����������������·�����������Ϊ���ܵ�����Ĵ�����
-SkillEmphasize=˫�����ܵ�����
+Tittle=车辆发生轻微剐蹭事故，双方驾驶人争执不下，坚持在原地等待警察来处理，造成路面堵塞，该行为会受到罚款的处罚。
+SkillEmphasize=双方，受到罚款
 ImagePath=
 FlashPath=
 SkillId=14
@@ -10,12 +10,12 @@ BankId=13
 Type=1
 Classification=3
 [SkillInfo]
-SkillNotice=���⣺�ܵ�������ԣ�û�С�ֻ���ֵ�˫���򷣿�Ƕԡ�
+SkillNotice=看题：受到罚款处罚对，没有“只”字的双方或罚款都是对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

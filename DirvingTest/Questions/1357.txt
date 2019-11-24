@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=1357
 Url=http://tiba.jsyks.com/Post/80c67.htm
-Tittle=ÕýÔÚÖ´ÐÐÉçÇø½ä¶¾¡¢Ç¿ÖÆ¸ôÀë½ä¶¾¡¢ÉçÇø¿µ¸´´ëÊ©£¬³µÁ¾¹ÜÀíËù½«×¢ÏúÆä¼ÝÊ»Ö¤¡£
+Tittle=æ­£åœ¨æ‰§è¡Œç¤¾åŒºæˆ’æ¯’ã€å¼ºåˆ¶éš”ç¦»æˆ’æ¯’ã€ç¤¾åŒºåº·å¤æŽªæ–½ï¼Œè½¦è¾†ç®¡ç†æ‰€å°†æ³¨é”€å…¶é©¾é©¶è¯ã€‚
 TittleEmphasize=
-SkillEmphasize=³µÁ¾¹ÜÀíËù
+SkillEmphasize=è½¦è¾†ç®¡ç†æ‰€
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=¼¼ÇÉ£º³µÁ¾¹ÜÀíËù¶Ô£¬ÌâÖÐ´øÓÐ³µÁ¾¹ÜÀíËù£¬´øÓÐ¹«°²»ú¹ØµÄ¾ÍÊÇ¶ÔµÄ¡£
+SkillNotice=æŠ€å·§ï¼šè½¦è¾†ç®¡ç†æ‰€å¯¹ï¼Œé¢˜ä¸­å¸¦æœ‰è½¦è¾†ç®¡ç†æ‰€ï¼Œå¸¦æœ‰å…¬å®‰æœºå…³çš„å°±æ˜¯å¯¹çš„ã€‚
 NormalNotice=
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

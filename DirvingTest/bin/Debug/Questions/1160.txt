@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1160
 Url=http://tiba.jsyks.com/Post/0b05d.htm
-Tittle=��ʻ��������û�н�ͨ�źŵ�·������ǰ������������ʻʱҪ���ν���ͨ�С�
+Tittle=驾驶机动车在没有交通信号的路口遇到前方车辆缓慢行驶时要依次交替通行。
 TittleEmphasize=
-SkillEmphasize=������ʻ
+SkillEmphasize=缓慢行驶
 ImagePath=
 FlashPath=
-SkillId=12
+SkillId=13
 MoudleId=1
 Type=1
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=���ɣ�������ʻ�ԣ����д��л�����ʻ��������ʻ���ǶԵġ�
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��������ʮ������ȷ�涨 �����ڳ������ٵ�·�Ρ�·�ڣ�������û�н�ͨ�źŵơ���ͨ��־����ͨ���߻��߽�ͨ����ָ�ӵĽ���·������ͣ���ŶӵȺ���߻�����ʻʱ��������Ӧ�����ν���ͨ��
+SkillNotice=技巧：缓慢行驶对，题中带有缓慢行驶，减速行驶都是对的。
+NormalNotice=《中华人民共和国道路交通安全法》第四十五条明确规定 　　在车道减少的路段、路口，或者在没有交通信号灯、交通标志、交通标线或者交通警察指挥的交叉路口遇到停车排队等候或者缓慢行驶时，机动车应当依次交替通行
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,11 +1,11 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=14187
-Tittle=¼İÊ»»ú¶¯³µÏÂ³¤ÆÂÊ±£¬½ö¿¿ĞĞ³µÖÆ¶¯Æ÷ÖÆ¶¯£¬ÈİÒ×ÒıÆğĞĞ³µÖÆ¶¯Æ÷Ê§Áé¡£
+Tittle=é©¾é©¶æœºåŠ¨è½¦ä¸‹é•¿å¡æ—¶ï¼Œä»…é è¡Œè½¦åˆ¶åŠ¨å™¨åˆ¶åŠ¨ï¼Œå®¹æ˜“å¼•èµ·è¡Œè½¦åˆ¶åŠ¨å™¨å¤±çµã€‚
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=69
-MoudleId=8
+MoudleId=15
 BankId=38
 Type=1
 Classification=4
@@ -13,9 +13,9 @@ Classification=4
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=ÕıÈ·
+Options1=æ­£ç¡®
 Image1=
-Options2=´íÎó
+Options2=é”™è¯¯
 Image2=
 Options3=
 Image3=

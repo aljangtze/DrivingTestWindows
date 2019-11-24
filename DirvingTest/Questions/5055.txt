@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5055
 Url=http://tiba.jsyks.com/Post/63eca.htm
-Tittle=ǣ�����ϴ��ҳ�ʱ���ҳ�����װ����Ч���ƶ�װ�á�
+Tittle=牵引车拖带挂车时，挂车必须装有有效的制动装置。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=���ǣ������ɲ��������ǣ����û����Ч���ƶ�ɲ��װ�ã���ô��ǣ�����῿���Լ���׷βǣ���������Թҳ�����װ����Ч���ƶ�װ�á�
-NormalNotice=���ǣ������ɲ��������ǣ����û����Ч���ƶ�ɲ��װ�ã���ô��ǣ�����῿���Լ���׷βǣ���������Թҳ�����װ����Ч���ƶ�װ�á�
+SkillNotice=如果牵引车急刹车，而被牵引车没有有效的制动刹车装置，那么被牵引车会靠惯性继续追尾牵引车，所以挂车必须装有有效的制动装置。
+NormalNotice=如果牵引车急刹车，而被牵引车没有有效的制动刹车装置，那么被牵引车会靠惯性继续追尾牵引车，所以挂车必须装有有效的制动装置。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

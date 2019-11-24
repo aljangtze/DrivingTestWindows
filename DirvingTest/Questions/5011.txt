@@ -1,7 +1,7 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=5011
 Url=http://tiba.jsyks.com/Post/0c1fc.htm
-Tittle=╩Утк╩З╤╞Ё╣Ё╛╧Щ╨к╤╗тьжйа©╤Юиы╩Руън╔╥╢╧Ф╤╗ть©м╣дё╛╢╕500т╙ртио2000т╙ртоб╥ё©Нё©
+Tittle=Х╢╖Х©░Ф°╨Е┼╗Х╫╕Х╤┘Х©┤Ф═╦Е╝ Х╫╫Х╢╗И┤▐Е╓ Е╟▒Ф┬√Х─┘Х©²Е▐█Х╖└Е╝ Х╫╫Е╝╒Г └О╪▄Е╓└500Е┘┐Д╩╔Д╦┼2000Е┘┐Д╩╔Д╦▀Г╫ Ф╛╬О╪÷
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,20 +10,21 @@ SkillId=37
 MoudleId=5
 Type=2
 Classification=2
+BankId=0
 [SkillInfo]
-SkillNotice=йвохр╙©╢гЕлБё╛╪гв║Ё╛╧Щ30%╩Рн╔╥╗тьхк╥ё500-2000ё╛Ё╛тьн╢Ё╛╧Щ30%╣д╥ё200-500ё║
-NormalNotice=йвохр╙©╢гЕлБё╛╪гв║Ё╛╧Щ30%╩Рн╔╥╗тьхк╥ё500-2000ё╛Ё╛тьн╢Ё╛╧Щ30%╣д╥ё200-500ё║
+SkillNotice=Г╜■Ф║┬Ф°┴30%Г └Г⌡╢Ф▌╔И─┴Ц─┌
+NormalNotice=И╕√Е┘┬Х╕│Г°▀Ф╦┘И╒≤О╪▄Х╝╟Д╫▐Х╤┘Х©┤30%Ф┬√Х©²ФЁ∙Х╫╫Д╨╨Г╫ 500-2000О╪▄Х╤┘Х╫╫Ф°╙Х╤┘Х©┤30%Г └Г╫ 200-500О╪│
 [Options]
-Options1=15%
-Options2=30%
+Options1=30%
+Options2=15%
 Options3=20%
 Options4=25%
-Image1=
+Image1=30%
 Image2=
 Image3=
 Image4=
 [AnswerInfo]
-Answer1=0
-Answer2=1
+Answer1=1
+Answer2=0
 Answer3=0
 Answer4=0

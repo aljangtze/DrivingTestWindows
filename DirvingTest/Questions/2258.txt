@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2258
 Url=http://tiba.jsyks.com/Post/3f6d6.htm
-Tittle=·���ϵĻ�ɫ�������Ǻκ��壿
+Tittle=路面上的黄色填充标线是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2258.jpg
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=˫���߾��Ǿ���ע��Խ�磬���������塱���ǲ����ƶ��ϰ�����ѡ �ӽ��ϰ�����ߡ�
-NormalNotice=˫���߾��Ǿ���ע��Խ�磬���������塱���ǲ����ƶ��ϰ�����ѡ �ӽ��ϰ�����ߡ�
+SkillNotice=双黄线就是警告注意越界，“打叉的物体”就是不可移动障碍物。因此选 接近障碍物标线。
+NormalNotice=双黄线就是警告注意越界，“打叉的物体”就是不可移动障碍物。因此选 接近障碍物标线。
 [Options]
-Options1=�ӿ����������
-Options2=�ӽ��ƶ��ϰ������
-Options3=�ӽ��ϰ������
-Options4=�ӽ���խ·�����
+Options1=加宽隔离带标线
+Options2=接近移动障碍物标线
+Options3=接近障碍物标线
+Options4=接近狭窄路面标线
 Image1=
 Image2=
-Image3=�ϰ���
+Image3=障碍物
 Image4=
 [AnswerInfo]
 Answer1=0

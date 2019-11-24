@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1204
 Url=http://tiba.jsyks.com/Post/b708c.htm
-Tittle=������Ȳ���4�׵�խ·50�����ڵ�·�β���ͣ����
+Tittle=距离宽度不足4米的窄路50米以内的路段不能停车。
 TittleEmphasize=
-SkillEmphasize=����ͣ��
+SkillEmphasize=不能停车
 ImagePath=
 FlashPath=
 SkillId=13
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=��ס������ͣ���Ķ��ԡ�&    
-NormalNotice=���ݡ���·��ȫ��ʵʩ����������ʮ�������������ڵ�·����ʱͣ��Ӧ���������й涨��        ��1�������н�ͣ��־�����ߵ�·�Σ��ڻ���������ǻ������������е�֮�����и�����ʩ��·���Լ����к����ʩ���ضΣ�����ͣ����        ��2������·�ڡ���·���ڡ���ת�䡢���Ȳ���    
+SkillNotice=记住：不能停车的都对。&    
+NormalNotice=根据《道路安全法实施条例》第六十三条，机动车在道路上临时停车应当遵守下列规定：        （1）在设有禁停标志、标线的路段，在机动车道与非机动车道、人行道之间设有隔离设施的路段以及人行横道、施工地段，不得停车；        （2）交叉路口、铁路道口、急转弯、宽度不足    
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

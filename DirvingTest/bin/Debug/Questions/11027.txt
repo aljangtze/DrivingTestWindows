@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11027
 Url=http://tiba.jsyks.com/Post/212f6.htm
-Tittle=�������ɽ������·�γ�ʱ��ͣ��ʱ��Ҫ�����ְ취��ס���֡�
+Tittle=因故障在山区下坡路段长时间停车时，要用这种办法塞住车轮。
 TittleEmphasize=
-SkillEmphasize=��ס����
+SkillEmphasize=塞住车轮
 ImagePath=11027.jpg
 FlashPath=
 SkillId=42
 MoudleId=11
 Type=1
 Classification=4
-BankId=22
+BankId=42
 [SkillInfo]
-SkillNotice=��·�Σ�Ϊ��ֹ�����ﻬ���ϰ����ֹ�ڳ���ǰ�棬�ԣ�
-NormalNotice=����· ���Գ����ϰ���Ӧ�÷��ڳ���ǰ��
+SkillNotice=下路段，为防止车辆溜滑，障碍物防止在车轮前面，对！
+NormalNotice=下坡路 所以车轮障碍物应该放在车轮前面
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

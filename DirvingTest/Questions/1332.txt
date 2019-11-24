@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1332
 Url=http://tiba.jsyks.com/Post/a339c.htm
-Tittle=��ʻ�������ڸ��ٹ�·Υ��ռ��Ӧ��������ʻ��һ�μ�6�֡�
+Tittle=驾驶机动车在高速公路违法占用应急车道行驶的一次记6分。
 TittleEmphasize=
-SkillEmphasize=һ�μ�6��
+SkillEmphasize=一次记6分
 ImagePath=
 FlashPath=
 SkillId=68
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=���⣺Υ��ר��Ӧ������һ�μ�6�ֵĶԣ���ס���ж����еļ�6�ֲ��������롱�����ֵĶ��ԡ���6�ֵ�ֻ��һ����Խ����ָ�����ͷ�����еĴ���
-NormalNotice=�����������123�š�����2����ʻ�������ڸ��ٹ�·���߳��п���·��Υ��ռ��Ӧ��������ʻ�ģ�һ�μ�6�� ��
+SkillNotice=看题：违法专用应急车道一次记6分的对，记住：判断题中的记6分不带“中央”两个字的都对。记6分的只有一个穿越中央分隔带掉头、逆行的错。
+NormalNotice=《公安部令第123号》附件2，驾驶机动车在高速公路或者城市快速路上违法占用应急车道行驶的，一次记6分 。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2216
 Url=http://tiba.jsyks.com/Post/c7af2.htm
-Tittle=·���ɰ�ɫ���ߺ����ǵش�������ɵ���ʲô���ߣ�
+Tittle=路面由白色虚线和三角地带标线组成的是什么标线？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2216.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=��ͼ����Ȧ�ڵ����ǵش������ڵĴ�����ϵ��ǳ��ڱ��ߡ���ס��ͼ�еı������ǵش������ڵĴ�ڳ����ǳ��ڱ��ߣ���ڳ�������ڱ��ߡ�
-NormalNotice=��֧·������·��������ڱ��ߣ������ͷ�����ǳ���֧·�ľ��Ǵ���·��ȥ����֧·�Ļ��ǳ��ڱ��ߡ�    �������ǵ�·���ڱ��ߡ�
+SkillNotice=看图：红圈内的三角地带，岔口的大口向上的是出口标线。记住：图中的标线三角地带，岔口的大口朝上是出口标线，大口朝下是入口标线。
+NormalNotice=从支路进入主路所以是入口标线，如果箭头方向是朝向支路的就是从主路出去进入支路的话是出口标线。    本题是是道路出口标线。
 [Options]
-Options1=�ɿ�Խʽ�ֵ���
-Options2=��·���ڱ���
-Options3=��·��ڱ���
-Options4=��·���ڼ�����
+Options1=可跨越式分道线
+Options2=道路出口标线
+Options3=道路入口标线
+Options4=道路出口减速线
 Image1=
-Image2=���ڱ���
+Image2=出口标线
 Image3=
 Image4=
 [AnswerInfo]

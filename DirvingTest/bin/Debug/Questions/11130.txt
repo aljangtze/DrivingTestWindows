@@ -1,30 +1,30 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11130
 Url=http://tiba.jsyks.com/Post/2136b.htm
-Tittle=����������ϱ����ڸ��ٹ�·��ͣ��ʱ��Ҫ��ȡ����ȷ������ʲô
+Tittle=机动车因故障必须在高速公路上停车时，要采取的正确做法是什么
 TittleEmphasize=
-SkillEmphasize=����ϣ�ͣ��
+SkillEmphasize=因故障，停车
 ImagePath=
 FlashPath=
 SkillId=51
 MoudleId=11
 Type=3
 Classification=4
-BankId=17
+BankId=43
 [SkillInfo]
-SkillNotice=�����150�׺�100�ף� ��ѡ100�ס� 
-NormalNotice=�ڸ��ٹ�·�������ͣ��������Ҫ����Σ�ձ�������ƣ�����ҹ��Ļ�����Ҫ����ʾ���ƺͺ�λ����������ʻԱ֪�����ӵ�������λ����������⣬��Ҫ�ڳ���150�״����þ�ʾ��־�� ��˱���ѡACD��
+SkillNotice=答案里见150米和100米， 不选100米。 
+NormalNotice=在高速公路上因故障停车，首先要开启危险报警闪光灯，若是夜间的话，还要开启示廓灯和后位灯让其他驾驶员知道车子的轮廓及位置情况。此外，还要在车后150米处设置警示标志。 因此本题选ACD。
 [Options]
-Options1=ҹ��Ҫ����ʾ���ƺͺ�λ��
-Options2=�ڳ���150�״����ù��Ͼ����־
-Options3=�ڳ���100�״����ù��Ͼ����־
-Options4=Ҫ����Σ�ձ��������
-Image1=
+Options1=在车后100米处设置故障警告标志
+Options2=在车后150米处设置故障警告标志
+Options3=要开启危险报警闪光灯
+Options4=夜间要开启示廓灯和后位灯
+Image1=100
 Image2=
-Image3=100
+Image3=
 Image4=
 [AnswerInfo]
-Answer1=1
+Answer1=0
 Answer2=1
-Answer3=0
+Answer3=1
 Answer4=1

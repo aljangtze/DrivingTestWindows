@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6066
-Tittle=���д��ͻ�����ʻ֤�ļ�ʻ����һ���Ƿ��������м���12�ּ�¼�ģ�����������Ӧ��ע�������׼�ݳ��ͼ�ʻ�ʸ�
+Tittle=持有大型货车驾驶证的驾驶人在一个记分周期内有记满12分记录的，车辆管理所应当注销其最高准驾车型驾驶资格。
 SkillEmphasize=
 ImagePath=
 FlashPath=
@@ -12,8 +12,8 @@ Classification=0
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

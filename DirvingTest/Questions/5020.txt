@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5020
 Url=http://tiba.jsyks.com/Post/612ee.htm
-Tittle=�ڸ��ٹ�·����ʻ���ػ�������߳��ٲ��ó���ÿСʱ���ٹ��
+Tittle=在高速公路上行驶的载货汽车最高车速不得超过每小时多少公里？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,8 +11,8 @@ MoudleId=5
 Type=2
 Classification=2
 [SkillInfo]
-SkillNotice=���ٹ�·����ʻ��С���ؿ�������߳��ٲ��ó���ÿСʱ120ǧ�ף��������������ó���ÿСʱ100ǧ�ף�Ħ�г����ó���ÿСʱ80ǧ�ס�
-NormalNotice=���ٹ�·����ʻ��С���ؿ�������߳��ٲ��ó���ÿСʱ120ǧ�ף��������������ó���ÿСʱ100ǧ�ף�Ħ�г����ó���ÿСʱ80ǧ�ס�
+SkillNotice=高速公路上行驶的小型载客汽车最高车速不得超过每小时120千米，其他机动车不得超过每小时100千米，摩托车不得超过每小时80千米。
+NormalNotice=高速公路上行驶的小型载客汽车最高车速不得超过每小时120千米，其他机动车不得超过每小时100千米，摩托车不得超过每小时80千米。
 [Options]
 Options1=60
 Options2=120

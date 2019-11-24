@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16192
 Url=http://tiba.jsyks.com/Post/1fc28.htm
-Tittle=Ħ�г���ˮ���ƶ������ƶ�Ч������ı䡣
+Tittle=摩托车涉水后，制动器的制动效果不会改变。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=Ħ�г�������ˮ��·���ƶ������ܻ��ˮ�����ƶ�Ч���𽥱���ʱ���׷����¹ʣ�ֱ��Ӱ�쵽�г���ȫ��
-NormalNotice=Ħ�г�������ˮ��·���ƶ������ܻ��ˮ�����ƶ�Ч���𽥱���ʱ���׷����¹ʣ�ֱ��Ӱ�쵽�г���ȫ��
+SkillNotice=摩托车经过积水道路后，制动器可能会进水，后制动效果逐渐变差，此时极易发生事故，直接影响到行车安全。
+NormalNotice=摩托车经过积水道路后，制动器可能会进水，后制动效果逐渐变差，此时极易发生事故，直接影响到行车安全。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

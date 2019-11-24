@@ -1,8 +1,8 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14064
-Tittle=�����½�ֹ�ҿյ�������ԭ�������ǣ�
+Tittle=长下坡禁止挂空挡，下列原因错误的是？
 
-SkillEmphasize=ԭ��
+SkillEmphasize=原因
 ImagePath=
 FlashPath=
 SkillId=32
@@ -11,16 +11,16 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=��ס����Ŀ��ԭ�򣬴�ѡ���ף�ѡ��ȫ��
+SkillNotice=记住：题目有原因，答案选容易，选安全。
 NormalNotice=
 [Options]
-Options1=���¹ҿյ����ͺ���������
-Image1=��
-Options2=�����¹ҵ��ٵ����Խ������������Ƴ���
+Options1=下坡挂空挡，油耗容易增多
+Image1=易
+Options2=长下坡挂低速挡可以借助发动机控制车速
 Image2=
-Options3=������ɲ��ʧ�鷢��Σ��
+Options3=避免因刹车失灵发生危险
 Image3=
-Options4=�����¿յ����е��³��ٹ���ʱ���������ҵ��ٵ����Ƴ���
+Options4=长下坡空挡滑行导致车速过高时，难以抢挂低速档控制车速
 Image4=
 [AnswerInfo]
 Answer1=1

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1326
 Url=http://tiba.jsyks.com/Post/ddfe3.htm
-Tittle=ʹ��α�졢����ļ�ʻ֤һ�μ�12�֡�
+Tittle=使用伪造、变造的驾驶证一次记12分。
 TittleEmphasize=
-SkillEmphasize=һ�μ�12��
+SkillEmphasize=一次记12分
 ImagePath=
 FlashPath=
 SkillId=55
 MoudleId=1
 Type=1
 Classification=3
-BankId=14
+BankId=0
 [SkillInfo]
-SkillNotice=��ס��������12�ֵĶԡ�
-NormalNotice=��������ʻ��������Υ����Ϊ֮һ��һ�μ�12�֣�    ������ʹ��α�졢����Ļ��������ơ���ʻ֤����ʻ֤��У�����ƻ���ʹ���������������ơ���ʻ֤�ģ�
+SkillNotice=记住：题中有12分的对。
+NormalNotice=机动车驾驶人有下列违法行为之一，一次记12分：    （六）使用伪造、变造的机动车号牌、行驶证、驾驶证、校车标牌或者使用其他机动车号牌、行驶证的；
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

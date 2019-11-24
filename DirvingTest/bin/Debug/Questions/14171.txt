@@ -1,11 +1,11 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14171
-Tittle=����ͨ������·��ʱ��Ӧ�õ��ٵ���ȫͨ������;���û������Ա��ⷢ����Ϩ��
+Tittle=车辆通过铁道路口时，应用低速挡安全通过，中途不得换挡，以避免发动机熄火。
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=69
-MoudleId=8
+MoudleId=15
 BankId=37
 Type=1
 Classification=4
@@ -13,9 +13,9 @@ Classification=4
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

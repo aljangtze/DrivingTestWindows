@@ -1,28 +1,28 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=1032
 Url=http://tiba.jsyks.com/Post/41c2f.htm
-Tittle=уБа╬тз╣юб╥иоппй╩╣д╩З╤╞Ё╣спобапдджжн╔╥╗ппн╙ё©
+Tittle=Х©≥Х╬├Е°╗И│⌠Х╥╞Д╦┼Х║▄И╘╤Г └Ф°╨Е┼╗Х╫╕Ф°┴Д╦▀Е┬≈Е⌠╙Г╖█Х©²ФЁ∙Х║▄Д╦╨О╪÷
 TittleEmphasize=
-SkillEmphasize=н╔╥╗ппн╙
+SkillEmphasize=Х©²ФЁ∙Х║▄Д╦╨
 ImagePath=1032.jpg
 FlashPath=
-SkillId=31
+SkillId=15
 MoudleId=1
 Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=╪гв║ё╨а╫╦Ж╨еефя║╤л╨еефё╛лБд©ж╩р╙спдджжн╔╥╗ппн╙╤╪уувем╪ф╛я║ё╛м╪жп╣д╫нЁ╣н╔╥╗ппн╙йг╧йрБуз╣╡╨еефё╛
-NormalNotice=сц╧Белуз╣╡╨еефё╛ожтзуз╣╡╨ееф╣дж╠╫с©ш12╥ж║ё
+SkillNotice=Х╝╟Д╫▐О╪ Д╦╓Д╦╙Е▐╥Г┴▄И─┴Г÷╜Е▐╥Г┴▄О╪▄И╒≤Г⌡╝Е▐╙Х╕│Ф°┴Е⌠╙Г╖█Х©²ФЁ∙Х║▄Д╦╨И┐╫Г┘╖Г²─Е⌡╬Г┴┤И─┴О╪▄Е⌡╬Д╦╜Г └Х╫©Х╫╕Х©²ФЁ∙Х║▄Д╦╨Ф≤╞Ф∙┘Ф└▐И│╝Ф▄║Е▐╥Г┴▄О╪▄
+NormalNotice=Г■╗Е┘┴Г⌡≤И│╝Ф▄║Е▐╥Г┴▄О╪▄Г▌╟Е°╗И│╝Ф▄║Е▐╥Г┴▄Г └Г⌡╢Ф▌╔Ф┴ё12Е┬├Ц─┌
 [Options]
-Options1=╧йрБуз╣╡╨ееф
-Options2=н╢╟╢╧Ф╤╗пЭ╧р╨ееф
-Options3=дФоРппй╩
-Options4=у╪сц╥г╩З╤╞Ё╣╣ю
-Image1=╣╡╨ееф
-Image2=╧р╨ееф
+Options1=Ф∙┘Ф└▐И│╝Ф▄║Е▐╥Г┴▄
+Options2=И─├Е░▒Х║▄И╘╤
+Options3=Е█═Г■╗И²·Ф°╨Е┼╗Х╫╕И│⌠
+Options4=Ф°╙Ф▄┴Х╖└Е╝ Ф┌╛Ф▄┌Е▐╥Г┴▄
+Image1=Ф▄║Е▐╥Г┴▄
+Image2=
 Image3=
-Image4=
+Image4=Ф▄┌Е▐╥Г┴▄
 [AnswerInfo]
 Answer1=1
 Answer2=0

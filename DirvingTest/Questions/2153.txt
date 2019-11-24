@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2153
 Url=http://tiba.jsyks.com/Post/07682.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2153.jpg
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=��ɫ���Ӵ�·�֡��м��и�ԲȦ�� ����·��
-NormalNotice=�м��и�Բ���ǻ��Σ�û�о���ʮ��
+SkillNotice=蓝色牌子带路字。中间有个圆圈。 环形路口
+NormalNotice=中间有个圆就是环形，没有就是十字
 [Options]
-Options1=���н���·��Ԥ��
-Options2=Y�ͽ���·��Ԥ��
-Options3=ʮ�ֽ���·��Ԥ��
-Options4=��ͨ���彻��Ԥ��
-Image1=����·��
+Options1=环行交叉路口预告
+Options2=Y型交叉路口预告
+Options3=十字交叉路口预告
+Options4=互通立体交叉预告
+Image1=环，路口
 Image2=
 Image3=
 Image4=

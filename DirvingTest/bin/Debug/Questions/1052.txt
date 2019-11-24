@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1052
 Url=http://tiba.jsyks.com/Post/df99e.htm
-Tittle=��·��ͨ���߷�Ϊָʾ���ߡ�������ߡ���ֹ���ߡ�
+Tittle=道路交通标线分为指示标线、警告标线、禁止标线。
 TittleEmphasize=
-SkillEmphasize=��Ϊ
+SkillEmphasize=分为
 ImagePath=
 FlashPath=
-SkillId=15
+SkillId=34
 MoudleId=1
 Type=1
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=��ס�����г��ַ�Ϊ���ԣ���ͨ���߷�Ϊ�����ֱ��ߣ���
-NormalNotice=����·��ͨ��ȫ��ʵʩ����������ʮ�� ��ͨ��־��Ϊ��ָʾ��־�������־�������־��ָ·��־����������־����·ʩ����ȫ��־�͸�����־�� ��·��ͨ���߷�Ϊ��ָʾ���ߡ�������ߡ���ֹ���ߡ�
+SkillNotice=记住：题中出现分为、对，交通标线分为这三种标线，对
+NormalNotice=《道路交通安全法实施条例》第三十条 交通标志分为：指示标志、警告标志、禁令标志、指路标志、旅游区标志、道路施工安全标志和辅助标志。 道路交通标线分为：指示标线、警告标线、禁止标线。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

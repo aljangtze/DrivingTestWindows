@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8133
 Url=http://tiba.jsyks.com/Post/b1371.htm
-Tittle=��ʻ���������������־ʱҪ��ʱ���١�
+Tittle=驾驶机动车看到这个标志时要及时减速。
 TittleEmphasize=
-SkillEmphasize=��ʱ����
+SkillEmphasize=及时减速
 ImagePath=8133.jpg
 FlashPath=
 SkillId=39
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=34
 [SkillInfo]
-SkillNotice=��ס����ʱ���٣��ԡ�ͼ����ע���ͯ�ı�־��Ҫ��ʱ���١���
-NormalNotice=�����־��ע���ͯ���˱�־����Сѧ���׶�԰�����깬����ͯ���ֳ��ȶ�ͯƵ������ĳ�����ͨ������    ����Ҫ��������
+SkillNotice=记住：及时减速，对。图中有注意儿童的标志，要及时减速。对
+NormalNotice=警告标志：注意儿童；此标志设在小学、幼儿园、少年宫、儿童游乐场等儿童频繁出入的场所或通道处。    所以要减速慢行
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

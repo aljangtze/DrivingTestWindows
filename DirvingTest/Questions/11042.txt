@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11042
 Url=http://tiba.jsyks.com/Post/33380.htm
-Tittle=ҹ���г����󷽳�����ʾ������ǰ�������������ʱ����äĿ�ó���
+Tittle=夜间行车，后方车辆提示超车，前方遇到这种情况时不能盲目让超。
 TittleEmphasize=
-SkillEmphasize=ä
+SkillEmphasize=盲
 ImagePath=11042.jpg
 FlashPath=
 SkillId=41
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=22
 [SkillInfo]
-SkillNotice=����äĿ�ã�Ҳ���ǲ���Ϲ�ã��ԣ�
-NormalNotice=�����ó�����Ϊǰ�������� ���泵�����׿���
+SkillNotice=不能盲目让，也就是不能瞎让，对！
+NormalNotice=不能让超，因为前面有行人 后面车不容易看到
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

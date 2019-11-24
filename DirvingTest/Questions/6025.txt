@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=6025
 Url=http://tiba.jsyks.com/Post/6434f.htm
-Tittle=ÒÑ³ÖÓÐÐ¡ÐÍÆû³µ¼ÝÊ»Ö¤£¬ÉêÇëÔö¼ÓÖÐÐÍ¿Í³µ×¼¼Ý³µÐÍµÄ£¬Ó¦µ±ÔÚÉêÇëÇ°×î½üÒ»¸ö¼Ç·ÖÖÜÆÚÄÚÃ»ÓÐÂú·Ö¼ÇÂ¼¡£
+Tittle=å·²æŒæœ‰å°åž‹æ±½è½¦é©¾é©¶è¯ï¼Œç”³è¯·å¢žåŠ ä¸­åž‹å®¢è½¦å‡†é©¾è½¦åž‹çš„ï¼Œåº”å½“åœ¨ç”³è¯·å‰æœ€è¿‘ä¸€ä¸ªè®°åˆ†å‘¨æœŸå†…æ²¡æœ‰æ»¡åˆ†è®°å½•ã€‚
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=£¨Ò»£©ÉêÇëÔö¼ÓÖÐÐÍ¿Í³µ×¼¼Ý³µÐÍµÄ£¬ÒÑÈ¡µÃ¼ÝÊ»³ÇÊÐ¹«½»³µ¡¢´óÐÍ»õ³µ¡¢Ð¡ÐÍÆû³µ¡¢Ð¡ÐÍ×Ô¶¯µ²Æû³µ¡¢µÍËÙÔØ»õÆû³µ»òÕßÈýÂÖÆû³µ×¼¼Ý³µÐÍ×Ê¸ñÈýÄêÒÔÉÏ£¬²¢ÔÚÉêÇëÇ°×î½üÁ¬ÐøÈý¸ö¼Ç·ÖÖÜÆÚÄÚÃ»ÓÐ¼ÇÂú12·Ö¼ÇÂ¼£»
-NormalNotice=£¨Ò»£©ÉêÇëÔö¼ÓÖÐÐÍ¿Í³µ×¼¼Ý³µÐÍµÄ£¬ÒÑÈ¡µÃ¼ÝÊ»³ÇÊÐ¹«½»³µ¡¢´óÐÍ»õ³µ¡¢Ð¡ÐÍÆû³µ¡¢Ð¡ÐÍ×Ô¶¯µ²Æû³µ¡¢µÍËÙÔØ»õÆû³µ»òÕßÈýÂÖÆû³µ×¼¼Ý³µÐÍ×Ê¸ñÈýÄêÒÔÉÏ£¬²¢ÔÚÉêÇëÇ°×î½üÁ¬ÐøÈý¸ö¼Ç·ÖÖÜÆÚÄÚÃ»ÓÐ¼ÇÂú12·Ö¼ÇÂ¼£»
+SkillNotice=ï¼ˆä¸€ï¼‰ç”³è¯·å¢žåŠ ä¸­åž‹å®¢è½¦å‡†é©¾è½¦åž‹çš„ï¼Œå·²å–å¾—é©¾é©¶åŸŽå¸‚å…¬äº¤è½¦ã€å¤§åž‹è´§è½¦ã€å°åž‹æ±½è½¦ã€å°åž‹è‡ªåŠ¨æŒ¡æ±½è½¦ã€ä½Žé€Ÿè½½è´§æ±½è½¦æˆ–è€…ä¸‰è½®æ±½è½¦å‡†é©¾è½¦åž‹èµ„æ ¼ä¸‰å¹´ä»¥ä¸Šï¼Œå¹¶åœ¨ç”³è¯·å‰æœ€è¿‘è¿žç»­ä¸‰ä¸ªè®°åˆ†å‘¨æœŸå†…æ²¡æœ‰è®°æ»¡12åˆ†è®°å½•ï¼›
+NormalNotice=ï¼ˆä¸€ï¼‰ç”³è¯·å¢žåŠ ä¸­åž‹å®¢è½¦å‡†é©¾è½¦åž‹çš„ï¼Œå·²å–å¾—é©¾é©¶åŸŽå¸‚å…¬äº¤è½¦ã€å¤§åž‹è´§è½¦ã€å°åž‹æ±½è½¦ã€å°åž‹è‡ªåŠ¨æŒ¡æ±½è½¦ã€ä½Žé€Ÿè½½è´§æ±½è½¦æˆ–è€…ä¸‰è½®æ±½è½¦å‡†é©¾è½¦åž‹èµ„æ ¼ä¸‰å¹´ä»¥ä¸Šï¼Œå¹¶åœ¨ç”³è¯·å‰æœ€è¿‘è¿žç»­ä¸‰ä¸ªè®°åˆ†å‘¨æœŸå†…æ²¡æœ‰è®°æ»¡12åˆ†è®°å½•ï¼›
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3073
 Url=http://tiba.jsyks.com/Post/d6e57.htm
-Tittle=������ѩ����ʱͣ��ʱ��Ӧ����ʲô�ƣ�
+Tittle=车辆在雪天临时停车时，应开启什么灯？
 TittleEmphasize=
-SkillEmphasize=��ʱ
+SkillEmphasize=临时
 ImagePath=
 FlashPath=
 SkillId=32
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=���⣺��ʱͣ�����ǿ�Σ�ձ�������ƣ�ֻҪ��Ŀ����ʱͣ�����𰸶�ѡΣ�ձ�������ơ�
-NormalNotice=�������ڴ�����ʱ�����ģ�ѩ���ܼ�����û������ģ���ʱ����ѩ�췴���ܼ��ȸ��á�������ѩ����Ҫ��·�������ߣ�����ʱ����ʱͣ������ʱ�ƶ�ɲ����    ��˱���ѡD
+SkillNotice=看题：临时停车都是开危险报警闪光灯，只要题目是临时停车，答案都选危险报警闪光灯。
+NormalNotice=雾灯是在大雾的时候开启的，雪天能见度是没有问题的，有时候下雪天反而能见度更好。但是下雪天主要是路滑不好走，车随时会临时停车或临时制动刹车。    因此本题选D
 [Options]
-Options1=ǰ���
-Options2=ǰ������
-Options3=Σ�ձ��������
-Options4=������
+Options1=前大灯
+Options2=前后雾灯
+Options3=危险报警闪光灯
+Options4=倒车灯
 Image1=
 Image2=
-Image3=����
+Image3=报警
 Image4=
 [AnswerInfo]
 Answer1=0

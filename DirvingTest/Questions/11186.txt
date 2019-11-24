@@ -1,21 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11186
 Url=http://tiba.jsyks.com/Post/1f79d.htm
-Tittle=��ʻ�������ڸ��ٹ�·���ٳ�����ʻʱҪ����ͨ�С�
+Tittle=驾驶机动车在高速公路减速车道行驶时要依次通行。
 TittleEmphasize=
-SkillEmphasize=Ҫ����ͨ��
+SkillEmphasize=要依次通行
 ImagePath=
 FlashPath=
 SkillId=39
 MoudleId=11
 Type=1
 Classification=4
+BankId=34
 [SkillInfo]
-SkillNotice=��ס��Ҫ����ͨ�жԡ����г������� ������ͣ�������� ����ͨ�еĶ��ԡ�
-NormalNotice=��ʻ�������ڸ��ٹ�·���ٳ�����ʻʱҪ����ͨ�С����ٹ�·���ڵ��ѵ�һ������ÿСʱ60�������£��������ÿСʱ40�������¡����ڸ��ٹ�·����ʻʱ�ĳ���Զ�������������֣����Ӧ���ȼ����ٽ����ѵ���
+SkillNotice=记住：要依次通行对。题中出现主动 、减速停车，依次 交替通行的都对。
+NormalNotice=驾驶机动车在高速公路减速车道行驶时要依次通行。高速公路出口的匝道一般限速每小时60公里以下，弯道限速每小时40公里以下。而在高速公路上行驶时的车速远高于这两个数字，因此应当先减速再进入匝道。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

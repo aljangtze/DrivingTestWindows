@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8109
 Url=http://tiba.jsyks.com/Post/45056.htm
-Tittle=�綯����ʾ����ʻ�˵���Ϊ����ȷ�ġ�
+Tittle=如动画所示，驾驶人的行为是正确的。
 TittleEmphasize=
-SkillEmphasize=�綯��
+SkillEmphasize=如动画
 ImagePath=
 FlashPath=8109.swf
 SkillId=43
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=0
 [SkillInfo]
-SkillNotice=����������������ת�䳵����ת�䣬��
-NormalNotice=��ת�䳵�� �ó���ת�� ��
+SkillNotice=看动画机动车在左转弯车道右转弯，错
+NormalNotice=左转弯车道 该车右转弯 错
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

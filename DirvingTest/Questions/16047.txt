@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16047
 Url=http://tiba.jsyks.com/Post/50fd7.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16047.jpg
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=<p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uth7xhrij.jpg>    ֱ��    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uurto9xij.jpg>    ֱ�е���·</p>    ֱ��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uurto9xij.jpg>    ֱ�е���·</p>    ֱ��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uurto9xij.jpg>NormalNotice=<p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uth7xhrij.jpg>    ֱ��    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uurto9xij.jpg>    ֱ�е���·</p>    ֱ��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uurto9xij.jpg>    ֱ�е���·</p>    ֱ��    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2uurto9xij.jpg>    ֱ�е���·</p>
-    ֱ�е���·</p>
+SkillNotice=
+NormalNotice=
 [Options]
-Options1=ֱ�г���
-Options2=ֻ׼ֱ��
-Options3=����·
-Options4=��ֱֹ��
+Options1=直行车道
+Options2=只准直行
+Options3=单行路
+Options4=禁止直行
 Image1=
 Image2=
 Image3=

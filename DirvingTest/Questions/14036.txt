@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14036
-Tittle=��ͼ��ʾ��A���ڴ˴�ͣ���ǿ��Եġ�
+Tittle=如图所示，A车在此处停车是可以的。
 SkillEmphasize=
 ImagePath=14036.jpg
 FlashPath=
@@ -10,12 +10,12 @@ Type=1
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=��ͼ��������վ30����ͣ�����ԡ���ס����ͼͣ����ֻ���ڹ�����վͣ������ԡ�
+SkillNotice=看图：公交车站30米外停车，对。记住，看图停车的只有在公交车站停的这个对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

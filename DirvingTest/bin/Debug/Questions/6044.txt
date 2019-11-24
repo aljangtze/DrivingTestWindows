@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6044
 Url=http://tiba.jsyks.com/Post/2cab1.htm
-Tittle=��ʻ�ͳ����ǳ�������߷����¹�ʱ��Ӧ�����ܼ��Ľ���ʧ��������޶ȣ������������������ɶ����¹ʻ�������ʧ��
+Tittle=驾驶客车遇非常情况或者发生事故时，应力所能及的将损失降到最低限度，决不能因紧急避险造成二次事故或更大的损失。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=Ҫ����Ϊ���������Ž��˺�����ʧ������͵�ԭ��
-NormalNotice=Ҫ����Ϊ���������Ž��˺�����ʧ������͵�ԭ��
+SkillNotice=要以人为本，秉承着将伤害和损失降到最低的原则。
+NormalNotice=要以人为本，秉承着将伤害和损失降到最低的原则。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

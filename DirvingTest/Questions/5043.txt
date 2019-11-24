@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5043
 Url=http://tiba.jsyks.com/Post/61a6d.htm
-Tittle=���˻�������Ҫ������ҵ��Ա�ģ�Ӧ�����ñ�����ҵ��Ա�İ�ȫ��ʩ��
+Tittle=货运机动车需要附载作业人员的，应当设置保护作业人员的安全措施。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=����·��ͨ��ȫ��������ʮ���涨����ֹ���˻������ؿͣ����˻�������Ҫ������ҵ��Ա�ģ�Ӧ�����ñ�����ҵ��Ա�İ�ȫ��ʩ��
-NormalNotice=����·��ͨ��ȫ��������ʮ���涨����ֹ���˻������ؿͣ����˻�������Ҫ������ҵ��Ա�ģ�Ӧ�����ñ�����ҵ��Ա�İ�ȫ��ʩ��
+SkillNotice=《道路交通安全法》第五十条规定，禁止货运机动车载客；货运机动车需要附载作业人员的，应当设置保护作业人员的安全措施。
+NormalNotice=《道路交通安全法》第五十条规定，禁止货运机动车载客；货运机动车需要附载作业人员的，应当设置保护作业人员的安全措施。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

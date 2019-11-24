@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.IO;
 //using System.Linq;
@@ -640,6 +641,101 @@ namespace DirvingTest
             activeFrom = form;
         }
 
+        private void btnInitialQuestions_Click(object sender, EventArgs e)
+        {
+            foreach (var question in QuestionManager.m_QuestionsList)
+            {
+                AddQuestion(question);
+            }
 
+            //DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable("select * from questions where 1=@data", new SQLiteParameter[] { new SQLiteParameter("@data", 1) });
+        }
+
+        private void AddQuestion(Question question)
+        {
+            try
+            {
+                string sqlString = @"insert into questions(id,url,tittle,image,flash,type,moudle 
+                                ,classification,option1,option2,option3,option4 
+                                ,answer1,answer2,answer3,answer4,tittleEmphasize,skillEmphasize,notice 
+                                ,option1Emphasize,option2Emphasize,option3Emphasize,option4Emphasize,
+                                skillId, bankId)
+                                VALUES(@id,@url, @tittle, @image, @flash, @type, @moudle 
+                                , @classification, @option1, @option2, @option3, @option4
+                                , @answer1, @answer2, @answer3, @answer4, @tittleEmphasize, @skillEmphasize, @notice
+                                , @option1Emphasize, @option2Emphasize, @option3Emphasize, @option4Emphasize,
+                                @skillId, @bankId)";
+
+                //SQLiteParameter[] parameters = new SQLiteParameter[23];
+                List<SQLiteParameter> parameters = new List<SQLiteParameter>();
+                parameters.Add(new SQLiteParameter("@id", question.Id));
+                parameters.Add(new SQLiteParameter("@url", question.Url));
+                parameters.Add(new SQLiteParameter("@tittle", question.Tittle));
+                if (string.IsNullOrEmpty(question.ImagePath))
+                {
+                    parameters.Add(new SQLiteParameter("@image", null));
+                }
+                else
+                {
+                    FileStream fs = new FileStream("Images\\" + question.ImagePath, FileMode.Open);
+                    byte[] buffer = StreamUtil.ReadFully(fs);
+                    fs.Close();
+                    SQLiteParameter para = new SQLiteParameter("@image", DbType.Binary);
+                    para.Value = buffer;
+                    parameters.Add(para);
+                }
+
+                if (string.IsNullOrEmpty(question.FlashPath))
+                {
+                    parameters.Add(new SQLiteParameter("@flash", null));
+                }
+                else
+                {
+                    FileStream fs = new FileStream("Flash\\" + question.FlashPath, FileMode.Open);
+                    byte[] buffer = StreamUtil.ReadFully(fs);
+                    fs.Close();
+                    SQLiteParameter para = new SQLiteParameter("@flash", DbType.Binary);
+                    para.Value = buffer;
+                    parameters.Add(para);
+                }
+
+                parameters.Add(new SQLiteParameter("@type", question.Type));
+                parameters.Add(new SQLiteParameter("@moudle", question.Module));
+                parameters.Add(new SQLiteParameter("@classification", question.Classification));
+
+                parameters.Add(new SQLiteParameter("@option1", question.Options[0]));
+                parameters.Add(new SQLiteParameter("@option2", question.Options[1]));
+                parameters.Add(new SQLiteParameter("@option3", question.Options[2]));
+                parameters.Add(new SQLiteParameter("@option4", question.Options[3]));
+
+                parameters.Add(new SQLiteParameter("@answer1", question.CorrectAnswer[0]));
+                parameters.Add(new SQLiteParameter("@answer2", question.CorrectAnswer[1]));
+                parameters.Add(new SQLiteParameter("@answer3", question.CorrectAnswer[2]));
+                parameters.Add(new SQLiteParameter("@answer4", question.CorrectAnswer[3]));
+
+                parameters.Add(new SQLiteParameter("@tittleEmphasize", question.TittleEmphasize));
+                parameters.Add(new SQLiteParameter("@skillEmphasize", question.SkillNotice));
+                parameters.Add(new SQLiteParameter("@notice", question.NormalNotice));
+
+
+                parameters.Add(new SQLiteParameter("@option1Emphasize", question.OptionsEmphasize[0]));
+                parameters.Add(new SQLiteParameter("@option2Emphasize", question.OptionsEmphasize[1]));
+                parameters.Add(new SQLiteParameter("@option3Emphasize", question.OptionsEmphasize[2]));
+                parameters.Add(new SQLiteParameter("@option4Emphasize", question.OptionsEmphasize[3]));
+
+                parameters.Add(new SQLiteParameter("@skillId", question.Skill));
+                parameters.Add(new SQLiteParameter("@bankId", question.BankId));
+                int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
+                if (result <= 0)
+                {
+                    Console.WriteLine("Error" + question.Id);
+                    //MessageBox.Show(ques)
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
+        }
     }
 }

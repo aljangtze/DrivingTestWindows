@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=16022
 Url=http://tiba.jsyks.com/Post/e4804.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16022.jpg
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utbz6kxbj.jpg>    ÓÐÈË¿´ÊØÌúÂ·¿Ú</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utc15bhkj.jpg>    ÎÞÈË¿´ÊØÌúÂ·¿Ú</p>
-NormalNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utbz6kxbj.jpg>    ÓÐÈË¿´ÊØÌúÂ·¿Ú</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utc15bhkj.jpg>    ÎÞÈË¿´ÊØÌúÂ·¿Ú</p>
+SkillNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utbz6kxbj.jpg>    æœ‰äººçœ‹å®ˆé“è·¯å£</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utc15bhkj.jpg>    æ— äººçœ‹å®ˆé“è·¯å£</p>
+NormalNotice=<p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2utbz6kxbj.jpg>    æœ‰äººçœ‹å®ˆé“è·¯å£</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utc15bhkj.jpg>    æ— äººçœ‹å®ˆé“è·¯å£</p>
 [Options]
-Options1=ÎÞÈË¿´ÊØÌúÂ·µÀ¿Ú
-Options2=ÓÐÈË¿´ÊØÌúÂ·µÀ¿Ú
-Options3=¶à¹ÉÌúÂ·ÓëµÀÂ·Ïà½»
-Options4=Á¢½»Ê½µÄÌúÂ·µÀ¿Ú
+Options1=æ— äººçœ‹å®ˆé“è·¯é“å£
+Options2=æœ‰äººçœ‹å®ˆé“è·¯é“å£
+Options3=å¤šè‚¡é“è·¯ä¸Žé“è·¯ç›¸äº¤
+Options4=ç«‹äº¤å¼çš„é“è·¯é“å£
 Image1=
 Image2=
 Image3=

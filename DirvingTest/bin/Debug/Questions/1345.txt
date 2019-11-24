@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1345
 Url=http://tiba.jsyks.com/Post/28121.htm
-Tittle=��������Ļ�������ʻ֤����Ч��Ϊ6�ꡣ
+Tittle=初次申领的机动车驾驶证的有效期为6年。
 TittleEmphasize=
-SkillEmphasize=6��
+SkillEmphasize=6年
 ImagePath=
 FlashPath=
-SkillId=55
+SkillId=14
 MoudleId=1
 Type=1
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=���⣺������֤����Ч��6��ԣ���ס6��ԣ�4�����
-NormalNotice=��������ʻ֤�����ʹ�ù涨�ھ��� ��������ʻ֤��Ч�ڷ�Ϊ���ꡢʮ��ͳ��ڡ�    �л����񹲺͹���·��ͨ��ȫ��ʵʩ�����ڶ�ʮ���� ��������ʻ���ڻ�������ʻ֤��6����Ч���ڣ�ÿ���Ƿ����ھ�δ�ﵽ12�ֵģ�����10����Ч�ڵĻ�������ʻ֤���ڻ�������ʻ֤��10����Ч���ڣ�?
+SkillNotice=看题：初次领证的有效期6年对，记住6年对，4年错。
+NormalNotice=机动车驾驶证申领和使用规定第九条 机动车驾驶证有效期分为六年、十年和长期。    中华人民共和国道路交通安全法实施条例第二十六条 机动车驾驶人在机动车驾驶证的6年有效期内，每个记分周期均未达到12分的，换发10年有效期的机动车驾驶证；在机动车驾驶证的10年有效期内，?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

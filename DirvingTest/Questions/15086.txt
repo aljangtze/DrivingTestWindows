@@ -1,23 +1,23 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=15086
 Url=http://tiba.jsyks.com/Post/628a7.htm
-Tittle=ÏÂÁÐ¹ØÓÚÈýÂÖÄ¦ÍÐ³µÔØÎï¿í¶ÈµÄËµ·¨ÕýÈ·µÄÊÇÄÄÒ»Ïî£¿
+Tittle=ä¸‹åˆ—å…³äºŽä¸‰è½®æ‘©æ‰˜è½¦è½½ç‰©å®½åº¦çš„è¯´æ³•æ­£ç¡®çš„æ˜¯å“ªä¸€é¡¹ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=¡¶µÀÂ·½»Í¨°²È«·¨ÊµÊ©ÌõÀý¡·µÚÎåÊ®ËÄÌõµÚÈýÀý£º    Ä¦ÍÐ³µÔØÎï£¬¸ß¶È´ÓµØÃæÆð²»µÃ³¬¹ý1.5Ã×£¬³¤¶È²»µÃ³¬³ö³µÉí0.2Ã×¡£Á½ÂÖÄ¦ÍÐ³µÔØÎï¿í¶È×óÓÒ¸÷²»µÃ³¬³ö³µ°Ñ0.15Ã×£»ÈýÂÖÄ¦ÍÐ³µÔØÎï¿í¶È²»µÃ³¬¹ý³µÉí¡£
-NormalNotice=¡¶µÀÂ·½»Í¨°²È«·¨ÊµÊ©ÌõÀý¡·µÚÎåÊ®ËÄÌõµÚÈýÀý£º    Ä¦ÍÐ³µÔØÎï£¬¸ß¶È´ÓµØÃæÆð²»µÃ³¬¹ý1.5Ã×£¬³¤¶È²»µÃ³¬³ö³µÉí0.2Ã×¡£Á½ÂÖÄ¦ÍÐ³µÔØÎï¿í¶È×óÓÒ¸÷²»µÃ³¬³ö³µ°Ñ0.15Ã×£»ÈýÂÖÄ¦ÍÐ³µÔØÎï¿í¶È²»µÃ³¬¹ý³µÉí¡£
+SkillNotice=ã€Šé“è·¯äº¤é€šå®‰å…¨æ³•å®žæ–½æ¡ä¾‹ã€‹ç¬¬äº”åå››æ¡ç¬¬ä¸‰ä¾‹ï¼š    æ‘©æ‰˜è½¦è½½ç‰©ï¼Œé«˜åº¦ä»Žåœ°é¢èµ·ä¸å¾—è¶…è¿‡1.5ç±³ï¼Œé•¿åº¦ä¸å¾—è¶…å‡ºè½¦èº«0.2ç±³ã€‚ä¸¤è½®æ‘©æ‰˜è½¦è½½ç‰©å®½åº¦å·¦å³å„ä¸å¾—è¶…å‡ºè½¦æŠŠ0.15ç±³ï¼›ä¸‰è½®æ‘©æ‰˜è½¦è½½ç‰©å®½åº¦ä¸å¾—è¶…è¿‡è½¦èº«ã€‚
+NormalNotice=ã€Šé“è·¯äº¤é€šå®‰å…¨æ³•å®žæ–½æ¡ä¾‹ã€‹ç¬¬äº”åå››æ¡ç¬¬ä¸‰ä¾‹ï¼š    æ‘©æ‰˜è½¦è½½ç‰©ï¼Œé«˜åº¦ä»Žåœ°é¢èµ·ä¸å¾—è¶…è¿‡1.5ç±³ï¼Œé•¿åº¦ä¸å¾—è¶…å‡ºè½¦èº«0.2ç±³ã€‚ä¸¤è½®æ‘©æ‰˜è½¦è½½ç‰©å®½åº¦å·¦å³å„ä¸å¾—è¶…å‡ºè½¦æŠŠ0.15ç±³ï¼›ä¸‰è½®æ‘©æ‰˜è½¦è½½ç‰©å®½åº¦ä¸å¾—è¶…è¿‡è½¦èº«ã€‚
 [Options]
-Options1=²»µÃ³¬¹ý³µÉí0.15Ã×
-Options2=²»µÃ³¬¹ý³µÉí
-Options3=²»µÃ³¬¹ý³µÉí0.20Ã×
-Options4=²»µÃ³¬¹ý³µÉí0.25Ã×
+Options1=ä¸å¾—è¶…è¿‡è½¦èº«0.15ç±³
+Options2=ä¸å¾—è¶…è¿‡è½¦èº«
+Options3=ä¸å¾—è¶…è¿‡è½¦èº«0.20ç±³
+Options4=ä¸å¾—è¶…è¿‡è½¦èº«0.25ç±³
 Image1=
 Image2=
 Image3=

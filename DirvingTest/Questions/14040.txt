@@ -1,6 +1,6 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14040
-Tittle=��������һ�ֱ�־��
+Tittle=这属于哪一种标志？
 
 SkillEmphasize=
 ImagePath=14040.png
@@ -11,16 +11,16 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=��ͼ�����ֿ���ɫ�ı�־Ϊ��������־��
+SkillNotice=看图：这种咖啡色的标志为旅游区标志。
 NormalNotice=
 [Options]
-Options1=��������־
-Image1=������
-Options2=���ٹ�·��־
+Options1=旅游区标志
+Image1=旅游区
+Options2=高速公路标志
 Image2=
-Options3=��ҵ����־
+Options3=作业区标志
 Image3=
-Options4=��ʾ��־
+Options4=告示标志
 Image4=
 [AnswerInfo]
 Answer1=1

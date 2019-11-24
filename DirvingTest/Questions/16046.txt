@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=16046
 Url=http://tiba.jsyks.com/Post/91865.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16046.jpg
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=Í£³µ¼ì²é£º±íÊ¾»ú¶¯³µ±ØÐëÍ£³µ½ÓÊÜ¼ì²é¡£´Ë±êÖ¾ÉèÔÚ¹Ø¿¨½«½ü´¦£¬ÒÔ±ãÒªÇó³µÁ¾½ÓÊÜ¼ì²é»ò½É·ÑµÈÊÖÐø¡£±êÖ¾ÖÐ¿É¼Ó×¢ËµÃ÷¼ì²éÊÂÏî¡£    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    Í£³µ¼ì²é    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uth3hv71j.jpg>    º£¹Ø    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    ½ûÖ¹Í¨ÐÐ</p>    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    Í£³µ¼ì²é    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uth3hv71j.jpg>    º£¹Ø    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    ½ûÖ¹Í¨ÐÐ</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    Í£³µ¼ì²é    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uth3hv71j.jpg>    º£¹Ø    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>NormalNotice=Í£³µ¼ì²é£º±íÊ¾»ú¶¯³µ±ØÐëÍ£³µ½ÓÊÜ¼ì²é¡£´Ë±êÖ¾ÉèÔÚ¹Ø¿¨½«½ü´¦£¬ÒÔ±ãÒªÇó³µÁ¾½ÓÊÜ¼ì²é»ò½É·ÑµÈÊÖÐø¡£±êÖ¾ÖÐ¿É¼Ó×¢ËµÃ÷¼ì²éÊÂÏî¡£    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    Í£³µ¼ì²é    <img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uth3hv71j.jpg>    º£¹Ø    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    ½ûÖ¹Í¨ÐÐ</p>    <p><img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    Í£³µ¼ì²é    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2uth3hv71j.jpg>    º£¹Ø    <img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    ½ûÖ¹Í¨ÐÐ</p>    <p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uth0go5uj.jpg>    Í£³µ¼ì²é    <img src=http://ww1.sinaimg.cn/large/c05f42f9jw1e2uth3hv71j.jpg>    º£¹Ø    <img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2utf1xm3uj.jpg>    ½ûÖ¹Í¨ÐÐ</p>
-    ½ûÖ¹Í¨ÐÐ</p>
+SkillNotice=åœè½¦æ£€æŸ¥ï¼šè¡¨ç¤ºæœºåŠ¨è½¦å¿…é¡»åœè½¦æŽ¥å—æ£€æŸ¥ã€‚æ­¤æ ‡å¿—è®¾åœ¨å…³å¡å°†è¿‘å¤„ï¼Œä»¥ä¾¿è¦æ±‚è½¦è¾†æŽ¥å—æ£€æŸ¥æˆ–ç¼´è´¹ç­‰æ‰‹ç»­ã€‚æ ‡å¿—ä¸­å¯åŠ æ³¨è¯´æ˜Žæ£€æŸ¥äº‹é¡¹ã€‚
+NormalNotice=åœè½¦æ£€æŸ¥ï¼šè¡¨ç¤ºæœºåŠ¨è½¦å¿…é¡»åœè½¦æŽ¥å—æ£€æŸ¥ã€‚æ­¤æ ‡å¿—è®¾åœ¨å…³å¡å°†è¿‘å¤„ï¼Œä»¥ä¾¿è¦æ±‚è½¦è¾†æŽ¥å—æ£€æŸ¥æˆ–ç¼´è´¹ç­‰æ‰‹ç»­ã€‚æ ‡å¿—ä¸­å¯åŠ æ³¨è¯´æ˜Žæ£€æŸ¥äº‹é¡¹ã€‚
 [Options]
-Options1=±ß·À¼ì²é
-Options2=½ûÖ¹Í¨ÐÐ
-Options3=º£¹Ø¼ì²é
-Options4=Í£³µ¼ì²é
+Options1=è¾¹é˜²æ£€æŸ¥
+Options2=ç¦æ­¢é€šè¡Œ
+Options3=æµ·å…³æ£€æŸ¥
+Options4=åœè½¦æ£€æŸ¥
 Image1=
 Image2=
 Image3=

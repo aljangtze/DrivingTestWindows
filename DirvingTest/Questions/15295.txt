@@ -1,23 +1,23 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15295
 Url=http://tiba.jsyks.com/Post/2a4ee.htm
-Tittle=��ʻ�����������������ش������ܼ��ȹ�������ʱ�������
+Tittle=驾驶机动车遇到大雾或特大雾等能见度过低天气时如何做？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=ע�����еġ�Ũ�����ش������ܼ��ȹ�����������Ҳ����˵���ܳ����޷�������ʻ����������Ϊ�˰�ȫ�����Ӧͣ������ͣ����Ӧѡ��ȫ�ĵص㡣 ��˱���ѡC��
-NormalNotice=ע�����еġ�Ũ�����ش������ܼ��ȹ�����������Ҳ����˵���ܳ����޷�������ʻ����������Ϊ�˰�ȫ�����Ӧͣ������ͣ����Ӧѡ��ȫ�ĵص㡣 ��˱���ѡC��
+SkillNotice=注意题中的“浓雾或特大雾等能见度过低天气”，也就是说可能出现无法正常行驶的情况，因此为了安全起见，应停车，而停车则应选择安全的地点。 因此本题选C。
+NormalNotice=注意题中的“浓雾或特大雾等能见度过低天气”，也就是说可能出现无法正常行驶的情况，因此为了安全起见，应停车，而停车则应选择安全的地点。 因此本题选C。
 [Options]
-Options1=����ǰ�յƵ�����ʻ
-Options2=�������Ƶ�����ʻ
-Options3=ѡ��ȫ�ص�ͣ��
-Options4=����·�ߵ�����ʻ
+Options1=开启前照灯低速行驶
+Options2=开启雾灯低速行驶
+Options3=选择安全地点停车
+Options4=紧靠路边低速行驶
 Image1=
 Image2=
 Image3=

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1101
 Url=http://tiba.jsyks.com/Post/0f560.htm
-Tittle=��ʻ��������û�������ߵĳ��е�·�ϣ�����ٶȲ��ܳ���ÿСʱ50���
+Tittle=驾驶机动车在没有中心线的城市道路上，最高速度不能超过每小时50公里。
 TittleEmphasize=
-SkillEmphasize=50���
+SkillEmphasize=50公里。
 ImagePath=
 FlashPath=
-SkillId=15
+SkillId=55
 MoudleId=1
 Type=1
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=��ס��50�������������50���70���90������Щ���Ǵ��ġ�
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ������    ����ʮ���� �������ڵ�·����ʻ���ó������ٱ�־�����߱������ٶȡ���û�����ٱ�־�����ߵĵ�·�ϣ����������ó������������ʻ�ٶȣ�      (һ)û�е�·�����ߵĵ�·�����е�·ΪÿСʱ30�����·ΪÿСʱ40���      (��
+SkillNotice=记住：50公里错，题中有50公里，70公里，90公里这些都是错的。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》    第四十五条 机动车在道路上行驶不得超过限速标志、标线标明的速度。在没有限速标志、标线的道路上，机动车不得超过下列最高行驶速度：      (一)没有道路中心线的道路，城市道路为每小时30公里，公路为每小时40公里；      (二
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SQLite;
 using System.Drawing;
 using System.IO;
 ////using System.Linq;
@@ -65,6 +66,41 @@ namespace DirvingTest
             {
                 ModelChapter model = data.Value;
                 AddItem(model.Id, model.Tittle, model.IsEnable, model.Classification, model.Count);
+#if _SaveToSqliteGroups
+                if (_Type != 0)
+                    AddChaperOrSkill(model, 0);
+                else
+                    AddChaperOrSkill(model, 1);
+#endif
+            }
+        }
+
+        private void AddChaperOrSkill(ModelChapter model,int type)
+        {
+            try
+            {
+                string sqlString = @"insert into groups (id, name, type, status, count, classification)
+                                values
+                                (@id, @name, @type, 1, @count, @classification)";
+
+                //SQLiteParameter[] parameters = new SQLiteParameter[23];
+                List<SQLiteParameter> parameters = new List<SQLiteParameter>();
+                parameters.Add(new SQLiteParameter("@id", model.Id));
+                parameters.Add(new SQLiteParameter("@name", model.Tittle));
+                parameters.Add(new SQLiteParameter("@type", type));
+                parameters.Add(new SQLiteParameter("@count", model.Count));
+                parameters.Add(new SQLiteParameter("@classification",model.Classification));
+                
+                int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
+                if (result <= 0)
+                {
+                    Console.WriteLine("Error" + model.Id);
+                    //MessageBox.Show(ques)
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
         }
 

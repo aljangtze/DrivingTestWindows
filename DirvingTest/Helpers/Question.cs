@@ -21,6 +21,9 @@ namespace DirvingTest
         /// </summary>
         public int Module;
 
+        public string Url = "";
+
+
         /// <summary>
         /// 所属技巧模块
         /// </summary>

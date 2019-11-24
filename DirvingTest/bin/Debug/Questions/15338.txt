@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15338
 Url=http://tiba.jsyks.com/Post/ea5ef.htm
-Tittle=��ѩ��·�г������ڻ�ѩ�Թ��ߵķ��䣬������ɼ�ʻ��ѣĿ��
+Tittle=冰雪道路行车，由于积雪对光线的反射，极易造成驾驶人眩目。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=��Ϊ̫����ͨ����ѩ�����䵽�˵��۾����ѩ��̫�����¾ͺ���һ�澵�ӣ����䵽��ʻԱ�۾�������������Ŀ�ˡ�
-NormalNotice=��Ϊ̫����ͨ����ѩ�����䵽�˵��۾����ѩ��̫�����¾ͺ���һ�澵�ӣ����䵽��ʻԱ�۾�������������Ŀ�ˡ�
+SkillNotice=因为太阳光通过冰雪的折射到人的眼睛里，冰雪在太阳光下就好像一面镜子，折射到驾驶员眼睛里就容易造成炫目了。
+NormalNotice=因为太阳光通过冰雪的折射到人的眼睛里，冰雪在太阳光下就好像一面镜子，折射到驾驶员眼睛里就容易造成炫目了。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

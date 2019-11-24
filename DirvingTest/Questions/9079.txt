@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9079
 Url=http://tiba.jsyks.com/Post/31152.htm
-Tittle=�����Ϸ���־��ʾ���Ƹ߶�3.5�ס�
+Tittle=隧道上方标志表示限制高度3.5米。
 TittleEmphasize=
-SkillEmphasize=3.5��
+SkillEmphasize=3.5米
 ImagePath=9079.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=34
 [SkillInfo]
-SkillNotice=��־������3.5�ף���Ŀ����3.5�ף��ԡ�     
-NormalNotice=���Ƹ߶�     ��ʾ��ֹװ�ظ߶ȳ�����־��ʾ��ֵ�ĳ���ͨ�С�     
+SkillNotice=标志里面有3.5米，题目中有3.5米，对。     
+NormalNotice=限制高度     表示禁止装载高度超过标志所示数值的车辆通行。     
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=5009
 Url=http://tiba.jsyks.com/Post/88c6e.htm
-Tittle=╩Утк╩З╤╞Ё╣Ё╛╧Щ╨к╤╗тьжйа©ё╛╣╚ц╩спЁ╛╧Щ╨к╤╗тьжйа©╤Юиы╣дё╛╢╕200т╙ртио500т╙ртоб╥ё©Нё©
+Tittle=Х╢╖Х©░Ф°╨Е┼╗Х╫╕Х╤┘Х©┤Ф═╦Е╝ Х╫╫Х╢╗И┤▐О╪▄Д╫├Ф╡║Ф°┴Х╤┘Х©┤Ф═╦Е╝ Х╫╫Х╢╗И┤▐Е╓ Е╟▒Г └О╪▄Е╓└200Е┘┐Д╩╔Д╦┼500Е┘┐Д╩╔Д╦▀Г╫ Ф╛╬О╪÷
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,8 +12,8 @@ Type=2
 Classification=2
 BankId=0
 [SkillInfo]
-SkillNotice=©╢╢П╟╦ё╨Ё╛╧Щ╨к╤╗жйа©ё╛я║30%║ё
-NormalNotice=Ё╛ть╡╩╣╫30%╢╕200--500╣д╥ё©Н║ёЁ╛╧Щ30%╣д╢╕500--2000╣д╥ё©Н║ё
+SkillNotice=Г°▀Г╜■Ф║┬О╪ Х╤┘Х©┤Ф═╦Е╝ Х╢╗И┤▐О╪▄И─┴30%Ц─┌
+NormalNotice=Х╤┘Х╫╫Д╦█Е┬╟30%Е╓└200--500Г └Г╫ Ф╛╬Ц─┌Х╤┘Х©┤30%Г └Е╓└500--2000Г └Г╫ Ф╛╬Ц─┌
 [Options]
 Options1=30%
 Options2=20%

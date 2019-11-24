@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1016
 Url=http://tiba.jsyks.com/Post/85990.htm
-Tittle=��·��ʻ�Ļ�����δ�泵Я������֤�ģ���ͨ���������������������
+Tittle=上路行驶的机动车未随车携带身份证的，交通警察可依法扣留机动车。
 TittleEmphasize=
-SkillEmphasize=����֤
+SkillEmphasize=身份证
 ImagePath=
 FlashPath=
 SkillId=14
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=3
 [SkillInfo]
-SkillNotice=���ɣ�����֤�������д�������֤����������������ֱ֤�Ӵ����   
-NormalNotice=����·��ͨ��ȫ�����ھ�ʮ�������ϵ�·��ʻ�Ļ�����δ���һ��������ƣ�δ���ü���ϸ��־�����ձ�־������δ�泵Я����ʻ֤����ʻ֤�ģ��������ؽ�ͨ��������Ӧ��������������    ���ﶼû������֤��һ��Ҫ������Ŀ��
+SkillNotice=技巧：身份证错，题中带有身份证这个题错。见到身份证直接答错。   
+NormalNotice=《道路交通安全法》第九十五条：上道路行驶的机动车未悬挂机动车号牌，未放置检验合格标志、保险标志，或者未随车携带行驶证、驾驶证的，公安机关交通管理部门应当扣留机动车。    这里都没有身份证，一定要看清题目！
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

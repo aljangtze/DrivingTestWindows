@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1271
 Url=http://tiba.jsyks.com/Post/40bed.htm
-Tittle=��ʻ����ʹ�������������ơ���ʻ֤���ɵģ���ͨ�������������������
+Tittle=驾驶人有使用其他车辆号牌、行驶证嫌疑的，交通警察可依法扣留车辆。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=依法
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=���ɣ��������������ԣ��������۳��������ۼ�ʻ֤�ԡ�
-NormalNotice=����·��ͨ��ȫΥ����Ϊ��������涨���ڶ�ʮ�����涨������������֮һ�ģ�����������������α�졢�������ʹ��α�졢����Ļ������Ǽ�֤�顢���ơ���ʻ֤������ϸ��־�� ���ձ�־����ʻ֤����ʹ�����������Ļ������Ǽ�֤�顢���ơ���ʻ֤������ϸ��־�����ձ�־���ɵ�
+SkillNotice=技巧：依法扣留车辆对，有依法扣车，依法扣驾驶证对。
+NormalNotice=《道路交通安全违法行为处理程序规定》第二十五条规定，有下列情形之一的，依法扣留车辆：有伪造、变造或者使用伪造、变造的机动车登记证书、号牌、行驶证、检验合格标志、 保险标志、驾驶证或者使用其他车辆的机动车登记证书、号牌、行驶证、检验合格标志、保险标志嫌疑的
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

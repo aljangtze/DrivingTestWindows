@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=10047
 Url=http://tiba.jsyks.com/Post/6d220.htm
-Tittle=»ú¶¯³µÐÐÊ»ÖÐÓöÓÐ×ÔÐÐ³µ½èµÀÍ¨ÐÐÊ±£¬¿É¼±´ÙÃùÀ®°ÈÊ¾ÒâÈÃµÀ¡£
+Tittle=æœºåŠ¨è½¦è¡Œé©¶ä¸­é‡æœ‰è‡ªè¡Œè½¦å€Ÿé“é€šè¡Œæ—¶ï¼Œå¯æ€¥ä¿ƒé¸£å–‡å­ç¤ºæ„è®©é“ã€‚
 TittleEmphasize=
-SkillEmphasize=ÃùÀ®°È£¬ÈÃ
+SkillEmphasize=é¸£å–‡å­ï¼Œè®©
 ImagePath=
 FlashPath=
 SkillId=40
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=30
 [SkillInfo]
-SkillNotice=ÃùÀ®°È½ÐÈËÀ´ÈÃ×Ô¼º£¬´í£¡
-NormalNotice=°²È«ÎÄÃ÷ÐÐ³µ ÒªÀñÈÃÐÐÈË
+SkillNotice=é¸£å–‡å­å«äººæ¥è®©è‡ªå·±ï¼Œé”™ï¼
+NormalNotice=å®‰å…¨æ–‡æ˜Žè¡Œè½¦ è¦ç¤¼è®©è¡Œäºº
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

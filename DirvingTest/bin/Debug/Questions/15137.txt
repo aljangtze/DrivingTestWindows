@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15137
 Url=http://tiba.jsyks.com/Post/8edc9.htm
-Tittle=��ʻ������ͨ����ˮ·ʱҪ������ʻ��
+Tittle=驾驶机动车通过漫水路时要加速行驶。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=����·��ͨ��ȫ��ʵʩ����������ʮ�������������о���ˮ·������ˮ��ʱ��Ӧ��ͣ������ˮ�飬ȷ�ϰ�ȫ�󣬵���ͨ����
-NormalNotice=����·��ͨ��ȫ��ʵʩ����������ʮ�������������о���ˮ·������ˮ��ʱ��Ӧ��ͣ������ˮ�飬ȷ�ϰ�ȫ�󣬵���ͨ����
+SkillNotice=《道路交通安全法实施条例》第六十四条：机动车行经漫水路或者漫水桥时，应当停车察明水情，确认安全后，低速通过。
+NormalNotice=《道路交通安全法实施条例》第六十四条：机动车行经漫水路或者漫水桥时，应当停车察明水情，确认安全后，低速通过。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

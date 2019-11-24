@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1354
 Url=http://tiba.jsyks.com/Post/04032.htm
-Tittle=��������ʲ��ܰ���ԤԼʱ��μӿ��Եģ�Ӧ����ǰһ������ȡ��ԤԼ����������δ����ԤԼ����ʱ��μӿ��Եģ��ж��ôο��Բ��ϸ�
+Tittle=申请人因故不能按照预约时间参加考试的，应当提前一日申请取消预约，对申请人未按照预约考试时间参加考试的，判定该次考试不合格。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=考试
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=���ɣ��μӿ��Զԣ����п��������ֵ���û��80�־��ǶԵġ�  
-NormalNotice=2013���½������ʮ���� ��������ʲ��ܰ���ԤԼʱ��μӿ��Եģ�Ӧ����ǰһ������ȡ��ԤԼ����������δ����ԤԼ����ʱ��μӿ��Եģ��ж��ôο��Բ��ϸ�
+SkillNotice=技巧：参加考试对，带有考试两个字的题没有80分就是对的。  
+NormalNotice=2013年新交规第三十六条 申请人因故不能按照预约时间参加考试的，应当提前一日申请取消预约。对申请人未按照预约考试时间参加考试的，判定该次考试不合格。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

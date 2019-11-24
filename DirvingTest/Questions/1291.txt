@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1291
 Url=http://tiba.jsyks.com/Post/2d545.htm
-Tittle=�ƺ��ʻ�����ش�ͨ�¹ʱ�����׷���������ε��˲��������������ʻ֤��
+Tittle=酒后驾驶发生重大交通事故被依法追究刑事责任的人不能申请机动车驾驶证。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=依法
 ImagePath=
 FlashPath=
 SkillId=55
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=���ɣ�����׷���ԣ����д��������ԡ�
-NormalNotice=�µĵ�·��ͨ��ȫ��ɾȥ�˶����ƺ��ʻ������Υ����Ϊ�˾����Ĺ涨��        ͬʱ�����ݿۻ�������ʻ֤�Ĵ�����Ϊ������������ʻ֤����5���ڲ�������ȡ�û�������ʻ֤��        �����ƺ��ʻӪ�˻������ģ����ݿۻ�������ʻ֤�Ĵ�����Ϊ������������ʻ֤����10���ڲ�������?
+SkillNotice=技巧：依法追究对，题中带有依法对。
+NormalNotice=新的道路交通安全法删去了对醉酒后驾驶机动车违法行为人拘留的规定。        同时，将暂扣机动车驾驶证的处罚改为吊销机动车驾驶证，且5年内不得重新取得机动车驾驶证；        对醉酒后驾驶营运机动车的，将暂扣机动车驾驶证的处罚改为吊销机动车驾驶证，且10年内不得重新?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3066
 Url=http://tiba.jsyks.com/Post/238c0.htm
-Tittle=����ͨ����͹·��ʱ��Ӧ��������
+Tittle=车辆通过凹凸路面时，应怎样做？
 TittleEmphasize=
-SkillEmphasize=��͹·��
+SkillEmphasize=凹凸路面
 ImagePath=
 FlashPath=
 SkillId=31
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=��ѡ�û�м���ѡ���٣�ѡ����ƽ�ȡ�·�治ƽ��Ҫ����ͨ����
-NormalNotice=��͹��ƽ��·��������в����Գ�û���кô� ���һ������Ӱ���ʻ��
+SkillNotice=看选项：没有减速选低速，选缓慢平稳。路面不平就要缓慢通过。
+NormalNotice=凹凸不平的路面减速慢行不仅对车没有有好处 而且会因颠簸影响驾驶。
 [Options]
-Options1=�������Լ��ٳ��
-Options2=����ԭ��ͨ��
-Options3=�ҿյ�����ʻ��
-Options4=���ٻ���ƽ��ͨ��
+Options1=依靠惯性加速冲过
+Options2=保持原速通过
+Options3=挂空挡滑行驶过
+Options4=低速缓慢平稳通过
 Image1=
 Image2=
 Image3=
-Image4=����ƽ��
+Image4=缓慢平稳
 [AnswerInfo]
 Answer1=0
 Answer2=0

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=9053
 Url=http://tiba.jsyks.com/Post/bd190.htm
-Tittle=ÓÒ²à±êÖ¾¾¯¸æÇ°·½150Ã×ÊÇÎŞÈË¿´ÊØÌúÂ·µÀ¿Ú¡£
+Tittle=å³ä¾§æ ‡å¿—è­¦å‘Šå‰æ–¹150ç±³æ˜¯æ— äººçœ‹å®ˆé“è·¯é“å£ã€‚
 TittleEmphasize=
-SkillEmphasize=150Ã×
+SkillEmphasize=150ç±³
 ImagePath=9053.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=26
 [SkillInfo]
-SkillNotice=Ç°·½±êÖ¾ÊÇ150Ã×£¬ÌâÄ¿ÓĞ150Ã×£¬¶Ô£¡
-NormalNotice=Ç°·½150Ã×ÊÇÎŞÈË¿´ÊØÌúÂ·µÀ¿Ú
+SkillNotice=å‰æ–¹æ ‡å¿—æ˜¯150ç±³ï¼Œé¢˜ç›®æœ‰150ç±³ï¼Œå¯¹ï¼
+NormalNotice=å‰æ–¹150ç±³æ˜¯æ— äººçœ‹å®ˆé“è·¯é“å£
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

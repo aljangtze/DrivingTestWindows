@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9050
 Url=http://tiba.jsyks.com/Post/467bf.htm
-Tittle=�����־����ǰ����·�����ж����·���·�ཻ��
+Tittle=这个标志警告前方铁路道口有多股铁路与道路相交。
 TittleEmphasize=
-SkillEmphasize=�����·
+SkillEmphasize=多股铁路
 ImagePath=9050.jpg
 FlashPath=
-SkillId=43
+SkillId=42
 MoudleId=9
 Type=1
 Classification=4
-BankId=25
+BankId=43
 [SkillInfo]
-SkillNotice=���α�־��ʾ���Ƕ���������·���ԣ���˼���ж�����·�͵�·����һ��
-NormalNotice=���η���    ��ʾ����������·����
+SkillNotice=叉形标志表示的是多股铁道与道路，对！意思是有多条铁路和道路连在一起
+NormalNotice=叉形符号    表示多股铁道与道路交叉
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

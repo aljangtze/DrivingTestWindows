@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SQLite;
+using System.IO;
 using System.Threading;
 ////using System.Linq;
 using System.Windows.Forms;
@@ -21,14 +24,14 @@ namespace DirvingTest
 
             SystemConfig sysConfig = SystemConfig.getInstance();
             QuestionManager.LoadAllQuestion();
-            QuestionManager.LoadQuestion(2001, 2001);
+            //QuestionManager.LoadQuestion(2001, 2001);
 
             //for (int i = 0; i < QuestionManager._maxQuestionNum; i++)
             //{
             //    ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), i);
             //    //i = i + 500;
             //}
-
+#if _InitailQuestionWithFile
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(1001,1500));
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(2001, 2400));
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(3001, 3400));
@@ -44,12 +47,112 @@ namespace DirvingTest
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(13001, 13100));
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(13101, 15250));
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(15251, 16000));
-            ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(16001, QuestionManager._maxQuestionNum));
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(16001, QuestionManager._maxQuestionNum));
+            ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(16001, 17000));
+#else
+            DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable("select * from questions where 1=@data", new SQLiteParameter[] { new SQLiteParameter("@data", 1) });
+            foreach (DataRow row in data.Rows)
+            {
+                Question question = new Question();
+                question.Id = Convert.ToInt32(row["id"].ToString());
+                question.Tittle = row["tittle"].ToString();
+                if (!string.IsNullOrEmpty(row["image"].ToString()))
+                {
+                    
+                    string imagePath = string.Format("{0}.jpg", question.Id);
 
+                    if (!File.Exists("Images\\" + imagePath))
+                    {
+                        FileStream imageStream = new FileStream("Images\\" + imagePath, FileMode.Create);
+                        Byte[] imageByte = (Byte[])row["image"];
+                        imageStream.Write(imageByte, 0, imageByte.Length);
+                        imageStream.Close();
+                    }
+                    question.ImagePath = imagePath;
+                }
+                else
+                {
+                    question.ImagePath = "";
+                }
+
+                question.FlashPath = row["flash"].ToString();
+
+                if (!string.IsNullOrEmpty(row["flash"].ToString()))
+                {
+                    string flashPath = string.Format("{0}.swf", question.Id);
+
+                    if (!File.Exists("Flash\\" + flashPath))
+                    {
+                        FileStream imageStream = new FileStream("Flash\\" + flashPath, FileMode.Create);
+                        Byte[] imageByte = (Byte[])row["flash"];
+                        imageStream.Write(imageByte, 0, imageByte.Length);
+                        imageStream.Close();
+                    }
+                    question.FlashPath = flashPath;
+                }
+                else
+                {
+                    question.FlashPath = "";
+                }
+
+                question.Type = Convert.ToInt32(row["type"].ToString()); ;
+                question.Module = Convert.ToInt32(row["moudle"].ToString()); 
+                question.Classification = Convert.ToInt32(row["classification"].ToString()); 
+                question.Options = new List<string>();
+                question.OptionsEmphasize = new List<string>();
+                question.CorrectAnswer = new List<int>();
+
+                if (question.Type != 1)
+                {
+                    Random rnd = new Random();
+                    HashSet<int> questionOrder = new HashSet<int>();
+                    for (var i = 0; i < 4; i++)
+                    {
+                        var ret = rnd.Next(1, 5);
+                        if (ret == 5)
+                            MessageBox.Show("error");
+
+                        while (!questionOrder.Add(ret))
+                        {
+                            ret = rnd.Next(1, 5);
+                        }
+                    }
+
+                    int index = 0;
+                    foreach (var i in questionOrder)
+                    {
+                        index++;
+                        question.Options.Add(row["option" + i.ToString()].ToString());
+                        question.OptionsEmphasize.Add(row["option" + i.ToString() + "Emphasize"].ToString());
+                        if ("1".Equals(row["answer" + i.ToString()].ToString()))
+                            question.CorrectAnswer.Add(index);
+
+                    }
+                }
+                else
+                {
+                    for (int i = 1; i <= 4; i++)
+                    {
+                        question.Options.Add(row["option" + i.ToString()].ToString());
+                        question.OptionsEmphasize.Add(row["option" + i.ToString() + "Emphasize"].ToString());
+                        if ("1".Equals(row["answer" + i.ToString()].ToString()))
+                            question.CorrectAnswer.Add(i);
+                    }
+                }
+
+                question.TittleEmphasize = row["tittleEmphasize"].ToString(); ;
+                question.SkillNotice = row["skillEmphasize"].ToString(); ;
+                question.NormalNotice = row["notice"].ToString(); ;
+
+
+                QuestionManager.m_QuestionsDictionary[question.Id] = question;
+                QuestionManager.m_QuestionsList.Add(question);
+            }
+#endif
 
             //Thread QuestionThread = new Thread(() =>
             //{
-                
+
             //    //QuestionManager.LoadQuestion(2001, 17000);
 
 

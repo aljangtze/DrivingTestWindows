@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11044
 Url=http://tiba.jsyks.com/Post/503c6.htm
-Tittle=��������ҹ�䷢������ʱ����ʻ��Ҫ��ʲô��ȷ����ȫ��
+Tittle=机动车在夜间发生故障时，驾驶人要做什么以确保安全？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,15 +10,15 @@ SkillId=52
 MoudleId=11
 Type=3
 Classification=4
-BankId=18
+BankId=0
 [SkillInfo]
-SkillNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ����������ʮ�� �������ڵ�·�Ϸ������ϻ��߷�����ͨ�¹ʣ�������ͨ�������ƶ��ģ�Ӧ�����չ涨����Σ�ձ�������Ʋ��ڳ���50����100�״����þ����־��ҹ�仹Ӧ��ͬʱ����ʾ���ƺͺ�λ�ơ� ��˱���ѡABCD��
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ����������ʮ�� �������ڵ�·�Ϸ������ϻ��߷�����ͨ�¹ʣ�������ͨ�������ƶ��ģ�Ӧ�����չ涨����Σ�ձ�������Ʋ��ڳ���50����100�״����þ����־��ҹ�仹Ӧ��ͬʱ����ʾ���ƺͺ�λ�ơ� ��˱���ѡABCD��
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第六十条 机动车在道路上发生故障或者发生交通事故，妨碍交通又难以移动的，应当按照规定开启危险报警闪光灯并在车后50米至100米处设置警告标志，夜间还应当同时开启示廓灯和后位灯。 因此本题选ABCD。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第六十条 机动车在道路上发生故障或者发生交通事故，妨碍交通又难以移动的，应当按照规定开启危险报警闪光灯并在车后50米至100米处设置警告标志，夜间还应当同时开启示廓灯和后位灯。 因此本题选ABCD。
 [Options]
-Options1=ѡ��ȫ����ͣ��
-Options2=����Σ�ձ��������
-Options3=���涨���þ����־
-Options4=����ʾ���ƺͺ�λ��
+Options1=按规定设置警告标志
+Options2=开启示廓灯和后位灯
+Options3=开启危险报警闪光灯
+Options4=选择安全区域停车
 Image1=
 Image2=
 Image3=

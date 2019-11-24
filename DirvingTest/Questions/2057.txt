@@ -1,7 +1,7 @@
-[QuesitonInfo]
+О╩©[QuesitonInfo]
 Id=2057
 Url=http://tiba.jsyks.com/Post/d8fda.htm
-Tittle=уБ╦Ж╠Йж╬йг╨н╨╛рЕё©
+Tittle=Х©≥Д╦╙Ф═┤Е©≈Ф≤╞Д╫∙Е░╚Д╧┴О╪÷
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2057.jpg
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=©╢╠Йж╬ё╨ге╤╢╬мя║геё╛╧╟╤х╨э╢С╣дген╙му╥Еге║ё
-NormalNotice=му╥Егеё╨сцртлАпяЁ╣а╬╪щй╩хк╫ВиВ╪щй╩║ёиХтз╧╟╤х╨э╢Сё╛с╟оЛйс╬Ю╣дму╥Егертг╟йй╣╠н╩жц║ё
+SkillNotice=Г°▀Ф═┤Е©≈О╪ Ф║╔Ф╢·Е╟╠И─┴Ф║╔О╪▄Ф▀╠Е╨╕Е╬┬Е╓╖Г └Ф║╔Д╦╨И╘╪ЕЁ╟Ф║╔Ц─┌
+NormalNotice=И╘╪ЕЁ╟Ф║╔О╪ Г■╗Д╩╔Ф▐░И├▓Х╫╕Х╬├И╘╬И╘╤Д╨╨Х╟╗Ф┘▌И╘╬И╘╤Ц─┌Х╝╬Е°╗Ф▀╠Е╨╕Е╬┬Е╓╖О╪▄Е╫╠Е⌠█Х╖├Х╥²Г └И╘╪ЕЁ╟Ф║╔Д╩╔Е┴█И─┌Е╫⌠Д╫█Г╫╝Ц─┌
 [Options]
-Options1=му╥Еге
-Options2=б╥цФ╣ммщ
-Options3=б╥цФ╦ъм╩
-Options4=╡╩ф╫б╥цФ
-Image1=ге
+Options1=И╘╪ЕЁ╟Ф║╔
+Options2=Х╥╞И²╒Д╫▌Ф╢╪
+Options3=Х╥╞И²╒И╚≤Г╙│
+Options4=Д╦█Е╧ЁХ╥╞И²╒
+Image1=Ф║╔
 Image2=
 Image3=
 Image4=

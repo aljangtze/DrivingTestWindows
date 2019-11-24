@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2327
 Url=http://tiba.jsyks.com/Post/830b4.htm
-Tittle=��ͼ��ʾ��A����������ͨ��Ȩ��
+Tittle=如图所示，A车具有优先通行权。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2327.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=��ͼ��ͼ������ǰ�����߼�ͷ�����ȥ�Ķԣ�ͼ��ֱ�е�A�����ȶԡ�
-NormalNotice=ת��Ļ�������ֱ�еĳ������С�    3������ԭ��    ��һ��ת��Ļ�������ֱ�еĳ�������    �ڶ����ҷ���·��������    ��������ת�䳵����ת�䳵����
+SkillNotice=看图：图中两车前的虚线箭头交叉过去的对，图中直行的A车优先对。
+NormalNotice=转弯的机动车让直行的车辆先行。    3个先行原则    第一，转弯的机动车让直行的车辆先行    第二，右方道路来车先行    第三，右转弯车让左转弯车先行
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

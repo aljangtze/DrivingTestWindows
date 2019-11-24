@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9090
 Url=http://tiba.jsyks.com/Post/b60ef.htm
-Tittle=�Ҳ��־��ʾע�����ֱ�з������Ļ�������
+Tittle=右侧标志表示注意避让直行方向来的机动车。
 TittleEmphasize=
-SkillEmphasize=��ֱ�г�
+SkillEmphasize=让直行车
 ImagePath=9090.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=32
 [SkillInfo]
-SkillNotice=�ñ�־��ʾ��ֱ�е��У���Ŀ˵������ֱ�г�������
-NormalNotice=����·(ֱ��)     ��ʾ�õ�·Ϊ������ʻ���ѽ��복��Ӧ����־ָʾ�����г���
+SkillNotice=该标志表示叫直行单行，题目说的是让直行车，错。
+NormalNotice=单行路(直行)     表示该道路为单向行驶，已进入车辆应依标志指示方向行车。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

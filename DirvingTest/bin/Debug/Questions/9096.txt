@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9096
 Url=http://tiba.jsyks.com/Post/0ad2c.htm
-Tittle=�Ҳ��־��ʾ�ᳵʱ���������С�
+Tittle=右侧标志表示会车时对向车辆先行。
 TittleEmphasize=
-SkillEmphasize=��������
+SkillEmphasize=对向，先行
 ImagePath=9096.jpg
 FlashPath=
-SkillId=42
+SkillId=48
 MoudleId=9
 Type=1
 Classification=4
-BankId=23
+BankId=48
 [SkillInfo]
-SkillNotice=ͼƬ��־�ǻᳵ���У���Ŀ˵�Ƕ������С�����
-NormalNotice=�ᳵ����     ��ʾ�����ڻᳵʱ��������ͨ��Ȩ����
+SkillNotice=图片标志是会车先行，题目说是对向先行。错！
+NormalNotice=会车先行     表示车辆在会车时享有优先通行权利。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

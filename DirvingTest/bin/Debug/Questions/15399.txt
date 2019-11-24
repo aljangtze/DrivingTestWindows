@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15399
 Url=http://tiba.jsyks.com/Post/e6c5e.htm
-Tittle=��ʻĦ�г�ǰ������ð�ȫͷ�����������Ӿ��ĽǶ����ܹ�������������������
+Tittle=驾驶摩托车前必须戴好安全头盔，调整后视镜的角度至能够看清左右两侧后方情况。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=���ð�ȫͷ����Ϊ�˱���ͷ�����������Ӿ��ĽǶ����ܹ�����������������Ҳ��Ϊ�˹۲���Χ�����һ�ж��ǳ��ڰ�ȫ���ǡ�
-NormalNotice=���ð�ȫͷ����Ϊ�˱���ͷ�����������Ӿ��ĽǶ����ܹ�����������������Ҳ��Ϊ�˹۲���Χ�����һ�ж��ǳ��ڰ�ȫ���ǡ�
+SkillNotice=戴好安全头盔是为了保护头部，调整后视镜的角度至能够看清左右两侧后方情况也是为了观察周围情况，一切都是出于安全考虑。
+NormalNotice=戴好安全头盔是为了保护头部，调整后视镜的角度至能够看清左右两侧后方情况也是为了观察周围情况，一切都是出于安全考虑。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

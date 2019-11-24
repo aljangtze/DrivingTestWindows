@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3079
 Url=http://tiba.jsyks.com/Post/388fd.htm
-Tittle=��ʻ�������ұ������ʱ��Ӧ��ǰ������ת��ƣ�ע��۲죬��ȷ����ȫ������£�ʻ��Ҫ����ĳ�����
+Tittle=驾驶车辆向右变更车道时，应提前开启右转向灯，注意观察，在确保安全的情况下，驶入要变更的车道。
 TittleEmphasize=
-SkillEmphasize=ע��&ȷ����ȫ
+SkillEmphasize=注意&确保安全
 ImagePath=
 FlashPath=
 SkillId=12
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=8
 [SkillInfo]
-SkillNotice=���ɣ���ע��۲죬ȷ����ȫ�ԣ����д���ע�⣬����ȷ�ϰ�ȫ��ȷ����ȫ���ⶼ�Ƕԡ�
+SkillNotice=技巧：有注意观察，确保安全对，题中带有注意，带有确认安全，确保安全的题都是对。
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11081
 Url=http://tiba.jsyks.com/Post/11fbd.htm
-Tittle=������������Ţ�򷭽�·��ʱ��Ҫͣ���۲죬ѡ��ƽ������ʵ���г��޵�·�λ���ͨ����
+Tittle=机动车行至泥泞或翻浆路段时，要停车观察，选择平整、坚实或有车辙的路段缓慢通过。
 TittleEmphasize=
-SkillEmphasize=ƽ��������
+SkillEmphasize=平整，缓慢
 ImagePath=
 FlashPath=
 SkillId=40
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=22
 [SkillInfo]
-SkillNotice=��ס��������ƽ���������Ķԡ�
+SkillNotice=记住：题中有平整，缓慢的对。
 NormalNotice=
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

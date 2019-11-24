@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3001
 Url=http://tiba.jsyks.com/Post/cfca2.htm
-Tittle=����԰�ȫ�г�����ҪӰ����ʲô��
+Tittle=雨天对安全行车的主要影响是什么？
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=雨天
 ImagePath=
 FlashPath=
 SkillId=32
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=��ס���������ҪӰ��ѡʪ������Ŀ�����������Ţ·��Ӱ�춼��ѡ����ˮ�͵�·ѡ�޷���&
-NormalNotice=1����ˮӰ�����ߣ�Ҫ���ʶȵ����Ƶ�Σ�    2��������ʪ�����ڳ���ǰ���ڱ����γ�������Ҫע�������    3������·���״򻬣�Ҫ���ְ�ȫ�ĵ��٣�    4����������£������ƶ�ʱ����ر��ַ����ȶ�����ֹ�෭��    5����ˮ���γ�·�湵���������ˮ������ɼ�ʻԱ�ж�ʧ��?
+SkillNotice=记住：雨天的主要影响选湿滑，题目有下雨天或泥泞路的影响都是选滑，水淹道路选无法。&
+NormalNotice=1、雨水影响视线，要开适度的雨刮频次；    2、空气潮湿容易在车的前档内表面形成雾气，要注意除雾；    3、雨天路面易打滑，要保持安全的低速；    4、特殊情况下，紧急制动时，务必保持方向稳定，防止侧翻；    5、雨水易形成路面沟、洞表面积水，易造成驾驶员判断失误，?
 [Options]
-Options1=��ʻ��������
-Options2=��������Ϩ��
-Options3=·��ʪ������������
-Options4=�����豸���ܳ���·
+Options1=行驶阻力增大
+Options2=发动机易熄火
+Options3=路面湿滑，视线受阻
+Options4=电器设备易受潮短路
 Image1=
 Image2=
-Image3=��
+Image3=滑
 Image4=
 [AnswerInfo]
 Answer1=0

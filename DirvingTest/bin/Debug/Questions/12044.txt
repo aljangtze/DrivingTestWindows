@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12044
 Url=http://tiba.jsyks.com/Post/5286a.htm
-Tittle=����������ʻ��ͻ���ƶ�ʧ��ʱ����ʻ��Ҫ��ȡʲô��ʩ��
+Tittle=机动车在行驶中突遇制动失灵时，驾驶人要采取什么措施？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,15 +10,15 @@ SkillId=52
 MoudleId=12
 Type=3
 Classification=4
-BankId=20
+BankId=0
 [SkillInfo]
-SkillNotice=����������ʻ��ͻ���ƶ�ʧ��ʱ��Ӧ�����ȷ��򲢿���Σ�ձ������⣬���ҵ��ٵ����٣�ͣ����ʹ��פ���ƶ������Է����ӳ��ֺ��������� ѡ��B��ʹ��פ���ƶ������٣���˵����ʹ���ƶ������٣�������һ��������
-NormalNotice=����������ʻ��ͻ���ƶ�ʧ��ʱ��Ӧ�����ȷ��򲢿���Σ�ձ������⣬���ҵ��ٵ����٣�ͣ����ʹ��פ���ƶ������Է����ӳ��ֺ��������� ѡ��B��ʹ��פ���ƶ������٣���˵����ʹ���ƶ������٣�������һ��������
+SkillNotice=机动车在行驶中突遇制动失灵时，应当握稳方向并开启危险报警闪光，抢挂低速挡减速，停车后使用驻车制动器，以防车子出现后溜的情况。 选项B：使用驻车制动器减速，是说慢慢使用制动器减速，而不是一下拉紧！
+NormalNotice=机动车在行驶中突遇制动失灵时，应当握稳方向并开启危险报警闪光，抢挂低速挡减速，停车后使用驻车制动器，以防车子出现后溜的情况。 选项B：使用驻车制动器减速，是说慢慢使用制动器减速，而不是一下拉紧！
 [Options]
-Options1=����Σ�ձ��������
-Options2=ʹ��פ���ƶ�������
-Options3=���ȷ���
-Options4=���ҵ��ٵ�����
+Options1=握稳方向
+Options2=开启危险报警闪光灯
+Options3=抢挂低速挡减速
+Options4=使用驻车制动器减速
 Image1=
 Image2=
 Image3=

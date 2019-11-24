@@ -1,6 +1,6 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=14038
-Tittle=ÕâÊôÓÚÄÄÒ»ÖÖ±êÖ¾£¿
+Tittle=è¿™å±äºå“ªä¸€ç§æ ‡å¿—ï¼Ÿ
 
 
 SkillEmphasize=
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=¿´Í¼£ºÀ¶É«ÊÇÖ¸Ê¾±êÖ¾£¬
+SkillNotice=çœ‹å›¾ï¼šè“è‰²æ˜¯æŒ‡ç¤ºæ ‡å¿—ï¼Œ
 NormalNotice=
 [Options]
-Options1=Ö¸Â·±êÖ¾
+Options1=æŒ‡è·¯æ ‡å¿—
 Image1=
-Options2=Ö¸Ê¾±êÖ¾
-Image2=Ö¸Ê¾
-Options3=½ûÁî±êÖ¾
+Options2=æŒ‡ç¤ºæ ‡å¿—
+Image2=æŒ‡ç¤º
+Options3=ç¦ä»¤æ ‡å¿—
 Image3=
-Options4=¾¯¸æ±êÖ¾
+Options4=è­¦å‘Šæ ‡å¿—
 Image4=
 [AnswerInfo]
 Answer1=0

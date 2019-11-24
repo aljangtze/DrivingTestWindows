@@ -1,22 +1,22 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=9074
 Url=http://tiba.jsyks.com/Post/dbb4a.htm
-Tittle=ÓÒ²à±êÖ¾±íÊ¾Ç°·½Â·¶ÎÔÊĞí³¬³µ¡£
+Tittle=å³ä¾§æ ‡å¿—è¡¨ç¤ºå‰æ–¹è·¯æ®µå…è®¸è¶…è½¦ã€‚
 TittleEmphasize=
-SkillEmphasize=ÔÊĞí
+SkillEmphasize=å…è®¸
 ImagePath=9074.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=33
+BankId=48
 [SkillInfo]
-SkillNotice=ºìÉ«±êÖ¾±íÊ¾£¬½ûÖ¹£¬ÌâÄ¿Ëµ£¬ÔÊĞí£¬´í£¡
-NormalNotice=Ç°·½Â·¶Î²»ÔÊĞí³¬³µ
+SkillNotice=çº¢è‰²æ ‡å¿—è¡¨ç¤ºï¼Œç¦æ­¢ï¼Œé¢˜ç›®è¯´ï¼Œå…è®¸ï¼Œé”™ï¼
+NormalNotice=å‰æ–¹è·¯æ®µä¸å…è®¸è¶…è½¦
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

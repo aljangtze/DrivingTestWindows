@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=9117
 Url=http://tiba.jsyks.com/Post/efa09.htm
-Tittle=Õâ¸ö±êÖ¾ÌáÊ¾¸ÃÂ·¶ÎÒÑÊµĞĞ½»Í¨¼à¿Ø¡£
+Tittle=è¿™ä¸ªæ ‡å¿—æç¤ºè¯¥è·¯æ®µå·²å®è¡Œäº¤é€šç›‘æ§ã€‚
 TittleEmphasize=
-SkillEmphasize=½»Í¨¼à¿Ø
+SkillEmphasize=äº¤é€šç›‘æ§
 ImagePath=9117.jpg
 FlashPath=
 SkillId=42
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=26
 [SkillInfo]
-SkillNotice=½»Í¨¼à¿ØÉè±¸£¬¶Ô
-NormalNotice=½»Í¨¼à¿ØÉè±¸
+SkillNotice=äº¤é€šç›‘æ§è®¾å¤‡ï¼Œå¯¹
+NormalNotice=äº¤é€šç›‘æ§è®¾å¤‡
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

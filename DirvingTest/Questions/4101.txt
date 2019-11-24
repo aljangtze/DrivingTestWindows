@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4101
 Url=http://tiba.jsyks.com/Post/6e4fd.htm
-Tittle=�������ڽ����ƶ�ʱABSϵͳ����ʲô���ã�
+Tittle=机动车在紧急制动时ABS系统会起到什么作用？
 TittleEmphasize=
 SkillEmphasize=ABS
 ImagePath=4101.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=ABS���Ƿ�����װ�á�ABSѡ��������
-NormalNotice=���ֱ��������ƶ������У����������ƶ����ص����ã�ֹͣת����·�����ϻ�������ͨ�׵Ľ���Ҳ������̥��ת�ˣ���������һ��שͷһ����·�滬����    ���ֱ���ʹ����ʧȥ�˵ֿ����������õ��������׷����໬������ʧ�صȣ����������������ſ��ƶ�̤�壬����ʹ���ƻָ�����
+SkillNotice=ABS就是防抱死装置。ABS选防抱死。
+NormalNotice=车轮抱死是在制动过程中，车轮由于制动力矩的作用，停止转动在路面上拖滑的现象。通俗的讲，也就是轮胎不转了，汽车就像一块砖头一样在路面滑动。    车轮抱死使车轮失去了抵抗横向力作用的能力，易发生侧滑、汽车失控等，如果车抱死，必须放开制动踏板，才能使控制恢复正常
 [Options]
-Options1=�Զ����Ʒ���
-Options2=��ֹ���ֱ���
-Options3=�����ƶ�����
-Options4=�ж϶������
+Options1=自动控制方向
+Options2=防止车轮抱死
+Options3=减轻制动惯性
+Options4=切断动力输出
 Image1=
-Image2=����
+Image2=抱死
 Image3=
 Image4=
 [AnswerInfo]

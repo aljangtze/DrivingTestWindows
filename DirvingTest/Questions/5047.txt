@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5047
 Url=http://tiba.jsyks.com/Post/9a7cc.htm
-Tittle=��ʻ��ʵϰ���ڿ��Ե�����ʻ���Ϳͳ����糵�����س���ǣ������
+Tittle=驾驶人实习期内可以单独驾驶大型客车、电车、起重车、牵引车。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ�������ڶ�ʮ����  ��������ʻ����ʵϰ���ڲ��ü�ʻ����������Ӫ�˿ͳ�����ִ������ľ��������������Ȼ��������̾��ճ��Լ����б�ը��Ʒ����ȼ�ױ���ѧ��Ʒ���綾���߷����Ե�Σ����Ʒ�Ļ���������ʻ�Ļ���������ǣ���ҳ���
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ�������ڶ�ʮ����  ��������ʻ����ʵϰ���ڲ��ü�ʻ����������Ӫ�˿ͳ�����ִ������ľ��������������Ȼ��������̾��ճ��Լ����б�ը��Ʒ����ȼ�ױ���ѧ��Ʒ���綾���߷����Ե�Σ����Ʒ�Ļ���������ʻ�Ļ���������ǣ���ҳ���
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第二十二条  机动车驾驶人在实习期内不得驾驶公共汽车、营运客车或者执行任务的警车、消防车、救护车、工程救险车以及载有爆炸物品、易燃易爆化学物品、剧毒或者放射性等危险物品的机动车；驾驶的机动车不得牵引挂车。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第二十二条  机动车驾驶人在实习期内不得驾驶公共汽车、营运客车或者执行任务的警车、消防车、救护车、工程救险车以及载有爆炸物品、易燃易爆化学物品、剧毒或者放射性等危险物品的机动车；驾驶的机动车不得牵引挂车。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

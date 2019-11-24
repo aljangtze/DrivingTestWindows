@@ -1,9 +1,9 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=8058
 Url=http://tiba.jsyks.com/Post/ca436.htm
-Tittle=¼ÝÊ»»ú¶¯³µÔÚÕâÖÖÇé¿öÏÂ²»ÄÜ³¬³µ¡£
+Tittle=é©¾é©¶æœºåŠ¨è½¦åœ¨è¿™ç§æƒ…å†µä¸‹ä¸èƒ½è¶…è½¦ã€‚
 TittleEmphasize=
-SkillEmphasize=²»ÄÜ³¬³µ
+SkillEmphasize=ä¸èƒ½è¶…è½¦
 ImagePath=8058.jpg
 FlashPath=
 SkillId=39
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=35
 [SkillInfo]
-SkillNotice=¼Ç×¡£º²»ÄÜ³¬³µ£¬¶Ô¡£Í¼ÖÐÌúµÀ¿Ú²»ÄÜ³¬³µ£¬¶Ô¡£
-NormalNotice=»ð³µµÀ ½ûÖ¹³¬³µ
+SkillNotice=è®°ä½ï¼šä¸èƒ½è¶…è½¦ï¼Œå¯¹ã€‚å›¾ä¸­é“é“å£ä¸èƒ½è¶…è½¦ï¼Œå¯¹ã€‚
+NormalNotice=ç«è½¦é“ ç¦æ­¢è¶…è½¦
 [Options]
-Options1=¶Ô
-Options2=´í
+Options1=å¯¹
+Options2=é”™
 Options3=
 Options4=
 Image1=

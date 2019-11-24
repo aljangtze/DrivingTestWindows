@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2162
 Url=http://tiba.jsyks.com/Post/052b5.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2162.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=����־���������п��Ա��ö��������Ĵ����д�����������ͣ������ᳵ�ľ��Ǵ�������
-NormalNotice=�������ǵ������Ż���ֵĵ�·��ʾ ������ͣ�����Ǹ��ٺ�ʡ���ϣ�û�е����� 2����־ȷʵ�ܽӽ�������ͣ������־���е�·�ָ��ߵ�
+SkillNotice=看标志：单车道中可以避让对面来车的处所叫错车道。可以停在里面会车的就是错车道。
+NormalNotice=错车道是单车道才会出现的道路标示 而紧急停车道是高速和省道上，没有单车道 2个标志确实很接近，紧急停车道标志上有道路分割线的
 [Options]
-Options1=����ͣ����
-Options2=������
-Options3=¶��ͣ����
-Options4=ͣ��λ
+Options1=紧急停车带
+Options2=错车道
+Options3=露天停车场
+Options4=停车位
 Image1=
-Image2=��
+Image2=错
 Image3=
 Image4=
 [AnswerInfo]

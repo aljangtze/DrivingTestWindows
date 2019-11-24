@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12021
 Url=http://tiba.jsyks.com/Post/55208.htm
-Tittle=������������̥�󣬼�ʻ������δ����ס����ǰ����Ҫð��ʹ���г��ƶ���ͣ�����Ա����������˦������������顣
+Tittle=机动车发生爆胎后，驾驶人在尚未控制住车速前，不要冒险使用行车制动器停车，以避免机动车横甩发生更大的险情。
 TittleEmphasize=
-SkillEmphasize=��Ҫð��
+SkillEmphasize=不要冒险
 ImagePath=
 FlashPath=
-SkillId=42
+SkillId=40
 MoudleId=12
 Type=1
 Classification=4
 BankId=33
 [SkillInfo]
-SkillNotice=��̥���ǲ�Ҫð����ɲ������������ͣ������ס���١��ԣ�
-NormalNotice=��̥�󣬼�ʻ������δ����ס���ٵ�ʱ���ǲ��ܼ���ɲ���ģ�Ҫ��Ȼ���˦���߷����Ѿ���������׷β �Ѽ������ۺ������������µ���������Ӧ���ǽ��շ����̣����Ʒ��򣬼�������ֱ����ʻ�����÷������ƶ����������������ٶȣ���̤�ƶ�̤�建�����٣�ƽ�ȿ���ͣ����
+SkillNotice=爆胎就是不要冒险用刹车，缓慢减速停车。制住车速。对！
+NormalNotice=爆胎后，驾驶人在尚未控制住车速的时候，是不能急踩刹车的，要不然会横甩或者翻车已经后面来车追尾 把几道题综合起来看，大致的做法觉得应该是紧握方向盘，控制方向，极力保持直线行驶，利用发动机制动，减档或抢档减速度，轻踏制动踏板缓慢减速，平稳靠边停车。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

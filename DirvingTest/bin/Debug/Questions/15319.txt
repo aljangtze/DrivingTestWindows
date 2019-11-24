@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15319
 Url=http://tiba.jsyks.com/Post/5afed.htm
-Tittle=��·����ר�ó����ģ���ר�ó����ڣ��������������Խ��������
+Tittle=道路划设专用车道的，在专用车道内，其他机动车可以借道超车。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=���л����񹲺͹���·��ͨ��ȫ���������µ�һ�� ����ʮ���� ��·����ר�ó����ģ���ר�ó����ڣ�ֻ׼���涨�ĳ���ͨ�У������������ý���ר�ó�������ʻ�����Ա����Ǵ��ġ�
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ���������µ�һ�� ����ʮ���� ��·����ר�ó����ģ���ר�ó����ڣ�ֻ׼���涨�ĳ���ͨ�У������������ý���ר�ó�������ʻ�����Ա����Ǵ��ġ�
+SkillNotice=《中华人民共和国道路交通安全法》第四章第一节 第三十七条 道路划设专用车道的，在专用车道内，只准许规定的车辆通行，其他车辆不得进入专用车道内行驶。所以本题是错的。
+NormalNotice=《中华人民共和国道路交通安全法》第四章第一节 第三十七条 道路划设专用车道的，在专用车道内，只准许规定的车辆通行，其他车辆不得进入专用车道内行驶。所以本题是错的。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

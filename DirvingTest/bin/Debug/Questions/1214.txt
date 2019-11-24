@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1214
 Url=http://tiba.jsyks.com/Post/d790c.htm
-Tittle=�����λ��ʱ����ʹ�õƹ⣿
+Tittle=在这个位置时怎样使用灯光？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=1214.jpg
@@ -12,14 +12,14 @@ Type=2
 Classification=3
 BankId=1
 [SkillInfo]
-SkillNotice=��ͼ��������·����ת��ƣ�ͼ�д��ѵ���ʻ����ٹ�·��Ӧ������ת��ơ�
-NormalNotice=���뿪����ת��ư������ұߵ�ת������ǿ������ģ����Ҳ����Ҫ������Ϊǰ���һ��·��ֻ����ô�ߡ� �����ת���Ǹ�����ֱ�еĳ������ģ�û��·�ڵ�ʱ����ʹ��ˣ� ֱ�еĳ���������ĵƻ���٣�����������·�ڴ���ײ��
+SkillNotice=看图：进高速路开左转向灯，图中从匝道口驶入高速公路，应开启左转向灯。
+NormalNotice=必须开启左转向灯啊！你右边的转向别人是看不到的，你后车也不需要看，因为前面就一条路你只能这么走。 你的左转向是给左面直行的车辆看的，没到路口的时候你就打开了， 直行的车辆看见你的灯会减速，避免两车在路口处相撞。
 [Options]
-Options1=������ת���
-Options2=����Σ�ձ��������
-Options3=������ת���
-Options4=����ǰ�յ�
-Image1=��
+Options1=开启左转向灯
+Options2=开启危险报警闪光灯
+Options3=开启右转向灯
+Options4=开启前照灯
+Image1=左
 Image2=
 Image3=
 Image4=

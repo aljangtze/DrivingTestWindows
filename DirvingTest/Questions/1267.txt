@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1267
 Url=http://tiba.jsyks.com/Post/cfb12.htm
-Tittle=����ʹ��α���������ϸ��־���ɵĳ�������ͨ����ֻ���з������
+Tittle=对有使用伪造或变造检验合格标志嫌疑的车辆，交通警察只进行罚款处罚。
 TittleEmphasize=
-SkillEmphasize=ֻ&����
+SkillEmphasize=只&罚款
 ImagePath=
 FlashPath=
 SkillId=14
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=���ɣ�ֻ���з����������ֻ�룬ֻҪ��ֻ���û��ͼƬ�������ֻ���ֵĶ����� 
-NormalNotice=���ݡ��л����񹲺͹���·��ͨ��ȫ�����ھ�ʮ�����涨��α�졢�������ʹ��α�졢����Ļ������Ǽ�֤�顢���ơ���ʻ֤����ʻ֤�ģ��ɹ������ؽ�ͨ�������������սɣ������û���������ʮ�������¾�����������ǧԪ������ǧԪ���·�����ɷ���ģ�����׷���������Ρ�    α��
+SkillNotice=技巧：只进行罚款处罚错，有只须，只要，只罚款，没有图片的题带“只”字的都错。 
+NormalNotice=根据《中华人民共和国道路交通安全法》第九十六条规定　伪造、变造或者使用伪造、变造的机动车登记证书、号牌、行驶证、驾驶证的，由公安机关交通管理部门予以收缴，扣留该机动车，处十五日以下拘留，并处二千元以上五千元以下罚款；构成犯罪的，依法追究刑事责任。    伪造
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

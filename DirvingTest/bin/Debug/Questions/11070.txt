@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11070
 Url=http://tiba.jsyks.com/Post/73b62.htm
-Tittle=���칫·�г��ɶ�ʹ�������������ע�⣻������������������ȣ�ҲҪ�����Ȼ�Ӧ��
+Tittle=雾天公路行车可多使用喇叭引起对向注意；听到对向机动车鸣喇叭，也要鸣喇叭回应。
 TittleEmphasize=
-SkillEmphasize=�����Ȼ�Ӧ
+SkillEmphasize=鸣喇叭回应
 ImagePath=
 FlashPath=
-SkillId=42
+SkillId=40
 MoudleId=11
 Type=1
 Classification=4
 BankId=20
 [SkillInfo]
-SkillNotice=��Ŀ�������Ƚб����ã����õĶ��Ǵ��ġ���סֻ�к���ʹ�������ȡ������Ȼ�Ӧ���ԣ�
-NormalNotice=������Ұ���ã��������������£�ֻ��ͨ���������ж�����������λ�á��������Ƚ϶���������������������������������������ʱ��Ҳ�ø�֪�Է��Լ����ڵ�λ�ã������򿴲��巢���¹ʡ� ���������ǶԵġ�
+SkillNotice=题目中鸣喇叭叫别人让，车让的都是错的。记住只有合理使用鸣喇叭、鸣喇叭回应，对！
+NormalNotice=雾天视野不好，看不清楚的情况下，只能通过声音来判断其他车辆的位置。因此雾天比较多用喇叭来“交流”，当听到其他车辆鸣喇叭时，也该告知对方自己所在的位置，避免因看不清发生事故。 所以这题是对的。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

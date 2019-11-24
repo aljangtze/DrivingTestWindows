@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4079
 Url=http://tiba.jsyks.com/Post/c5c01.htm
-Tittle=����𿪹�ת��ACCλ���𶯻�������
+Tittle=将点火开关转到ACC位置起动机工作。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4079.jpg
 FlashPath=
-SkillId=36
+SkillId=35
 MoudleId=4
 Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=Կ��ָ���Ա��������ʱ��ԣ�Կ��ָ���м��������ʱ�����
-NormalNotice=��������ص�λ���÷�ʽ���京���ǣ�LOCK���жϵ�Դ�����������̣�ACC����ͨ������Դ�������������ȸ�����ON����ͨ���𶯻����ȫ��ȫ����Դ��START����ͨ�𶯻���Դ���𶯷������� ���𶯺�����Կ�ף����Զ�����ON��λ������ο���
+SkillNotice=钥匙指着旁边两个点的时候对，钥匙指着中间两个点的时候错。
+NormalNotice=点火锁开关档位设置方式。其含义是：LOCK、切断电源，锁定方向盘；ACC、接通附件电源（比如收音机等附件）ON、接通除起动机外的全车全部电源；START、接通起动机电源，起动发动机。 （起动后松手钥匙，会自动弹回ON档位）供你参考。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8010
 Url=http://tiba.jsyks.com/Post/36b59.htm
-Tittle=��װ�������ƶ�װ�ã�ABS���Ļ������ƶ�ʱ���ƶ�����������̡�
+Tittle=安装防抱死制动装置（ABS）的机动车制动时，制动距离会大大缩短。
 TittleEmphasize=
-SkillEmphasize=ABS�����
+SkillEmphasize=ABS，大大
 ImagePath=
 FlashPath=
 SkillId=44
 MoudleId=8
 Type=1
 Classification=4
-BankId=21
+BankId=51
 [SkillInfo]
-SkillNotice=ABS����Ŀ���󣬴���
-NormalNotice=����һ��װ��ABS�ĳ����ƶ�������û��װABS�ĳ��������̡���    �������ִ���˵����ԭ������ΪABS�������ڽϽ������ƶ������·������õģ����Ի������ABS�����ú��ƶ��������̵�ӡ��        ��ʵ�ƶ�����ĳ�����·���Ħ��ϵ���Լ���̥�и�ֱ�ӵĹ�ϵ����ĳЩ���
+SkillNotice=ABS的题目带大，错！
+NormalNotice=误区一：装有ABS的车，制动距离会较没有装ABS的车大大地缩短。　    产生这种错误说法的原因，是因为ABS往往是在较紧急的制动动作下发挥作用的，所以会给人以ABS起作用后制动距离缩短的印象。        其实制动距离的长短与路面的摩擦系数以及轮胎有更直接的关系，在某些情况
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

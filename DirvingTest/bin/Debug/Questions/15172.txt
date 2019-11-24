@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15172
 Url=http://tiba.jsyks.com/Post/89ffa.htm
-Tittle=��ʻ�˼�ʻ�дﵽ���ϱ�׼���ɻ�������·�ģ���ͨ�����������Ծ�����
+Tittle=驾驶人驾驶有达到报废标准嫌疑机动车上路的，交通警察依法予以拘留。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=�����Ǽ�ʻ�˶����ǳ��������Ǵ�����Ԫ���϶�ǧԪ���·����������������ʻ֤��
-NormalNotice=�����Ǽ�ʻ�˶����ǳ��������Ǵ�����Ԫ���϶�ǧԪ���·����������������ʻ֤��
+SkillNotice=主语是驾驶人而不是车。对人是处二百元以上二千元以下罚款，并吊销机动车驾驶证。
+NormalNotice=主语是驾驶人而不是车。对人是处二百元以上二千元以下罚款，并吊销机动车驾驶证。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

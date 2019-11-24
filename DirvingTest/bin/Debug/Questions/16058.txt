@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=16058
 Url=http://tiba.jsyks.com/Post/f2097.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16058.jpg
@@ -11,13 +11,12 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=
-NormalNotice=
+SkillNotice=NormalNotice=
 [Options]
-Options1=½ûÖ¹Ğ¡ĞÍ³µĞĞÊ»
-Options2=»ú¶¯³µĞĞÊ»
-Options3=Ö»×¼Ğ¡ĞÍ³µĞĞÊ»
-Options4=²»×¼Ğ¡ĞÍ³µÍ¨ĞĞ
+Options1=ç¦æ­¢å°å‹è½¦è¡Œé©¶
+Options2=æœºåŠ¨è½¦è¡Œé©¶
+Options3=åªå‡†å°å‹è½¦è¡Œé©¶
+Options4=ä¸å‡†å°å‹è½¦é€šè¡Œ
 Image1=
 Image2=
 Image3=

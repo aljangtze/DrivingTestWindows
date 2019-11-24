@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12094
 Url=http://tiba.jsyks.com/Post/d7b66.htm
-Tittle=�ڸ��ٹ�·�������������ʱ��Ҫ���׼�ת����á�
+Tittle=在高速公路上遇到紧急情况时不要轻易急转向避让。
 TittleEmphasize=
-SkillEmphasize=��Ҫ���׼�ת�����
+SkillEmphasize=不要轻易急转向避让
 ImagePath=
 FlashPath=
 SkillId=39
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=36
 [SkillInfo]
-SkillNotice=��ס����Ҫ���׼�ת����ã��ԡ������С��ס��ֶԡ����ܼ�ת����ø��ԡ�
-NormalNotice=�Եġ��ڸ��ٹ�·�Ϸ��������������Ҫ���׼�ת������ã�Ӧ���Ȳ�ȡ�ƶ����٣�ʹ��������ײǰ����ֹͣ������н�״̬���Լ�С��ײ�𻵳̶ȡ� ��������ղ�ȡ��ʩ�������߳�����Ҫ���޶ȣ���ɲ�Ӧ�е��𺦵ģ�����������Ӧ���е��ʵ����������Ρ��ȼ�ת�Ļ�����ܷ�������?
+SkillNotice=记住：不要轻易急转向避让，对。题中有“易”字对。不能急转向避让更对。
+NormalNotice=对的。在高速公路上发生紧急情况，不要轻易急转方向避让，应首先采取制动减速，使车辆在碰撞前处于停止或低速行进状态，以减小碰撞损坏程度。 因紧急避险采取措施不当或者超过必要的限度，造成不应有的损害的，紧急避险人应当承担适当的民事责任。先急转的话会可能发生车辆?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15180
 Url=http://tiba.jsyks.com/Post/c1a4f.htm
-Tittle=�����������Ʋ���ʧ��ͨ�¹ʣ���Ӧ�����г����ֳ���δ������ɽ�ͨ�����ģ����ԶԼ�ʻ�˴���200Ԫ���
+Tittle=机动车发生财产损失交通事故，对应当自行撤离现场而未撤离造成交通堵塞的，可以对驾驶人处以200元罚款。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=����·��ͨ�¹ʴ�������涨����ʮ��������Ӧ�����г����ֳ���δ����ģ���ͨ����Ӧ��������˳����ֳ�����ɽ�ͨ�����ģ��Լ�ʻ�˴���200Ԫ�����ʻ����������·��ͨ��ȫΥ����Ϊ�ģ�����һ��������
-NormalNotice=����·��ͨ�¹ʴ�������涨����ʮ��������Ӧ�����г����ֳ���δ����ģ���ͨ����Ӧ��������˳����ֳ�����ɽ�ͨ�����ģ��Լ�ʻ�˴���200Ԫ�����ʻ����������·��ͨ��ȫΥ����Ϊ�ģ�����һ��������
+SkillNotice=《道路交通事故处理程序规定》第十三条：对应当自行撤离现场而未撤离的，交通警察应当责令当事人撤离现场；造成交通堵塞的，对驾驶人处以200元罚款；驾驶人有其他道路交通安全违法行为的，依法一并处罚。
+NormalNotice=《道路交通事故处理程序规定》第十三条：对应当自行撤离现场而未撤离的，交通警察应当责令当事人撤离现场；造成交通堵塞的，对驾驶人处以200元罚款；驾驶人有其他道路交通安全违法行为的，依法一并处罚。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

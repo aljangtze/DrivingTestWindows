@@ -1,23 +1,23 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=15026
 Url=http://tiba.jsyks.com/Post/d50e9.htm
-Tittle=¼ÝÊ»»ú¶¯³µÔÚÏÂÁÐÄÄÖÖÇéÐÎÏÂ²»ÄÜ³¬Ô½Ç°³µ£¿
+Tittle=é©¾é©¶æœºåŠ¨è½¦åœ¨ä¸‹åˆ—å“ªç§æƒ…å½¢ä¸‹ä¸èƒ½è¶…è¶Šå‰è½¦ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
 FlashPath=
 SkillId=0
-MoudleId=15
+MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=¡¶µÀÂ·½»Í¨°²È«·¨¡·µÚËÄÊ®ÈýÌõ£º     Í¬³µµÀÐÐÊ»µÄ»ú¶¯³µ£¬ºó³µÓ¦µ±ÓëÇ°³µ±£³Ö×ãÒÔ²ÉÈ¡½ô¼±ÖÆ¶¯´ëÊ©µÄ°²È«¾àÀë¡£ÓÐÏÂÁÐÇéÐÎÖ®Ò»µÄ£¬²»µÃ³¬³µ£º     £¨Ò»£©Ç°³µÕýÔÚ×ó×ªÍä¡¢µôÍ·¡¢³¬³µµÄ£»     £¨¶þ£©Óë¶ÔÃæÀ´³µÓÐ»á³µ¿ÉÄÜµÄ£»     £¨Èý£©Ç°³µÎªÖ´ÐÐ½ô¼±ÈÎÎñµÄ¾¯³µ¡¢Ïû·À³µ¡¢¾È»¤³µ¡¢¹¤³Ì¾ÈÏÕ³µµÄ£»     £¨ËÄ£©ÐÐ¾­ÌúÂ·µÀ¿Ú¡¢½»²æÂ·¿Ú¡¢Õ­ÇÅ¡¢ÍäµÀ¡¢¶¸ÆÂ¡¢ËíµÀ¡¢ÈËÐÐºáµÀ¡¢ÊÐÇø½»Í¨Á÷Á¿´óµÄÂ·¶ÎµÈÃ»ÓÐ³¬³µÌõ¼þµÄ¡£
-NormalNotice=¡¶µÀÂ·½»Í¨°²È«·¨¡·µÚËÄÊ®ÈýÌõ£º     Í¬³µµÀÐÐÊ»µÄ»ú¶¯³µ£¬ºó³µÓ¦µ±ÓëÇ°³µ±£³Ö×ãÒÔ²ÉÈ¡½ô¼±ÖÆ¶¯´ëÊ©µÄ°²È«¾àÀë¡£ÓÐÏÂÁÐÇéÐÎÖ®Ò»µÄ£¬²»µÃ³¬³µ£º     £¨Ò»£©Ç°³µÕýÔÚ×ó×ªÍä¡¢µôÍ·¡¢³¬³µµÄ£»     £¨¶þ£©Óë¶ÔÃæÀ´³µÓÐ»á³µ¿ÉÄÜµÄ£»     £¨Èý£©Ç°³µÎªÖ´ÐÐ½ô¼±ÈÎÎñµÄ¾¯³µ¡¢Ïû·À³µ¡¢¾È»¤³µ¡¢¹¤³Ì¾ÈÏÕ³µµÄ£»     £¨ËÄ£©ÐÐ¾­ÌúÂ·µÀ¿Ú¡¢½»²æÂ·¿Ú¡¢Õ­ÇÅ¡¢ÍäµÀ¡¢¶¸ÆÂ¡¢ËíµÀ¡¢ÈËÐÐºáµÀ¡¢ÊÐÇø½»Í¨Á÷Á¿´óµÄÂ·¶ÎµÈÃ»ÓÐ³¬³µÌõ¼þµÄ¡£
+SkillNotice=ã€Šé“è·¯äº¤é€šå®‰å…¨æ³•ã€‹ç¬¬å››åä¸‰æ¡ï¼š     åŒè½¦é“è¡Œé©¶çš„æœºåŠ¨è½¦ï¼ŒåŽè½¦åº”å½“ä¸Žå‰è½¦ä¿æŒè¶³ä»¥é‡‡å–ç´§æ€¥åˆ¶åŠ¨æŽªæ–½çš„å®‰å…¨è·ç¦»ã€‚æœ‰ä¸‹åˆ—æƒ…å½¢ä¹‹ä¸€çš„ï¼Œä¸å¾—è¶…è½¦ï¼š     ï¼ˆä¸€ï¼‰å‰è½¦æ­£åœ¨å·¦è½¬å¼¯ã€æŽ‰å¤´ã€è¶…è½¦çš„ï¼›     ï¼ˆäºŒï¼‰ä¸Žå¯¹é¢æ¥è½¦æœ‰ä¼šè½¦å¯èƒ½çš„ï¼›     ï¼ˆä¸‰ï¼‰å‰è½¦ä¸ºæ‰§è¡Œç´§æ€¥ä»»åŠ¡çš„è­¦è½¦ã€æ¶ˆé˜²è½¦ã€æ•‘æŠ¤è½¦ã€å·¥ç¨‹æ•‘é™©è½¦çš„ï¼›     ï¼ˆå››ï¼‰è¡Œç»é“è·¯é“å£ã€äº¤å‰è·¯å£ã€çª„æ¡¥ã€å¼¯é“ã€é™¡å¡ã€éš§é“ã€äººè¡Œæ¨ªé“ã€å¸‚åŒºäº¤é€šæµé‡å¤§çš„è·¯æ®µç­‰æ²¡æœ‰è¶…è½¦æ¡ä»¶çš„ã€‚
+NormalNotice=ã€Šé“è·¯äº¤é€šå®‰å…¨æ³•ã€‹ç¬¬å››åä¸‰æ¡ï¼š     åŒè½¦é“è¡Œé©¶çš„æœºåŠ¨è½¦ï¼ŒåŽè½¦åº”å½“ä¸Žå‰è½¦ä¿æŒè¶³ä»¥é‡‡å–ç´§æ€¥åˆ¶åŠ¨æŽªæ–½çš„å®‰å…¨è·ç¦»ã€‚æœ‰ä¸‹åˆ—æƒ…å½¢ä¹‹ä¸€çš„ï¼Œä¸å¾—è¶…è½¦ï¼š     ï¼ˆä¸€ï¼‰å‰è½¦æ­£åœ¨å·¦è½¬å¼¯ã€æŽ‰å¤´ã€è¶…è½¦çš„ï¼›     ï¼ˆäºŒï¼‰ä¸Žå¯¹é¢æ¥è½¦æœ‰ä¼šè½¦å¯èƒ½çš„ï¼›     ï¼ˆä¸‰ï¼‰å‰è½¦ä¸ºæ‰§è¡Œç´§æ€¥ä»»åŠ¡çš„è­¦è½¦ã€æ¶ˆé˜²è½¦ã€æ•‘æŠ¤è½¦ã€å·¥ç¨‹æ•‘é™©è½¦çš„ï¼›     ï¼ˆå››ï¼‰è¡Œç»é“è·¯é“å£ã€äº¤å‰è·¯å£ã€çª„æ¡¥ã€å¼¯é“ã€é™¡å¡ã€éš§é“ã€äººè¡Œæ¨ªé“ã€å¸‚åŒºäº¤é€šæµé‡å¤§çš„è·¯æ®µç­‰æ²¡æœ‰è¶…è½¦æ¡ä»¶çš„ã€‚
 [Options]
-Options1=Ç°³µ¼õËÙÈÃÐÐ
-Options2=Ç°³µÕýÔÚ×ó×ªÍä
-Options3=Ç°³µ¿¿±ßÍ£³µ
-Options4=Ç°³µÕýÔÚÓÒ×ªÍä
+Options1=å‰è½¦å‡é€Ÿè®©è¡Œ
+Options2=å‰è½¦æ­£åœ¨å·¦è½¬å¼¯
+Options3=å‰è½¦é è¾¹åœè½¦
+Options4=å‰è½¦æ­£åœ¨å³è½¬å¼¯
 Image1=
 Image2=
 Image3=

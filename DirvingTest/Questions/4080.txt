@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4080
 Url=http://tiba.jsyks.com/Post/1d5ed.htm
-Tittle=��𿪹���ONλ�ã����õ�������ʹ�á�
+Tittle=点火开关在ON位置，车用电器不能使用。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4080.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=Կ��ָ���Ա��������ʱ��ԣ�Կ��ָ���м��������ʱ�����
-NormalNotice=�Ǵ���ġ�    ������𿪹���START��ON��ACC��LOCK�ĸ���λ��LOCK�����������̵ģ�ACC�ǿ��Դ򿪲��ֵ���Ԫ���� ���������ȣ�ON ��ͨ�������е���Ԫ����������ʻ�����о��ڴ�λ�ã� STARTΪ����λ�õ���õ�
+SkillNotice=钥匙指着旁边两个点的时候对，钥匙指着中间两个点的时候错。
+NormalNotice=是错误的。    汽车点火开关有START、ON、ACC、LOCK四个档位。LOCK是锁定方向盘的；ACC是可以打开部分电器元件， 如收音机等；ON 接通车中所有电器元件，车辆行驶过程中就在此位置； START为启动位置点火用的
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

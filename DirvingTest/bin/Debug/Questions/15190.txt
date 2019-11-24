@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15190
 Url=http://tiba.jsyks.com/Post/ccf76.htm
-Tittle=���ƺ��ʻ��������һ�μ�12�֡�
+Tittle=饮酒后驾驶机动车的一次记12分。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=�ƺ�ݳ���12�֣����ݵ������ղ���5���ڲ��ÿ����ա�
-NormalNotice=�ƺ�ݳ���12�֣����ݵ������ղ���5���ڲ��ÿ����ա�
+SkillNotice=酒后驾车扣12分，醉驾吊销驾照并且5年内不得考驾照。
+NormalNotice=酒后驾车扣12分，醉驾吊销驾照并且5年内不得考驾照。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

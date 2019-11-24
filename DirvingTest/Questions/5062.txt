@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5062
 Url=http://tiba.jsyks.com/Post/4c549.htm
-Tittle=ȫ���г�������Ҫ����ǣ������ҳ��γɽϴ�ĽǶȡ�
+Tittle=全挂列车倒车，要避免牵引车与挂车形成较大的角度。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=ǣ������ҳ��γɽϴ�ĽǶȣ��ǶԵ� ������˵Ҫ����ϴ�Ƕȣ�������˼���Խ�С�Ƕ� �������𰸾��Ǵ���
-NormalNotice=ǣ������ҳ��γɽϴ�ĽǶȣ��ǶԵ� ������˵Ҫ����ϴ�Ƕȣ�������˼���Խ�С�Ƕ� �������𰸾��Ǵ���
+SkillNotice=牵引车与挂车形成较大的角度，是对的 但是他说要避免较大角度，那他意思是以较小角度 所以他答案就是错的
+NormalNotice=牵引车与挂车形成较大的角度，是对的 但是他说要避免较大角度，那他意思是以较小角度 所以他答案就是错的
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

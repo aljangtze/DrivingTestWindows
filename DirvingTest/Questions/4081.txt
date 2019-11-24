@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4081
 Url=http://tiba.jsyks.com/Post/bb359.htm
-Tittle=��𿪹���LOCKλ�ðγ�Կ��ת���̻���ס��
+Tittle=点火开关在LOCK位置拔出钥匙转向盘会锁住。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4081.jpg
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=Կ��ָ���Ա��������ʱ��ԣ�Կ��ָ���м��������ʱ�����
-NormalNotice=Lock:�жϵ�Դ����ס�����̣����Acc����ͨ������Դ. ON:��ͨ�𶯻���Դ�����ȫ��ȫ����Դ.START����ͨ�𶯻���Դ���𶯷�����[�������ɿ�Կ�׻��Զ�����ON��λ]
+SkillNotice=钥匙指着旁边两个点的时候对，钥匙指着中间两个点的时候错。
+NormalNotice=Lock:切断电源，锁住方向盘，点火！Acc：接通附件电源. ON:接通起动机电源以外的全车全部电源.START：接通起动机电源，起动发动机[启动后松开钥匙会自动调回ON档位]
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

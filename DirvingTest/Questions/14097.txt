@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14097
-Tittle=�����г�������������Ϊ���Ʒ���ĵƹ���и��õĴ�͸�����������õ�·������������ʻԱע�⵽�Լ��ĳ�����
-SkillEmphasize=�����õ�·��ע��
+Tittle=雾天行车开启雾灯是因为雾灯放射的灯光具有更好的穿透力，更容易让道路中其他车辆驾驶员注意到自己的车辆。
+SkillEmphasize=容易让道路，注意
 ImagePath=
 FlashPath=
 SkillId=48
@@ -10,12 +10,12 @@ Type=1
 Classification=4
 BankId=21
 [SkillInfo]
-SkillNotice=���������ס��õ�·����ע��ģ����ԡ�
+SkillNotice=题中有容易、让道路、和注意的，都对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

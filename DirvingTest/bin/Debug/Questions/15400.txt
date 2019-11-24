@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15400
 Url=http://tiba.jsyks.com/Post/8fb12.htm
-Tittle=����Ħ�г����ˣ����ش���ȫͷ����
+Tittle=乘坐摩托车的人，不必戴安全头盔。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=����·��ͨ��ȫ��������ʮһ���涨������������ʻʱ����ʻ�ˡ�������ԱӦ�����涨ʹ�ð�ȫ����Ħ�г���ʻ�˼�������ԱӦ�����涨����ȫͷ������
-NormalNotice=����·��ͨ��ȫ��������ʮһ���涨������������ʻʱ����ʻ�ˡ�������ԱӦ�����涨ʹ�ð�ȫ����Ħ�г���ʻ�˼�������ԱӦ�����涨����ȫͷ������
+SkillNotice=《道路交通安全法》第五十一条规定：“机动车行驶时，驾驶人、乘坐人员应当按规定使用安全带，摩托车驾驶人及乘坐人员应当按规定戴安全头盔。”
+NormalNotice=《道路交通安全法》第五十一条规定：“机动车行驶时，驾驶人、乘坐人员应当按规定使用安全带，摩托车驾驶人及乘坐人员应当按规定戴安全头盔。”
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

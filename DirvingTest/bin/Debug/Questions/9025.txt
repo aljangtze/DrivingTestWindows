@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9025
 Url=http://tiba.jsyks.com/Post/59fbd.htm
-Tittle=�Ҳ��־����ǰ��·�������խ����Ϊ5���
+Tittle=右侧标志警告前方路面两侧变窄长度为5公里。
 TittleEmphasize=
-SkillEmphasize=5����
+SkillEmphasize=5公里
 ImagePath=9025.jpg
 FlashPath=
-SkillId=43
+SkillId=42
 MoudleId=9
 Type=1
 Classification=4
-BankId=22
+BankId=42
 [SkillInfo]
-SkillNotice=ͼƬ����5�����Ŀ��5����ԡ�
-NormalNotice=�����խ�����Ծ��泵����ʻ��ע��ǰ�����е���·����խ�������������Ӧ����ٱ��á�����˫����·���������Ϊ6 m���µ�·�����ǰ����
+SkillNotice=图片中有5公里，题目有5公里，对。
+NormalNotice=两侧变窄：用以警告车辆驾驶人注意前方车行道或路面狭窄情况，遇有来车应予减速避让。设在双车道路面宽度缩减为6 m以下的路段起点前方。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

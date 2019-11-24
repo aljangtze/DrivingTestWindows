@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14081
-Tittle=�г��У��ƶ�����������Ӧ�Բ�һ���ƶ���ֻҪ��Ч�������г���
-SkillEmphasize=ֻҪ
+Tittle=行车中，制动报警灯亮，应试踩一下制动，只要有效可正常行车。
+SkillEmphasize=只要
 ImagePath=
 FlashPath=
 SkillId=14
@@ -10,12 +10,12 @@ Type=1
 Classification=3
 BankId=10
 [SkillInfo]
-SkillNotice=��ס��ֻҪ��Ч�������г�������ֻҪ������
+SkillNotice=记住：只要有效可正常行车错，有只要，错。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

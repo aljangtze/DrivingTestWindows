@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15358
 Url=http://tiba.jsyks.com/Post/109bf.htm
-Tittle=��ʻ���г�����ʶ����̥ʱ��Ҫ��̤�ƶ�̤�壬��������ͣ����
+Tittle=驾驶人行车中意识到爆胎时，要轻踏制动踏板，缓慢减速停车。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=��ʶ����̥��Ҫ���շ����̣����պ÷�������ƶ�̤�壬���ټ���ͣ����������̥���Ļ�ƫ��̥��һ�࣬��ʱǧ���ܽ����ƶ�������ɲ෭����˱�����ȷ��
-NormalNotice=��ʶ����̥��Ҫ���շ����̣����պ÷�������ƶ�̤�壬���ټ���ͣ����������̥���Ļ�ƫ��̥��һ�࣬��ʱǧ���ܽ����ƶ�������ɲ෭����˱�����ȷ��
+SkillNotice=意识到爆胎，要紧握方向盘，掌握好方向，轻踩制动踏板，缓速减速停车。汽车爆胎重心会偏向爆胎的一侧，这时千万不能紧急制动，会造成侧翻。因此本题正确。
+NormalNotice=意识到爆胎，要紧握方向盘，掌握好方向，轻踩制动踏板，缓速减速停车。汽车爆胎重心会偏向爆胎的一侧，这时千万不能紧急制动，会造成侧翻。因此本题正确。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

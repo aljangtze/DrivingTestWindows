@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9188
 Url=http://tiba.jsyks.com/Post/79bf5.htm
-Tittle=·����״�߱�ʾ��������������ڵȴ���
+Tittle=路面网状线表示允许进入该区域内等待。
 TittleEmphasize=
-SkillEmphasize=��������
+SkillEmphasize=允许进入
 ImagePath=9188.jpg
 FlashPath=
 SkillId=41
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=32
 [SkillInfo]
-SkillNotice=ͼ����״���ǲ��ܽ��룬��Ŀ��˵�������룬����
-NormalNotice=·���ɫ��״�߱�ʾ�ϸ��ֹһ�г�����ʱ����ʱͣ������ֹ��ͨ����������ɫ��״��ǰ���г���ͣʻʱ���󳵱����ڻ�ɫ��״����Ⱥ�ֱ��ȷ�ϻ�ɫ��״��ǰ�����㹻�ռ�ͣʻ����ʱ������ʻ����ɫ��״�ߡ�         ���л�ɫ��״����ʩ������Ҫ���һ��ء����ӡ���������ҵ��λ��?
+SkillNotice=图中网状线是不能进入，题目上说允许进入，错！
+NormalNotice=路面黄色网状线表示严格禁止一切车辆长时或临时停车，防止交通阻塞。当黄色网状线前方有车辆停驶时，后车必须在黄色网状线外等候，直到确认黄色网状线前方有足够空间停驶本车时，方可驶过黄色网状线。         另有黄色网状线是施画在重要国家机关、军队、大型企事业单位和?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

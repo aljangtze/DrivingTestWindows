@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=8030
 Url=http://tiba.jsyks.com/Post/b347d.htm
-Tittle=��ʻ�����������������������ʻ�ȫ��
+Tittle=驾驶机动车遇到这种情况怎样行驶最安全？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=8030.jpg
@@ -10,21 +10,21 @@ SkillId=45
 MoudleId=8
 Type=2
 Classification=4
-BankId=17
+BankId=27
 [SkillInfo]
-SkillNotice=���𰸣��м��٣�ͣ���õĴ�ֱ��ѡ��
-NormalNotice=ǰ���г�����ȫ��� ���ٻ�ͣ������
+SkillNotice=看答案：有减速，停车让的答案直接选。
+NormalNotice=前方有车，安全起见 减速或停车让行
 [Options]
-Options1=ռ���򳵵��ᳵ
-Options2=����·������ʻ
-Options3=���ٻ�ͣ������
-Options4=������������
+Options1=保持正常车速
+Options2=占对向车道会车
+Options3=紧靠路中心行驶
+Options4=减速或停车让行
 Image1=
 Image2=
-Image3=����
-Image4=
+Image3=
+Image4=减速
 [AnswerInfo]
 Answer1=0
 Answer2=0
-Answer3=1
-Answer4=0
+Answer3=0
+Answer4=1

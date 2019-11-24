@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16186
 Url=http://tiba.jsyks.com/Post/26b8a.htm
-Tittle=Ħ�г�ǰ�ֱ�̥ʱ����������ص����Ұڶ�����ʻ��Ӧ������С���ţ�����ת��ѣ��𼶼���������ͣ����
+Tittle=摩托车前轮爆胎时，会产生严重的左右摆动，驾驶人应立即减小油门，紧握转向把，逐级减挡，减速停车。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=��ʱ��Ѹ�ٲ��ƶ������п���ʹ����̥����������һ���ͺ����׷���Σ���ˡ����Ӧ�ò�ȡ�𼶼����ķ�ʽ���٣�ֱ��ͣ����
-NormalNotice=��ʱ��Ѹ�ٲ��ƶ������п���ʹ����̥����������һ���ͺ����׷���Σ���ˡ����Ӧ�ò�ȡ�𼶼����ķ�ʽ���٣�ֱ��ͣ����
+SkillNotice=此时若迅速踩制动，很有可能使得轮胎抱死，这样一来就很容易发生危险了。因此应该采取逐级减档的方式减速，直至停车。
+NormalNotice=此时若迅速踩制动，很有可能使得轮胎抱死，这样一来就很容易发生危险了。因此应该采取逐级减档的方式减速，直至停车。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

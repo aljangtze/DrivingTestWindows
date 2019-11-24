@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9195
 Url=http://tiba.jsyks.com/Post/321df.htm
-Tittle=·�����ο����߾���ǰ����·Ҫ�������С�
+Tittle=路面菱形块虚线警告前方道路要减速慢行。
 TittleEmphasize=
-SkillEmphasize=Ҫ��������
+SkillEmphasize=要减速慢行
 ImagePath=9195.jpg
 FlashPath=
-SkillId=41
+SkillId=40
 MoudleId=9
 Type=1
 Classification=4
 BankId=33
 [SkillInfo]
-SkillNotice=Ҫ�������У���!
-NormalNotice=���е�������ٱ���Ϊһ��ƽ���ڳ��е��ֽ��ߵ����ο����ߡ��ڳ��е�������ٱ��ߵ���ʼλ�ã�����30 m�Ľ���Σ����ο�������խ�����
+SkillNotice=要减速慢行，对!
+NormalNotice=车行道纵向减速标线为一组平行于车行道分界线的菱形块虚线。在车行道纵向减速标线的起始位置，设置30 m的渐变段，菱形块虚线由窄变宽。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

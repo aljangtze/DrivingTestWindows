@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1143
 Url=http://tiba.jsyks.com/Post/10d89.htm
-Tittle=��·��ֱ��ʱ���������������ͨ�У�
+Tittle=在路口直行时，遇这种情形如何通行？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=1143.jpg
@@ -12,17 +12,17 @@ Type=2
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=��ͼ��·�����඼������������Ҫ��ѭ�����ȵ�ԭ�򣬴��������ã�ѡ���ҷ���·�������ȡ�
-NormalNotice=��������ԭ��ת��Ļ�������ֱ�еĳ������У��ҷ���·�������У���ת�䳵����ת�䳵���С�    ���л����񹲺͹���·��ͨ��ȫ��������ʮ���� ������ͨ��û�н�ͨ�źŵƿ���Ҳû�н�ͨ����ָ�ӵĽ���·�ڣ���Ӧ�����ص���ʮһ����(��)���(��)��Ĺ涨�⣬��Ӧ����������?
+SkillNotice=看图：路口两侧都有来车，还是要遵循让他先的原则，答案有两个让，选让右方道路车辆优先。
+NormalNotice=三个先行原则：转弯的机动车让直行的车辆先行，右方道路来车先行，右转弯车让左转弯车先行。    《中华人民共和国道路交通安全法》第五十二条 机动车通过没有交通信号灯控制也没有交通警察指挥的交叉路口，除应当遵守第五十一条第(二)项、第(三)项的规定外，还应当遵守下列?
 [Options]
-Options1=ֱ�Ӽ���ֱ��ͨ��
-Options2=���ҷ���·��������
-Options3=����Σ�ձ��������ͨ��
-Options4=���󷽵�·��������
+Options1=直接加速直行通过
+Options2=让右方道路车辆先行
+Options3=开启危险报警闪光灯通行
+Options4=让左方道路车辆先行
 Image1=
-Image2=����
+Image2=让右
 Image3=
-Image4=����
+Image4=让左
 [AnswerInfo]
 Answer1=0
 Answer2=1

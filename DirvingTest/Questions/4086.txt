@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4086
 Url=http://tiba.jsyks.com/Post/1b7d2.htm
-Tittle=��ת��ƿ��������ᣬ��ת�������
+Tittle=将转向灯开关向上提，左转向灯亮。
 TittleEmphasize=
-SkillEmphasize=��
+SkillEmphasize=左
 ImagePath=4086.jpg
 FlashPath=
 SkillId=36
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=������ת��ƣ�������ת��ơ���
-NormalNotice=��ת��ʱ��������̧���պá��ϲ���    ��ת��ʱ�������������պá��²���    ���ԣ���Ӧ���ҡ����ϣ��󡪡��¡�    ͼ�����ƴ����󵼡��˲�����ľ�а�~~��
+SkillNotice=这是右转向灯，不是左转向灯。错
+NormalNotice=右转弯时，左手上抬，刚好“上拨”    左转弯时，左手下拉，刚好“下拨”    所以，对应：右——上；左——下。    图中亮灯纯属误导。伤不起有木有啊~~！
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

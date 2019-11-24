@@ -1,30 +1,30 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2163
 Url=http://tiba.jsyks.com/Post/60c8b.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2163.jpg
 FlashPath=
-SkillId=29
+SkillId=30
 MoudleId=2
 Type=2
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=¿´±êÖ¾£º±êÖ¾ÖĞÓĞÎÄ×ÖµÄ£¬ÕÕ×Å±êÖ¾ÀïÃæµÄ×ÖÑ¡£¬¹Û¾°Ì¨¡£
-NormalNotice=¾Ş´óµÄÈı¸ö×Ö    ¹Û¾°Ì¨
+SkillNotice=çœ‹æ ‡å¿—ï¼šæ ‡å¿—ä¸­æœ‰æ–‡å­—çš„ï¼Œç…§ç€æ ‡å¿—é‡Œé¢çš„å­—é€‰ï¼Œè§‚æ™¯å°ã€‚
+NormalNotice=å·¨å¤§çš„ä¸‰ä¸ªå­—    è§‚æ™¯å°
 [Options]
-Options1=ĞİÏ¢Çø
-Options2=¹Û¾°Ì¨
-Options3=Í£³µ³¡
-Options4=Í£³µÎ»
+Options1=ä¼‘æ¯åŒº
+Options2=åœè½¦åœº
+Options3=åœè½¦ä½
+Options4=è§‚æ™¯å°
 Image1=
-Image2=¹Û¾°Ì¨
+Image2=
 Image3=
-Image4=
+Image4=è§‚æ™¯å°
 [AnswerInfo]
 Answer1=0
-Answer2=1
+Answer2=0
 Answer3=0
-Answer4=0
+Answer4=1

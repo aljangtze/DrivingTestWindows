@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2306
 Url=http://tiba.jsyks.com/Post/7233c.htm
-Tittle=�����־�ĺ����Ǹ�ʾ������ʻ��Ӧ���л�ͣ����ȷ���ɵ��������ȡ�
+Tittle=这个标志的含义是告示车辆驾驶人应慢行或停车，确保干道车辆优先。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=慢行
 ImagePath=2306.jpg
 FlashPath=
-SkillId=36
+SkillId=28
 MoudleId=2
 Type=1
 Classification=3
 BankId=8
 [SkillInfo]
-SkillNotice=��־���Ǽ������У��ԣ�
-NormalNotice=�������У���ʾ����Ӧ�������У���ʾ������ʻ�˱������л�ͣ�����۲�ɵ��г��������ȷ���ɵ��������ȵ�ǰ���£���Ϊ��ȫʱ�������С������������ý����·��Ҫ��··�ڡ�    ��ʾ�м��������ߵ�·�ڣ���������ͣ�����øɵ��������С�����Ӧ�롰�������С���־���ʹ�á���
+SkillNotice=标志就是减速让行，对！
+NormalNotice=减速让行，表示车辆应减速让行，告示车辆驾驶人必须慢行或停车，观察干道行车情况，在确保干道车辆优先的前提下，认为安全时方可续行。设于视线良好交叉道路次要道路路口。    标示有减速让行线的路口，车辆必须停车，让干道车辆先行。此线应与“减速让行”标志配合使用。减
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

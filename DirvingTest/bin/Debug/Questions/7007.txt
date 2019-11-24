@@ -1,25 +1,25 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=7007
 Url=http://tiba.jsyks.com/Post/2b0c4.htm
-Tittle=¶¯»­7ÖÐÓÐ¼¸ÖÖÎ¥·¨ÐÐÎª£¿
+Tittle=åŠ¨ç”»7ä¸­æœ‰å‡ ç§è¿æ³•è¡Œä¸ºï¼Ÿ
 TittleEmphasize=
-SkillEmphasize=¶¯»­7
+SkillEmphasize=åŠ¨ç”»7
 ImagePath=
 FlashPath=7007.swf
-SkillId=48
+SkillId=49
 MoudleId=7
 Type=2
 Classification=4
-BankId=21
+BankId=50
 [SkillInfo]
-SkillNotice=ÌâÄ¿Îª¶¯»­7£¬Ñ¡¶þÖÖÎ¥·¨¡£¶¯»­4¡¢5¡¢6ÊÇÈýÖÖÎ¥·¨ÐÐÎª£¬ÆäËû¶¯»­¶¼ÊÇÁ½ÖÖÎ¥·¨ÐÐÎª¡£
-NormalNotice=1.ÕÚµ²³µÅÆ    2.Î¥·´½ûÖ¹×ó×ªÍä±êÖ¾
+SkillNotice=é¢˜ç›®ä¸ºåŠ¨ç”»7ï¼Œé€‰äºŒç§è¿æ³•ã€‚åŠ¨ç”»4ã€5ã€6æ˜¯ä¸‰ç§è¿æ³•è¡Œä¸ºï¼Œå…¶ä»–åŠ¨ç”»éƒ½æ˜¯ä¸¤ç§è¿æ³•è¡Œä¸ºã€‚
+NormalNotice=1.é®æŒ¡è½¦ç‰Œ    2.è¿åç¦æ­¢å·¦è½¬å¼¯æ ‡å¿—
 [Options]
-Options1=¶þÖÖÎ¥·¨ÐÐÎª
-Options2=ËÄÖÖÎ¥·¨ÐÐÎª
-Options3=Ò»ÖÖÎ¥·¨ÐÐÎª
-Options4=ÈýÖÖÎ¥·¨ÐÐÎª
-Image1=¶þÖÖ
+Options1=äºŒç§è¿æ³•è¡Œä¸º
+Options2=ä¸‰ç§è¿æ³•è¡Œä¸º
+Options3=ä¸€ç§è¿æ³•è¡Œä¸º
+Options4=å››ç§è¿æ³•è¡Œä¸º
+Image1=äºŒç§
 Image2=
 Image3=
 Image4=

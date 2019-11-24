@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5050
 Url=http://tiba.jsyks.com/Post/5f94b.htm
-Tittle=�ڸ��ٹ�·����ʻ���ػ����������ڲ������ˡ�
+Tittle=在高速公路上行驶的载货汽车车厢内不得载人。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ�������ڰ�ʮ�������ڸ��ٹ�·����ʻ���ػ��������᲻�����ˡ�         ��������������ڹ�·�͸��ٹ�·������ͨ��·���а�ȫ��λ,������ʱ�泵��ҵ,�����˸��ٹ�·�Ͳ�����ʱ�泵��ҵ�������ˡ����ԣ������ֹ�·�͸��ٹ�·��
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ�������ڰ�ʮ�������ڸ��ٹ�·����ʻ���ػ��������᲻�����ˡ�         ��������������ڹ�·�͸��ٹ�·������ͨ��·���а�ȫ��λ,������ʱ�泵��ҵ,�����˸��ٹ�·�Ͳ�����ʱ�泵��ҵ�������ˡ����ԣ������ֹ�·�͸��ٹ�·��
+SkillNotice=《中华人民共和国道路交通安全法实施条例》第八十三条：在高速公路上行驶的载货汽车车厢不得载人。         这个问题区别在于公路和高速公路。在普通公路上有安全空位,可以临时随车作业,但上了高速公路就不是临时随车作业的性质了。所以，请区分公路和高速公路。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第八十三条：在高速公路上行驶的载货汽车车厢不得载人。         这个问题区别在于公路和高速公路。在普通公路上有安全空位,可以临时随车作业,但上了高速公路就不是临时随车作业的性质了。所以，请区分公路和高速公路。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

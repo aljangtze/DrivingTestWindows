@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4102
 Url=http://tiba.jsyks.com/Post/e4924.htm
-Tittle=�������ƶ�ϵͳ��ABS����ʲô����¿�������޶ȷ����ƶ���Ч�ܣ�
+Tittle=防抱死制动系统（ABS）在什么情况下可以最大限度发挥制动器效能？
 TittleEmphasize=
-SkillEmphasize=��ABS��
+SkillEmphasize=（ABS）
 ImagePath=
 FlashPath=
 SkillId=53
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=12
 [SkillInfo]
-SkillNotice=���⣺��Ŀ��ABS�����ҽ����ƶ���ABS�ڽ����ƶ�ʱ�������á�
-NormalNotice=ABS��Ŀ�ľ���Ϊ�˷�ֹɲ����ʱ��һ�Ų��������·���ʲô�ġ� ����ɲ��ɲ���ͱȽ������ٶ�N���ʱ�򣩣�Ч�����ڲ���ɲ����������ɲ�����������Σ�
+SkillNotice=看题：题目有ABS，答案找紧急制动，ABS在紧急制动时发挥作用。
+NormalNotice=ABS的目的就是为了防止刹车的时候一脚踩死，导致翻车什么的。 不过刹车刹死就比较慢（速度N快的时候），效果等于踩下刹车，再松下刹车，反复几次！
 [Options]
-Options1=��̤�ƶ�̤��
-Options2=��Ъ�ƶ�
-Options3=�����ƶ�
-Options4=�����ƶ�
+Options1=缓踏制动踏板
+Options2=间歇制动
+Options3=紧急制动
+Options4=持续制动
 Image1=
 Image2=
-Image3=����
+Image3=紧急
 Image4=
 [AnswerInfo]
 Answer1=0

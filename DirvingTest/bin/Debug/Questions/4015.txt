@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=4015
 Url=http://tiba.jsyks.com/Post/3a9e8.htm
-Tittle=�������𶯺��Ǳ����ϣ���ͼ��ʾ������ʾʲô��
+Tittle=发动机起动后仪表板上（如图所示）亮表示什么？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=4015.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=����һ���ľ��ǻ��͵ı�־����Ȼ�������ˣ���ʾ���͹����ˡ�
-NormalNotice=����һ���ľ��ǻ��͵ı�־����λ��ס�������� ��ָʾ��������ʾ�������ڻ��͵�ѹ��״������Կ���ţ�������ʼ�Լ�ʱ��ָʾ�Ƶ�����������Ϩ�𡣸�ָʾ�Ƴ�����˵���ó�����������ѹ�����ڹ涨��׼����Ҫά�ޡ�
+SkillNotice=像茶壶一样的就是机油的标志，既然机油亮了，表示机油过低了。
+NormalNotice=像茶壶一样的就是机油的标志，各位记住就是啦。 该指示灯用来显示发动机内机油的压力状况。打开钥匙门，车辆开始自检时，指示灯点亮，启动后熄灭。该指示灯常亮，说明该车发动机机油压力低于规定标准，需要维修。
 [Options]
-Options1=���������͵�����
-Options2=����������ѹ������
-Options3=����������ѹ������
-Options4=������������©��
+Options1=发动机主油道堵塞
+Options2=发动机机油压力过低
+Options3=发动机机油压力过高
+Options4=发动机曲轴箱漏气
 Image1=
-Image2=���ͣ�����
+Image2=机油，过低
 Image3=
 Image4=
 [AnswerInfo]

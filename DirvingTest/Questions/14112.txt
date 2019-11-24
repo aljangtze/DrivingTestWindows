@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=14112
-Tittle=��ͼ��ʾ����ʻ������ֱ��ͨ��·�ڣ�����������תʱ��������·���ڵ���ת��������ͨ��·�ڡ�
-SkillEmphasize=������·��
+Tittle=如图所示，驾驶机动车直行通过路口，遇对向车辆左转时，让已在路口内的左转车辆优先通过路口。
+SkillEmphasize=让已在路口
 ImagePath=14112.jpg
 FlashPath=
 SkillId=48
@@ -10,12 +10,12 @@ Type=1
 Classification=4
 BankId=16
 [SkillInfo]
-SkillNotice=������·�ڵĳ�������ͨ�����ԡ��ñ��˵����ְ�ȫ��������Ϊ���ԡ�
+SkillNotice=让已在路口的车辆优先通过，对。让别人的这种安全文明的行为，对。
 NormalNotice=
 [Options]
-Options1=��ȷ
+Options1=正确
 Image1=
-Options2=����
+Options2=错误
 Image2=
 Options3=
 Image3=

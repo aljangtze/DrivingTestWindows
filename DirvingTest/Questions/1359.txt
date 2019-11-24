@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1359
 Url=http://tiba.jsyks.com/Post/6a227.htm
-Tittle=�������Ǽ�֤�顢���ơ���ʻ֤��ʧ����ʧ������ٵģ�������������Ӧ�����ס�س������������벹�졢���졣
+Tittle=机动车登记证书、号牌、行驶证灭失、丢失或者损毁的，机动车所有人应当向居住地车辆管理所申请补领、换领。
 TittleEmphasize=
-SkillEmphasize=�Ǽ�֤��
+SkillEmphasize=登记证书
 ImagePath=
 FlashPath=
 SkillId=14
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=���ɣ��Ǽ�֤���������������������еǼ�֤����Ǵ���
-NormalNotice=���ݡ��������Ǽǹ涨������ʮ�����Ĺ涨 ���������ơ���ʻ֤��ʧ����ʧ������ٵģ�������������Ӧ����Ǽǵس������������벹�졢���졣����ʱ��������������Ӧ����д��������ύ����֤����
+SkillNotice=技巧：登记证书错，车辆管理所的题带有登记证书的是错。
+NormalNotice=根据《机动车登记规定》第四十四条的规定 机动车号牌、行驶证灭失、丢失或者损毁的，机动车所有人应当向登记地车辆管理所申请补领、换领。申请时，机动车所有人应当填写申请表并提交身份证明。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

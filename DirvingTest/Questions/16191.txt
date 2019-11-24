@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16191
 Url=http://tiba.jsyks.com/Post/b3220.htm
-Tittle=Ħ�г�ͨ��������ʱ���緢��ѡ��·�ߴ���Ӧ������ԭ�ص�ͷ�򵹳�����·�ߡ�
+Tittle=摩托车通过立交桥时，如发现选择路线错误，应立即在原地掉头或倒车更改路线。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=������һ�㶼ֻ��һ����������������������������ת�����ʽǰ�������߲��ã����ѡ��ԭ�ص�ͷ�򵹳���Σ�ճ̶Ⱥܸ߼��ײ����ش�ͨ�¹ʡ�����ߴ�·�߾�ֻ�ܴ�����һ���ڿ��Ե�ͷ��ʱ���ٷ���ԭ·�߻�ѡ��������·�ߵ���Ŀ�ĵء�
-NormalNotice=������һ�㶼ֻ��һ����������������������������ת�����ʽǰ�������߲��ã����ѡ��ԭ�ص�ͷ�򵹳���Σ�ճ̶Ⱥܸ߼��ײ����ش�ͨ�¹ʡ�����ߴ�·�߾�ֻ�ܴ�����һ���ڿ��Ե�ͷ��ʱ���ٷ���ԭ·�߻�ѡ��������·�ߵ���Ŀ�ĵء�
+SkillNotice=立交上一般都只有一车道，而且其它车辆几乎都是以转弯的形式前进，视线不好，如果选择原地掉头或倒车，危险程度很高极易产生重大交通事故。如果走错路线就只能错到下一出口可以掉头的时候再返回原路线或选择其它的路线到达目的地。
+NormalNotice=立交上一般都只有一车道，而且其它车辆几乎都是以转弯的形式前进，视线不好，如果选择原地掉头或倒车，危险程度很高极易产生重大交通事故。如果走错路线就只能错到下一出口可以掉头的时候再返回原路线或选择其它的路线到达目的地。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

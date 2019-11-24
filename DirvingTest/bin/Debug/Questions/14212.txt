@@ -1,6 +1,6 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=14212
-Tittle=¼İÊ»ÈËÒ»±ß¼İ³µ£¬Ò»±ßÎüÑÌ¶Ô°²È«ĞĞ³µÎŞÓ°Ïì¡£
+Tittle=é©¾é©¶äººä¸€è¾¹é©¾è½¦ï¼Œä¸€è¾¹å¸çƒŸå¯¹å®‰å…¨è¡Œè½¦æ— å½±å“ã€‚
 SkillEmphasize=
 ImagePath=
 FlashPath=
@@ -13,9 +13,9 @@ Classification=0
 SkillNotice=
 NormalNotice=
 [Options]
-Options1=ÕıÈ·
+Options1=æ­£ç¡®
 Image1=
-Options2=´íÎó
+Options2=é”™è¯¯
 Image2=
 Options3=
 Image3=

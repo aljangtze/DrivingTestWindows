@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=13033
 Url=http://tiba.jsyks.com/Post/89687.htm
-Tittle=�˾���ɢ����ʴ���������ж�����Ļ���ʱ���˾���ԱӦ����������ߺ���Ӧ�ķ�����Ʒ��վ���Ϸ紦ʩ�ȡ�
+Tittle=扑救易散发腐蚀性蒸气或有毒气体的火灾时，扑救人员应穿戴防毒面具和相应的防护用品，站在上风处施救。
 TittleEmphasize=
-SkillEmphasize=��
+SkillEmphasize=易
 ImagePath=
 FlashPath=
 SkillId=44
 MoudleId=13
 Type=1
 Classification=4
-BankId=0
+BankId=31
 [SkillInfo]
-SkillNotice=�������֣��ԣ�
-NormalNotice=�����ǡ���ɢ����ʴ���������ж�����Ļ��֡�����˼�Ҫ�������ж���ҲҪ�����������˵ȣ�������˾�ʱ��Ҫ����������ߺ���Ӧ�ķ�����Ʒ������Ϊ�˷�ֹ�ж�����վ���Ϸ紦ʩ�ȣ�����Ϊ��������Ʊ��˵��� ��˱����ǶԵġ�
+SkillNotice=见到易字，对！
+NormalNotice=由于是“易散发腐蚀性蒸气或有毒气体的火灾”，因此既要做到不中毒，也要做到不被烫伤等，因此在扑救时，要穿戴防毒面具和相应的防护用品，这是为了防止中毒，而站在上风处施救，是因为不会因火势被伤到。 因此本题是对的。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3018
 Url=http://tiba.jsyks.com/Post/62e7a.htm
-Tittle=�г���ͻ��������ǿ�г�����ռ���Լ�����ʱ���ɲ�����ã���ʹ�Է���·��
+Tittle=行车中突遇对向车辆强行超车，占据自己车道时，可不予避让，迫使对方让路。
 TittleEmphasize=
-SkillEmphasize=�ɲ�&��
+SkillEmphasize=可不&让
 ImagePath=
 FlashPath=
 SkillId=13
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=���ɣ��ɲ����ã��������д��пɲ��ã����Բ��ö�������Ŀ����˼�öԷ��Ķԣ����öԷ�����ʹ�Է��þʹ���
-NormalNotice=����һ��������ȫΪ�� ����Ϊ�� ��гΪ����
+SkillNotice=技巧：可不避让，错，题中带有可不让，可以不让都错，题目的意思让对方的对，不让对方还迫使对方让就错。
+NormalNotice=开车一般是依安全为主 避让为主 和谐为主。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2058
 Url=http://tiba.jsyks.com/Post/dab6d.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2058.jpg
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=4
 [SkillInfo]
-SkillNotice=����־��������͹���İ����ǲ�ƽ����������ѡ��ƽ��
-NormalNotice=��Ҽ�ס��2��͹�����·�治ƽ����1��͹�����·��߳�.    һ�����Ǹ�ͻ��һ�����ǵ��ݣ�һ��͹�м��пռ����շ��ţ�����͹�϶��ǲ�ƽ��
+SkillNotice=看标志：有两个凸出的包就是不平，两个包包选不平。
+NormalNotice=大家记住有2个凸起的是路面不平，有1个凸起的是路面高出.    一个坡是高突，一个坑是低洼，一个凸中间有空间是驼峰桥，两个凸肯定是不平。
 [Options]
-Options1=·���ͻ
-Options2=�շ���
-Options3=·�治ƽ
-Options4=·�����
+Options1=路面高突
+Options2=驼峰桥
+Options3=路面不平
+Options4=路面低洼
 Image1=
 Image2=
-Image3=��ƽ
+Image3=不平
 Image4=
 [AnswerInfo]
 Answer1=0

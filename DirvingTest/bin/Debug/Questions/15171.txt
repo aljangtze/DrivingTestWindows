@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=15171
 Url=http://tiba.jsyks.com/Post/e35c4.htm
-Tittle=��ʻ�˽�������������ʻ֤���ݿ۵��˼�ʻ�ģ���ͨ��������ͷ���档
+Tittle=驾驶人将机动车交给驾驶证被暂扣的人驾驶的，交通警察给予口头警告。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=14
 Type=1
 Classification=5
 [SkillInfo]
-SkillNotice=����·��ͨ��ȫ�����ھ�ʮ������������������δȡ�û�������ʻ֤���߻�������ʻ֤���������ݿ۵��˼�ʻ�ģ��ɹ������ؽ�ͨ�������Ŵ�����Ԫ���϶�ǧԪ���·�����Բ���������������ʻ֤��NormalNotice=����·��ͨ��ȫ�����ھ�ʮ������������������δȡ�û�������ʻ֤���߻�������ʻ֤���������ݿ۵��˼�ʻ�ģ��ɹ������ؽ�ͨ�������Ŵ�����Ԫ���϶�ǧԪ���·�����Բ���������������ʻ֤��    �����ǿ�ͷ������ô�򵥡�
-    �����ǿ�ͷ������ô�򵥡�
+SkillNotice=《道路交通安全法》第九十九条：将机动车交由未取得机动车驾驶证或者机动车驾驶证被吊销、暂扣的人驾驶的，由公安机关交通管理部门处二百元以上二千元以下罚款，可以并处吊销机动车驾驶证。NormalNotice=《道路交通安全法》第九十九条：将机动车交由未取得机动车驾驶证或者机动车驾驶证被吊销、暂扣的人驾驶的，由公安机关交通管理部门处二百元以上二千元以下罚款，可以并处吊销机动车驾驶证。    并不是口头警告这么简单。
+    并不是口头警告这么简单。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

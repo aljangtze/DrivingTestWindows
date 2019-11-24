@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1343
 Url=http://tiba.jsyks.com/Post/4ae6b.htm
-Tittle=׼�ݳ���ΪС�������ġ����Լ�ʻС���Զ����ؿ�������
+Tittle=准驾车型为小型汽车的、可以驾驶小型自动挡载客汽车。
 TittleEmphasize=
-SkillEmphasize=С�ͣ�С����
+SkillEmphasize=小型，小型自
 ImagePath=
 FlashPath=
-SkillId=13
+SkillId=53
 MoudleId=1
 Type=1
 Classification=3
 BankId=13
 [SkillInfo]
-SkillNotice=��ס����������С�͡��ԡ�   ��ʻС���Զ����Ķԡ�
-NormalNotice=С��������C1��׼�ݳ��ͣ�С�͡�΢���ؿ������Լ����͡�΢���ػ����������͡�΢��ר����ҵ����С�͡�΢���Զ����ؿ������Լ����͡�΢���Զ����ػ������������ػ�����������������
+SkillNotice=记住：有两个“小型”对。   驾驶小型自动挡的对。
+NormalNotice=小型汽车（C1）准驾车型：小型、微型载客汽车以及轻型、微型载货汽车；轻型、微型专项作业车，小型、微型自动挡载客汽车以及轻型、微型自动挡载货汽车，低速载货汽车，三轮汽车。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

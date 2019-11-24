@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16147
 Url=http://tiba.jsyks.com/Post/072c6.htm
-Tittle=���������ܼ��ȵͣ�����Զ��ƻ�����ܼ��ȡ�
+Tittle=大雾天气能见度低，开启远光灯会提高能见度。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=15
 Type=1
 Classification=6
 [SkillInfo]
-SkillNotice=��������Ӧ�ÿ������ƺ�Σ�վ�ʾ����ơ�����Զ��ƻ��������䣬�������Ӳ��׿���·������˱������
-NormalNotice=��������Ӧ�ÿ������ƺ�Σ�վ�ʾ����ơ�����Զ��ƻ��������䣬�������Ӳ��׿���·������˱������
+SkillNotice=大雾天气应该开启雾灯和危险警示闪光灯。开启远光灯会引起折射，反而更加不易看清路况。因此本题错误。
+NormalNotice=大雾天气应该开启雾灯和危险警示闪光灯。开启远光灯会引起折射，反而更加不易看清路况。因此本题错误。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

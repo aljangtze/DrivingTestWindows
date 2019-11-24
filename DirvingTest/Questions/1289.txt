@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1289
 Url=http://tiba.jsyks.com/Post/ecb4d.htm
-Tittle=3����������������Ϊ���˲��������������ʻ֤��
+Tittle=3年内有下列哪种行为的人不得申请机动车驾驶证？
 TittleEmphasize=
-SkillEmphasize=3����
+SkillEmphasize=3年内
 ImagePath=
 FlashPath=
 SkillId=68
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=8
 [SkillInfo]
-SkillNotice=���⣺3�ڲ��������ʻ֤����Ϊ����ע�䶾Ʒ��
-NormalNotice=��ʮ��������������֮һ�ģ����������������ʻ֤������������ʳ��ע�䶾 Ʒ��Ϊ���߽��ǿ�Ƹ���䶾��ʩδ�����꣬���߳��ڷ��������Ծ���ҩƷ�����δ����ģ�
+SkillNotice=看题：3内不得申请驾驶证的行为就是注射毒品。
+NormalNotice=第十二条有下列情形之一的，不得申请机动车驾驶证：三年内有吸食、注射毒 品行为或者解除强制隔离戒毒措施未满三年，或者长期服用依赖性精神药品成瘾尚未戒除的；
 [Options]
-Options1=ע���ȵ���
-Options2=��������
-Options3=ע�䶾Ʒ
-Options4=���̳��
+Options1=注射胰岛素
+Options2=酒醉经历
+Options3=注射毒品
+Options4=吸烟成瘾
 Image1=
 Image2=
-Image3=��Ʒ
+Image3=毒品
 Image4=
 [AnswerInfo]
 Answer1=0

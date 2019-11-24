@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6049
 Url=http://tiba.jsyks.com/Post/4c03e.htm
-Tittle=��ʻ�������������޷�������ʻ���Ż���ʱ��Ӧ����ǰ���粣�����롣
+Tittle=驾驶人逃离火灾如果无法开启驾驶室门或车门时，应敲碎前挡风玻璃脱离。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=6
 Type=1
 Classification=1
 [SkillInfo]
-SkillNotice=ǰ�����Ǽн��ģ����Ѳ����ƣ������мв㡣Ϊ�˱�����ʻԱ����Ƶ�С��ǰ�������Ҳ�ǲ�����ģ�Ҫ���鳵������������
-NormalNotice=ǰ�����Ǽн��ģ����Ѳ����ƣ������мв㡣Ϊ�˱�����ʻԱ����Ƶ�С��ǰ�������Ҳ�ǲ�����ģ�Ҫ���鳵������������
+SkillNotice=前挡风是夹胶的，易裂不易破，里面有夹层。为了保护驾驶员，设计的小车前挡风打烂也是不会碎的，要敲碎车窗玻璃逃生。
+NormalNotice=前挡风是夹胶的，易裂不易破，里面有夹层。为了保护驾驶员，设计的小车前挡风打烂也是不会碎的，要敲碎车窗玻璃逃生。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

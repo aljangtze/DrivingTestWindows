@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1130
 Url=http://tiba.jsyks.com/Post/57e0b.htm
-Tittle=ҹ���ڵ�·�ϻᳵʱ���������������Զ��Զ��Ƹ��ý���ƣ�
+Tittle=夜间在道路上会车时，距离对向来车多远将远光灯改用近光灯？
 TittleEmphasize=
-SkillEmphasize=��Զ��Ƹ��ý����
+SkillEmphasize=将远光灯改用近光灯
 ImagePath=
 FlashPath=
 SkillId=31
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=���𰸣�ѡ������ѡ�׵ģ���150�׵Ķ�ֱ��ѡ��û��150�׵ľ�ѡ���������ס�ҹ��ᳵ��Զ�⻻�ɽ��⣬��150������ľ���任��
-NormalNotice=̫����ʹ��Զ��ƻ�Ӱ�����ߣ����㿪�������֪����Զ��Ƶļһ��ж������ˡ�    ���л����񹲺͹���·��ͨ��ȫ��������ʮ��������û�����ĸ�����ʩ����û�������ߵĵ�·�ϣ�����������Է�������ʱӦ���������й涨��    ����(һ)���ٿ�����ʻ�������������������˱��ֱ�Ҫ
+SkillNotice=看答案：选项中是选米的，有150米的都直接选，没有150米的就选数字最大的米。夜间会车将远光换成近光，在150米以外的距离变换。
+NormalNotice=太近了使用远光灯会影响视线，当你开车了你就知道开远光灯的家伙有多讨厌了。    《中华人民共和国道路交通安全法》第四十八条　在没有中心隔离设施或者没有中心线的道路上，机动车遇相对方向来车时应当遵守下列规定：    　　(一)减速靠右行驶，并与其他车辆、行人保持必要
 [Options]
-Options1=50������
-Options2=100������
-Options3=150������
-Options4=���ر任�ƹ�
+Options1=50米以内
+Options2=100米以内
+Options3=150米以外
+Options4=不必变换灯光
 Image1=
 Image2=
-Image3=150������
+Image3=150米以外
 Image4=
 [AnswerInfo]
 Answer1=0

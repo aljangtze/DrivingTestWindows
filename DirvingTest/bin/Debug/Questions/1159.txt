@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1159
 Url=http://tiba.jsyks.com/Post/6358c.htm
-Tittle=��ʻ����������ǰ������·�ڽ�ͨ����ʱ��ô�죿
+Tittle=驾驶机动车遇有前方交叉路口交通阻塞时怎么办？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=���𰸣�ѡ���εĴ𰸣�������ѡ���Ρ�
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ����������ʮ��������������ǰ������·�ڽ�ͨ����ʱ��Ӧ������ͣ��·������Ⱥ򣬲��ý���·�ڡ� ����Ӧ��ѡA��
+SkillNotice=看答案：选依次的答案，有依次选依次。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》第五十三条机动车遇有前方交叉路口交通阻塞时，应当依次停在路口以外等候，不得进入路口。 所以应该选A。
 [Options]
-Options1=��ǰ�����ഩ��ͨ��
-Options2=����ͣ��·����Ⱥ�
-Options3=����·���ڵȺ�
-Options4=�ɽ���򳵵�ͨ��
+Options1=从前车两侧穿插通过
+Options2=依次停在路口外等候
+Options3=进入路口内等候
+Options4=可借对向车道通过
 Image1=
-Image2=����
+Image2=依次
 Image3=
 Image4=
 [AnswerInfo]

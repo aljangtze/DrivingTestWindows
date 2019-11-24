@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12036
 Url=http://tiba.jsyks.com/Post/a1ec0.htm
-Tittle=����·�г����ƶ�ͻȻʧЧ�������ã�
+Tittle=下坡路行车中制动突然失效怎样处置？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,21 +10,21 @@ SkillId=45
 MoudleId=12
 Type=2
 Classification=4
-BankId=0
+BankId=22
 [SkillInfo]
-SkillNotice=�����м��ٺ�ͣ��ʱ����Ȼʱͣ���Ƚϰ�ȫ���ƶ�ʧЧʱ�������ñ��ճ�������ͣ����
-NormalNotice=ɲ��ͻȻʧ��ʱ��Ħ�����ر��������湦Ч�����ó�ǰ���ոܡ�����ȸ��Բ�λ��·����ʯ������������Ħ������ײ���ڲ���в�˳��˰�ȫ�������ǿ��ͣ������������Գ�������𺦣����ɼ��ٽ�ͨ�¹ʷ����ʡ� ��˱���ѡA��
+SkillNotice=答案中有减速和停车时，当然时停车比较安全，制动失效时，可利用避险车道减速停车。
+NormalNotice=刹车突然失灵时，摩擦力特别能显神奇功效。可用车前保险杠、车厢等钢性部位与路边岩石、大树或土坡摩擦、碰撞，在不威胁乘车人安全的情况下强行停车。这样，虽对车会造成损害，但可减少交通事故发生率。 因此本题选A。
 [Options]
-Options1=�����ñ��ճ�������ͣ��
-Options2=����פ���ƶ�������
-Options3=Խ������λ����
-Options4=�ҵ�����ʹͣ��
-Image1=����ͣ��
-Image2=����
+Options1=挂倒挡迫使停车
+Options2=拉紧驻车制动器减速
+Options3=越二级挡位减挡
+Options4=可利用避险车道减速停车
+Image1=
+Image2=减速
 Image3=
-Image4=
+Image4=减速停车
 [AnswerInfo]
-Answer1=1
+Answer1=0
 Answer2=0
 Answer3=0
-Answer4=0
+Answer4=1

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=11124
 Url=http://tiba.jsyks.com/Post/d9948.htm
-Tittle=��ʻ������ʻ����ٹ�·Ҫ�������ٳ������ٺ�����ѵ���
+Tittle=驾驶机动车驶离高速公路要经过减速车道减速后进入匝道。
 TittleEmphasize=
-SkillEmphasize=���٣�����
+SkillEmphasize=减速，减速
 ImagePath=
 FlashPath=
 SkillId=48
@@ -12,11 +12,11 @@ Type=1
 Classification=4
 BankId=15
 [SkillInfo]
-SkillNotice=���ٳ������٣��������������٣��ԡ�
-NormalNotice=���ٹ�·���ڵ��ѵ�һ������ÿСʱ60�������£��������ÿСʱ40�������¡� ���ڸ��ٹ�·����ʻʱ�ĳ���Զ�������������֣����Ӧ���ȼ����ٽ����ѵ���
+SkillNotice=减速车道减速，题中有两个减速，对。
+NormalNotice=高速公路出口的匝道一般限速每小时60公里以下，弯道限速每小时40公里以下。 而在高速公路上行驶时的车速远高于这两个数字，因此应当先减速再进入匝道。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

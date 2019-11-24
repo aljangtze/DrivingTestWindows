@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9087
 Url=http://tiba.jsyks.com/Post/ba77a.htm
-Tittle=�����־��ʾǰ�����彻�洦����ֱ�к���ת�䡣
+Tittle=这个标志表示前方立体交叉处可以直行和右转弯。
 TittleEmphasize=
-SkillEmphasize=ֱ�к���ת��
+SkillEmphasize=直行和右转弯
 ImagePath=9087.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=18
 [SkillInfo]
-SkillNotice=��ͷ��ʾ��ֱ�к���ת�䣬˵����ֱ�к���ת�䡣����
-NormalNotice=���彻��ֱ�к���ת����ʻ     ��ʾһ�г��������彻�洦����ֱ�кͰ�ͼʾ·����ת����ʻ��
+SkillNotice=箭头表示叫直行和左转弯，说的是直行和右转弯。错！
+NormalNotice=立体交叉直行和左转弯行驶     表示一切车辆在立体交叉处可以直行和按图示路线左转弯行驶。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

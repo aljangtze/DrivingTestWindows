@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=6007
 Url=http://tiba.jsyks.com/Post/4a398.htm
-Tittle=���˼�ʻ��24Сʱ���ۼƼ�ʻʱ��ԭ���ϲ���������Сʱ��
+Tittle=客运驾驶人24小时内累计驾驶时间原则上不超过多少小时？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,8 +11,8 @@ MoudleId=6
 Type=2
 Classification=1
 [SkillInfo]
-SkillNotice=���˼�ʻ����24Сʱ���ۼƼ�ʻʱ�䲻�ó���8Сʱ��������ʻʱ�䲻�ó���4Сʱ��ÿ��ͣ����Ϣʱ�䲻����20���ӡ�
-NormalNotice=���˼�ʻ����24Сʱ���ۼƼ�ʻʱ�䲻�ó���8Сʱ��������ʻʱ�䲻�ó���4Сʱ��ÿ��ͣ����Ϣʱ�䲻����20���ӡ�
+SkillNotice=客运驾驶人在24小时内累计驾驶时间不得超过8小时，连续驾驶时间不得超过4小时，每次停车休息时间不少于20分钟。
+NormalNotice=客运驾驶人在24小时内累计驾驶时间不得超过8小时，连续驾驶时间不得超过4小时，每次停车休息时间不少于20分钟。
 [Options]
 Options1=8
 Options2=10

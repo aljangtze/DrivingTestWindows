@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=16014
 Url=http://tiba.jsyks.com/Post/5cbe8.htm
-Tittle=�����־�Ǻκ��壿
+Tittle=这个标志是何含义？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=16014.jpg
@@ -11,13 +11,13 @@ MoudleId=15
 Type=2
 Classification=6
 [SkillInfo]
-SkillNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut8d1ysaj.jpg>    ע������</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2ut8f3gw8j.jpg>    ע���ͯ</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uus0qq0kj.jpg>    ���к��</p>
-NormalNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut8d1ysaj.jpg>    ע������</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2ut8f3gw8j.jpg>    ע���ͯ</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uus0qq0kj.jpg>    ���к��</p>
+SkillNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut8d1ysaj.jpg>    注意行人</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2ut8f3gw8j.jpg>    注意儿童</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uus0qq0kj.jpg>    人行横道</p>
+NormalNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut8d1ysaj.jpg>    注意行人</p><p><img src=http://ww3.sinaimg.cn/large/c05f42f9jw1e2ut8f3gw8j.jpg>    注意儿童</p><p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2uus0qq0kj.jpg>    人行横道</p>
 [Options]
-Options1=���к��
-Options2=ע������
-Options3=ע���ͯ
-Options4=ѧУ����
+Options1=人行横道
+Options2=注意行人
+Options3=注意儿童
+Options4=学校区域
 Image1=
 Image2=
 Image3=

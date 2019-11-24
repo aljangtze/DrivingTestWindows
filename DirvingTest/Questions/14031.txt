@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=14031
-Tittle=ÏÂÁĞÄÄ¸ö½»Í¨±êÖ¾±íÊ¾²»ÄÜÍ£³µ£¿
-SkillEmphasize=²»ÄÜÍ£³µ
+Tittle=ä¸‹åˆ—å“ªä¸ªäº¤é€šæ ‡å¿—è¡¨ç¤ºä¸èƒ½åœè½¦ï¼Ÿ
+SkillEmphasize=ä¸èƒ½åœè½¦
 ImagePath=14031.jpg
 FlashPath=
 SkillId=28
@@ -10,16 +10,16 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=¿´Í¼£º²»ÄÜÍ£³µµÄ±êÖ¾ÊÇ¸ö´óºìÉ«²æ£¬ÔÚÍ¼2¡£
+SkillNotice=çœ‹å›¾ï¼šä¸èƒ½åœè½¦çš„æ ‡å¿—æ˜¯ä¸ªå¤§çº¢è‰²å‰ï¼Œåœ¨å›¾2ã€‚
 NormalNotice=
 [Options]
-Options1=Í¼3
+Options1=å›¾3
 Image1=
-Options2=Í¼4
+Options2=å›¾4
 Image2=
-Options3=Í¼1
+Options3=å›¾1
 Image3=
-Options4=Í¼2
+Options4=å›¾2
 Image4=
 [AnswerInfo]
 Answer1=0

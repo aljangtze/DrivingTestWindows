@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1404
 Url=http://tiba.jsyks.com/Post/bbd55.htm
-Tittle=����ʻ�˵�ѪҺ�оƾ�����Ϊ100����/100����ʱ���������Ƽ�ʻ��
+Tittle=当驾驶人的血液中酒精含量为100毫克/100毫升时，属于醉酒驾驶。
 TittleEmphasize=
-SkillEmphasize=100����/100����
+SkillEmphasize=100毫克/100毫升
 ImagePath=
 FlashPath=
 SkillId=15
@@ -12,11 +12,11 @@ Type=1
 Classification=3
 BankId=10
 [SkillInfo]
-SkillNotice=���ɣ�100����/100�����ԣ����г������ֵ���30��200���ǶԵģ�����������100��100��200�Ķԡ�           &
-NormalNotice=���Ƽ�ʻ��ָ������ʻ��ԱѪҺ�еľƾ��������ڻ��ߵ���80mg/100mL�ļ�ʻ��Ϊ��
+SkillNotice=技巧：100毫克/100毫升对，题中出现数字的有30和200都是对的，有两个数字100加100是200的对。           &
+NormalNotice=醉酒驾驶是指车辆驾驶人员血液中的酒精含量大于或者等于80mg/100mL的驾驶行为。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

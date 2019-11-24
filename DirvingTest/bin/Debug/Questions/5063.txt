@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5063
 Url=http://tiba.jsyks.com/Post/18c50.htm
-Tittle=�����³��¹����У����ƶ����¶ȹ���ʱ����Ҫ����������ˮ����ȴ����������ƶ����𻵡�
+Tittle=车辆下长坡过程中，遇制动鼓温度过高时，不要立即进入冷水中冷却，以免造成制动鼓损坏。
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -11,11 +11,11 @@ MoudleId=5
 Type=1
 Classification=2
 [SkillInfo]
-SkillNotice=�������� �ƶ��Ļ��ѿ��ģ��پ����ƶ��Ĺ��������˻�ǿ�ȴ���½���Ҳ�ỵ����
-NormalNotice=�������� �ƶ��Ļ��ѿ��ģ��پ����ƶ��Ĺ��������˻�ǿ�ȴ���½���Ҳ�ỵ����
+SkillNotice=热涨冷缩 制动鼓会裂开的，再就是制动鼓过热骤冷退火，强度大大下降，也会坏掉。
+NormalNotice=热涨冷缩 制动鼓会裂开的，再就是制动鼓过热骤冷退火，强度大大下降，也会坏掉。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1089
 Url=http://tiba.jsyks.com/Post/80c79.htm
-Tittle=��������·����ʻ������ٶȲ��ܳ������٣�
+Tittle=在这条公路上行驶的最高速度不能超过多少？
 TittleEmphasize=
-SkillEmphasize=��·��
+SkillEmphasize=公路上
 ImagePath=1089.jpg
 FlashPath=
 SkillId=34
@@ -12,13 +12,13 @@ Type=2
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=��ͼ��ͼ��������·���������ߵ�ѡ70�����·�����������ߵ���70����/Сʱ��û�������ߵ���40����/Сʱ��
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ������    ����ʮ���� �������ڵ�·����ʻ���ó������ٱ�־�����߱������ٶȡ���û�����ٱ�־�����ߵĵ�·�ϣ����������ó������������ʻ�ٶȣ�    (һ)û�е�·�����ߵĵ�·�����е�·ΪÿСʱ30�����·ΪÿСʱ40���    (��)ͬ?
+SkillNotice=看图：图中这条公路有中心虚线的选70公里。公路上有中心虚线的是70公里/小时，没有中心线的是40公里/小时。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》    第四十五条 机动车在道路上行驶不得超过限速标志、标线标明的速度。在没有限速标志、标线的道路上，机动车不得超过下列最高行驶速度：    (一)没有道路中心线的道路，城市道路为每小时30公里，公路为每小时40公里；    (二)同?
 [Options]
-Options1=70����/Сʱ
-Options2=40����/Сʱ
-Options3=30����/Сʱ
-Options4=50����/Сʱ
+Options1=70公里/小时
+Options2=40公里/小时
+Options3=30公里/小时
+Options4=50公里/小时
 Image1=70
 Image2=
 Image3=

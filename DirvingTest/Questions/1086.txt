@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1086
 Url=http://tiba.jsyks.com/Post/97f42.htm
-Tittle=����γ��е�·����ʻ������ٶȲ��ܳ������٣�
+Tittle=在这段城市道路上行驶的最高速度不能超过多少？
 TittleEmphasize=
-SkillEmphasize=���е�·
+SkillEmphasize=城市道路
 ImagePath=1086.jpg
 FlashPath=
 SkillId=34
@@ -12,13 +12,13 @@ Type=2
 Classification=3
 BankId=10
 [SkillInfo]
-SkillNotice=��ͼ��ͼ�г��е�·û�������ߵľ�ѡ30����/Сʱ����ס�����е�·��û�������ߵ�30����/Сʱ��������ʵ�ߵ�50����/Сʱ��
-NormalNotice=���л����񹲺͹���·��ͨ��ȫ��ʵʩ������    ����ʮ���� �������ڵ�·����ʻ���ó������ٱ�־�����߱������ٶȡ���û�����ٱ�־�����ߵĵ�·�ϣ����������ó������������ʻ�ٶȣ�      (һ)û�е�·�����ߵĵ�·�����е�·ΪÿСʱ30�����·ΪÿСʱ40���      (��
+SkillNotice=看图：图中城市道路没有中心线的就选30公里/小时。记住：城市道路：没有中心线的30公里/小时，有中心实线的50公里/小时。
+NormalNotice=《中华人民共和国道路交通安全法实施条例》    第四十五条 机动车在道路上行驶不得超过限速标志、标线标明的速度。在没有限速标志、标线的道路上，机动车不得超过下列最高行驶速度：      (一)没有道路中心线的道路，城市道路为每小时30公里，公路为每小时40公里；      (二
 [Options]
-Options1=50����/Сʱ
-Options2=30����/Сʱ
-Options3=70����/Сʱ
-Options4=40����/Сʱ
+Options1=50公里/小时
+Options2=30公里/小时
+Options3=70公里/小时
+Options4=40公里/小时
 Image1=
 Image2=30
 Image3=

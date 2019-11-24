@@ -55,6 +55,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageButtonClose = new CotrolLibrary.ImageButton();
             this.imageButtonMin = new CotrolLibrary.ImageButton();
+            this.btnInitialQuestions = new CotrolLibrary.ImageButton();
             this.contextMenuStrip1.SuspendLayout();
             this.panelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).BeginInit();
@@ -138,6 +139,7 @@
             this.panelTitle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelTitle.BackgroundImage = global::DirvingTest.Properties.Resources.backgroudTitle;
             this.panelTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelTitle.Controls.Add(this.btnInitialQuestions);
             this.panelTitle.Controls.Add(this.pictureBoxMenu);
             this.panelTitle.Controls.Add(this.btnPractise);
             this.panelTitle.Controls.Add(this.btnRecoverExam);
@@ -414,6 +416,23 @@
             this.imageButtonMin.TextFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.imageButtonMin.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButtonMin_Click);
             // 
+            // btnInitialQuestions
+            // 
+            this.btnInitialQuestions.BackColor = System.Drawing.Color.Transparent;
+            this.btnInitialQuestions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnInitialQuestions.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnInitialQuestions.HeadImage = null;
+            this.btnInitialQuestions.Location = new System.Drawing.Point(869, 81);
+            this.btnInitialQuestions.MouseClickImage = global::DirvingTest.Properties.Resources.ButtonImage2;
+            this.btnInitialQuestions.MouseOverImage = global::DirvingTest.Properties.Resources.ButtonImage2;
+            this.btnInitialQuestions.Name = "btnInitialQuestions";
+            this.btnInitialQuestions.Size = new System.Drawing.Size(71, 31);
+            this.btnInitialQuestions.TabIndex = 24;
+            this.btnInitialQuestions.Tag = "7";
+            this.btnInitialQuestions.Text = "题库管理";
+            this.btnInitialQuestions.TextFont = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnInitialQuestions.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.btnInitialQuestions_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -465,8 +484,7 @@
         private CotrolLibrary.ImageButton btnPractise;
         private System.Windows.Forms.ToolStripMenuItem MenuBankManager;
         private System.Windows.Forms.ToolStripMenuItem MenuEasyErrorChapterManager;
-
-
+        private CotrolLibrary.ImageButton btnInitialQuestions;
     }
 }
 

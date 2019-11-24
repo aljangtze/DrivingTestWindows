@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=12046
 Url=http://tiba.jsyks.com/Post/d3dcf.htm
-Tittle=�г��з�����ͻȻϨ���������ã�
+Tittle=行车中发动机突然熄火怎样处置？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -10,16 +10,16 @@ SkillId=45
 MoudleId=12
 Type=2
 Classification=4
-BankId=0
+BankId=30
 [SkillInfo]
-SkillNotice=�м���ѡ���٣�û�м���ѡ���١���ȫ�����������õġ�
-NormalNotice=�����ַ�����ͻȻϨ������̿�����ת�򳵵ƣ���������ͣ����·�ߣ�ȡ��ͣ����ʾ�ư����ڳ���50���⡣��绰�ȴ���Ԯ�� ��˱���ѡB��
+SkillNotice=有减速选减速，没有减速选低速、安全、文明、礼让的。
+NormalNotice=当发现发动机突然熄火后，立刻开启右转向车灯，缓慢减速停车到路边，取出停车警示牌安放在车后50米外。打电话等待救援。 因此本题选B。
 [Options]
-Options1=��������ͣ��
-Options2=�رյ�𿪹�
-Options3=�ҿյ�����
-Options4=�����ƶ�ͣ��
-Image1=��������ͣ��
+Options1=缓慢减速停车
+Options2=关闭点火开关
+Options3=挂空挡滑行
+Options4=紧急制动停车
+Image1=缓慢减速停车
 Image2=
 Image3=
 Image4=

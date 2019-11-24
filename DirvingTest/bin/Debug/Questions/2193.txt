@@ -1,30 +1,30 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2193
 Url=http://tiba.jsyks.com/Post/05796.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2193.jpg
 FlashPath=
-SkillId=29
+SkillId=30
 MoudleId=2
 Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=¿´±êÖ¾£º¼ÓÓÍÕ¾¡£
-NormalNotice=´Ë±êÖ¾±íÊ¾¸ßËÙ¹«Â·¼ÓÓÍÕ¾
+SkillNotice=çœ‹æ ‡å¿—ï¼šåŠ æ²¹ç«™ã€‚
+NormalNotice=æ­¤æ ‡å¿—è¡¨ç¤ºé«˜é€Ÿå…¬è·¯åŠ æ²¹ç«™
 [Options]
-Options1=¸ßËÙ¹«Â··şÎñÇø
-Options2=¸ßËÙ¹«Â·ĞİÏ¢Çø
-Options3=¸ßËÙ¹«Â·¼ÓÓÍÕ¾
-Options4=¸ßËÙ¹«Â·¿Í³µÕ¾
+Options1=é«˜é€Ÿå…¬è·¯å®¢è½¦ç«™
+Options2=é«˜é€Ÿå…¬è·¯æœåŠ¡åŒº
+Options3=é«˜é€Ÿå…¬è·¯ä¼‘æ¯åŒº
+Options4=é«˜é€Ÿå…¬è·¯åŠ æ²¹ç«™
 Image1=
 Image2=
-Image3=¼ÓÓÍÕ¾
-Image4=
+Image3=
+Image4=åŠ æ²¹ç«™
 [AnswerInfo]
 Answer1=0
 Answer2=0
-Answer3=1
-Answer4=0
+Answer3=0
+Answer4=1

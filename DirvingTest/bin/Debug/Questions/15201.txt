@@ -1,7 +1,7 @@
-[QuesitonInfo]
+锘縖QuesitonInfo]
 Id=15201
 Url=http://tiba.jsyks.com/Post/b4587.htm
-Tittle=这是什么交通标志？
+Tittle=杩欐槸浠�涔堜氦閫氭爣蹇楋紵
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=15201.jpg
@@ -11,13 +11,13 @@ MoudleId=14
 Type=2
 Classification=5
 [SkillInfo]
-SkillNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6fnnd0j.jpg>    反向弯路</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut6hqkguj.jpg>    连续弯路</p>
-NormalNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6fnnd0j.jpg>    反向弯路</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut6hqkguj.jpg>    连续弯路</p>
+SkillNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6fnnd0j.jpg>    鍙嶅悜寮矾</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut6hqkguj.jpg>    杩炵画寮矾</p>
+NormalNotice=<p><img src=http://ww4.sinaimg.cn/large/c05f42f9jw1e2ut6fnnd0j.jpg>    鍙嶅悜寮矾</p><p><img src=http://ww2.sinaimg.cn/large/c05f42f9jw1e2ut6hqkguj.jpg>    杩炵画寮矾</p>
 [Options]
-Options1=易滑路段
-Options2=急转弯路
-Options3=反向弯路
-Options4=连续弯路
+Options1=鏄撴粦璺
+Options2=鎬ヨ浆寮矾
+Options3=鍙嶅悜寮矾
+Options4=杩炵画寮矾
 Image1=
 Image2=
 Image3=

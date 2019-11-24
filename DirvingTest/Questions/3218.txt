@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=3218
 Url=http://tiba.jsyks.com/Post/c2c3a.htm
-Tittle=��ͼ��ʾ���ڸ��ٹ�·ͬ�����������������м䳵����ʻ�����ٲ��ܵ��ڶ��٣�
+Tittle=如图所示，在高速公路同方向三条机动车道中间车道行驶，车速不能低于多少？
 TittleEmphasize=
-SkillEmphasize=�������������м�
+SkillEmphasize=三条机动车道中间
 ImagePath=3218.jpg
 FlashPath=
 SkillId=34
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=��ͼ�������м�ѡ90���ͬ�������������м䳵�����ܵ���90����/Сʱ��
-NormalNotice=����������Ϊ��110-120    90-110   60-90    ��Ϊ��������100-120  60-100    ��˱���ѡB
+SkillNotice=看图：车在中间选90公里，同向三车道，在中间车道不能低于90公里/小时。
+NormalNotice=从左到右依次为：110-120    90-110   60-90    若为两条道：100-120  60-100    因此本题选B
 [Options]
-Options1=60����/Сʱ
-Options2=110����/Сʱ
-Options3=90����/Сʱ
-Options4=100����/Сʱ
+Options1=60公里/小时
+Options2=110公里/小时
+Options3=90公里/小时
+Options4=100公里/小时
 Image1=
 Image2=
-Image3=90����
+Image3=90公里
 Image4=
 [AnswerInfo]
 Answer1=0

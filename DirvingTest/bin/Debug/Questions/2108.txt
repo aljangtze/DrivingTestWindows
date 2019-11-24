@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2108
 Url=http://tiba.jsyks.com/Post/d57ff.htm
-Tittle=Õâ¸ö±êÖ¾ÊÇºÎº¬Òå£¿
+Tittle=è¿™ä¸ªæ ‡å¿—æ˜¯ä½•å«ä¹‰ï¼Ÿ
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2108.jpg
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=5
 [SkillInfo]
-SkillNotice=¿´¼ûº£¹ØÑ¡º£¹Ø¡£
-NormalNotice=º£¹ØÄÇÁ©¸ö´ó×ÖÄÇÃ´ÇåÎúÄãÔÙ²»Ñ¡A£¬AµÃÓĞ¶àÉËĞÄ¡£
+SkillNotice=çœ‹è§æµ·å…³é€‰æµ·å…³ã€‚
+NormalNotice=æµ·å…³é‚£ä¿©ä¸ªå¤§å­—é‚£ä¹ˆæ¸…æ™°ä½ å†ä¸é€‰Aï¼ŒAå¾—æœ‰å¤šä¼¤å¿ƒã€‚
 [Options]
-Options1=¹ú½ç
-Options2=º£¹Ø
-Options3=±ß½ç
-Options4=±ß·À
+Options1=å›½ç•Œ
+Options2=æµ·å…³
+Options3=è¾¹ç•Œ
+Options4=è¾¹é˜²
 Image1=
-Image2=º£¹Ø
+Image2=æµ·å…³
 Image3=
 Image4=
 [AnswerInfo]

@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=2041
 Url=http://tiba.jsyks.com/Post/e8ea0.htm
-Tittle=����ʲô��ͨ��־��
+Tittle=这是什么交通标志？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=2041.jpg
@@ -12,16 +12,16 @@ Type=2
 Classification=3
 BankId=9
 [SkillInfo]
-SkillNotice=����־����·�������ϱ�խ��������ľ�������խ��
-NormalNotice=����խ�����Ծ��泵����ʻ��ע��ǰ�����е���·����խ�������������Ӧ����ٱ��á�����˫����·���������Ϊ6 m���µ�·�����ǰ����
+SkillNotice=看标志：道路从下往上变窄，左侧拐弯的就是左侧变窄。
+NormalNotice=左侧变窄：用以警告车辆驾驶人注意前方车行道或路面狭窄情况，遇有来车应予减速避让。设在双车道路面宽度缩减为6 m以下的路段起点前方。
 [Options]
-Options1=�Ҳ��խ
-Options2=�����խ
-Options3=����խ
-Options4=�����խ
+Options1=右侧变窄
+Options2=两侧变窄
+Options3=左侧变窄
+Options4=桥面变窄
 Image1=
 Image2=
-Image3=��
+Image3=左
 Image4=
 [AnswerInfo]
 Answer1=0

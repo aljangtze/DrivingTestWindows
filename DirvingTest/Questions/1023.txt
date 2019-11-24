@@ -1,7 +1,7 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1023
 Url=http://tiba.jsyks.com/Post/39e8f.htm
-Tittle=�Լ�ʻƴװ��������·��ʻ�ļ�ʻ�ˣ����ܵ��������ִ�����
+Tittle=对驾驶拼装机动车上路行驶的驾驶人，会受到下列哪种处罚？
 TittleEmphasize=
 SkillEmphasize=
 ImagePath=
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=2
 [SkillInfo]
-SkillNotice=���𰸣���200����Ĵ�ֱ��ѡ��ע����ĵ�����ʻ֤����ѡ��
-NormalNotice=��һ����:��ʻƴװ�Ļ����������Ѵﵽ���ϱ�׼�Ļ������ϵ�·��ʻ�ģ��������ؽ�ͨ��������Ӧ�������սɣ�ǿ�Ʊ��ϡ�        �Լ�ʻǰ�����л������ϵ�·��ʻ�ļ�ʻ�ˣ�������Ԫ���϶�ǧԪ���·����������������ʻ֤��
+SkillNotice=看答案：有200罚款的答案直接选。注意这的吊销行驶证不能选。
+NormalNotice=第一百条:驾驶拼装的机动车或者已达到报废标准的机动车上道路行驶的，公安机关交通管理部门应当予以收缴，强制报废。        对驾驶前款所列机动车上道路行驶的驾驶人，处二百元以上二千元以下罚款，并吊销机动车驾驶证。
 [Options]
-Options1=������������ʻ֤
-Options2=��200Ԫ����2000Ԫ���·���
-Options3=��15�����¾���
-Options4=����׷����������
-Image1=����
-Image2=200,����
+Options1=吊销机动车行驶证
+Options2=处200元以上2000元以下罚款
+Options3=处15日以下拘留
+Options4=依法追究刑事责任
+Image1=吊销
+Image2=200,罚款
 Image3=
 Image4=
 [AnswerInfo]

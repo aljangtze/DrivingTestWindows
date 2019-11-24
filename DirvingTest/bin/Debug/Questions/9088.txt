@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9088
 Url=http://tiba.jsyks.com/Post/0afcd.htm
-Tittle=ǰ����־��ʾ�����ǵ�����ʻ��·��
+Tittle=前方标志表示向左是单向行驶道路。
 TittleEmphasize=
-SkillEmphasize=������
+SkillEmphasize=向左单向
 ImagePath=9088.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=32
+BankId=0
 [SkillInfo]
-SkillNotice=��ͷ�����У����ҵ��У��ԡ�
-NormalNotice=����·(����)     ��ʾ�õ�·Ϊ������ʻ���ѽ��복��Ӧ����־ָʾ�����г���
+SkillNotice=箭头向左单行，向右单行，对。
+NormalNotice=单行路(向左)     表示该道路为单向行驶，已进入车辆应依标志指示方向行车。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

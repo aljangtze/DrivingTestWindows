@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=1314
 Url=http://tiba.jsyks.com/Post/effab.htm
-Tittle=���ƺ��ʻ������һ�μǼ��֣�
+Tittle=饮酒后驾驶机动车一次记几分？
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=饮酒
 ImagePath=
 FlashPath=
 SkillId=33
@@ -12,15 +12,15 @@ Type=2
 Classification=3
 BankId=11
 [SkillInfo]
-SkillNotice=���⣺��Ŀû���źŵƣ��𰸾�ѡ12�֡����ƺ��ʻ�ļ�2�֡�
-NormalNotice=��·��ͨ��ȫΥ����Ϊ�Ƿַ�ֵ        ����һ����������ʻ��������Υ����Ϊ֮һ��һ�μ�12�֣�    ������һ����ʻ��׼�ݳ��Ͳ����Ļ������ģ�    �������������ƺ��ʻ�������ģ�    ������������ʻӪ�˿ͳ���������������������У�����˳����˶�����20%���ϵģ�    ������?
+SkillNotice=看题：题目没有信号灯，答案就选12分。饮酒后驾驶的记2分。
+NormalNotice=道路交通安全违法行为记分分值        　　一、机动车驾驶人有下列违法行为之一，一次记12分：    　　（一）驾驶与准驾车型不符的机动车的；    　　（二）饮酒后驾驶机动车的；    　　（三）驾驶营运客车（不包括公共汽车）、校车载人超过核定人数20%以上的；    　　（?
 [Options]
-Options1=3��
-Options2=12��
-Options3=2��
-Options4=6��
+Options1=3分
+Options2=12分
+Options3=2分
+Options4=6分
 Image1=
-Image2=12��
+Image2=12分
 Image3=
 Image4=
 [AnswerInfo]

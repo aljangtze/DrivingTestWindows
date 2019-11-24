@@ -1,7 +1,7 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=14021
-Tittle=³µÁ¾·¢Éú¹ÊÕÏÎÞ·¨ÒÆ¶¯Ê±£¬ÒÔÏÂ×ö·¨ÊÇ·ñÕýÈ·£¿
-SkillEmphasize=¹ÊÕÏÎÞ·¨ÒÆ¶¯
+Tittle=è½¦è¾†å‘ç”Ÿæ•…éšœæ— æ³•ç§»åŠ¨æ—¶ï¼Œä»¥ä¸‹åšæ³•æ˜¯å¦æ­£ç¡®ï¼Ÿ
+SkillEmphasize=æ•…éšœæ— æ³•ç§»åŠ¨
 ImagePath=14021.jpg
 FlashPath=
 SkillId=15
@@ -10,12 +10,12 @@ Type=1
 Classification=3
 BankId=6
 [SkillInfo]
-SkillNotice=¿´Í¼£ºÍ¼ÖÐÔÚ¹ÊÕÏ³µÇ°·Å¾¯¸æ±êÖ¾´í¡£
+SkillNotice=çœ‹å›¾ï¼šå›¾ä¸­åœ¨æ•…éšœè½¦å‰æ”¾è­¦å‘Šæ ‡å¿—é”™ã€‚
 NormalNotice=
 [Options]
-Options1=ÕýÈ·
+Options1=æ­£ç¡®
 Image1=
-Options2=´íÎó
+Options2=é”™è¯¯
 Image2=
 Options3=
 Image3=

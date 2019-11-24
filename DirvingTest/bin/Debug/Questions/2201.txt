@@ -1,26 +1,26 @@
-[QuesitonInfo]
+ï»¿[QuesitonInfo]
 Id=2201
 Url=http://tiba.jsyks.com/Post/6002b.htm
-Tittle=Ö¸Ê¾±êÏßµÄ×÷ÓÃÊÇÊ²Ã´£¿
+Tittle=æŒ‡ç¤ºæ ‡çº¿çš„ä½œç”¨æ˜¯ä»€ä¹ˆï¼Ÿ
 TittleEmphasize=
-SkillEmphasize=Ö¸Ê¾£¬×÷ÓÃ
+SkillEmphasize=æŒ‡ç¤ºï¼Œä½œç”¨
 ImagePath=
 FlashPath=
-SkillId=30
+SkillId=34
 MoudleId=2
 Type=2
 Classification=3
 BankId=7
 [SkillInfo]
-SkillNotice=Ö¸Ê¾µÄ×÷ÓÃ¾ÍÊÇÖ¸Ê¾Í¨ĞĞ
-NormalNotice=Ö¸Ê¾±êÏßÖ÷Òª¾ÍÊÇÒıµ¼ÄãÕıÈ·µÄĞĞÊ»£¬°²È«ÊØ·¨
+SkillNotice=æŒ‡ç¤ºçš„ä½œç”¨å°±æ˜¯æŒ‡ç¤ºé€šè¡Œ
+NormalNotice=æŒ‡ç¤ºæ ‡çº¿ä¸»è¦å°±æ˜¯å¼•å¯¼ä½ æ­£ç¡®çš„è¡Œé©¶ï¼Œå®‰å…¨å®ˆæ³•
 [Options]
-Options1=½ûÖ¹Í¨ĞĞ
-Options2=Ö¸Ê¾Í¨ĞĞ
-Options3=ÏŞÖÆÍ¨ĞĞ
-Options4=¾¯¸æÌáĞÑ
+Options1=è­¦å‘Šæé†’
+Options2=æŒ‡ç¤ºé€šè¡Œ
+Options3=ç¦æ­¢é€šè¡Œ
+Options4=é™åˆ¶é€šè¡Œ
 Image1=
-Image2=Ö¸Ê¾
+Image2=æŒ‡ç¤º
 Image3=
 Image4=
 [AnswerInfo]

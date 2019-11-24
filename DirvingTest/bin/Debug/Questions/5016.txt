@@ -1,9 +1,9 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=5016
 Url=http://tiba.jsyks.com/Post/c2e7e.htm
-Tittle=���˼�װ��ĳ����߶ȴӵ����𲻵ó��������ף�
+Tittle=载运集装箱的车辆高度从地面起不得超过多少米？
 TittleEmphasize=
-SkillEmphasize=�߶�
+SkillEmphasize=高度
 ImagePath=
 FlashPath=
 SkillId=37
@@ -12,8 +12,8 @@ Type=2
 Classification=2
 BankId=0
 [SkillInfo]
-SkillNotice=�߶ȶ�ѡС���ס�
-NormalNotice=�������ǲ��ó���4��.���˼�װ����ǲ��ó���4.2��
+SkillNotice=高度都选小的米。
+NormalNotice=货车的是不得超过4米.载运集装箱的是不得超过4.2米
 [Options]
 Options1=4.2
 Options2=4.5

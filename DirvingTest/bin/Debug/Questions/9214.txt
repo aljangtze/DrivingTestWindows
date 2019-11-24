@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9214
 Url=http://tiba.jsyks.com/Post/cf0d7.htm
-Tittle=ͼ�к������ʻ�������ڽ�ͨΥ����Ϊ��
+Tittle=图中红框内行驶车辆存在交通违法行为。
 TittleEmphasize=
-SkillEmphasize=Υ����Ϊ
+SkillEmphasize=违法行为
 ImagePath=9214.jpg
 FlashPath=
 SkillId=44
 MoudleId=9
 Type=1
 Classification=4
-BankId=25
+BankId=51
 [SkillInfo]
-SkillNotice=��Ŀ����Υ����Ϊ���ԣ�
-NormalNotice=�����ߵ���ʽ��ҪΪһ���򼸸�����·�ڵ������õİ�ɫV���߻�б�������򣬱�ʾ�������밴�涨��·����ʻ������ѹ�߻�Խ����ʻ�� ��Ҫ���ڹ��������������ʻ�����Ƚϸ��ӵĽ���·��,���彻����ѵ��ڻ���������ص㡣
+SkillNotice=题目上有违法行为，对！
+NormalNotice=导流线的形式主要为一个或几个根据路口地形设置的白色V形线或斜纹线区域，表示车辆必须按规定的路线行驶，不得压线或越线行驶。 主要用于过宽、不规则或行驶条件比较复杂的交叉路口,立体交叉的匝道口或其他特殊地点。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=13031
 Url=http://tiba.jsyks.com/Post/c5098.htm
-Tittle=��ʴƷ�Ż�ʱ��������ˮ��ֱ�������˾ȡ�
+Tittle=腐蚀品着火时，不能用水柱直接喷射扑救。
 TittleEmphasize=
-SkillEmphasize=������ˮ
+SkillEmphasize=不能用水
 ImagePath=
 FlashPath=
 SkillId=44
 MoudleId=13
 Type=1
 Classification=4
-BankId=31
+BankId=51
 [SkillInfo]
-SkillNotice=��ʴƷ�������Ż�����ˮ���ԣ����˵��ˮ�ʹ���
-NormalNotice=�޻���ʴƷ���л���ʴƷֱ��ȼ��ʱ����������ˮ��Ӧ���Ե������⣬һ����ô�����ˮ�˾ȡ���������״ˮ�������ø�ѹˮ��ֱ��������Ʒ������ɽ���ˮ����ϸ�ʴƷ���������Ա�� Һ�帯ʴƷӦ�ø�ɰ�������������գ�ɨ�ɾ�������ˮϴˢ���������ʱ����ϡ���ϡ���к͡���?
+SkillNotice=腐蚀品，电器着火不能用水，对！如果说用水就错。
+NormalNotice=无机腐蚀品或有机腐蚀品直接燃烧时，除具有与水反应特性的物质外，一般可用大量的水扑救。但宜用雾状水，不能用高压水柱直接喷射物品，以免飞溅的水珠带上腐蚀品灼伤灭火人员。 液体腐蚀品应用干砂、干土覆盖吸收，扫干净后，再用水洗刷。大量溢出时可用稀酸或稀碱中和。中?
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

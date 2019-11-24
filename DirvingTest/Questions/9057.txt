@@ -1,22 +1,22 @@
-[QuesitonInfo]
+﻿[QuesitonInfo]
 Id=9057
 Url=http://tiba.jsyks.com/Post/b12b0.htm
-Tittle=ͼ�б�־�����ϰ�����·�У��������������С�
+Tittle=图中标志提醒障碍物在路中，车辆从两侧绕行。
 TittleEmphasize=
-SkillEmphasize=����
+SkillEmphasize=两侧
 ImagePath=9057.jpg
 FlashPath=
 SkillId=43
 MoudleId=9
 Type=1
 Classification=4
-BankId=0
+BankId=27
 [SkillInfo]
-SkillNotice=����·�м��ǹ̶��ģ�ֻ�ܴ��������У��ԣ�
-NormalNotice=��������    �˱�־��ʾ���ϰ����� ���Ҳ����У�������·��ǰ�ʵ�λ�á�
+SkillNotice=树在路中间是固定的，只能从两侧绕行，对！
+NormalNotice=左右绕行    此标志表示有障碍物座 左右侧绕行，放置在路段前适当位置。
 [Options]
-Options1=��
-Options2=��
+Options1=对
+Options2=错
 Options3=
 Options4=
 Image1=

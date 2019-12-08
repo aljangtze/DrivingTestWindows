@@ -56,7 +56,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;_InitailQuestionWithFile;not_SaveToSqlite;not_SaveToSqliteGroups;</DefineConstants>
+    <DefineConstants>DEBUG</DefineConstants>
     <DebugType>full</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
@@ -230,16 +230,16 @@
     <Compile Include="QuestionManager\FormSkillManager.Designer.cs">
       <DependentUpon>FormSkillManager.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormBankSelect.cs">
+    <Compile Include="Observed\FormBankSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBankSelect.Designer.cs">
+    <Compile Include="Observed\FormBankSelect.Designer.cs">
       <DependentUpon>FormBankSelect.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSkillSelect.cs">
+    <Compile Include="Observed\FormSkillSelect.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSkillSelect.Designer.cs">
+    <Compile Include="Observed\FormSkillSelect.Designer.cs">
       <DependentUpon>FormSkillSelect.cs</DependentUpon>
     </Compile>
     <Compile Include="Exams\FormSkillTrain.cs">
@@ -260,16 +260,16 @@
     <Compile Include="Exams\FormSkillTrainFinish.Designer.cs">
       <DependentUpon>FormSkillTrainFinish.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRecoverExam.cs">
+    <Compile Include="Observed\FormRecoverExam.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRecoverExam.Designer.cs">
+    <Compile Include="Observed\FormRecoverExam.Designer.cs">
       <DependentUpon>FormRecoverExam.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSubject4.cs">
+    <Compile Include="Observed\FormSubject4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSubject4.Designer.cs">
+    <Compile Include="Observed\FormSubject4.Designer.cs">
       <DependentUpon>FormSubject4.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSubject1.cs">
@@ -356,10 +356,10 @@
     <EmbeddedResource Include="QuestionManager\FormSkillManager.resx">
       <DependentUpon>FormSkillManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormBankSelect.resx">
+    <EmbeddedResource Include="Observed\FormBankSelect.resx">
       <DependentUpon>FormBankSelect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSkillSelect.resx">
+    <EmbeddedResource Include="Observed\FormSkillSelect.resx">
       <DependentUpon>FormSkillSelect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Exams\FormSkillTrain.resx">
@@ -371,10 +371,10 @@
     <EmbeddedResource Include="Exams\FormSkillTrainFinish.resx">
       <DependentUpon>FormSkillTrainFinish.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRecoverExam.resx">
+    <EmbeddedResource Include="Observed\FormRecoverExam.resx">
       <DependentUpon>FormRecoverExam.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSubject4.resx">
+    <EmbeddedResource Include="Observed\FormSubject4.resx">
       <DependentUpon>FormSubject4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSubject1.resx">
@@ -498,6 +498,7 @@
       <Name>EasyConfigWin</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.112.0\build\net40\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.112.0\build\net40\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

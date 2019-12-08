@@ -708,6 +708,11 @@ namespace DirvingTest
             }
         }
 
+        #region 生成题目并打乱答案
+        /// <summary>
+        /// 生成题目
+        /// </summary>
+        /// <returns></returns>
         public int GenQuestions()
         {
             if (_status.AllQuestion.Count > 0)
@@ -848,7 +853,10 @@ namespace DirvingTest
             }
            
         }
-
+        
+        /// <summary>
+        /// 生成答案
+        /// </summary>
         private void GenAnswerList()
         {
             _status.AnswerQuestion.Clear();
@@ -900,6 +908,9 @@ namespace DirvingTest
                 _status.AnswerQuestion.Add(question.Id, answer);
             }
         }
+
+        #endregion 
+
         private void FormSimulation_Shown(object sender, EventArgs e)
         {
             CanClose = false;

@@ -31,6 +31,9 @@ namespace DirvingTest
             //    ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), i);
             //    //i = i + 500;
             //}
+            QuestionManager.m_QuestionsList.Clear();
+            QuestionManager.m_QuestionsDictionary.Clear();
+
 #if _InitailQuestionWithFile
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(1001,1500));
             ThreadPool.QueueUserWorkItem(new WaitCallback(LoadProblems), new ThreadParam(2001, 2400));
@@ -142,9 +145,50 @@ namespace DirvingTest
 
                 question.TittleEmphasize = row["tittleEmphasize"].ToString(); ;
                 question.SkillNotice = row["skillEmphasize"].ToString(); ;
-                question.NormalNotice = row["notice"].ToString(); ;
+                question.NormalNotice = row["notice"].ToString();
 
+                //TODO：统计对应的章节列表
+                #region 统计对应的章节列表
+                //try
+                //{
+                //    question.Skill = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["SkillId"].RawValue);
+                //    if (0 != question.Skill)
+                //    {
+                //        m_Relation_Question_Skill[question.Id] = question.Skill;
+                //    }
+                //}
+                //catch
+                //{
+                //    question.Skill = 0;
+                //}
 
+                //try
+                //{
+                //    question.BankId = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["BankId"].RawValue);
+                //    if (0 != question.BankId)
+                //    {
+                //        m_Relation_Question_Suite[question.Id] = question.BankId;
+                //    }
+                //}
+                //catch
+                //{
+                //    question.BankId = 0;
+                //}
+
+                //try
+                //{
+                //    question.IntensifyId = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["IntensifyId"].RawValue);
+                //}
+                //catch
+                //{
+                //    question.IntensifyId = 0;
+                //    if (0 != question.BankId)
+                //    {
+                //        m_Relation_Question_Intensity[question.Id] = question.IntensifyId;
+                //    }
+                //}
+
+                #endregion 
                 QuestionManager.m_QuestionsDictionary[question.Id] = question;
                 QuestionManager.m_QuestionsList.Add(question);
             }
@@ -241,7 +285,6 @@ namespace DirvingTest
         {
             ThreadParam threadParam = (ThreadParam)paramsInfo;
             QuestionManager.LoadQuestion(threadParam.Start, threadParam.End);
-
         }
 
         class ThreadParam

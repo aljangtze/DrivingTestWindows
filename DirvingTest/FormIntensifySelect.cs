@@ -18,8 +18,17 @@ namespace DirvingTest
 
         public enum SupportChapterType
         {
+            /// <summary>
+            /// 技巧练习
+            /// </summary>
             ChapterSkill = 3,
+            /// <summary>
+            /// 套题练习
+            /// </summary>
             ChapterSuite = 4,
+            /// <summary>
+            /// 强化练习
+            /// </summary>
             ChapterIntensity = 5
         }
 

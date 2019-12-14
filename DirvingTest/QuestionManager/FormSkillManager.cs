@@ -34,6 +34,7 @@ namespace DirvingTest
             dataGridView1.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridView1.Rows.Clear();
             UpdateSkillList();
+            UpdateUI();
 
             _formModelAdd = new FormModelAdd();
             _formModelAdd.FormBack += SendBack;
@@ -41,27 +42,45 @@ namespace DirvingTest
 
         private void UpdateUI()
         {
-            if (_Type != 0)
+            switch (_Type)
             {
-                labelTittle.Text = "技巧管理--对技巧信息进行维护，进行技巧的增加、删除、修改";
-            }
-            else
-            {
-                labelInfo.Text = "对技巧信息进行维护，进行技巧的增加、删除、修改。";
+                case 0:
+                    labelTittle.Text = "章节管理--对章节信息进行维护，进行章节的增加、删除、修改";
+                    break;
+                case 1:
+                    labelTittle.Text = "技巧管理--对技巧信息进行维护，进行技巧的增加、删除、修改";
+                    break;
+                case 2:
+                    labelTittle.Text = "套题管理--对套题信息进行维护，进行套题的增加、删除、修改";
+                    break;
+                case 3:
+                    labelTittle.Text = "易错题管理--对强化练习信息进行维护，进行易错题的增加、删除、修改";
+                    break;
+
             }
         }
         private void UpdateSkillList()
         {
             //List<ModelChapter> lst = null;
             Dictionary<int, ModelChapter> lst = null;
-            if (_Type != 0)
+            switch (_Type)
             {
-                lst = ModelManager.m_DicMoudleList;
+                case 0:
+                    lst = ModelManager.m_DicMoudleList;
+                    break;
+                case 1:
+                    lst = ModelManager.m_DicSkillList;
+                    break;
+                case 2:
+                    lst = ModelManager.m_DicBankList;
+                    break;
+                case 3:
+                    lst = ModelManager.m_DicIntensifyList;
+                    break;
+                default:
+                    break;
             }
-            else
-            {
-                lst = ModelManager.m_DicSkillList;
-            }
+
             foreach (var data in lst)
             {
                 ModelChapter model = data.Value;
@@ -75,7 +94,7 @@ namespace DirvingTest
             }
         }
 
-        private void AddChaperOrSkill(ModelChapter model,int type)
+        private void AddModel(ModelChapter model)
         {
             try
             {
@@ -87,10 +106,10 @@ namespace DirvingTest
                 List<SQLiteParameter> parameters = new List<SQLiteParameter>();
                 parameters.Add(new SQLiteParameter("@id", model.Id));
                 parameters.Add(new SQLiteParameter("@name", model.Tittle));
-                parameters.Add(new SQLiteParameter("@type", type));
+                parameters.Add(new SQLiteParameter("@type", _Type));
                 parameters.Add(new SQLiteParameter("@count", model.Count));
-                parameters.Add(new SQLiteParameter("@classification",model.Classification));
-                
+                parameters.Add(new SQLiteParameter("@classification", model.Classification));
+
                 int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
                 if (result <= 0)
                 {
@@ -123,7 +142,7 @@ namespace DirvingTest
             txtBox2.Value = tittle;
             txtBox2.ToolTipText = tittle;
             row.Cells.Add(txtBox2);
-            txtBox2.ReadOnly = true;           
+            txtBox2.ReadOnly = true;
 
             DataGridViewTextBoxCell txtBox3 = new DataGridViewTextBoxCell();
             txtBox3.Value = Question._ModelClassificationInfo[type];
@@ -138,7 +157,7 @@ namespace DirvingTest
             txtBox5.ToolTipText = "此技巧下面的题目数";
             row.Cells.Add((DataGridViewTextBoxCell)txtBox5);
             txtBox5.ReadOnly = true;
-
+            txtBox5.Tag = count;
 
             DataGridViewTextBoxCell txtBox4 = new DataGridViewTextBoxCell();
             txtBox4.Value = status ? "启用" : "停用";
@@ -171,17 +190,18 @@ namespace DirvingTest
                 model.Id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
                 model.Tittle = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
                 model.Classification = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[3].Tag);
+                model.Count = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[4].Tag);
                 model.IsEnable = (bool)dataGridView1.Rows[e.RowIndex].Cells[5].Tag;
 
                 doShowModelInfo(model);
             }
-            if(e.ColumnIndex == 7)
+            if (e.ColumnIndex == 7)
             {
                 ModelChapter model = new ModelChapter();
                 model.Id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
-                if(DialogResult.Yes == MessageBox.Show("您确认删除此条信息?", "确认窗口", MessageBoxButtons.YesNo))
+                if (DialogResult.Yes == MessageBox.Show("您确认删除此条信息?", "确认窗口", MessageBoxButtons.YesNo))
                 {
-                    if(true == DeleteModel(model.Id))
+                    if (true == DeleteModel(model.Id))
                     {
                         dataGridView1.Rows.RemoveAt(e.RowIndex);
                     }
@@ -210,10 +230,22 @@ namespace DirvingTest
         private void labelAdd_Click(object sender, EventArgs e)
         {
             ModelChapter model = new ModelChapter();
-            if (_Type == 0)
-                model.Id = SystemConfig._maxSkillId + 1;
-            else
-                model.Id = SystemConfig._maxModuleId + 1;
+
+            switch (_Type)
+            {
+                case 0:
+                    model.Id = SystemConfig._maxModuleId + 1;
+                    break;
+                case 1:
+                    model.Id = SystemConfig._maxSkillId + 1;
+                    break;
+                case 2:
+                    model.Id = SystemConfig._maxBankId + 1;
+                    break;
+                case 3:
+                    model.Id = SystemConfig._maxIntensifyId + 1;
+                    break;
+            }
 
             model.Classification = 1;
 
@@ -230,6 +262,66 @@ namespace DirvingTest
             _formModelAdd.Show();
         }
 
+        private bool AddChapterToDB(ModelChapter model)
+        {
+            try
+            {
+                string sqlString = @"insert into groups (id, name, type, status, count, classification)
+                                values
+                                (@id, @name, @type, 1, @count, @classification)";
+
+                //SQLiteParameter[] parameters = new SQLiteParameter[23];
+                List<SQLiteParameter> parameters = new List<SQLiteParameter>();
+                parameters.Add(new SQLiteParameter("@id", model.Id));
+                parameters.Add(new SQLiteParameter("@name", model.Tittle));
+                parameters.Add(new SQLiteParameter("@type", _Type));
+                parameters.Add(new SQLiteParameter("@count", model.Count));
+                parameters.Add(new SQLiteParameter("@classification", model.Classification));
+
+                int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
+                if (result <= 0)
+                {
+                    Console.WriteLine("Error" + model.Id);
+                    //MessageBox.Show(ques)
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        private bool UpdateChapterToDB(ModelChapter model)
+        {
+            try
+            {
+                string sqlString = @"update groups set name=@name, type=@type, status=@status, count=@count, classification=@classification  where id=@id";
+
+                //SQLiteParameter[] parameters = new SQLiteParameter[23];
+                List<SQLiteParameter> parameters = new List<SQLiteParameter>();
+                parameters.Add(new SQLiteParameter("@id", model.Id));
+                parameters.Add(new SQLiteParameter("@name", model.Tittle));
+                parameters.Add(new SQLiteParameter("@status", model.IsEnable?1:0));
+                parameters.Add(new SQLiteParameter("@type", _Type));
+                parameters.Add(new SQLiteParameter("@count", model.Count));
+                parameters.Add(new SQLiteParameter("@classification", model.Classification));
+
+                int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
+                if (result <= 0)
+                {
+                    Console.WriteLine("Error" + model.Id);
+                    //MessageBox.Show(ques)
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
         public bool SendBack(ModelChapter model, bool Replace)
         {
             if (true == Replace)
@@ -237,35 +329,76 @@ namespace DirvingTest
                 //List<ModelChapter> list = null;
                 Dictionary<int, ModelChapter> list = null;
                 string path = "";
-                if (_Type == 0)
+                switch(_Type)
                 {
-                    list = ModelManager.m_DicSkillList;
-                    path = ModelManager._PathSkill;
+                    case 0:
+                        list = ModelManager.m_DicMoudleList;
+                        break;
+                    case 1:
+                        list = ModelManager.m_DicSkillList;
+                        break;
+                    case 2:
+                        list = ModelManager.m_DicBankList;
+                        break;
+                    case 3:
+                        list = ModelManager.m_DicIntensifyList;
+                        break;
                 }
-                else
-                {
-                    list = ModelManager.m_DicMoudleList;
-                    path = ModelManager._PathModule;
-                }
+                //if (_Type == 0)
+                //{
+                //    list = ModelManager.m_DicSkillList;
+                //    path = ModelManager._PathSkill;
+                //}
+                //else
+                //{
+                //    list = ModelManager.m_DicMoudleList;
+                //    path = ModelManager._PathModule;
+                //}
 
                 bool isReplace = false;
                 if (true == ModelManager.AddModelToList(model, list, out isReplace))
                 {
+                    //TODO:保存章節信息到數據庫
+                    if (!isReplace)
+                    {
+                        if (false == this.AddChapterToDB(model))
+                            return false;
+                    }
+                    else
+                    {
+                        if (false == this.UpdateChapterToDB(model))
+                            return false;
+                    }
 
-                    if (true == ModelManager.SetListToFile(list, path))
+                    //if (true == ModelManager.SetListToFile(list, path))
                     {
                         this.panelModelList.BringToFront();
                         this.panelModelInfo.SendToBack();
                         if(isReplace != true)
                         {
-                            if (_Type == 0)
+                            switch(_Type)
                             {
-                                SystemConfig._maxSkillId = model.Id;
+                                case 0:
+                                    SystemConfig._maxModuleId = model.Id;
+                                    break;
+                                case 1:
+                                    SystemConfig._maxSkillId = model.Id;
+                                    break;
+                                case 2:
+                                    SystemConfig._maxBankId = model.Id;
+                                    break;
+                                case 3:
+                                    SystemConfig._maxIntensifyId = model.Id;
+                                    break;
                             }
-                            else
-                            {
-                                SystemConfig._maxModuleId = model.Id;
-                            }
+                            //if (_Type == 0)
+                            //{
+                            //    SystemConfig._maxSkillId = model.Id;
+                            //}
+                            //else
+                            //{
+                            //    SystemConfig._maxModuleId = model.Id;
+                            //}
 
                             SystemConfig.SaveModelId();
                         }
@@ -299,7 +432,9 @@ namespace DirvingTest
                 if(Convert.ToBoolean(((DataGridViewCheckBoxCell)dataGridView1.Rows[i].Cells[0]).EditedFormattedValue) == true)
                 {
                     int id = Convert.ToInt32(dataGridView1.Rows[i].Cells[1].Tag);
-                    if (false == DeleteModel(id))
+                    //TODO;删除章节
+                    //if (false == DeleteModel(id))
+                    if (false == DeleteModeFromDb(id))
                     {
                         return;
                     }
@@ -317,24 +452,42 @@ namespace DirvingTest
         {
             try
             {
-                Dictionary<int, ModelChapter> list = null;
+                Dictionary<int, ModelChapter> lst = null;
                 string path = "";
-                if (_Type == 0)
+                switch (_Type)
                 {
-                    list = ModelManager.m_DicSkillList;
-                    path = ModelManager._PathSkill;
+                    case 0:
+                        lst = ModelManager.m_DicMoudleList;
+                        break;
+                    case 1:
+                        lst = ModelManager.m_DicSkillList;
+                        break;
+                    case 2:
+                        lst = ModelManager.m_DicBankList;
+                        break;
+                    case 3:
+                        lst = ModelManager.m_DicIntensifyList;
+                        break;
+                    default:
+                        break;
                 }
-                else
+                //if (_Type == 0)
+                //{
+                //    list = ModelManager.m_DicSkillList;
+                //    path = ModelManager._PathSkill;
+                //}
+                //else
+                //{
+                //    list = ModelManager.m_DicMoudleList;
+                //    path = ModelManager._PathModule;
+                //}
+                if (true == ModelManager.DelModelFromList(Id, lst))
                 {
-                    list = ModelManager.m_DicMoudleList;
-                    path = ModelManager._PathModule;
-                }
-                if (true == ModelManager.DelModelFromList(Id, list))
-                {
-                    if (false == ModelManager.SetListToFile(list, path))
+                    //TODO:删除数据库的内容
+                    if (false == ModelManager.SetListToFile(lst, path))
                     {
                         MessageBox.Show("删除信息失败!id=" +Id , "提示信息", MessageBoxButtons.OK);
-                        list = ModelManager.GetListFromFile(path);
+                        lst = ModelManager.GetListFromFile(path);
                         return false;
                     }
                 }
@@ -348,7 +501,31 @@ namespace DirvingTest
             }
         }
 
+        private bool DeleteModeFromDb(int Id)
+        {
+            try
+            {
+                string sqlString = @"delete from groups where id=@Id and type=@Type";
 
+                //SQLiteParameter[] parameters = new SQLiteParameter[23];
+                List<SQLiteParameter> parameters = new List<SQLiteParameter>();
+                parameters.Add(new SQLiteParameter("@Id", Id));               
+                parameters.Add(new SQLiteParameter("@type", _Type));
+
+                int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
+                if (result <= 0)
+                {
+                    Console.WriteLine("Error Delete GroupID:" + Id + "Type:" + _Type);
+                    return false;
+                    //MessageBox.Show(ques)
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
         public void ReloadForm()
         {
             return;

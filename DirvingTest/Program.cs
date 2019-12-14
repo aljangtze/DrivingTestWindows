@@ -192,6 +192,10 @@ namespace DirvingTest
                 QuestionManager.m_QuestionsDictionary[question.Id] = question;
                 QuestionManager.m_QuestionsList.Add(question);
             }
+
+
+            QuestionManager.GetRealationShipFromDB(1);
+            QuestionManager.GetRealationShipFromDB(2);
 #endif
 
             //Thread QuestionThread = new Thread(() =>

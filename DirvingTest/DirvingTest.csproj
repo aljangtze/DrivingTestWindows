@@ -56,7 +56,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG</DefineConstants>
+    <DefineConstants>DEBUG;modelChapter</DefineConstants>
     <DebugType>full</DebugType>
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
@@ -122,10 +122,10 @@
     <Compile Include="Helpers\ConfigFileHelper.cs" />
     <Compile Include="Helpers\FileHelper.cs" />
     <Compile Include="InterfaceForm.cs" />
-    <Compile Include="QuestionManager\FormIntensifyManager.cs">
+    <Compile Include="Observed\FormIntensifyManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuestionManager\FormIntensifyManager.Designer.cs">
+    <Compile Include="Observed\FormIntensifyManager.Designer.cs">
       <DependentUpon>FormIntensifyManager.cs</DependentUpon>
     </Compile>
     <Compile Include="FormBigImage.cs">
@@ -218,10 +218,10 @@
     <Compile Include="Exams\FormSkillExplain.Designer.cs">
       <DependentUpon>FormSkillExplain.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuestionManager\FormBankManager.cs">
+    <Compile Include="Observed\FormBankManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuestionManager\FormBankManager.Designer.cs">
+    <Compile Include="Observed\FormBankManager.Designer.cs">
       <DependentUpon>FormBankManager.cs</DependentUpon>
     </Compile>
     <Compile Include="QuestionManager\FormSkillManager.cs">
@@ -301,7 +301,7 @@
     <EmbeddedResource Include="FormIntensifySelect.resx">
       <DependentUpon>FormIntensifySelect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuestionManager\FormIntensifyManager.resx">
+    <EmbeddedResource Include="Observed\FormIntensifyManager.resx">
       <DependentUpon>FormIntensifyManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormBigImage.resx">
@@ -350,7 +350,7 @@
     <EmbeddedResource Include="Exams\FormSkillExplain.resx">
       <DependentUpon>FormSkillExplain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuestionManager\FormBankManager.resx">
+    <EmbeddedResource Include="Observed\FormBankManager.resx">
       <DependentUpon>FormBankManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuestionManager\FormSkillManager.resx">

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SQLite;
 using System.IO;
 ////using System.Linq;
 using System.Text;
@@ -46,10 +48,15 @@ namespace DirvingTest
         {
             try
             {
-                m_DicSkillList = GetListFromFile(_PathSkill);
-                m_DicMoudleList = GetListFromFile(_PathModule);
-                m_DicBankList = GetListFromFile(_PathBank);
-                m_DicIntensifyList = GetListFromFile(_PathEasyError);
+                //TODO:这里使用数据库获取数据
+                //m_DicSkillList = GetListFromFile(_PathSkill);
+                //m_DicMoudleList = GetListFromFile(_PathModule);
+                //m_DicBankList = GetListFromFile(_PathBank);
+                //m_DicIntensifyList = GetListFromFile(_PathEasyError);
+                m_DicMoudleList = GetChapterListFromDB(0);
+                m_DicBankList = GetChapterListFromDB(2);
+                m_DicSkillList = GetChapterListFromDB(1);
+                m_DicIntensifyList = GetChapterListFromDB(3);
                 return true;
             }
             catch (Exception ex)
@@ -58,6 +65,8 @@ namespace DirvingTest
                 return false;
             }
         }
+
+       
 
         public static Dictionary<int, ModelChapter> GetListFromFile(string filePath)
         {
@@ -90,6 +99,28 @@ namespace DirvingTest
             file.Close();
             return m_List;
 
+        }
+
+        public static Dictionary<int, ModelChapter>GetChapterListFromDB(int type)
+        {
+            Dictionary<int, ModelChapter> m_List = new Dictionary<int, ModelChapter>();
+            string sql = @"select g.id,g.name, g.type, g.classification, g.status, count(gq.question_id) as count from groups as g 
+                            left join group_questions as gq on gq.group_id=g.id and gq.type=g.type
+                                where g.type=@type group by g.id,g.name,g.type, g.classification, g.status";
+            DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@type", type) });
+            foreach (DataRow row in data.Rows)
+            {
+                ModelChapter modelChapter = new ModelChapter();
+                modelChapter.Id = Convert.ToInt32(row["id"].ToString());
+                modelChapter.Classification = Convert.ToInt32(row["classification"].ToString());
+                modelChapter.IsEnable = row["status"].ToString() =="1";
+                modelChapter.Tittle = row["name"].ToString();
+                modelChapter.Count= Convert.ToInt32(row["count"].ToString());
+                
+                m_List.Add(modelChapter.Id, modelChapter);
+            }
+
+            return m_List;
         }
 
         public static bool SetListToFile(Dictionary<int, ModelChapter> modelList, string filePath)

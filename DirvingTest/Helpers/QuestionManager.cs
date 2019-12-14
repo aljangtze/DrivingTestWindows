@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SQLite;
 using System.IO;
 ////using System.Linq;
 using System.Text;
@@ -524,6 +526,35 @@ namespace DirvingTest
             return question;
             }
 
+        public static void GetRealationShipFromDB(int type)
+        {
+            try
+            {
+                Dictionary<int, ModelChapter> m_List = new Dictionary<int, ModelChapter>();
+                string sql = @"SELECT r.* FROM group_questions r
+                                left join groups g on g.id = r.group_id
+                                left join questions q on q.id = r.question_id
+                                where r.type = @type";
+                DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@type", type) });
+                foreach (DataRow row in data.Rows)
+                {
+                    int chapterId = Convert.ToInt32(row["group_id"].ToString());
+                    int questionId = Convert.ToInt32(row["question_id"].ToString());
+                    if (type == 2)
+                        m_Relation_Question_Suite[questionId] = chapterId;
+                    if (type == 1)
+                        m_Relation_Question_Skill[questionId] = chapterId;
+                    if (type == 3)
+                        m_Relation_Question_Intensity[questionId] = chapterId;
+                }
+            }
+            catch
+            {
+                return;
+            }
+
+            
+        }
 
         public static void SaveQuestionMaxNum()
         {

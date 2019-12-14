@@ -552,6 +552,11 @@ namespace DirvingTest
             activeFrom = form;
         }
 
+        /// <summary>
+        /// 技巧管理
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuSkillManager_Click(object sender, EventArgs e)
         {
             if (false == SystemConfig._IsLogin)
@@ -562,7 +567,7 @@ namespace DirvingTest
             }
 
             Form form = new FormSkillManager();
-            ((FormSkillManager)form).SetType(0);
+            ((FormSkillManager)form).SetType(1);
 
             if (activeFrom != null)
                 activeFrom.Close();
@@ -576,6 +581,11 @@ namespace DirvingTest
 
         }
 
+        /// <summary>
+        /// 套題管理
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuBankManager_Click(object sender, EventArgs e)
         {
             if (false == SystemConfig._IsLogin)
@@ -585,7 +595,9 @@ namespace DirvingTest
                     return;
             }
 
-            Form form = new FormBankManager();
+            Form form = new FormSkillManager();
+            ((FormSkillManager)form).SetType(2);
+
             if (activeFrom != null)
                 activeFrom.Close();
 
@@ -595,8 +607,31 @@ namespace DirvingTest
             form.Show();
 
             activeFrom = form;
+
+            //if (false == SystemConfig._IsLogin)
+            //{
+            //    FormManagerLogin formLogin = new FormManagerLogin();
+            //    if (DialogResult.Yes != formLogin.ShowDialog())
+            //        return;
+            //}
+
+            //Form form = new FormBankManager();
+            //if (activeFrom != null)
+            //    activeFrom.Close();
+
+            //form.TopLevel = false;
+            //form.Dock = DockStyle.Fill;
+            //form.Parent = this.panelMain;
+            //form.Show();
+
+            //activeFrom = form;
         }
 
+        /// <summary>
+        /// 章節管理
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuChapterManager_Click(object sender, EventArgs e)
         {
             if(false == SystemConfig._IsLogin)
@@ -607,7 +642,7 @@ namespace DirvingTest
             }
 
             Form form = new FormSkillManager();
-            ((FormSkillManager)form).SetType(1);
+            ((FormSkillManager)form).SetType(0);
 
             if (activeFrom != null)
                 activeFrom.Close();
@@ -629,7 +664,9 @@ namespace DirvingTest
                     return;
             }
 
-            Form form = new FormEasyErrorManager();
+            Form form = new FormSkillManager();
+            ((FormSkillManager)form).SetType(3);
+
             if (activeFrom != null)
                 activeFrom.Close();
 
@@ -639,6 +676,23 @@ namespace DirvingTest
             form.Show();
 
             activeFrom = form;
+            //if (false == SystemConfig._IsLogin)
+            //{
+            //    FormManagerLogin formLogin = new FormManagerLogin();
+            //    if (DialogResult.Yes != formLogin.ShowDialog())
+            //        return;
+            //}
+
+            //Form form = new FormEasyErrorManager();
+            //if (activeFrom != null)
+            //    activeFrom.Close();
+
+            //form.TopLevel = false;
+            //form.Dock = DockStyle.Fill;
+            //form.Parent = this.panelMain;
+            //form.Show();
+
+            //activeFrom = form;
         }
 
         private void btnInitialQuestions_Click(object sender, EventArgs e)

@@ -21,362 +21,80 @@ namespace DirvingTest
         public string AnswerString;
         public int RightStatus; //0 1 2 0未答 1正确 2错误
     }
-    class QuestionManager
+
+    public class QuestionManager
     {
+        /// <summary>
+        /// 所有题目列表
+        /// </summary>
         public static List<Question> m_QuestionsList = new List<Question>();
+
+        /// <summary>
+        /// 单选题列表
+        /// </summary>
         public static List<Question> m_SelectedOneList = new List<Question>();
+
+        /// <summary>
+        /// 判断题列表
+        /// </summary>
         public static List<Question> m_ChargeOneList = new List<Question>();
+
+        /// <summary>
+        /// 多选题列表
+        /// </summary>
         public static List<Question> m_SelectedMultList = new List<Question>();
 
-
-
-        public static ConcurrentDictionary<int, Question> m_QuestionsDictionary = new ConcurrentDictionary<int, Question>();
         /// <summary>
-        /// 题目目与分组之间的关系列表，字典存储
+        /// 所有题目的id对应字典
+        /// </summary>
+        public static ConcurrentDictionary<int, Question> m_QuestionsDictionary = new ConcurrentDictionary<int, Question>();
+
+        /// <summary>
+        /// 题目目与技巧之间的关系列表，字典存储
         /// </summary>
         /// 
         public static SerializableDictionary<int, int> m_Relation_Question_Skill = new SerializableDictionary<int,int>();
+
+        /// <summary>
+        /// 题目与套题练习分组
+        /// </summary>
         public static SerializableDictionary<int, int> m_Relation_Question_Suite = new SerializableDictionary<int, int>();
+
+        /// <summary>
+        /// 题目与易错题练习分组
+        /// </summary>
         public static SerializableDictionary<int, int> m_Relation_Question_Intensity = new SerializableDictionary<int, int>();
 
+        [Obsolete]
+        /// <summary>
+        /// </summary>
         public static string g_QuestionDir =　"Images";
         //static int QUESTION_NUM = 0;
         static readonly Random rnd = new Random(Guid.NewGuid().GetHashCode());
 
-        static Array ArrayQuestionByMoudleSubject1;
-        static Array ArrayQuestionByMoudleSubject2;
-        static Array ArrayQuestionBySkill;
-
-        public static int _maxQuestionNum = 0;
-        internal const string SPLIT_STR = "======================";
-        static Regex regImgFile = new Regex(@"\[\[(.*?)\]\]", RegexOptions.Compiled);
-        static void AnalysizeQuestion(string Text, out string Title, out List<int> CorrectAnswer, out List<string> Options, out int Type)
-        {
-            Title = "";
-            CorrectAnswer = new List<int>();
-            Options = new List<string>();
-            Type = 0;
-        }
-
-        #region 不知道是否有用的函数
-        private static void initParams()
-        {
-            ArrayQuestionByMoudleSubject1 = new List<Question>[SystemConfig.Subject1MoudleCount];
-            for (int i = 0; i < SystemConfig.Subject1MoudleCount; i++)
-            {
-                ArrayQuestionByMoudleSubject1.SetValue(new List<Question>(), i);    
-            }
-            ArrayQuestionByMoudleSubject2 = new List<Question>[SystemConfig.Subject2MoudleCount];
-            for (int i = 0; i < SystemConfig.Subject2MoudleCount; i++)
-            {
-                ArrayQuestionByMoudleSubject2.SetValue(new List<Question>(), i);
-            }
-
-            ArrayQuestionBySkill = new List<Question>[SystemConfig.SkillMoudleCount];
-            for (int i = 0; i < SystemConfig.SkillMoudleCount; i++)
-            {
-                ArrayQuestionBySkill.SetValue(new List<Question>(), i);
-            }
-        }
-
-        //public static Question LoadQuestion(int id)
-        //{
-        //    var file = Path.Combine(g_QuestionDir, id.ToString() + ".txt");
-        //    if (!File.Exists(file))
-        //    {
-        //        //MessageBox.Show("题目" + id + "不存在：" + file);
-        //        return null;
-        //    }
-
-        //    string txt;
-        //    using (var sr = new StreamReader(file, Encoding.ASCII))
-        //    {
-        //        txt = sr.ReadToEnd().Replace("\r\n", "");
-        //    }
-
-        //    // 拆分文本文件
-        //    var arr = Regex.Split(txt, SPLIT_STR);
-
-        //    //获取图片与视频信息
-        //    var pic = string.Empty;
-        //    var m = regImgFile.Match(arr[0]);
-        //    if (m.Success)
-        //    {
-        //        pic = Path.Combine(g_QuestionDir, m.Result("$1"));
-        //        arr[0] = arr[0].Replace(m.Value, "[参考图片]");
-        //    }
-        //    else if (!string.IsNullOrEmpty(arr[1]))
-        //    {
-        //        pic = Path.Combine(g_QuestionDir, arr[1].Trim(','));
-        //        pic = arr[1].Trim(',');
-        //    }
-
-        //    Question ret = new Question();
-        //    ret.Id = id;
-
-        //    ret.Tittle = arr[0];
-        //    if (pic.IndexOf(".swf") != -1)
-        //    {
-        //        ret.ImagePath = "";
-        //        ret.FlashPath = (string)pic;
-        //    }
-        //    else
-        //    {
-        //        ret.ImagePath = (string)pic;
-        //        ret.FlashPath = "";
-        //    }
-
-        //    ret.CorrectAnswer = new List<int>();
-        //    ret.CorrectAnswer.Add(Convert.ToInt32(arr[2]));
-
-        //    ret.NormalExplain = arr[3];
-        //    if (arr.Length >= 8)
-        //    {
-        //        ret.Options = new List<string>();
-        //        ret.Options.Add(arr[4]);
-        //        ret.Options.Add(arr[5]);
-        //        ret.Options.Add(arr[6]);
-        //        ret.Options.Add(arr[7]);
-        //        ret.Type = 0;
-        //    }
-        //    else
-        //    {
-        //        ret.Type = 1;
-        //    }
-
-
-        //    string newFile = Directory.GetCurrentDirectory() + "//New//" + id + ".txt";
-        //    using (var sw = new StreamWriter(newFile, false, Encoding.UTF8))
-        //    {
-        //        sw.WriteLine(ret.Tittle);            // 问题
-        //        sw.WriteLine(SPLIT_STR);
-        //        if (!string.IsNullOrEmpty(ret.ImagePath))
-        //            sw.WriteLine(ret.ImagePath);          // 问题图片列表，以逗号分隔
-        //        if (!string.IsNullOrEmpty(ret.FlashPath))
-        //            sw.WriteLine(ret.FlashPath);
-        //        if (string.IsNullOrEmpty(ret.ImagePath) && string.IsNullOrEmpty(ret.FlashPath))
-        //            sw.WriteLine("");
-        //        sw.WriteLine(SPLIT_STR);
-        //        sw.WriteLine(ret.CorrectAnswer[0]);      // 答案序号
-        //        sw.WriteLine(SPLIT_STR);
-        //        sw.WriteLine(ret.NormalExplain);//技巧
-        //        sw.WriteLine(SPLIT_STR);
-        //        sw.WriteLine(ret.TittleEmphasize);  //强调
-        //        sw.WriteLine(SPLIT_STR);
-        //        sw.WriteLine(ret.NormalExplain);  // 答案简要说明
-
-        //        if (ret.Options != null)
-        //        {
-        //            foreach (var opn in ret.Options)
-        //            {
-        //                sw.WriteLine(SPLIT_STR);
-        //                sw.WriteLine(opn);  // 答案选项
-        //            }
-        //        }
-        //    }
-
-        //    ret.SkillExplain = "技巧讲解";
-        //    ret.SkillModule = 0;
-        //    ret.Module = 1;
-        //    ret.TittleEmphasize = "强调";
-
-        //    return ret;
-        //}
-
-        //public static Question LoadQuestion(int id)
-        //{
-        //    int a = 0;
-        //    if(id == 776)
-        //    {
-        //        a = a + id;
-        //    }
-        //    var file = Path.Combine(g_QuestionDir, id.ToString() + ".txt");
-        //    if (!File.Exists(file))
-        //    {
-        //        return null;
-        //    }
-
-        //    string txt;
-        //    using (var sr = new StreamReader(file, Encoding.ASCII))
-        //    {
-        //        txt = sr.ReadToEnd().Replace("\r\n", "");
-        //    }
-
-        //    // 拆分文本文件
-        //    var arr = Regex.Split(txt, SPLIT_STR);
-
-        //    //获取图片与视频信息
-        //    var pic = "";
-        //    var m = regImgFile.Match(arr[0]);
-        //    if (m.Success)
-        //    {
-        //        pic = Path.Combine(g_QuestionDir, m.Result("$1"));
-        //        arr[0] = arr[0].Replace(m.Value, "[参考图片]");
-        //    }
-        //    else if (!string.IsNullOrEmpty(arr[1]))
-        //    {
-        //        pic = Path.Combine(g_QuestionDir, arr[1].Trim(','));
-        //    }
-
-        //    Question ret = new Question();
-        //    ret.Id = id;
-
-        //    ret.Tittle = arr[0];
-        //    if (pic.IndexOf(".swf") != -1)
-        //    {
-        //        ret.ImagePath = "";
-        //        ret.FlashPath = (string)pic;
-        //    }
-        //    else
-        //    {
-        //        ret.ImagePath = (string)pic;
-        //        ret.FlashPath = "";
-        //    }
-
-        //    ret.CorrectAnswer = new List<int>();
-        //    ret.CorrectAnswer.Add(Convert.ToInt32(arr[2]));
-
-        //    ret.SkillNotice = arr[3];
-        //    ret.TittleEmphasize = arr[4];
-        //    ret.NormalNotice = arr[5];
-        //    if (arr.Length >= 10)
-        //    {
-        //        ret.Options = new List<string>();
-        //        ret.Options.Add(arr[6]);
-        //        ret.Options.Add(arr[7]);
-        //        ret.Options.Add(arr[8]);
-        //        ret.Options.Add(arr[9]);
-        //        ret.Type = 0;
-        //    }
-        //    else
-        //    {
-        //        ret.Type = 1;
-        //    }
-
-        //    ret.SkillNotice = ret.NormalNotice;
-        //    ret.Skill = 0;
-        //    ret.Module = 1;
-        //    ret.TittleEmphasize = "";
-
-        //    return ret;
-        //}
-
         /// <summary>
-        /// 从文件中读取题目信息
+        /// 科目一考试的各个章节题目数
         /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        public static Question LoadQuestionByIniBak(int id)
-        {
-            DateTime dateStart = DateTime.Now;
-            var filePath = Path.Combine("Questions", id.ToString() + ".txt");
-            if (!File.Exists(filePath))
-            {
-                return null;
-            }
+        [Obsolete]
+        static Array ArrayQuestionByMoudleSubject1;
+        [Obsolete]
+        /// <summary>
+        /// 科目二考试的各个章节题目数
+        /// </summary>
+        static Array ArrayQuestionByMoudleSubject2;
+        [Obsolete]
+        static Array ArrayQuestionBySkill;
+        /// <summary>
+        /// 最大题目编号
+        /// </summary>
+        public static int _maxQuestionNum = 0;
+        [Obsolete]
+        /// <summary>
+        /// 分隔符
+        /// </summary>
+        internal const string SPLIT_STR = "======================";
 
-            Question question = new Question();
-            question.Id = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "Id", filePath));
-            question.Tittle = SystemConfig.IniReadValue("QuesitonInfo", "Tittle", filePath);
-            question.TittleEmphasize = SystemConfig.IniReadValue("QuesitonInfo", "SkillEmphasize", filePath);
-            question.ImagePath = SystemConfig.IniReadValue("QuesitonInfo", "ImagePath", filePath);
-            question.FlashPath = SystemConfig.IniReadValue("QuesitonInfo", "FlashPath", filePath);
-            question.Module = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "MoudleId", filePath));
-
-            try
-            {
-                question.Skill = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "SkillId", filePath));
-                if (0 != question.Skill)
-                {
-                    m_Relation_Question_Skill[question.Id] = question.Skill;
-                }
-            }
-            catch
-            {
-                question.Skill = 0;
-            }
-
-            try
-            {
-                question.BankId = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "BankId", filePath));
-                if (0 != question.BankId)
-                {
-                    m_Relation_Question_Suite[question.Id] = question.BankId;
-                }
-            }
-            catch
-            {
-                question.BankId = 0;
-            }
-
-            try
-            {
-                question.IntensifyId = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "IntensifyId", filePath));
-            }
-            catch
-            {
-                question.IntensifyId = 0;
-                if (0 != question.BankId)
-                {
-                    m_Relation_Question_Intensity[question.Id] = question.IntensifyId;
-                }
-            }
-
-            question.Type = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "Type", filePath));
-            question.Classification = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "Classification", filePath));
-
-            question.Options = new List<string>();
-            question.OptionsEmphasize = new List<string>();
-            question.CorrectAnswer = new List<int>();
-            if (question.Type != 1)
-            {
-                HashSet<int> questionOrder = new HashSet<int>();
-                for (var i = 0; i < 4; i++)
-                {
-                    var ret = rnd.Next(1, 5);
-                    if (ret == 5)
-                        MessageBox.Show("error");
-
-                    while (!questionOrder.Add(ret))
-                    {
-                        ret = rnd.Next(1, 5);
-                    }
-                }
-                int index = 0;
-                foreach (var i in questionOrder)
-                {
-                    index++;
-                    question.Options.Add(SystemConfig.IniReadValue("Options", "Options" + i.ToString(), filePath));
-                    question.OptionsEmphasize.Add(SystemConfig.IniReadValue("Options", "Image" + i.ToString(), filePath));
-
-                    if ("1".Equals(SystemConfig.IniReadValue("AnswerInfo", "Answer" + i.ToString(), filePath)))
-                        question.CorrectAnswer.Add(index);
-                }
-            }
-            else
-            {
-                for (int i = 1; i <= 4; i++)
-                {
-                    question.Options.Add(SystemConfig.IniReadValue("Options", "Options" + i.ToString(), filePath));
-                    question.OptionsEmphasize.Add(SystemConfig.IniReadValue("Options", "Image" + i.ToString(), filePath));
-
-                    if ("1".Equals(SystemConfig.IniReadValue("AnswerInfo", "Answer" + i.ToString(), filePath)))
-                        question.CorrectAnswer.Add(i);
-                }
-            }
-            if (question.CorrectAnswer.Count == 0)
-            {
-                MessageBox.Show("没有正确答案的题目" + question.Id.ToString());
-            }
-
-            question.SkillNotice = SystemConfig.IniReadValue("SkillInfo", "SkillNotice", filePath);
-            question.NormalNotice = SystemConfig.IniReadValue("SkillInfo", "NormalNotice", filePath);
-
-            TimeSpan timeSpan = DateTime.Now - dateStart;
-            Console.WriteLine(string.Format("Question ID: {0} Read Time: {1} ms", question.Id, timeSpan.TotalMilliseconds));
-            return question;
-        }
-
+        static Regex regImgFile = new Regex(@"\[\[(.*?)\]\]", RegexOptions.Compiled);
 
         public static Question LoadQuestionByIni(int id)
         {
@@ -566,17 +284,128 @@ namespace DirvingTest
             {
                 _maxQuestionNum = Convert.ToInt32(SystemConfig.IniReadValue("Problems", "MaxProblem", SystemConfig.ConfigPath));
                 ModelManager.GetListModel();
-                initParams();
+                //initParams();
 
                 m_QuestionsList.Clear();
                 m_QuestionsDictionary.Clear();
-                
+
+                GetQuestionsFromDB();
+
+                QuestionManager.GetRealationShipFromDB(1);
+                QuestionManager.GetRealationShipFromDB(2);
+
                 //QUESTION_NUM = m_QuestionsList.Count;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private static bool GetQuestionsFromDB()
+        {
+            QuestionManager.m_QuestionsDictionary.Clear();
+            QuestionManager.m_QuestionsList.Clear();
+
+            DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable("select * from questions where 1=@data", new SQLiteParameter[] { new SQLiteParameter("@data", 1) });
+            foreach (DataRow row in data.Rows)
+            {
+                Question question = new Question();
+                question.Id = Convert.ToInt32(row["id"].ToString());
+                question.Tittle = row["tittle"].ToString();
+                if (!string.IsNullOrEmpty(row["image"].ToString()))
+                {
+
+                    string imagePath = string.Format("{0}.jpg", question.Id);
+
+                    if (!File.Exists("Images\\" + imagePath))
+                    {
+                        FileStream imageStream = new FileStream("Images\\" + imagePath, FileMode.Create);
+                        Byte[] imageByte = (Byte[])row["image"];
+                        imageStream.Write(imageByte, 0, imageByte.Length);
+                        imageStream.Close();
+                    }
+                    question.ImagePath = imagePath;
+                }
+                else
+                {
+                    question.ImagePath = "";
+                }
+
+                question.FlashPath = row["flash"].ToString();
+
+                if (!string.IsNullOrEmpty(row["flash"].ToString()))
+                {
+                    string flashPath = string.Format("{0}.swf", question.Id);
+
+                    if (!File.Exists("Flash\\" + flashPath))
+                    {
+                        FileStream imageStream = new FileStream("Flash\\" + flashPath, FileMode.Create);
+                        Byte[] imageByte = (Byte[])row["flash"];
+                        imageStream.Write(imageByte, 0, imageByte.Length);
+                        imageStream.Close();
+                    }
+                    question.FlashPath = flashPath;
+                }
+                else
+                {
+                    question.FlashPath = "";
+                }
+
+                question.Type = Convert.ToInt32(row["type"].ToString()); ;
+                question.Module = Convert.ToInt32(row["moudle"].ToString());
+                question.Classification = Convert.ToInt32(row["classification"].ToString());
+                question.Options = new List<string>();
+                question.OptionsEmphasize = new List<string>();
+                question.CorrectAnswer = new List<int>();
+
+                if (question.Type != 1)
+                {
+                    Random rnd = new Random();
+                    HashSet<int> questionOrder = new HashSet<int>();
+                    for (var i = 0; i < 4; i++)
+                    {
+                        var ret = rnd.Next(1, 5);
+                        if (ret == 5)
+                            MessageBox.Show("error");
+
+                        while (!questionOrder.Add(ret))
+                        {
+                            ret = rnd.Next(1, 5);
+                        }
+                    }
+
+                    int index = 0;
+                    foreach (var i in questionOrder)
+                    {
+                        index++;
+                        question.Options.Add(row["option" + i.ToString()].ToString());
+                        question.OptionsEmphasize.Add(row["option" + i.ToString() + "Emphasize"].ToString());
+                        if ("1".Equals(row["answer" + i.ToString()].ToString()))
+                            question.CorrectAnswer.Add(index);
+
+                    }
+                }
+                else
+                {
+                    for (int i = 1; i <= 4; i++)
+                    {
+                        question.Options.Add(row["option" + i.ToString()].ToString());
+                        question.OptionsEmphasize.Add(row["option" + i.ToString() + "Emphasize"].ToString());
+                        if ("1".Equals(row["answer" + i.ToString()].ToString()))
+                            question.CorrectAnswer.Add(i);
+                    }
+                }
+
+                question.TittleEmphasize = row["tittleEmphasize"].ToString(); ;
+                question.SkillNotice = row["skillEmphasize"].ToString(); ;
+                question.NormalNotice = row["notice"].ToString();
+
+                QuestionManager.m_QuestionsDictionary[question.Id] = question;
+                QuestionManager.m_QuestionsList.Add(question);
+            }
+
+            return true;
         }
 
         /// <summary>
@@ -628,469 +457,13 @@ namespace DirvingTest
             }
         }
 
-        //public static bool SaveQuestion(Question question, string path)
-        //{
-        //    try
-        //    {
-        //        if (0 == getClassificationById(question.Id))
-        //            return false;
-
-        //        if(question.Id == 776)
-        //        {
-        //            int a = question.Id;
-        //        }
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "Id", question.Id.ToString(), path);
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "Tittle", question.Tittle, path);
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "SkillEmphasize", question.TittleEmphasize, path);
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "ImagePath", question.ImagePath, path);
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "FlashPath", question.FlashPath, path);
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "SkillId", question.Skill.ToString(), path);
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "MoudleId", question.Module.ToString(), path);
-        //        if (1 == question.Type)
-        //            SystemConfig.IniWriteValue("QuesitonInfo", "Type", question.Type.ToString(), path);
-        //        else
-        //            SystemConfig.IniWriteValue("QuesitonInfo", "Type", "2", path);
-
-        //        SystemConfig.IniWriteValue("QuesitonInfo", "Classification", getClassificationById(question.Id).ToString(), path);
-
-        //        //if(question.Module <=4)
-        //        //    SystemConfig.IniWriteValue("QuesitonInfo", "Classification", "3", path);
-
-        //        //if(question.Module == 5)
-        //        //    SystemConfig.IniWriteValue("QuesitonInfo", "Classification", "2", path);
-
-        //        //if (question.Module == 6)
-        //        //    SystemConfig.IniWriteValue("QuesitonInfo", "Classification", "1", path);
-
-        //        //if (question.Module > 6)
-        //        //    SystemConfig.IniWriteValue("QuesitonInfo", "Classification", "4", path);
-
-        //        if (null != question.Options && question.Options.Count > 0)
-        //        {
-        //            for (int i = 1; i <= question.Options.Count; i++)
-        //                SystemConfig.IniWriteValue("Options", "Options" + i.ToString(), question.Options[i - 1], path);
-        //            //SystemConfig.IniWriteValue("Options", "Options2", question.Options[1], path);
-        //            //SystemConfig.IniWriteValue("Options", "Options3", question.Options[2], path);
-        //            //SystemConfig.IniWriteValue("Options", "Options4", question.Options[3], path);
-
-        //            SystemConfig.IniWriteValue("Options", "Image1", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Image2", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Image3", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Image4", "", path);
-        //        }
-        //        else
-        //        {
-        //            SystemConfig.IniWriteValue("Options", "Options1", "正确", path);
-        //            SystemConfig.IniWriteValue("Options", "Options2", "错误", path);
-        //            SystemConfig.IniWriteValue("Options", "Options1", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Options2", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Image1", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Image2", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Image3", "", path);
-        //            SystemConfig.IniWriteValue("Options", "Image4", "", path);
-        //        }
-
-        //        if (question.Options != null)
-        //        {
-        //            string CorrectAnswer = question.CorrectAnswer[0].ToString();
-        //            for (int i = 1; i <= question.Options.Count; i++)
-        //            {
-        //                SystemConfig.IniWriteValue("AnswerInfo", "Answer" + i.ToString(), CorrectAnswer.IndexOf(i.ToString()) != -1 ? "1" : "0", path);
-        //            }
-
-        //            if (CorrectAnswer.Length > 1)
-        //                SystemConfig.IniWriteValue("QuesitonInfo", "Type", "3", path);
-        //        }
-        //        else
-        //        {
-        //            for (int i = 1; i < 3; i++)
-        //            {
-        //                SystemConfig.IniWriteValue("AnswerInfo", "Answer" + i.ToString(), question.CorrectAnswer[0] == i ? "1" : "0", path);
-        //            }
-        //        }
-
-        //        SystemConfig.IniWriteValue("SkillInfo", "SkillNotice", question.NormalNotice, path);
-        //        SystemConfig.IniWriteValue("SkillInfo", "NormalNotice", question.NormalNotice, path);
-        //        return true;
-        //    }
-        //    catch
-        //    {
-        //        return false;
-        //    }
-        //}
-
-        public static bool SaveQuestion3(Question question, out bool isUpdate, string path)
-        {
-            try
-            {
-                isUpdate = false;
-                foreach(var ques in m_QuestionsList)
-                {
-                    if (ques.Id == question.Id)
-                    {
-                        isUpdate = true;
-                        break;
-                    }
-                }
-                SystemConfig.IniWriteValue("QuesitonInfo", "Id", question.Id.ToString(), path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "Tittle", question.Tittle, path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "SkillEmphasize", question.TittleEmphasize, path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "ImagePath", question.ImagePath, path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "FlashPath", question.FlashPath, path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "SkillId", question.Skill.ToString(), path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "MoudleId", question.Module.ToString(), path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "BankId", question.BankId.ToString(), path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "Type", question.Type.ToString(), path);
-                SystemConfig.IniWriteValue("QuesitonInfo", "Classification", question.Classification.ToString(), path);
-                SystemConfig.IniWriteValue("SkillInfo", "SkillNotice", question.SkillNotice, path);
-                SystemConfig.IniWriteValue("SkillInfo", "NormalNotice", question.NormalNotice, path);
-
-                if (null != question.Options && question.Options.Count > 0)
-                {
-                    for (int i = 1; i <= question.Options.Count; i++)
-                    {
-                        SystemConfig.IniWriteValue("Options", "Options" + i.ToString(), question.Options[i - 1], path);
-                        SystemConfig.IniWriteValue("Options", "Image" + i.ToString(), question.OptionsEmphasize[i - 1], path);
-                    }
-                }
-                else
-                {
-                    SystemConfig.IniWriteValue("Options", "Options1", "", path);
-                    SystemConfig.IniWriteValue("Options", "Options2", "", path);
-                    SystemConfig.IniWriteValue("Options", "Options3", "", path);
-                    SystemConfig.IniWriteValue("Options", "Options4", "", path);
-                    SystemConfig.IniWriteValue("Options", "Image1", "", path);
-                    SystemConfig.IniWriteValue("Options", "Image2", "", path);
-                    SystemConfig.IniWriteValue("Options", "Image3", "", path);
-                    SystemConfig.IniWriteValue("Options", "Image4", "", path);
-                }
-
-                for (int i = 1; i <= 4; i++)
-                {
-                    SystemConfig.IniWriteValue("AnswerInfo", "Answer" + i.ToString(), "0", path);
-                }
-
-                for(int i= 0; i<question.CorrectAnswer.Count;i++)
-                {
-                    SystemConfig.IniWriteValue("AnswerInfo", "Answer" + question.CorrectAnswer[i].ToString(), "1", path);
-                }
-
-                return true;
-            }
-            catch
-            {
-                isUpdate = false;
-                return false;
-            }
-        }
-
-#region 不使用的数据
-        //public static void SaveQuestion2(Question question, string path)
-        //{
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "Id", question.Id.ToString(), path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "Tittle", question.Tittle, path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "SkillEmphasize", question.TittleEmphasize, path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "ImagePath", question.ImagePath, path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "FlashPath", question.FlashPath, path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "SkillId", question.Skill.ToString(), path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "MoudleId", question.Module.ToString(), path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "Classification", question.Classification.ToString(), path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "Type", question.Type.ToString(), path);
-        //    SystemConfig.IniWriteValue("QuesitonInfo", "Classification", getClassificationById(question.Id).ToString(), path);
-
-        //    if (null != question.Options)
-        //    {
-        //        for (int i = 1; i <= question.Options.Count; i++)
-        //            SystemConfig.IniWriteValue("Options", "Options" + i.ToString(), question.Options[i - 1], path);
-
-
-        //        SystemConfig.IniWriteValue("Options", "Image1", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Image2", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Image3", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Image4", "", path);
-        //    }
-        //    else
-        //    {
-        //        SystemConfig.IniWriteValue("Options", "Options1", "正确", path);
-        //        SystemConfig.IniWriteValue("Options", "Options2", "错误", path);
-        //        SystemConfig.IniWriteValue("Options", "Options1", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Options2", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Image1", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Image2", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Image3", "", path);
-        //        SystemConfig.IniWriteValue("Options", "Image4", "", path);
-        //    }
-
-        //    if (question.Options != null)
-        //    {
-        //        string CorrectAnswer = question.CorrectAnswer[0].ToString();
-        //        for (int i = 1; i <= question.Options.Count; i++)
-        //        {
-        //            SystemConfig.IniWriteValue("AnswerInfo", "Answer" + i.ToString(), CorrectAnswer.IndexOf(i.ToString()) != -1 ? "1" : "0", path);
-        //        }
-
-        //        if (CorrectAnswer.Length > 1)
-        //            SystemConfig.IniWriteValue("QuesitonInfo", "Type", "3", path);
-        //    }
-        //    else
-        //    {
-        //        for (int i = 1; i < 3; i++)
-        //        {
-        //            SystemConfig.IniWriteValue("AnswerInfo", "Answer" + i.ToString(), question.CorrectAnswer[0] == i ? "1" : "0", path);
-        //        }
-        //    }
-
-        //    SystemConfig.IniWriteValue("SkillInfo", "SkillNotice", question.NormalNotice, path);
-        //    SystemConfig.IniWriteValue("SkillInfo", "NormalNotice", question.NormalNotice, path);
-        //}
-
-        //public static int getClassificationById(int id)
-        //{
-        //    if (id >= 1 && id <= 365)
-        //    {
-        //        return 3;
-        //    }
-        //    if (id >= 2541 && id <= 2640)
-        //    {
-        //        return 3;
-        //    }
-        //    if (id >= 366 && id <= 677)
-        //    {
-        //        return 3;
-        //    }
-        //    if (id >= 678 && id <= 864)
-        //    {
-        //        return 3;
-        //    }
-        //    if (id >= 865 && id <= 973)
-        //    {
-        //        return 3;
-        //    }
-        //    if (id >= 9710 && id <= 9714)
-        //    {
-        //        return 2;
-        //    }
-        //    if (id >= 1026 && id <= 1091)
-        //    {
-        //        return 2;
-        //    }
-        //    if (id >= 974 && id <= 1025)
-        //    {
-        //        return 1;
-        //    }
-        //    if (id >= 9699 && id <= 9709)
-        //    {
-        //        return 1;
-        //    }
-
-        //    if (id >= 1537 && id <= 1573)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 1574 && id <= 1765)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 2641 && id <= 2716)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 1766 && id <= 1980)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 1981 && id <= 2042)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 2717 && id <= 2727)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 2043 && id <= 2207)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 2728 && id <= 2740)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 2208 && id <= 2301)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 2302 && id <= 2336)
-        //    {
-        //        return 4;
-        //    }
-
-        //    return 0;
-        //}
-
-        //public static int getMoudleById(int id)
-        //{
-        //    if(id>=1 && id<=365)
-        //    {
-        //        return 1;
-        //    }
-        //    if (id >=2541 && id <= 2640)
-        //    {
-        //        return 1;
-        //    }
-        //    if (id >= 366 && id <= 677)
-        //    {
-        //        return 2;
-        //    }
-        //    if (id >= 678 && id <= 864)
-        //    {
-        //        return 3;
-        //    }
-        //    if (id >= 865 && id <= 973)
-        //    {
-        //        return 4;
-        //    }
-        //    if (id >= 9710 && id <= 9714)
-        //    {
-        //        return 5;
-        //    }
-        //    if (id >= 1026 && id <= 1091)
-        //    {
-        //        return 5;
-        //    }
-        //    if (id >= 974 && id <= 1025)
-        //    {
-        //        return 6;
-        //    }
-        //    if (id >= 9699 && id <= 9709)
-        //    {
-        //        return 6;
-        //    }
-
-        //    if (id >= 1537 && id <= 1573)
-        //    {
-        //        return 7;
-        //    }
-        //    if (id >= 1574 && id <= 1765)
-        //    {
-        //        return 8;
-        //    }
-        //    if (id >= 2641 && id <= 2716)
-        //    {
-        //        return 8;
-        //    }
-        //    if (id >= 1766 && id <= 1980)
-        //    {
-        //        return 9;
-        //    }
-        //    if (id >= 1981 && id <= 2042)
-        //    {
-        //        return 10;
-        //    }
-        //    if (id >= 2717 && id <= 2727)
-        //    {
-        //        return 10;
-        //    }
-        //    if (id >= 2043 && id <= 2207)
-        //    {
-        //        return 11;
-        //    }
-        //    if (id >= 2728 && id <= 2740)
-        //    {
-        //        return 11;
-        //    }
-        //    if (id >= 2208 && id <= 2301)
-        //    {
-        //        return 12;
-        //    }
-        //    if (id >= 2302 && id <= 2336)
-        //    {
-        //        return 13;
-        //    }
-
-        //    return 0;
-        //}
-
-        //public static void GenClassificationProblems()
-        //{
-        //    foreach(var question in m_QuestionsList)
-        //    {
-        //        int MoudelId = question.Module;
-        //        int SkillId = question.Skill;
-
-        //        if (0 <MoudelId && MoudelId < SystemConfig.Subject1MoudleCount + 1)
-        //        {
-        //            List<Question> questionList = (List <Question>)ArrayQuestionByMoudleSubject1.GetValue(MoudelId-1);
-        //            questionList.Add(question);
-        //        }
-        //        else if(MoudelId>0)
-        //        {
-        //            List<Question> questionList = (List<Question>)ArrayQuestionByMoudleSubject2.GetValue(MoudelId - SystemConfig.Subject1MoudleCount - 1);
-        //            questionList.Add(question);
-        //        }
-
-        //        if(0 < SkillId)
-        //        {
-        //            List<Question> questionList = (List<Question>)ArrayQuestionBySkill.GetValue(SkillId - 1);
-        //            questionList.Add(question);
-        //        }
-        //    }
-        //}
-
-        ///// <summary>
-        ///// 通过考试信息生成考试题目
-        ///// </summary>
-        ///// <param name="examType"></param>
-        ///// <param name="driverType"></param>
-        ///// <returns></returns>
-        //public static List<Question> GenQuestionsByExam1(int examType, int driverType)
-        //{
-        //    List<Question> questionList = new List<Question>();
-        //    //0 C1 科目一
-        //    if (examType == 0)
-        //    {
-        //        if(driverType == 0)
-        //        {
-        //            for (int i = 0; i < SystemConfig.CarRule.Count; i++ )
-        //            {
-        //                List<Question> list = GenQuestions(SystemConfig.CarRule[i], (List<Question>)ArrayQuestionByMoudleSubject1.GetValue(i));
-        //                questionList.AddRange(list);
-        //            }
-        //        }
-        //        else if(driverType == 1)
-        //        {
-        //            //bus
-        //            for (int i = 0; i < SystemConfig.BusRule.Count-1; i++)
-        //            {
-        //                List<Question> list = GenQuestions(SystemConfig.BusRule[i], (List<Question>)ArrayQuestionByMoudleSubject1.GetValue(i));
-        //                questionList.AddRange(list);
-        //            }
-        //            int index = SystemConfig.BusRule.Count - 1;
-        //            List<Question> listTmpe = GenQuestions(SystemConfig.BusRule[index], (List<Question>)ArrayQuestionByMoudleSubject1.GetValue(index + 1));
-        //            questionList.AddRange(listTmpe);
-        //        }
-        //        else
-        //        {
-        //            for (int i = 0; i < SystemConfig.TruckRule.Count; i++)
-        //            {
-        //                List<Question> list = GenQuestions(SystemConfig.TruckRule[i], (List<Question>)ArrayQuestionByMoudleSubject1.GetValue(i));
-        //                questionList.AddRange(list);
-        //            }
-        //        }
-        //    }
-        //    else
-        //    {
-        //        for (int i = 0; i < SystemConfig.Subject2Rule.Count; i++)
-        //        {
-        //            List<Question> list = GenQuestions(SystemConfig.Subject2Rule[i], (List<Question>)ArrayQuestionByMoudleSubject2.GetValue(i));
-        //            questionList.AddRange(list);
-        //        }
-        //    }
-
-            
-        //    return questionList;
-        //}
-#endregion
-
+        #region 生成题目
+        /// <summary>
+        /// 依据选中的考试类型和题目类型，从题库中抽取题目
+        /// </summary>
+        /// <param name="examType"></param>
+        /// <param name="driverType"></param>
+        /// <returns></returns>
         public static List<Question> GenQuestionsByExam(int examType, int driverType)
         {
             List<Question> questionList = new List<Question>();
@@ -1227,7 +600,7 @@ namespace DirvingTest
 
         /// <summary>
         /// /// <summary>
-        /// 生成题目
+        /// 生成判断题目
         /// 
         /// <param name="questionCount"></param>
         /// <param name="rule"></param>
@@ -1259,9 +632,8 @@ namespace DirvingTest
                     if (count > 0)
                         tempQuestionList.Add(question);
                 }
-
-
             }
+            
             
             HashSet<int> arrExam = new HashSet<int>();//剔除重复抽取的题目
             for (var i = 0; i < Math.Min(questionCount, tempQuestionList.Count); i++)
@@ -1398,10 +770,9 @@ namespace DirvingTest
         }
 
         /// <summary>
-        /// 判断生成的题目是否满足条件
+        /// 判断生成的题目是否满足条件，
         /// </summary>
-        
-        /// <returns></returns>
+        /// <returns>是否需要重新抽题</returns>
         ///
         private static bool IsNeedGenerationAgain(Question question, ref Dictionary<int, int> rule, ref Dictionary<int, int> curQuestionList, int type)
         {
@@ -1433,6 +804,9 @@ namespace DirvingTest
             return false;
         }
 
+        #endregion
+
+        #region 获取章节、套题中的题目
         /// <summary>
         /// 获取某类技巧所有题目列表 
         /// </summary>
@@ -1440,21 +814,19 @@ namespace DirvingTest
         /// <returns></returns>
         public static List<Question> GenQuestionBySkill(int skillId)
         {           
-            //以前的方法
-            //List<Question> list = new List<Question>();
-            //foreach (var question in QuestionManager.m_QuestionsList)
-            //{
-            //    if (question.Module == 0)
-            //        continue;
-                
-            //    if(question.Skill == skillId)
-            //    {
-            //        list.Add(question);
-            //    }
-            //}
-
             //使用新的方法进行获取
             return GenQuestionFromRelation(skillId, QuestionManager.m_Relation_Question_Skill);
+        }
+
+        /// <summary>
+        /// 获取某类套题所有题目列表
+        /// </summary>
+        /// <param name="bankId"></param>
+        /// <returns></returns>
+        public static List<Question> GenQuestionByBankId(int bankId)
+        {
+            //使用新的方法进行获取
+            return GenQuestionFromRelation(bankId, QuestionManager.m_Relation_Question_Suite);
         }
 
         /// <summary>
@@ -1485,33 +857,157 @@ namespace DirvingTest
 
             return list;
         }
+        #endregion
 
-        /// <summary>
-        /// 获取某类套题所有题目列表
-        /// </summary>
-        /// <param name="bankId"></param>
-        /// <returns></returns>
-        public static List<Question> GenQuestionByBankId(int bankId)
+        #region 过时的函数
+        [Obsolete]
+        static void AnalysizeQuestion(string Text, out string Title, out List<int> CorrectAnswer, out List<string> Options, out int Type)
         {
-            //List<Question> list = new List<Question>();
-
-            //foreach (var question in QuestionManager.m_QuestionsList)
-            //{
-            //    if (question.Module == 0)
-            //        continue;
-
-            //    if (question.BankId == bankId)
-            //    {
-            //        list.Add(question);
-            //    }
-            //}
-
-            //list.Sort();
-            //return list;
-
-            //使用新的方法进行获取
-            return GenQuestionFromRelation(bankId, QuestionManager.m_Relation_Question_Suite);
+            Title = "";
+            CorrectAnswer = new List<int>();
+            Options = new List<string>();
+            Type = 0;
         }
+
+
+        [Obsolete]
+        private static void initParams()
+        {
+            ArrayQuestionByMoudleSubject1 = new List<Question>[SystemConfig.Subject1MoudleCount];
+            for (int i = 0; i < SystemConfig.Subject1MoudleCount; i++)
+            {
+                ArrayQuestionByMoudleSubject1.SetValue(new List<Question>(), i);
+            }
+            ArrayQuestionByMoudleSubject2 = new List<Question>[SystemConfig.Subject2MoudleCount];
+            for (int i = 0; i < SystemConfig.Subject2MoudleCount; i++)
+            {
+                ArrayQuestionByMoudleSubject2.SetValue(new List<Question>(), i);
+            }
+
+            ArrayQuestionBySkill = new List<Question>[SystemConfig.SkillMoudleCount];
+            for (int i = 0; i < SystemConfig.SkillMoudleCount; i++)
+            {
+                ArrayQuestionBySkill.SetValue(new List<Question>(), i);
+            }
+        }
+
+        [Obsolete]
+        /// <summary>
+        /// 从文件中读取题目信息
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static Question LoadQuestionByIniBak(int id)
+        {
+            DateTime dateStart = DateTime.Now;
+            var filePath = Path.Combine("Questions", id.ToString() + ".txt");
+            if (!File.Exists(filePath))
+            {
+                return null;
+            }
+
+            Question question = new Question();
+            question.Id = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "Id", filePath));
+            question.Tittle = SystemConfig.IniReadValue("QuesitonInfo", "Tittle", filePath);
+            question.TittleEmphasize = SystemConfig.IniReadValue("QuesitonInfo", "SkillEmphasize", filePath);
+            question.ImagePath = SystemConfig.IniReadValue("QuesitonInfo", "ImagePath", filePath);
+            question.FlashPath = SystemConfig.IniReadValue("QuesitonInfo", "FlashPath", filePath);
+            question.Module = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "MoudleId", filePath));
+
+            try
+            {
+                question.Skill = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "SkillId", filePath));
+                if (0 != question.Skill)
+                {
+                    m_Relation_Question_Skill[question.Id] = question.Skill;
+                }
+            }
+            catch
+            {
+                question.Skill = 0;
+            }
+
+            try
+            {
+                question.BankId = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "BankId", filePath));
+                if (0 != question.BankId)
+                {
+                    m_Relation_Question_Suite[question.Id] = question.BankId;
+                }
+            }
+            catch
+            {
+                question.BankId = 0;
+            }
+
+            try
+            {
+                question.IntensifyId = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "IntensifyId", filePath));
+            }
+            catch
+            {
+                question.IntensifyId = 0;
+                if (0 != question.BankId)
+                {
+                    m_Relation_Question_Intensity[question.Id] = question.IntensifyId;
+                }
+            }
+
+            question.Type = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "Type", filePath));
+            question.Classification = Convert.ToInt32(SystemConfig.IniReadValue("QuesitonInfo", "Classification", filePath));
+
+            question.Options = new List<string>();
+            question.OptionsEmphasize = new List<string>();
+            question.CorrectAnswer = new List<int>();
+            if (question.Type != 1)
+            {
+                HashSet<int> questionOrder = new HashSet<int>();
+                for (var i = 0; i < 4; i++)
+                {
+                    var ret = rnd.Next(1, 5);
+                    if (ret == 5)
+                        MessageBox.Show("error");
+
+                    while (!questionOrder.Add(ret))
+                    {
+                        ret = rnd.Next(1, 5);
+                    }
+                }
+                int index = 0;
+                foreach (var i in questionOrder)
+                {
+                    index++;
+                    question.Options.Add(SystemConfig.IniReadValue("Options", "Options" + i.ToString(), filePath));
+                    question.OptionsEmphasize.Add(SystemConfig.IniReadValue("Options", "Image" + i.ToString(), filePath));
+
+                    if ("1".Equals(SystemConfig.IniReadValue("AnswerInfo", "Answer" + i.ToString(), filePath)))
+                        question.CorrectAnswer.Add(index);
+                }
+            }
+            else
+            {
+                for (int i = 1; i <= 4; i++)
+                {
+                    question.Options.Add(SystemConfig.IniReadValue("Options", "Options" + i.ToString(), filePath));
+                    question.OptionsEmphasize.Add(SystemConfig.IniReadValue("Options", "Image" + i.ToString(), filePath));
+
+                    if ("1".Equals(SystemConfig.IniReadValue("AnswerInfo", "Answer" + i.ToString(), filePath)))
+                        question.CorrectAnswer.Add(i);
+                }
+            }
+            if (question.CorrectAnswer.Count == 0)
+            {
+                MessageBox.Show("没有正确答案的题目" + question.Id.ToString());
+            }
+
+            question.SkillNotice = SystemConfig.IniReadValue("SkillInfo", "SkillNotice", filePath);
+            question.NormalNotice = SystemConfig.IniReadValue("SkillInfo", "NormalNotice", filePath);
+
+            TimeSpan timeSpan = DateTime.Now - dateStart;
+            Console.WriteLine(string.Format("Question ID: {0} Read Time: {1} ms", question.Id, timeSpan.TotalMilliseconds));
+            return question;
+        }
+
 
         /// <summary>
         /// 获取某类强化练习所有题目列表
@@ -1520,28 +1016,11 @@ namespace DirvingTest
         /// <returns></returns>
         public static List<Question> GenQuestionByIntensifyId(int intensifyId)
         {
-            //List<Question> list = new List<Question>();
-
-            //foreach (var question in QuestionManager.m_QuestionsList)
-            //{
-            //    if (question.Module == 0)
-            //        continue;
-
-            //    if (question.BankId == bankId)
-            //    {
-            //        list.Add(question);
-            //    }
-            //}
-
-            //list.Sort();
-
-            //return list;
-
             //使用新的方法进行获取
             return GenQuestionFromRelation(intensifyId, QuestionManager.m_Relation_Question_Suite);
         }
 
-
+        [Obsolete]
         /// <summary>
         /// 以某个Num开始，获取题目信息
         /// </summary>
@@ -1568,8 +1047,9 @@ namespace DirvingTest
             return questionList;
         }
 
+        [Obsolete]
         /// <summary>
-        /// 将skillID转正描述信息
+        /// 将skillID转成描述信息
         /// </summary>
         /// <param name="SkillId"></param>
         /// <returns></returns>
@@ -1581,14 +1061,16 @@ namespace DirvingTest
             return SystemConfig.SkillMoudleInfo[SkillId - 1];
         }
 
+        [Obsolete]
         public static string BankIdToString(int BankId)
         {
-            if (0 == BankId || BankId > SystemConfig.SkillMoudleCount)
+            if (0 == BankId || BankId > SystemConfig.BankMoudleCount)
                 return "未分类";
 
             return SystemConfig.SkillMoudleInfo[BankId - 1];
         }
 
+        [Obsolete]
         public static string IntensifyIdToString(int IntensifyId)
         {
             if (0 == IntensifyId || IntensifyId > SystemConfig.SkillMoudleCount)
@@ -1597,6 +1079,7 @@ namespace DirvingTest
             return SystemConfig.IntensifyInfo[IntensifyId - 1];
         }
 
+        [Obsolete]
         public static string MoudleToString(int MoudleId)
         {
             if (MoudleId == 0 || MoudleId > SystemConfig.Subject1MoudleCount + SystemConfig.Subject2MoudleCount)
@@ -1612,6 +1095,7 @@ namespace DirvingTest
             }
         }
 
+        [Obsolete]
         public static string MoudelToSubject(int MoudleId)
         {
             if (MoudleId == 0)
@@ -1682,6 +1166,7 @@ namespace DirvingTest
             return true;
         }
 
+        [Obsolete]
         public static Question ComposeQuestion(string strTitle, string strTittleEmphasize, string strNomalExplain, string strSkillExplain,
                 int MoudleId, int SkillId, string strImagePath, string strFlashPath, int corectAnswer, List<string>Options)
         {
@@ -1715,7 +1200,14 @@ namespace DirvingTest
 
             return question;
         }
+        #endregion
 
+        #region 增、删、改、查题目信息
+        /// <summary>
+        /// 保存题目
+        /// </summary>
+        /// <param name="question"></param>
+        /// <returns></returns>
         private static bool SaveQuestion(Question question)
         {
             string newFile = Directory.GetCurrentDirectory() + "//Questions//" +  question.Id + ".txt";
@@ -1758,6 +1250,103 @@ namespace DirvingTest
             return true;
         }
 
+        /// <summary>
+        /// 删除题目，删除时，只是设置为禁用
+        /// </summary>
+        /// <param name="question"></param>
+        /// <returns></returns>
+        public static bool DeleteQuestion(Question question)
+        {
+            //删除只是将模块信息删除，并不会删除文件
+            question.Skill = 0;
+            question.Module = 0;
+
+            //question.Id += 10000;
+            string path = Directory.GetCurrentDirectory() + "\\" + SystemConfig.PathQuestions + "\\" + question.Id.ToString() + ".txt";
+            bool isUpdate = false;
+            SaveQuestion(question, out isUpdate, path);
+
+            return true;
+        }
+
+        [Obsolete]
+        /// <summary>
+        /// 保存题目信息
+        /// </summary>
+        /// <param name="question"></param>
+        /// <param name="isUpdate"></param>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public static bool SaveQuestion(Question question, out bool isUpdate, string path)
+        {
+            try
+            {
+                isUpdate = false;
+                foreach (var ques in m_QuestionsList)
+                {
+                    if (ques.Id == question.Id)
+                    {
+                        isUpdate = true;
+                        break;
+                    }
+                }
+                SystemConfig.IniWriteValue("QuesitonInfo", "Id", question.Id.ToString(), path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "Tittle", question.Tittle, path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "SkillEmphasize", question.TittleEmphasize, path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "ImagePath", question.ImagePath, path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "FlashPath", question.FlashPath, path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "SkillId", question.Skill.ToString(), path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "MoudleId", question.Module.ToString(), path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "BankId", question.BankId.ToString(), path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "Type", question.Type.ToString(), path);
+                SystemConfig.IniWriteValue("QuesitonInfo", "Classification", question.Classification.ToString(), path);
+                SystemConfig.IniWriteValue("SkillInfo", "SkillNotice", question.SkillNotice, path);
+                SystemConfig.IniWriteValue("SkillInfo", "NormalNotice", question.NormalNotice, path);
+
+                if (null != question.Options && question.Options.Count > 0)
+                {
+                    for (int i = 1; i <= question.Options.Count; i++)
+                    {
+                        SystemConfig.IniWriteValue("Options", "Options" + i.ToString(), question.Options[i - 1], path);
+                        SystemConfig.IniWriteValue("Options", "Image" + i.ToString(), question.OptionsEmphasize[i - 1], path);
+                    }
+                }
+                else
+                {
+                    SystemConfig.IniWriteValue("Options", "Options1", "", path);
+                    SystemConfig.IniWriteValue("Options", "Options2", "", path);
+                    SystemConfig.IniWriteValue("Options", "Options3", "", path);
+                    SystemConfig.IniWriteValue("Options", "Options4", "", path);
+                    SystemConfig.IniWriteValue("Options", "Image1", "", path);
+                    SystemConfig.IniWriteValue("Options", "Image2", "", path);
+                    SystemConfig.IniWriteValue("Options", "Image3", "", path);
+                    SystemConfig.IniWriteValue("Options", "Image4", "", path);
+                }
+
+                for (int i = 1; i <= 4; i++)
+                {
+                    SystemConfig.IniWriteValue("AnswerInfo", "Answer" + i.ToString(), "0", path);
+                }
+
+                for (int i = 0; i < question.CorrectAnswer.Count; i++)
+                {
+                    SystemConfig.IniWriteValue("AnswerInfo", "Answer" + question.CorrectAnswer[i].ToString(), "1", path);
+                }
+
+                return true;
+            }
+            catch
+            {
+                isUpdate = false;
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// 更新题目
+        /// </summary>
+        /// <param name="question"></param>
+        /// <returns></returns>
         public static bool UpdateQuestion(Question question)
         {
             if(false == SaveQuestion(question))
@@ -1787,6 +1376,11 @@ namespace DirvingTest
             return true;
         }
 
+        /// <summary>
+        /// 更新题目列表
+        /// </summary>
+        /// <param name="question"></param>
+        /// <param name="isNew"></param>
         private static void UpdateQuestionList(Question question, bool isNew)
         {
             if (true == isNew)
@@ -1804,35 +1398,12 @@ namespace DirvingTest
                 if (true == Compare(obj, question))
                     return;
 
-                Copy(question, ref obj);
+                question.Copy(ref obj);
 
                 return;
             }
         }
-
-        private static void Copy(Question questionSrc, ref Question questionDst)
-        {
-            questionDst.Id = questionSrc.Id;
-            questionDst.Tittle = questionSrc.Tittle;
-            questionDst.TittleEmphasize = questionSrc.TittleEmphasize;
-            questionDst.NormalNotice =questionSrc.NormalNotice;
-            questionDst.SkillNotice =questionSrc.SkillNotice;
-            questionDst.Module=questionSrc.Module;
-            questionDst.Skill=questionSrc.Skill;
-            questionDst.Type = questionSrc.Type;
-            questionDst.ImagePath = questionSrc.ImagePath;
-            questionDst.FlashPath = questionSrc.FlashPath;
-            if (questionSrc.Options == null)
-                questionDst.Options = null;
-            else
-            {
-                questionDst.Options = new List<string>();
-                questionDst.Options.Add(questionSrc.Options[0]);
-                questionDst.Options.Add(questionSrc.Options[1]);
-                questionDst.Options.Add(questionSrc.Options[2]);
-                questionDst.Options.Add(questionSrc.Options[3]);
-            }            
-        }
+        #endregion
 
         public static bool FileCopy(string filePathSrc, string filePathDst)
         {
@@ -1873,21 +1444,5 @@ namespace DirvingTest
                 return false;
             }
         }
-
-        public static bool DeleteQuestion(Question question)
-        {
-            //删除只是将模块信息删除，并不会删除文件
-            question.Skill = 0;
-            question.Module = 0;
-
-            //question.Id += 10000;
-            string path = Directory.GetCurrentDirectory() + "\\" + SystemConfig.PathQuestions +"\\" + question.Id.ToString() + ".txt";
-            bool isUpdate = false;
-            SaveQuestion3(question,out isUpdate, path);
-
-            return true;
-        }
-#endregion
-
     }
 }

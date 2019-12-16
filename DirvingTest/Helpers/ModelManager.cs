@@ -1,35 +1,15 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
 using System.IO;
-////using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace DirvingTest
 {
-    public class ModelChapter : IComparable
-    {
-        public int Id = -1;
-        public string Tittle = "";
-        public bool IsEnable = true;
-        public int Classification = 0;
-        public int Count = 0;
-        public override string ToString()
-        {
-            return Tittle.ToString();
-        }
-
-        public int CompareTo(object obj)
-        {
-            return Tittle.CompareTo(((ModelChapter)obj).Tittle);
-        }
-    }
-
-    class ModelManager
+    public class ModelManager
     {
         #region 技巧管理
         public static Dictionary<int, ModelChapter> m_DicSkillList = null;
@@ -44,6 +24,10 @@ namespace DirvingTest
         public const string _PathBank = "BankList.ini";
         public const string _PathEasyError = "IntensifyChapterList.ini";
 
+        /// <summary>
+        /// 获取所有的列表
+        /// </summary>
+        /// <returns></returns>
         public static bool GetListModel()
         {
             try
@@ -66,7 +50,7 @@ namespace DirvingTest
             }
         }
 
-       
+
 
         public static Dictionary<int, ModelChapter> GetListFromFile(string filePath)
         {
@@ -101,6 +85,11 @@ namespace DirvingTest
 
         }
 
+        /// <summary>
+        /// 从数据库获取列表
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
         public static Dictionary<int, ModelChapter>GetChapterListFromDB(int type)
         {
             Dictionary<int, ModelChapter> m_List = new Dictionary<int, ModelChapter>();
@@ -123,6 +112,7 @@ namespace DirvingTest
             return m_List;
         }
 
+        [Obsolete]
         public static bool SetListToFile(Dictionary<int, ModelChapter> modelList, string filePath)
         {
             FileStream aFile = new FileStream(filePath, FileMode.Create, FileAccess.Write);
@@ -147,6 +137,13 @@ namespace DirvingTest
             return true;
         }
 
+        /// <summary>
+        /// 更新添加或更新的章节信息到列表中
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="modelList"></param>
+        /// <param name="isReplace"></param>
+        /// <returns></returns>
         public static bool AddModelToList(ModelChapter model, Dictionary<int, ModelChapter> modelList, out bool isReplace)
         {
             isReplace = false;
@@ -168,6 +165,12 @@ namespace DirvingTest
             return true;
         }
 
+        /// <summary>
+        /// 从列表中删除章节信息
+        /// </summary>
+        /// <param name="modelId"></param>
+        /// <param name="modelList"></param>
+        /// <returns></returns>
         public static bool DelModelFromList(int modelId, Dictionary<int, ModelChapter> modelList)
         {
             foreach (var model in modelList)

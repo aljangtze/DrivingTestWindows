@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DirvingTest
 {
-    public class Question : IComparable
+    public class Question : IComparable, ICloneable
     {
         public static string[] _ModelClassificationInfo = new string[] { "全部", "A类", "B类", "C类", "A/B/C科目四", "D-科目一", "D-科目四"};
         public static string[] _TypeInfo = new string[] { "全部", "判断题", "选择题", "多选题"};
@@ -23,17 +23,19 @@ namespace DirvingTest
 
         public string Url = "";
 
-
+        [Obsolete]
         /// <summary>
         /// 所属技巧模块
         /// </summary>
         public int Skill;
 
+        [Obsolete]
         /// <summary>
         /// 所属套题信息
         /// </summary>
         public int BankId=0;
 
+        [Obsolete]
         /// <summary>
         /// 强化练习的章节
         /// </summary>
@@ -94,6 +96,34 @@ namespace DirvingTest
         /// </summary>
         public string FlashPath;
 
+        public object Clone()
+        {
+            Question questionDst = new Question();
+            Question questionSrc = this;
+            questionDst.Id = questionSrc.Id;
+            questionDst.Tittle = questionSrc.Tittle;
+            questionDst.TittleEmphasize = questionSrc.TittleEmphasize;
+            questionDst.NormalNotice = questionSrc.NormalNotice;
+            questionDst.SkillNotice = questionSrc.SkillNotice;
+            questionDst.Module = questionSrc.Module;
+            questionDst.Skill = questionSrc.Skill;
+            questionDst.Type = questionSrc.Type;
+            questionDst.ImagePath = questionSrc.ImagePath;
+            questionDst.FlashPath = questionSrc.FlashPath;
+            if (questionSrc.Options == null)
+                questionDst.Options = null;
+            else
+            {
+                questionDst.Options = new List<string>();
+                questionDst.Options.Add(questionSrc.Options[0]);
+                questionDst.Options.Add(questionSrc.Options[1]);
+                questionDst.Options.Add(questionSrc.Options[2]);
+                questionDst.Options.Add(questionSrc.Options[3]);
+            }
+
+            return questionDst;
+        }
+
         public int CompareTo(object obj)
         {
             Question question = (Question)obj;
@@ -118,6 +148,31 @@ namespace DirvingTest
             }
 
 
+        }
+
+        public void Copy(ref Question questionDst)
+        {
+            Question questionSrc = this;
+            questionDst.Id = questionSrc.Id;
+            questionDst.Tittle = questionSrc.Tittle;
+            questionDst.TittleEmphasize = questionSrc.TittleEmphasize;
+            questionDst.NormalNotice = questionSrc.NormalNotice;
+            questionDst.SkillNotice = questionSrc.SkillNotice;
+            questionDst.Module = questionSrc.Module;
+            questionDst.Skill = questionSrc.Skill;
+            questionDst.Type = questionSrc.Type;
+            questionDst.ImagePath = questionSrc.ImagePath;
+            questionDst.FlashPath = questionSrc.FlashPath;
+            if (questionSrc.Options == null)
+                questionDst.Options = null;
+            else
+            {
+                questionDst.Options = new List<string>();
+                questionDst.Options.Add(questionSrc.Options[0]);
+                questionDst.Options.Add(questionSrc.Options[1]);
+                questionDst.Options.Add(questionSrc.Options[2]);
+                questionDst.Options.Add(questionSrc.Options[3]);
+            }
         }
     }
 }

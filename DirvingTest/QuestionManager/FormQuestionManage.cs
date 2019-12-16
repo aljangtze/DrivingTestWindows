@@ -412,7 +412,7 @@ namespace DirvingTest
             if (true == Replace)
             {
                 bool isUpdate = false;
-                if (false == QuestionManager.SaveQuestion3(m_details.m_question, out isUpdate, Directory.GetCurrentDirectory() + "\\" + SystemConfig.PathQuestions +"\\" + m_details.m_question.Id.ToString() + ".txt"))
+                if (false == QuestionManager.SaveQuestion(m_details.m_question, out isUpdate, Directory.GetCurrentDirectory() + "\\" + SystemConfig.PathQuestions +"\\" + m_details.m_question.Id.ToString() + ".txt"))
                     return false;
 
                 if(false == isUpdate)

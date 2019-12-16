@@ -112,6 +112,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\ModelChapter.cs" />
     <Compile Include="StreamUtil.cs" />
     <Compile Include="FormIntensifySelect.cs">
       <SubType>Form</SubType>
@@ -298,6 +299,14 @@
     <Compile Include="Helpers\SystemConfig.cs" />
     <Compile Include="Helpers\VoiceHelper.cs" />
     <Compile Include="SerializableDictionary.cs" />
+    <Compile Include="UserManager\FormUserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FormUserManager.Designer.cs">
+      <DependentUpon>FormUserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager\UserInfo.cs" />
+    <Compile Include="UserManager\UserManager.cs" />
     <EmbeddedResource Include="FormIntensifySelect.resx">
       <DependentUpon>FormIntensifySelect.cs</DependentUpon>
     </EmbeddedResource>
@@ -387,6 +396,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exams\FormSimulationWelcom.resx">
       <DependentUpon>FormSimulationWelcom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FormUserManager.resx">
+      <DependentUpon>FormUserManager.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

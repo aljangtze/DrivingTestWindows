@@ -791,5 +791,27 @@ namespace DirvingTest
 
             }
         }
+
+        private void MenuUserManager_Click(object sender, EventArgs e)
+        {
+            if (false == SystemConfig._IsLogin)
+            {
+                FormManagerLogin formLogin = new FormManagerLogin();
+                if (DialogResult.Yes != formLogin.ShowDialog())
+                    return;
+            }
+
+            Form form = new FormUserManager();
+
+            if (activeFrom != null)
+                activeFrom.Close();
+
+            form.TopLevel = false;
+            form.Dock = DockStyle.Fill;
+            form.Parent = this.panelMain;
+            form.Show();
+
+            activeFrom = form;
+        }
     }
 }

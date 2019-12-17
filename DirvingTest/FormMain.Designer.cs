@@ -39,6 +39,7 @@
             this.MenuChapterManager = new System.Windows.Forms.ToolStripMenuItem();
             this.Register = new System.Windows.Forms.ToolStripMenuItem();
             this.panelTitle = new System.Windows.Forms.Panel();
+            this.btnInitialQuestions = new CotrolLibrary.ImageButton();
             this.pictureBoxMenu = new System.Windows.Forms.PictureBox();
             this.btnPractise = new CotrolLibrary.ImageButton();
             this.btnRecoverExam = new CotrolLibrary.ImageButton();
@@ -55,7 +56,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageButtonClose = new CotrolLibrary.ImageButton();
             this.imageButtonMin = new CotrolLibrary.ImageButton();
-            this.btnInitialQuestions = new CotrolLibrary.ImageButton();
+            this.MenuUserManager = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.panelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).BeginInit();
@@ -83,51 +84,52 @@
             this.MenuBankManager,
             this.MenuEasyErrorChapterManager,
             this.MenuChapterManager,
+            this.MenuUserManager,
             this.Register});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(137, 136);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 180);
             this.contextMenuStrip1.Text = "注册菜单";
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // MenuQuestionManager
             // 
             this.MenuQuestionManager.Name = "MenuQuestionManager";
-            this.MenuQuestionManager.Size = new System.Drawing.Size(136, 22);
+            this.MenuQuestionManager.Size = new System.Drawing.Size(180, 22);
             this.MenuQuestionManager.Text = "题库管理";
             this.MenuQuestionManager.Click += new System.EventHandler(this.MenuQuestionManager_Click);
             // 
             // MenuSkillManager
             // 
             this.MenuSkillManager.Name = "MenuSkillManager";
-            this.MenuSkillManager.Size = new System.Drawing.Size(136, 22);
+            this.MenuSkillManager.Size = new System.Drawing.Size(180, 22);
             this.MenuSkillManager.Text = "技巧管理";
             this.MenuSkillManager.Click += new System.EventHandler(this.MenuSkillManager_Click);
             // 
             // MenuBankManager
             // 
             this.MenuBankManager.Name = "MenuBankManager";
-            this.MenuBankManager.Size = new System.Drawing.Size(136, 22);
+            this.MenuBankManager.Size = new System.Drawing.Size(180, 22);
             this.MenuBankManager.Text = "套题管理";
             this.MenuBankManager.Click += new System.EventHandler(this.MenuBankManager_Click);
             // 
             // MenuEasyErrorChapterManager
             // 
             this.MenuEasyErrorChapterManager.Name = "MenuEasyErrorChapterManager";
-            this.MenuEasyErrorChapterManager.Size = new System.Drawing.Size(136, 22);
+            this.MenuEasyErrorChapterManager.Size = new System.Drawing.Size(180, 22);
             this.MenuEasyErrorChapterManager.Text = "易错题管理";
             this.MenuEasyErrorChapterManager.Click += new System.EventHandler(this.MenuEasyErrorChapterManager_Click);
             // 
             // MenuChapterManager
             // 
             this.MenuChapterManager.Name = "MenuChapterManager";
-            this.MenuChapterManager.Size = new System.Drawing.Size(136, 22);
+            this.MenuChapterManager.Size = new System.Drawing.Size(180, 22);
             this.MenuChapterManager.Text = "章节管理";
             this.MenuChapterManager.Click += new System.EventHandler(this.MenuChapterManager_Click);
             // 
             // Register
             // 
             this.Register.Name = "Register";
-            this.Register.Size = new System.Drawing.Size(136, 22);
+            this.Register.Size = new System.Drawing.Size(180, 22);
             this.Register.Text = "注册";
             this.Register.Visible = false;
             this.Register.Click += new System.EventHandler(this.Register_Click);
@@ -163,6 +165,23 @@
             this.panelTitle.TabIndex = 2;
             this.panelTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitle_MouseDown);
             this.panelTitle.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panelTitle_MouseUp);
+            // 
+            // btnInitialQuestions
+            // 
+            this.btnInitialQuestions.BackColor = System.Drawing.Color.Transparent;
+            this.btnInitialQuestions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnInitialQuestions.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnInitialQuestions.HeadImage = null;
+            this.btnInitialQuestions.Location = new System.Drawing.Point(869, 81);
+            this.btnInitialQuestions.MouseClickImage = global::DirvingTest.Properties.Resources.ButtonImage2;
+            this.btnInitialQuestions.MouseOverImage = global::DirvingTest.Properties.Resources.ButtonImage2;
+            this.btnInitialQuestions.Name = "btnInitialQuestions";
+            this.btnInitialQuestions.Size = new System.Drawing.Size(71, 31);
+            this.btnInitialQuestions.TabIndex = 24;
+            this.btnInitialQuestions.Tag = "7";
+            this.btnInitialQuestions.Text = "题库管理";
+            this.btnInitialQuestions.TextFont = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnInitialQuestions.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.btnInitialQuestions_Click);
             // 
             // pictureBoxMenu
             // 
@@ -416,22 +435,12 @@
             this.imageButtonMin.TextFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.imageButtonMin.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButtonMin_Click);
             // 
-            // btnInitialQuestions
+            // MenuUserManager
             // 
-            this.btnInitialQuestions.BackColor = System.Drawing.Color.Transparent;
-            this.btnInitialQuestions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnInitialQuestions.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnInitialQuestions.HeadImage = null;
-            this.btnInitialQuestions.Location = new System.Drawing.Point(869, 81);
-            this.btnInitialQuestions.MouseClickImage = global::DirvingTest.Properties.Resources.ButtonImage2;
-            this.btnInitialQuestions.MouseOverImage = global::DirvingTest.Properties.Resources.ButtonImage2;
-            this.btnInitialQuestions.Name = "btnInitialQuestions";
-            this.btnInitialQuestions.Size = new System.Drawing.Size(71, 31);
-            this.btnInitialQuestions.TabIndex = 24;
-            this.btnInitialQuestions.Tag = "7";
-            this.btnInitialQuestions.Text = "题库管理";
-            this.btnInitialQuestions.TextFont = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnInitialQuestions.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.btnInitialQuestions_Click);
+            this.MenuUserManager.Name = "MenuUserManager";
+            this.MenuUserManager.Size = new System.Drawing.Size(180, 22);
+            this.MenuUserManager.Text = "用户管理";
+            this.MenuUserManager.Click += new System.EventHandler(this.MenuUserManager_Click);
             // 
             // FormMain
             // 
@@ -485,6 +494,7 @@
         private System.Windows.Forms.ToolStripMenuItem MenuBankManager;
         private System.Windows.Forms.ToolStripMenuItem MenuEasyErrorChapterManager;
         private CotrolLibrary.ImageButton btnInitialQuestions;
+        private System.Windows.Forms.ToolStripMenuItem MenuUserManager;
     }
 }
 

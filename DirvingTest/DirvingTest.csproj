@@ -299,6 +299,18 @@
     <Compile Include="Helpers\SystemConfig.cs" />
     <Compile Include="Helpers\VoiceHelper.cs" />
     <Compile Include="SerializableDictionary.cs" />
+    <Compile Include="UserManager\FormUserModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FormUserModify.Designer.cs">
+      <DependentUpon>FormUserModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager\FormUserAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FormUserAdd.Designer.cs">
+      <DependentUpon>FormUserAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserManager\FormUserManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -396,6 +408,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exams\FormSimulationWelcom.resx">
       <DependentUpon>FormSimulationWelcom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FormUserModify.resx">
+      <DependentUpon>FormUserModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FormUserAdd.resx">
+      <DependentUpon>FormUserAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserManager\FormUserManager.resx">
       <DependentUpon>FormUserManager.cs</DependentUpon>

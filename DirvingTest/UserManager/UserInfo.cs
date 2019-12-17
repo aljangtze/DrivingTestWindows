@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DirvingTest.UserManager
+namespace DirvingTest
 {
     public class UserInfo
     {
@@ -11,6 +11,10 @@ namespace DirvingTest.UserManager
         public string UserName;
         public string Password;
         public bool Status;
+        /// <summary>
+        /// 类型 0为普通 1为管理员
+        /// </summary>
+        public int Type;
 
     }
 }

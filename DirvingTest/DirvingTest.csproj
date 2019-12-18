@@ -114,6 +114,7 @@
   <ItemGroup>
     <Compile Include="ChapterManager\ChapterManager.cs" />
     <Compile Include="ChapterManager\ChapterType.cs" />
+    <Compile Include="ChapterManager\ChpaterQuestionManager.cs" />
     <Compile Include="ChapterManager\FormChapterModify.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +151,12 @@
     </Compile>
     <Compile Include="PageControl.Designer.cs">
       <DependentUpon>PageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionManager\FormQuestionDetailsSql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionManager\FormQuestionDetailsSql.Designer.cs">
+      <DependentUpon>FormQuestionDetailsSql.cs</DependentUpon>
     </Compile>
     <Compile Include="QuestionManager\FormQuestionManageSql.cs">
       <SubType>Form</SubType>
@@ -410,6 +417,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPurchase.resx">
       <DependentUpon>FormPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuestionManager\FormQuestionDetailsSql.resx">
+      <DependentUpon>FormQuestionDetailsSql.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuestionManager\FormQuestionDetails.resx">
       <DependentUpon>FormQuestionDetails.cs</DependentUpon>

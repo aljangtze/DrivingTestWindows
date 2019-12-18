@@ -245,7 +245,7 @@ namespace DirvingTest
             _simulaForm.SetQuestions(list, false);
 
             if(g_ChapterType == 3)
-                _simulaForm.SetShowType(1, false, true);
+                _simulaForm.SetShowType(1, false, false);
             else
                 _simulaForm.SetShowType(1);
 

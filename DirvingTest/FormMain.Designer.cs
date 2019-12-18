@@ -89,28 +89,28 @@
             this.MenuUserManager,
             this.Register});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 180);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(137, 158);
             this.contextMenuStrip1.Text = "注册菜单";
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // MenuQuestionManager
             // 
             this.MenuQuestionManager.Name = "MenuQuestionManager";
-            this.MenuQuestionManager.Size = new System.Drawing.Size(180, 22);
+            this.MenuQuestionManager.Size = new System.Drawing.Size(136, 22);
             this.MenuQuestionManager.Text = "题库管理";
             this.MenuQuestionManager.Click += new System.EventHandler(this.MenuQuestionManager_Click);
             // 
             // MenuSkillManager
             // 
             this.MenuSkillManager.Name = "MenuSkillManager";
-            this.MenuSkillManager.Size = new System.Drawing.Size(180, 22);
+            this.MenuSkillManager.Size = new System.Drawing.Size(136, 22);
             this.MenuSkillManager.Text = "分组管理";
             this.MenuSkillManager.Click += new System.EventHandler(this.MenuSkillManager_Click);
             // 
             // MenuBankManager
             // 
             this.MenuBankManager.Name = "MenuBankManager";
-            this.MenuBankManager.Size = new System.Drawing.Size(180, 22);
+            this.MenuBankManager.Size = new System.Drawing.Size(136, 22);
             this.MenuBankManager.Text = "套题管理";
             this.MenuBankManager.Visible = false;
             this.MenuBankManager.Click += new System.EventHandler(this.MenuBankManager_Click);
@@ -118,7 +118,7 @@
             // MenuEasyErrorChapterManager
             // 
             this.MenuEasyErrorChapterManager.Name = "MenuEasyErrorChapterManager";
-            this.MenuEasyErrorChapterManager.Size = new System.Drawing.Size(180, 22);
+            this.MenuEasyErrorChapterManager.Size = new System.Drawing.Size(136, 22);
             this.MenuEasyErrorChapterManager.Text = "易错题管理";
             this.MenuEasyErrorChapterManager.Visible = false;
             this.MenuEasyErrorChapterManager.Click += new System.EventHandler(this.MenuEasyErrorChapterManager_Click);
@@ -126,21 +126,22 @@
             // MenuChapterManager
             // 
             this.MenuChapterManager.Name = "MenuChapterManager";
-            this.MenuChapterManager.Size = new System.Drawing.Size(180, 22);
+            this.MenuChapterManager.Size = new System.Drawing.Size(136, 22);
             this.MenuChapterManager.Text = "章节管理";
+            this.MenuChapterManager.Visible = false;
             this.MenuChapterManager.Click += new System.EventHandler(this.MenuChapterManager_Click);
             // 
             // MenuUserManager
             // 
             this.MenuUserManager.Name = "MenuUserManager";
-            this.MenuUserManager.Size = new System.Drawing.Size(180, 22);
+            this.MenuUserManager.Size = new System.Drawing.Size(136, 22);
             this.MenuUserManager.Text = "用户管理";
             this.MenuUserManager.Click += new System.EventHandler(this.MenuUserManager_Click);
             // 
             // Register
             // 
             this.Register.Name = "Register";
-            this.Register.Size = new System.Drawing.Size(180, 22);
+            this.Register.Size = new System.Drawing.Size(136, 22);
             this.Register.Text = "注册";
             this.Register.Visible = false;
             this.Register.Click += new System.EventHandler(this.Register_Click);

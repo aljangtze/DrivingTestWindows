@@ -8,7 +8,7 @@ namespace DirvingTest
 {
     public class Question : IComparable, ICloneable
     {
-        public static string[] _ModelClassificationInfo = new string[] { "全部", "A类", "B类", "C类", "A/B/C科目四", "D-科目一", "D-科目四"};
+        public static string[] _ModelClassificationInfo = new string[] { "全部", "A类客车", "B类货车", "C类小车", "A/B/C科目四", "D-科目一", "D-科目四"};
         public static string[] _TypeInfo = new string[] { "全部", "判断题", "选择题", "多选题"};
         
         /// <summary>

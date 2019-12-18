@@ -16,6 +16,7 @@ namespace DirvingTest
         public FormQuestionManageSql()
         {
             InitializeComponent();
+            pageControl1.OnChangeDatas += RefreshDatas;
         }
 
         ChapterManager chapterManager;
@@ -30,6 +31,20 @@ namespace DirvingTest
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             dataGridView1.RowsDefaultCellStyle.WrapMode = (DataGridViewTriState.True);
 
+            
+
+            foreach (var classification in Question._ModelClassificationInfo)
+            {
+                cboxClassification.Items.Add(classification);
+            }
+            cboxClassification.SelectedIndex = 0;
+
+            foreach (var typeInfo in Question._TypeInfo)
+            {
+                comboBoxType.Items.Add(typeInfo);
+            }
+            comboBoxType.SelectedIndex = 0;
+
             chapterManager = new ChapterManager();
             chapterManager.GetChapterTypeList(out List<ChapterType> chapterTypeList, true);
             cboxChaperType.Items.Clear();
@@ -41,17 +56,6 @@ namespace DirvingTest
 
             cboxChaperType.SelectedIndex = 0;
 
-            foreach (var classification in Question._ModelClassificationInfo)
-            {
-                comboBoxClassification.Items.Add(classification);
-            }
-            comboBoxClassification.SelectedIndex = 0;
-
-            foreach (var typeInfo in Question._TypeInfo)
-            {
-                comboBoxType.Items.Add(typeInfo);
-            }
-            comboBoxType.SelectedIndex = 0;
             isLoadSuccess = true;
         }
 
@@ -202,6 +206,124 @@ namespace DirvingTest
             dataGridView1.Rows.Add(row);
         }
 
+
+        private void AddItem(DataRow data)
+        {
+            DataGridViewRow row = new DataGridViewRow();
+            row.Tag = data;
+
+            DataGridViewCheckBoxCell chkBoxCell = new DataGridViewCheckBoxCell();
+            chkBoxCell.Value = false;
+            chkBoxCell.Tag = data["id"];
+            row.Cells.Add(chkBoxCell);
+
+            DataGridViewTextBoxCell txtNumber = new DataGridViewTextBoxCell();
+            txtNumber.Value = Convert.ToInt32(dataGridView1.Rows.Count + 1);
+            row.Cells.Add(txtNumber);
+
+            DataGridViewTextBoxCell txtBox1 = new DataGridViewTextBoxCell();
+            txtBox1.Value = Convert.ToInt32(data["id"]);
+            //txtBox1.Tag = question.Id.ToString();
+            txtBox1.ToolTipText = "ID=" + data["id"].ToString();
+            txtBox1.Tag = data["id"];
+            row.Cells.Add(txtBox1);
+            txtBox1.ReadOnly = true;
+
+            DataGridViewTextBoxCell txtBox2 = new DataGridViewTextBoxCell();
+            txtBox2.Value = data["tittle"]; 
+            txtBox2.ToolTipText = data["tittle"].ToString();
+            row.Cells.Add(txtBox2);
+            txtBox2.ReadOnly = true;
+
+            //这个类别不正确
+            DataGridViewTextBoxCell txtBox3 = new DataGridViewTextBoxCell();
+
+            int classfication = Convert.ToInt32(data["classification"]);
+            if (classfication == 0)
+                txtBox3.Value = "未分类";
+            else
+                txtBox3.Value = Question._ModelClassificationInfo[classfication];
+
+            txtBox3.ToolTipText = "题目类别";
+
+
+            row.Cells.Add((DataGridViewTextBoxCell)txtBox3);
+            txtBox3.ReadOnly = true;
+
+
+            int type= Convert.ToInt32(data["type"]);
+
+
+            DataGridViewTextBoxCell txtBox4 = new DataGridViewTextBoxCell();
+            txtBox4.Value = Question._TypeInfo[type];
+            if (type == 1)
+                txtBox4.ToolTipText = "题目类型";
+            else
+            {
+                txtBox4.ToolTipText = "题目类型"; 
+            }
+            row.Cells.Add((DataGridViewTextBoxCell)txtBox4);
+            txtBox4.Tag = type;
+            txtBox4.ReadOnly = true;
+
+
+            DataGridViewTextBoxCell txtBox5 = new DataGridViewTextBoxCell();
+            if(string.IsNullOrEmpty(data["chapter_name"].ToString()))
+            {
+                txtBox5.Value = "未分类";
+                txtBox5.ToolTipText = "未分类";
+            }
+            else
+            {
+                txtBox5.Value = data["chapter_name"].ToString();
+                txtBox5.ToolTipText = data["chapter_name"].ToString();
+            }
+            row.Cells.Add((DataGridViewTextBoxCell)txtBox5);
+            txtBox5.ReadOnly = true;
+
+
+            DataGridViewTextBoxCell txtBox6 = new DataGridViewTextBoxCell();
+            if (string.IsNullOrEmpty(data["skill_name"].ToString()))
+            {
+                txtBox6.Value = "未分类";
+                txtBox6.ToolTipText = "未分类";
+            }
+            else
+            {
+                txtBox6.Value = data["skill_name"];
+                txtBox6.ToolTipText = data["skill_name"].ToString();
+            }
+            row.Cells.Add((DataGridViewTextBoxCell)txtBox6);
+            txtBox6.ReadOnly = true;
+
+            DataGridViewTextBoxCell txtBox7 = new DataGridViewTextBoxCell();
+            // txtBox6.Tag = question.Skill;
+            if (string.IsNullOrEmpty(data["bank_name"].ToString()))
+            {
+                txtBox7.Value = "未分类";
+                txtBox7.ToolTipText = "未分类";
+            }
+            else
+            {
+                txtBox7.Value = data["bank_name"];
+                txtBox7.ToolTipText = data["bank_name"].ToString();
+            }
+            row.Cells.Add((DataGridViewTextBoxCell)txtBox7);
+            txtBox7.ReadOnly = true;
+
+            DataGridViewButtonCell button = new DataGridViewButtonCell();
+            button.Value = "编辑";
+            row.Cells.Add(button);
+
+            button = new DataGridViewButtonCell();
+            button.Value = "删除";
+            row.Cells.Add(button);
+
+
+            row.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridView1.Rows.Add(row);
+        }
+
         //TODO;更新题目列表
         private void RefreshQuestions()
         {
@@ -209,74 +331,39 @@ namespace DirvingTest
                 return;
 
 
-            return;
-            try
+            ChapterInfo chapterInfo = (ChapterInfo)comboBoxChapter.SelectedItem;
+            ChapterType chapterType = (ChapterType)cboxChaperType.SelectedItem;
+            //ChpaterQuestionManager.GetChapterQuestionsCount(chapterType.ID, chapterInfo.ID, cboxClassification.SelectedIndex, comboBoxType.SelectedIndex);
+
+            int dataCount = ChpaterQuestionManager.GetChapterQuestionsCount(chapterType.ID, chapterInfo.ID, cboxClassification.SelectedIndex, comboBoxType.SelectedIndex, "%" + textBoxFilterTittle.Text + "%");
+            labelQuestionCount.Text = dataCount.ToString();
+            pageControl1.BeginUpdate();
+            pageControl1.TotalCount = dataCount;
+
+            RefreshDatas(pageControl1.PerPageNumber, pageControl1.CurrentPage);
+
+            pageControl1.EndUpdate();            
+            //labelQuestionCount.Text = data.Rows.Count.ToString();
+        }
+
+        public void RefreshDatas(int pageNumber, int currentPage)
+        {
+            ChapterInfo chapterInfo = (ChapterInfo)comboBoxChapter.SelectedItem;
+            ChapterType chapterType = (ChapterType)cboxChaperType.SelectedItem;
+
+            DataTable data = ChpaterQuestionManager.GetChapterQuestions(chapterType.ID, chapterInfo.ID, cboxClassification.SelectedIndex, comboBoxType.SelectedIndex, "%" + textBoxFilterTittle.Text + "%", pageNumber, currentPage);
+
+            dataGridView1.Rows.Clear();
+            if (null == data)
             {
-                dataGridView1.Rows.Clear();
-                foreach (var question in QuestionManager.m_QuestionsList)
-                {
-                    if (question == null)
-                        continue;
-
-                    if (0 != comboBoxChapter.SelectedIndex)
-                    {
-                        if (question.Module != comboBoxChapter.SelectedIndex)
-                            continue;
-                    }
-
-                    //ChapterInfo modelSkill = (ChapterInfo)comboBoxSkill.SelectedItem;
-                    //if(modelSkill.ID == -1)
-                    //{
-                    //    //未分类
-                    //    if (question.Skill != 0)
-                    //        continue;
-                    //}
-                    //else if(modelSkill.ID !=0)
-                    //{
-                    //    if (question.Skill != modelSkill.ID)
-                    //        continue;
-                    //}
-
-                    //ChapterInfo modelBank = (ChapterInfo)comboBoxBank.SelectedItem;
-                    //if(modelBank.ID ==-1)
-                    //{
-                    //    //未分类
-                    //    if (question.BankId != 0)
-                    //        continue;
-                    //}
-                    //else if(modelBank.ID !=0)
-                    //{
-                    //    if (question.BankId != modelBank.ID)
-                    //        continue;
-                    //}
-
-                    //if (0 != comboBoxSkill.SelectedIndex)
-                    //{
-                    //    if (question.Skill != comboBoxSkill.SelectedIndex)
-                    //        continue;
-                    //}
-
-                    if (0 != comboBoxType.SelectedIndex)
-                    {
-                        if (question.Type != comboBoxType.SelectedIndex)
-                            continue;
-                    }
-
-                    if (0 != comboBoxClassification.SelectedIndex)
-                    {
-                        if (question.Classification != comboBoxClassification.SelectedIndex)
-                            continue;
-                    }
-
-                    AddItem(question);
-
-                }
-
-                labelQuestionCount.Text = dataGridView1.Rows.Count.ToString();
+                MessageBox.Show("获取题目数据失败");
+                return;
             }
-            catch(Exception ex)
+
+            Console.WriteLine(data.Rows.Count);
+            foreach (DataRow row in data.Rows)
             {
-                MessageBox.Show("题目未完全加载，请稍候打开！" + ex.Message);
+                AddItem(row);
             }
         }
 
@@ -365,35 +452,32 @@ namespace DirvingTest
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Question curQuestion = null;
-
             if (e.RowIndex < 0)
                 return;
 
             //编辑
-            if (e.ColumnIndex == 8)
+            if (e.ColumnIndex == 9)
             {
-                curQuestion = (Question)dataGridView1.Rows[e.RowIndex].Cells[0].Tag;
-                m_details.TopLevel = false;
-                m_details.Parent = this.panelDetails;
-                panelDetails.BringToFront();
-                panelManager.SendToBack();
-                m_details.SetQuestions(curQuestion);
-                m_details.Show();
+                FormQuestionDetailsSql formQuestionDetailsSql = new FormQuestionDetailsSql();
+                formQuestionDetailsSql.SetDataInfo((DataRow)(dataGridView1.Rows[e.RowIndex].Tag));
+                if(DialogResult.Yes == formQuestionDetailsSql.ShowDialog())
+                {
+                    int pageNumber = pageControl1.CurrentPage;
+                    RefreshQuestions();
+                    pageControl1.CurrentPage = pageNumber;
+                }
             }
 
             //删除
-            if(e.ColumnIndex == 9)
+            if(e.ColumnIndex == 10)
             {
                 if (DialogResult.Yes == MessageBox.Show("您确认删除此条信息?", "确认窗口", MessageBoxButtons.YesNo))
                 {
-                    curQuestion = (Question)dataGridView1.Rows[e.RowIndex].Cells[0].Tag;
-                    if (true == QuestionManager.DeleteQuestion(curQuestion))
-                    {
-                        dataGridView1.Rows.RemoveAt(e.RowIndex);
-                    }
+                    int pageNumber = pageControl1.CurrentPage;
+                    RefreshQuestions();
+                    pageControl1.CurrentPage = pageNumber;
+                    
                 }
-                
             }
         }
 
@@ -451,6 +535,7 @@ namespace DirvingTest
             if (cboxChaperType.SelectedIndex < 0)
                 return;
 
+            isLoadSuccess = false;
             ChapterType chapterType = (ChapterType)cboxChaperType.SelectedItem;
             ChapterManager.GetChapterList(chapterType.ID, out List<ChapterInfo> chapterInfoList);
 
@@ -471,6 +556,17 @@ namespace DirvingTest
             }
 
             comboBoxChapter.SelectedIndex = 0;
+
+            cboxClassification.SelectedIndex = 0;
+
+            comboBoxType.SelectedIndex = 0;
+
+            textBoxFilterTittle.Text = "";
+
+            isLoadSuccess = true;
+
+            RefreshQuestions();
+            //textBoxFilterOptions.Text = "";
         }
     }
 }

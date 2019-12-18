@@ -879,6 +879,93 @@ namespace DirvingTest
             }
         }
 
+
+        //TODO:
+        /// <summary>
+        /// 从数据库获取题目
+        /// </summary>
+        /// <param name="question_id"></param>
+        /// <param name="question"></param>
+        /// <returns></returns>
+        public static bool GetQuestionFromDB(int question_id, out Question question)
+        {
+            try
+            {
+                question = null;
+                string sql = @"select * from questions where id=@question_id";
+                DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@question_id", question_id) });
+                if (data.Rows.Count == 0)
+                    return false;
+
+                DataRow row = data.Rows[0];
+                question = new Question();
+                question.Id = Convert.ToInt32(row["id"].ToString());
+                question.Tittle = row["tittle"].ToString();
+                if (!string.IsNullOrEmpty(row["image"].ToString()))
+                {
+                    string imagePath = string.Format("{0}.jpg", question.Id);
+
+                    if (!File.Exists("Images\\" + imagePath))
+                    {
+                        FileStream imageStream = new FileStream("Images\\" + imagePath, FileMode.Create);
+                        Byte[] imageByte = (Byte[])row["image"];
+                        imageStream.Write(imageByte, 0, imageByte.Length);
+                        imageStream.Close();
+                    }
+                    question.ImagePath = imagePath;
+                }
+                else
+                {
+                    question.ImagePath = "";
+                }
+
+                question.FlashPath = row["flash"].ToString();
+
+                if (!string.IsNullOrEmpty(row["flash"].ToString()))
+                {
+                    string flashPath = string.Format("{0}.swf", question.Id);
+
+                    if (!File.Exists("Flash\\" + flashPath))
+                    {
+                        FileStream imageStream = new FileStream("Flash\\" + flashPath, FileMode.Create);
+                        Byte[] imageByte = (Byte[])row["flash"];
+                        imageStream.Write(imageByte, 0, imageByte.Length);
+                        imageStream.Close();
+                    }
+                    question.FlashPath = flashPath;
+                }
+                else
+                {
+                    question.FlashPath = "";
+                }
+
+                question.Type = Convert.ToInt32(row["type"].ToString()); ;
+                question.Module = Convert.ToInt32(row["moudle"].ToString());
+                question.Classification = Convert.ToInt32(row["classification"].ToString());
+                question.Options = new List<string>();
+                question.OptionsEmphasize = new List<string>();
+                question.CorrectAnswer = new List<int>();
+
+                for (int i = 1; i <= 4; i++)
+                {
+                    question.Options.Add(row["option" + i.ToString()].ToString());
+                    question.OptionsEmphasize.Add(row["option" + i.ToString() + "Emphasize"].ToString());
+                    if ("1".Equals(row["answer" + i.ToString()].ToString()))
+                        question.CorrectAnswer.Add(i);
+                }
+
+                question.TittleEmphasize = row["tittleEmphasize"].ToString(); ;
+                question.SkillNotice = row["skillEmphasize"].ToString(); ;
+                question.NormalNotice = row["notice"].ToString();
+                return true;
+            }
+            catch(Exception ex)
+            {
+                question = null;
+                return false;
+            }
+        }
+
         public static List<Question> GetErrorQuestionFromDB(ChapterInfo chapterInfo)
         {   
             List<Question> list = new List<Question>();

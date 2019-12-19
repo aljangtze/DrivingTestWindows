@@ -11,11 +11,11 @@ namespace DirvingTest
 {
     public partial class FormModelAdd : Form
     {
-        public delegate bool WantSendBack(ModelChapter model, bool Replace);
+        public delegate bool WantSendBack(ChapterInfo model, bool Replace);
 
         public WantSendBack FormBack = null;
 
-        private ModelChapter m_model = null;
+        private ChapterInfo m_model = null;
        
         public FormModelAdd()
         {
@@ -31,7 +31,7 @@ namespace DirvingTest
         {
             if (FormBack != null)
             {
-                m_model.Tittle = richTextBoxTittle.Text;
+                m_model.Name = richTextBoxTittle.Text;
                 
                 m_model.Classification = comboBoxType.SelectedIndex;
                 FormBack(m_model, false);
@@ -68,7 +68,7 @@ namespace DirvingTest
                     return;
                 }
 
-                m_model.Tittle = richTextBoxTittle.Text;
+                m_model.Name = richTextBoxTittle.Text;
                 m_model.IsEnable = comboBoxStatus.SelectedIndex == 0 ? true : false;
                 m_model.Classification = comboBoxType.SelectedIndex+1;
                 if (false == FormBack(m_model, true))
@@ -83,7 +83,7 @@ namespace DirvingTest
             }
         }
 
-        public void SetModel(ModelChapter model, int type)
+        public void SetModel(ChapterInfo model, int type)
         {
             m_model = model;
             if(type == 0)
@@ -109,7 +109,7 @@ namespace DirvingTest
             richTextBoxTittle.Focus();
             comboBoxType.SelectedIndex = m_model.Classification - 1;
             comboBoxStatus.SelectedIndex = m_model.IsEnable ? 0 : 1;
-            richTextBoxTittle.Text = m_model.Tittle;
+            richTextBoxTittle.Text = m_model.Name;
         }
 
         private void FormModelAdd_Shown(object sender, EventArgs e)
@@ -129,7 +129,7 @@ namespace DirvingTest
 
         private void richTextBoxTittle_TextChanged(object sender, EventArgs e)
         {
-            m_model.Tittle = richTextBoxTittle.Text;
+            m_model.Name = richTextBoxTittle.Text;
         }
 
     }

@@ -12,10 +12,10 @@ namespace DirvingTest
     public class ModelManager
     {
         #region 技巧管理
-        public static Dictionary<int, ModelChapter> m_DicSkillList = null;
-        public static Dictionary<int, ModelChapter> m_DicMoudleList = null;
-        public static Dictionary<int, ModelChapter> m_DicBankList = null;
-        public static Dictionary<int, ModelChapter> m_DicIntensifyList = null;
+        public static Dictionary<int, ChapterInfo> m_DicSkillList = null;
+        public static Dictionary<int, ChapterInfo> m_DicMoudleList = null;
+        public static Dictionary<int, ChapterInfo> m_DicBankList = null;
+        public static Dictionary<int, ChapterInfo> m_DicIntensifyList = null;
 
         //public static Dictionary<int, string> m_DicSkillList = null;
         //public static Dictionary<int, string> m_DicMoudleList = null;
@@ -52,9 +52,9 @@ namespace DirvingTest
 
 
 
-        public static Dictionary<int, ModelChapter> GetListFromFile(string filePath)
+        public static Dictionary<int, ChapterInfo> GetListFromFile(string filePath)
         {
-            Dictionary<int, ModelChapter> m_List = new Dictionary<int, ModelChapter>();
+            Dictionary<int, ChapterInfo> m_List = new Dictionary<int, ChapterInfo>();
 
             var file = File.Open(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
             using (var stream = new StreamReader(file, Encoding.UTF8))
@@ -68,15 +68,15 @@ namespace DirvingTest
                     if (txtLine.IndexOf("====&&====") != -1)
                         continue;
 
-                    ModelChapter model = new ModelChapter();
+                    ChapterInfo model = new ChapterInfo();
 
                     string[] splitStr = Regex.Split(txtLine, "==>");
-                    model.Id = Convert.ToInt32(splitStr[0]);
-                    model.Tittle = splitStr[1];
+                    model.ID = Convert.ToInt32(splitStr[0]);
+                    model.Name = splitStr[1];
                     model.IsEnable = "1" == splitStr[2] ? true : false;
                     model.Classification = Convert.ToInt32(splitStr[3]);
                     model.Count = Convert.ToInt32(splitStr[4]);
-                    m_List.Add(model.Id, model);
+                    m_List.Add(model.ID, model);
                 }
             }
 
@@ -90,30 +90,30 @@ namespace DirvingTest
         /// </summary>
         /// <param name="type"></param>
         /// <returns></returns>
-        public static Dictionary<int, ModelChapter>GetChapterListFromDB(int type)
+        public static Dictionary<int, ChapterInfo>GetChapterListFromDB(int type)
         {
-            Dictionary<int, ModelChapter> m_List = new Dictionary<int, ModelChapter>();
+            Dictionary<int, ChapterInfo> m_List = new Dictionary<int, ChapterInfo>();
             string sql = @"select g.id,g.name, g.type, g.classification, g.status, count(gq.question_id) as count from groups as g 
                             left join group_questions as gq on gq.group_id=g.id and gq.type=g.type
                                 where g.type=@type group by g.id,g.name,g.type, g.classification, g.status";
             DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@type", type) });
             foreach (DataRow row in data.Rows)
             {
-                ModelChapter modelChapter = new ModelChapter();
-                modelChapter.Id = Convert.ToInt32(row["id"].ToString());
+                ChapterInfo modelChapter = new ChapterInfo();
+                modelChapter.ID = Convert.ToInt32(row["id"].ToString());
                 modelChapter.Classification = Convert.ToInt32(row["classification"].ToString());
                 modelChapter.IsEnable = row["status"].ToString() =="1";
-                modelChapter.Tittle = row["name"].ToString();
+                modelChapter.Name = row["name"].ToString();
                 modelChapter.Count= Convert.ToInt32(row["count"].ToString());
                 
-                m_List.Add(modelChapter.Id, modelChapter);
+                m_List.Add(modelChapter.ID, modelChapter);
             }
 
             return m_List;
         }
 
         [Obsolete]
-        public static bool SetListToFile(Dictionary<int, ModelChapter> modelList, string filePath)
+        public static bool SetListToFile(Dictionary<int, ChapterInfo> modelList, string filePath)
         {
             FileStream aFile = new FileStream(filePath, FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(aFile);
@@ -121,7 +121,7 @@ namespace DirvingTest
             {
                 string txtLine = model.Key.ToString();
                 txtLine += "==>";
-                txtLine += model.Value.Tittle;
+                txtLine += model.Value.Name;
                 txtLine += "==>";
                 txtLine += model.Value.IsEnable ? 1 : 0;
                 txtLine += "==>";
@@ -144,23 +144,23 @@ namespace DirvingTest
         /// <param name="modelList"></param>
         /// <param name="isReplace"></param>
         /// <returns></returns>
-        public static bool AddModelToList(ModelChapter model, Dictionary<int, ModelChapter> modelList, out bool isReplace)
+        public static bool AddModelToList(ChapterInfo model, Dictionary<int, ChapterInfo> modelList, out bool isReplace)
         {
             isReplace = false;
             foreach (var tmp in modelList)
             {
                 
-                if (tmp.Key== model.Id)
+                if (tmp.Key== model.ID)
                 {
                     isReplace = true;
-                    tmp.Value.Tittle = model.Tittle;
+                    tmp.Value.Name = model.Name;
                     tmp.Value.IsEnable = model.IsEnable;
                     tmp.Value.Classification = model.Classification;
                     return true;
                 }
             }
 
-            modelList.Add(model.Id, model);
+            modelList.Add(model.ID, model);
 
             return true;
         }
@@ -171,7 +171,7 @@ namespace DirvingTest
         /// <param name="modelId"></param>
         /// <param name="modelList"></param>
         /// <returns></returns>
-        public static bool DelModelFromList(int modelId, Dictionary<int, ModelChapter> modelList)
+        public static bool DelModelFromList(int modelId, Dictionary<int, ChapterInfo> modelList)
         {
             foreach (var model in modelList)
             {

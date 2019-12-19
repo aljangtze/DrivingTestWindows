@@ -38,11 +38,11 @@ namespace DirvingTest
             int i = 0;
             Dictionary<int, string> dicModelId = new Dictionary<int,string>();
             List<string> listTittle = new List<string>();
-            List<ModelChapter> modeList = new List<ModelChapter>();
+            List<ChapterInfo> modeList = new List<ChapterInfo>();
             foreach(var modelInfo in ModelManager.m_DicBankList)
             {
-                listTittle.Add(modelInfo.Value.Tittle);
-                dicModelId.Add(modelInfo.Key, modelInfo.Value.Tittle);
+                listTittle.Add(modelInfo.Value.Name);
+                dicModelId.Add(modelInfo.Key, modelInfo.Value.Name);
                 modeList.Add(modelInfo.Value);
             }
 
@@ -107,19 +107,19 @@ namespace DirvingTest
                 radio.Parent= panelDown;
                 radio.ForeColor = radioButtonTemplate.ForeColor;
                 //radio.Text = modelInfo.Value.Tittle;
-                radio.Text = modelInfo.Tittle;
+                radio.Text = modelInfo.Name;
                 radio.Anchor = AnchorStyles.None;
                 radio.Dock = DockStyle.Fill;
 
                 tableLayoutPanel1.Controls.Add(radio);
 				radio.CheckedChanged += new System.EventHandler(this.radioButtonTemplate_CheckedChanged);
                 //radio.Tag = modelInfo.Value.Id;
-                radio.Tag = modelInfo.Id;
+                radio.Tag = modelInfo.ID;
 
                 if (i == 0)
                 {
                     //firstSkillId = modelInfo.Value.Id;
-                    firstBankId = modelInfo.Id;
+                    firstBankId = modelInfo.ID;
                     radio.Checked = true;
                 }
                 i++;

@@ -62,7 +62,7 @@ namespace DirvingTest
         private void UpdateSkillList()
         {
             //List<ModelChapter> lst = null;
-            Dictionary<int, ModelChapter> lst = null;
+            Dictionary<int, ChapterInfo> lst = null;
             switch (_Type)
             {
                 case 0:
@@ -83,8 +83,8 @@ namespace DirvingTest
 
             foreach (var data in lst)
             {
-                ModelChapter model = data.Value;
-                AddItem(model.Id, model.Tittle, model.IsEnable, model.Classification, model.Count);
+                ChapterInfo model = data.Value;
+                AddItem(model.ID, model.Name, model.IsEnable, model.Classification, model.Count);
 #if _SaveToSqliteGroups
                 if (_Type != 0)
                     AddChaperOrSkill(model, 0);
@@ -94,7 +94,7 @@ namespace DirvingTest
             }
         }
 
-        private void AddModel(ModelChapter model)
+        private void AddModel(ChapterInfo model)
         {
             try
             {
@@ -104,8 +104,8 @@ namespace DirvingTest
 
                 //SQLiteParameter[] parameters = new SQLiteParameter[23];
                 List<SQLiteParameter> parameters = new List<SQLiteParameter>();
-                parameters.Add(new SQLiteParameter("@id", model.Id));
-                parameters.Add(new SQLiteParameter("@name", model.Tittle));
+                parameters.Add(new SQLiteParameter("@id", model.ID));
+                parameters.Add(new SQLiteParameter("@name", model.Name));
                 parameters.Add(new SQLiteParameter("@type", _Type));
                 parameters.Add(new SQLiteParameter("@count", model.Count));
                 parameters.Add(new SQLiteParameter("@classification", model.Classification));
@@ -113,7 +113,7 @@ namespace DirvingTest
                 int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
                 if (result <= 0)
                 {
-                    Console.WriteLine("Error" + model.Id);
+                    Console.WriteLine("Error" + model.ID);
                     //MessageBox.Show(ques)
                 }
             }
@@ -186,9 +186,9 @@ namespace DirvingTest
         {
             if (e.ColumnIndex == 6)
             {
-                ModelChapter model = new ModelChapter();
-                model.Id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
-                model.Tittle = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+                ChapterInfo model = new ChapterInfo();
+                model.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
+                model.Name = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
                 model.Classification = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[3].Tag);
                 model.Count = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[4].Tag);
                 model.IsEnable = (bool)dataGridView1.Rows[e.RowIndex].Cells[5].Tag;
@@ -197,11 +197,11 @@ namespace DirvingTest
             }
             if (e.ColumnIndex == 7)
             {
-                ModelChapter model = new ModelChapter();
-                model.Id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
+                ChapterInfo model = new ChapterInfo();
+                model.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
                 if (DialogResult.Yes == MessageBox.Show("您确认删除此条信息?", "确认窗口", MessageBoxButtons.YesNo))
                 {
-                    if (true == DeleteModel(model.Id))
+                    if (true == DeleteModel(model.ID))
                     {
                         dataGridView1.Rows.RemoveAt(e.RowIndex);
                     }
@@ -229,21 +229,21 @@ namespace DirvingTest
 
         private void labelAdd_Click(object sender, EventArgs e)
         {
-            ModelChapter model = new ModelChapter();
+            ChapterInfo model = new ChapterInfo();
 
             switch (_Type)
             {
                 case 0:
-                    model.Id = SystemConfig._maxModuleId + 1;
+                    model.ID = SystemConfig._maxModuleId + 1;
                     break;
                 case 1:
-                    model.Id = SystemConfig._maxSkillId + 1;
+                    model.ID = SystemConfig._maxSkillId + 1;
                     break;
                 case 2:
-                    model.Id = SystemConfig._maxBankId + 1;
+                    model.ID = SystemConfig._maxBankId + 1;
                     break;
                 case 3:
-                    model.Id = SystemConfig._maxIntensifyId + 1;
+                    model.ID = SystemConfig._maxIntensifyId + 1;
                     break;
             }
 
@@ -252,7 +252,7 @@ namespace DirvingTest
             doShowModelInfo(model);
         }
 
-        private void doShowModelInfo(ModelChapter model)
+        private void doShowModelInfo(ChapterInfo model)
         {
             _formModelAdd.TopLevel = false;
             _formModelAdd.Parent = panelModelInfo;
@@ -262,7 +262,7 @@ namespace DirvingTest
             _formModelAdd.Show();
         }
 
-        private bool AddChapterToDB(ModelChapter model)
+        private bool AddChapterToDB(ChapterInfo model)
         {
             try
             {
@@ -272,8 +272,8 @@ namespace DirvingTest
 
                 //SQLiteParameter[] parameters = new SQLiteParameter[23];
                 List<SQLiteParameter> parameters = new List<SQLiteParameter>();
-                parameters.Add(new SQLiteParameter("@id", model.Id));
-                parameters.Add(new SQLiteParameter("@name", model.Tittle));
+                parameters.Add(new SQLiteParameter("@id", model.ID));
+                parameters.Add(new SQLiteParameter("@name", model.Name));
                 parameters.Add(new SQLiteParameter("@type", _Type));
                 parameters.Add(new SQLiteParameter("@count", model.Count));
                 parameters.Add(new SQLiteParameter("@classification", model.Classification));
@@ -281,7 +281,7 @@ namespace DirvingTest
                 int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
                 if (result <= 0)
                 {
-                    Console.WriteLine("Error" + model.Id);
+                    Console.WriteLine("Error" + model.ID);
                     //MessageBox.Show(ques)
                     return false;
                 }
@@ -293,7 +293,7 @@ namespace DirvingTest
             }
         }
 
-        private bool UpdateChapterToDB(ModelChapter model)
+        private bool UpdateChapterToDB(ChapterInfo model)
         {
             try
             {
@@ -301,8 +301,8 @@ namespace DirvingTest
 
                 //SQLiteParameter[] parameters = new SQLiteParameter[23];
                 List<SQLiteParameter> parameters = new List<SQLiteParameter>();
-                parameters.Add(new SQLiteParameter("@id", model.Id));
-                parameters.Add(new SQLiteParameter("@name", model.Tittle));
+                parameters.Add(new SQLiteParameter("@id", model.ID));
+                parameters.Add(new SQLiteParameter("@name", model.Name));
                 parameters.Add(new SQLiteParameter("@status", model.IsEnable?1:0));
                 parameters.Add(new SQLiteParameter("@type", _Type));
                 parameters.Add(new SQLiteParameter("@count", model.Count));
@@ -311,7 +311,7 @@ namespace DirvingTest
                 int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
                 if (result <= 0)
                 {
-                    Console.WriteLine("Error" + model.Id);
+                    Console.WriteLine("Error" + model.ID);
                     //MessageBox.Show(ques)
                     return false;
                 }
@@ -322,12 +322,12 @@ namespace DirvingTest
                 return false;
             }
         }
-        public bool SendBack(ModelChapter model, bool Replace)
+        public bool SendBack(ChapterInfo model, bool Replace)
         {
             if (true == Replace)
             {
                 //List<ModelChapter> list = null;
-                Dictionary<int, ModelChapter> list = null;
+                Dictionary<int, ChapterInfo> list = null;
                 string path = "";
                 switch(_Type)
                 {
@@ -379,16 +379,16 @@ namespace DirvingTest
                             switch(_Type)
                             {
                                 case 0:
-                                    SystemConfig._maxModuleId = model.Id;
+                                    SystemConfig._maxModuleId = model.ID;
                                     break;
                                 case 1:
-                                    SystemConfig._maxSkillId = model.Id;
+                                    SystemConfig._maxSkillId = model.ID;
                                     break;
                                 case 2:
-                                    SystemConfig._maxBankId = model.Id;
+                                    SystemConfig._maxBankId = model.ID;
                                     break;
                                 case 3:
-                                    SystemConfig._maxIntensifyId = model.Id;
+                                    SystemConfig._maxIntensifyId = model.ID;
                                     break;
                             }
                             //if (_Type == 0)
@@ -403,7 +403,7 @@ namespace DirvingTest
                             SystemConfig.SaveModelId();
                         }
                         
-                        AddItem(model.Id, model.Tittle, model.IsEnable, model.Classification, model.Count);
+                        AddItem(model.ID, model.Name, model.IsEnable, model.Classification, model.Count);
                         
                         return true;
                     }
@@ -452,7 +452,7 @@ namespace DirvingTest
         {
             try
             {
-                Dictionary<int, ModelChapter> lst = null;
+                Dictionary<int, ChapterInfo> lst = null;
                 string path = "";
                 switch (_Type)
                 {

@@ -35,7 +35,7 @@ namespace DirvingTest
         private SupportChapterType g_ChapterType = SupportChapterType.ChapterSkill;
         private SerializableDictionary<int, int> g_Relation_Question_List = new SerializableDictionary<int,int>();
 
-        Dictionary<int, ModelChapter> chapterList = new Dictionary<int, ModelChapter>();
+        Dictionary<int, ChapterInfo> chapterList = new Dictionary<int, ChapterInfo>();
         public void SetChapterType(SupportChapterType chapterType)
         {
             g_ChapterType = chapterType;
@@ -82,12 +82,12 @@ namespace DirvingTest
             int i = 0;
             Dictionary<int, string> dicModelId = new Dictionary<int,string>();
             List<string> listTittle = new List<string>();
-            List<ModelChapter> modeList = new List<ModelChapter>();
+            List<ChapterInfo> modeList = new List<ChapterInfo>();
 
             foreach (var modelInfo in this.chapterList)
             {
-                listTittle.Add(modelInfo.Value.Tittle);
-                dicModelId.Add(modelInfo.Key, modelInfo.Value.Tittle);
+                listTittle.Add(modelInfo.Value.Name);
+                dicModelId.Add(modelInfo.Key, modelInfo.Value.Name);
                 modeList.Add(modelInfo.Value);
             }
 
@@ -153,19 +153,19 @@ namespace DirvingTest
                 radio.Parent= panelDown;
                 radio.ForeColor = radioButtonTemplate.ForeColor;
                 //radio.Text = modelInfo.Value.Tittle;
-                radio.Text = modelInfo.Tittle;
+                radio.Text = modelInfo.Name;
                 radio.Anchor = AnchorStyles.None;
                 radio.Dock = DockStyle.Fill;
 
                 tableLayoutPanel1.Controls.Add(radio);
 				radio.CheckedChanged += new System.EventHandler(this.radioButtonTemplate_CheckedChanged);
                 //radio.Tag = modelInfo.Value.Id;
-                radio.Tag = modelInfo.Id;
+                radio.Tag = modelInfo.ID;
 
                 if (i == 0)
                 {
                     //firstSkillId = modelInfo.Value.Id;
-                    g_FirstChapterId = modelInfo.Id;
+                    g_FirstChapterId = modelInfo.ID;
                     radio.Checked = true;
                 }
                 i++;

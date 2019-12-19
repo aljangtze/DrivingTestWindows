@@ -33,13 +33,13 @@ namespace DirvingTest
 
         private void FormQuestionManage_Shown(object sender, EventArgs e)
         {
-            ModelChapter modelNull = new ModelChapter();
-            modelNull.Id = 0;
-            modelNull.Tittle = "全部";
+            ChapterInfo modelNull = new ChapterInfo();
+            modelNull.ID = 0;
+            modelNull.Name = "全部";
 
-            ModelChapter modelNotSplit = new ModelChapter();
-            modelNotSplit.Id = -1;
-            modelNotSplit.Tittle = "未分类";
+            ChapterInfo modelNotSplit = new ChapterInfo();
+            modelNotSplit.ID = -1;
+            modelNotSplit.Name = "未分类";
 
             comboBoxChapter.Items.Add(modelNull);
             foreach (var model in ModelManager.m_DicMoudleList)
@@ -157,7 +157,7 @@ namespace DirvingTest
 
 
             DataGridViewTextBoxCell txtBox5 = new DataGridViewTextBoxCell();
-            ModelChapter model = new ModelChapter();
+            ChapterInfo model = new ChapterInfo();
             ModelManager.m_DicMoudleList.TryGetValue(question.Module, out model);
             if(model == null)
             {
@@ -166,8 +166,8 @@ namespace DirvingTest
             }
             else
             {
-                txtBox5.Value = model.Tittle;
-                txtBox5.ToolTipText = model.Tittle;
+                txtBox5.Value = model.Name;
+                txtBox5.ToolTipText = model.Name;
             }
             row.Cells.Add((DataGridViewTextBoxCell)txtBox5);
             txtBox5.ReadOnly = true;
@@ -175,7 +175,7 @@ namespace DirvingTest
 
             DataGridViewTextBoxCell txtBox6 = new DataGridViewTextBoxCell();
            // txtBox6.Tag = question.Skill;
-            ModelChapter modelSkill = null;
+            ChapterInfo modelSkill = null;
             ModelManager.m_DicSkillList.TryGetValue(question.Skill, out modelSkill);
             if (modelSkill == null)
             {
@@ -184,15 +184,15 @@ namespace DirvingTest
             }
             else
             {
-                txtBox6.Value = modelSkill.Tittle;
-                txtBox6.ToolTipText = modelSkill.Tittle;
+                txtBox6.Value = modelSkill.Name;
+                txtBox6.ToolTipText = modelSkill.Name;
             }
             row.Cells.Add((DataGridViewTextBoxCell)txtBox6);
             txtBox6.ReadOnly = true;
 
             DataGridViewTextBoxCell txtBox7 = new DataGridViewTextBoxCell();
             // txtBox6.Tag = question.Skill;
-            ModelChapter modelBank = null;
+            ChapterInfo modelBank = null;
             ModelManager.m_DicBankList.TryGetValue(question.BankId, out modelBank);
             if (modelBank == null)
             {
@@ -201,8 +201,8 @@ namespace DirvingTest
             }
             else
             {
-                txtBox7.Value = modelBank.Tittle;
-                txtBox7.ToolTipText = modelBank.Tittle;
+                txtBox7.Value = modelBank.Name;
+                txtBox7.ToolTipText = modelBank.Name;
             }
             row.Cells.Add((DataGridViewTextBoxCell)txtBox7);
             txtBox7.ReadOnly = true;
@@ -236,29 +236,29 @@ namespace DirvingTest
                             continue;
                     }
 
-                    ModelChapter modelSkill = (ModelChapter)comboBoxSkill.SelectedItem;
-                    if(modelSkill.Id == -1)
+                    ChapterInfo modelSkill = (ChapterInfo)comboBoxSkill.SelectedItem;
+                    if(modelSkill.ID == -1)
                     {
                         //未分类
                         if (question.Skill != 0)
                             continue;
                     }
-                    else if(modelSkill.Id !=0)
+                    else if(modelSkill.ID !=0)
                     {
-                        if (question.Skill != modelSkill.Id)
+                        if (question.Skill != modelSkill.ID)
                             continue;
                     }
 
-                    ModelChapter modelBank = (ModelChapter)comboBoxBank.SelectedItem;
-                    if(modelBank.Id ==-1)
+                    ChapterInfo modelBank = (ChapterInfo)comboBoxBank.SelectedItem;
+                    if(modelBank.ID ==-1)
                     {
                         //未分类
                         if (question.BankId != 0)
                             continue;
                     }
-                    else if(modelBank.Id !=0)
+                    else if(modelBank.ID !=0)
                     {
-                        if (question.BankId != modelBank.Id)
+                        if (question.BankId != modelBank.ID)
                             continue;
                     }
 

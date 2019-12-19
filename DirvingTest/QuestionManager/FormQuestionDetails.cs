@@ -84,7 +84,7 @@ namespace DirvingTest
                 //    continue;
 
                 comboBoxChapter.Items.Add(modelInfo);
-                if(modelInfo.Value.Id == ChapterId)
+                if(modelInfo.Value.ID == ChapterId)
                     comboBoxChapter.SelectedIndex = i;
                 i++;
             }
@@ -94,10 +94,10 @@ namespace DirvingTest
 
             comboBoxSkill.Items.Clear();
             comboBoxSkill.BeginUpdate();
-            ModelChapter model = new ModelChapter();
-            model.Id = 0;
-            model.Tittle = "未分类";
-            KeyValuePair<int, ModelChapter> pair = new KeyValuePair<int, ModelChapter>(0, model);
+            ChapterInfo model = new ChapterInfo();
+            model.ID = 0;
+            model.Name = "未分类";
+            KeyValuePair<int, ChapterInfo> pair = new KeyValuePair<int, ChapterInfo>(0, model);
             comboBoxSkill.Items.Add(pair);
             i = 1;
             foreach (var modelInfo in ModelManager.m_DicSkillList)
@@ -106,7 +106,7 @@ namespace DirvingTest
                 //    continue;
 
                 comboBoxSkill.Items.Add(modelInfo);
-                if (modelInfo.Value.Id == SkillId)
+                if (modelInfo.Value.ID == SkillId)
                     comboBoxSkill.SelectedIndex = i;
                 i++;
             }
@@ -117,10 +117,10 @@ namespace DirvingTest
 
             cboxBank.Items.Clear();
             cboxBank.BeginUpdate();
-            ModelChapter modelBank = new ModelChapter();
-            modelBank.Id = 0;
-            modelBank.Tittle = "未分类";
-            KeyValuePair<int, ModelChapter> pairBank = new KeyValuePair<int, ModelChapter>(0, modelBank);
+            ChapterInfo modelBank = new ChapterInfo();
+            modelBank.ID = 0;
+            modelBank.Name = "未分类";
+            KeyValuePair<int, ChapterInfo> pairBank = new KeyValuePair<int, ChapterInfo>(0, modelBank);
             cboxBank.Items.Add(pair);
             i = 1;
             foreach (var modelInfo in ModelManager.m_DicBankList)
@@ -129,7 +129,7 @@ namespace DirvingTest
                 //    continue;
 
                 cboxBank.Items.Add(modelInfo);
-                if (modelInfo.Value.Id == bankId)
+                if (modelInfo.Value.ID == bankId)
                     cboxBank.SelectedIndex = i;
                 i++;
             }
@@ -212,21 +212,21 @@ namespace DirvingTest
             Question question = m_question;
             question.Tittle = richTextBoxTittle.Text;
             question.Classification = comboBoxClassification.SelectedIndex + 1;
-            ModelChapter modelSkill = ((KeyValuePair<int,ModelChapter>)comboBoxSkill.SelectedItem).Value;
+            ChapterInfo modelSkill = ((KeyValuePair<int,ChapterInfo>)comboBoxSkill.SelectedItem).Value;
             if (null == modelSkill)
                 question.Skill = 0;
             else
-                question.Skill = modelSkill.Id;
+                question.Skill = modelSkill.ID;
 
 
-            ModelChapter modelBank = ((KeyValuePair<int, ModelChapter>)cboxBank.SelectedItem).Value;
+            ChapterInfo modelBank = ((KeyValuePair<int, ChapterInfo>)cboxBank.SelectedItem).Value;
             if (null == modelBank)
                 question.BankId = 0;
             else
-                question.BankId = modelBank.Id;
+                question.BankId = modelBank.ID;
 
-            ModelChapter modelChapter = ((KeyValuePair<int, ModelChapter>)comboBoxChapter.SelectedItem).Value;
-            question.Module = modelChapter.Id;
+            ChapterInfo modelChapter = ((KeyValuePair<int, ChapterInfo>)comboBoxChapter.SelectedItem).Value;
+            question.Module = modelChapter.ID;
             question.TittleEmphasize = string.IsNullOrEmpty(textBoxEmphasize.Text)?"" : textBoxEmphasize.Text;
             question.SkillNotice = string.IsNullOrEmpty(richTextBoxSkillNotice.Text) ? "" : richTextBoxSkillNotice.Text;
             question.SkillNotice = question.SkillNotice.Replace("\n", "&");

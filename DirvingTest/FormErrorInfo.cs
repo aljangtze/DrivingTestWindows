@@ -92,7 +92,7 @@ namespace DirvingTest
 
 
             DataGridViewTextBoxCell txtBox5 = new DataGridViewTextBoxCell();
-            ModelChapter model = new ModelChapter();
+            ChapterInfo model = new ChapterInfo();
             txtBox5.Value = answer.AnswerString;
             txtBox5.ToolTipText = "您的答案";
             row.Cells.Add((DataGridViewTextBoxCell)txtBox5);

@@ -559,15 +559,15 @@ namespace DirvingTest
         /// <param name="e"></param>
         private void MenuSkillManager_Click(object sender, EventArgs e)
         {
-            if (false == SystemConfig._IsLogin)
-            {
-                FormManagerLogin formLogin = new FormManagerLogin();
-                if (DialogResult.Yes != formLogin.ShowDialog())
-                    return;
-            }
+            //if (false == SystemConfig._IsLogin)
+            //{
+            //    FormManagerLogin formLogin = new FormManagerLogin();
+            //    if (DialogResult.Yes != formLogin.ShowDialog())
+            //        return;
+            //}
 
-            Form form = new FormSkillManager();
-            ((FormSkillManager)form).SetType(1);
+            Form form = new FormChapterManager();
+            ((FormChapterManager)form).SetType(1);
 
             if (activeFrom != null)
                 activeFrom.Close();
@@ -588,15 +588,15 @@ namespace DirvingTest
         /// <param name="e"></param>
         private void MenuBankManager_Click(object sender, EventArgs e)
         {
-            if (false == SystemConfig._IsLogin)
-            {
-                FormManagerLogin formLogin = new FormManagerLogin();
-                if (DialogResult.Yes != formLogin.ShowDialog())
-                    return;
-            }
+            //if (false == SystemConfig._IsLogin)
+            //{
+            //    FormManagerLogin formLogin = new FormManagerLogin();
+            //    if (DialogResult.Yes != formLogin.ShowDialog())
+            //        return;
+            //}
 
-            Form form = new FormSkillManager();
-            ((FormSkillManager)form).SetType(2);
+            Form form = new FormChapterManager();
+            ((FormChapterManager)form).SetType(2);
 
             if (activeFrom != null)
                 activeFrom.Close();
@@ -634,15 +634,15 @@ namespace DirvingTest
         /// <param name="e"></param>
         private void MenuChapterManager_Click(object sender, EventArgs e)
         {
-            if(false == SystemConfig._IsLogin)
-            {
-                FormManagerLogin formLogin = new FormManagerLogin();
-                if (DialogResult.Yes != formLogin.ShowDialog())
-                    return;
-            }
+            //if(false == SystemConfig._IsLogin)
+            //{
+            //    FormManagerLogin formLogin = new FormManagerLogin();
+            //    if (DialogResult.Yes != formLogin.ShowDialog())
+            //        return;
+            //}
 
-            Form form = new FormSkillManager();
-            ((FormSkillManager)form).SetType(0);
+            Form form = new FormChapterManager();
+            ((FormChapterManager)form).SetType(0);
 
             if (activeFrom != null)
                 activeFrom.Close();

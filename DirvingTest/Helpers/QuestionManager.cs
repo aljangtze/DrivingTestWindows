@@ -248,7 +248,7 @@ namespace DirvingTest
         {
             try
             {
-                Dictionary<int, ModelChapter> m_List = new Dictionary<int, ModelChapter>();
+                Dictionary<int, ChapterInfo> m_List = new Dictionary<int, ChapterInfo>();
                 string sql = @"SELECT r.* FROM group_questions r
                                 left join groups g on g.id = r.group_id
                                 left join questions q on q.id = r.question_id

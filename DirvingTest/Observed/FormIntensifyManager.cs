@@ -39,11 +39,11 @@ namespace DirvingTest
         {
             //List<ModelChapter> lst = null;
             //将列表取进来
-            Dictionary<int, ModelChapter> lst = ModelManager.m_DicIntensifyList;
+            Dictionary<int, ChapterInfo> lst = ModelManager.m_DicIntensifyList;
             foreach (var data in lst)
             {
-                ModelChapter model = data.Value;
-                AddItem(model.Id, model.Tittle, model.IsEnable, model.Classification, model.Count);
+                ChapterInfo model = data.Value;
+                AddItem(model.ID, model.Name, model.IsEnable, model.Classification, model.Count);
             }
         }
 
@@ -110,9 +110,9 @@ namespace DirvingTest
         {
             if (e.ColumnIndex == 6)
             {
-                ModelChapter model = new ModelChapter();
-                model.Id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
-                model.Tittle = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+                ChapterInfo model = new ChapterInfo();
+                model.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
+                model.Name = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
                 model.Classification = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[3].Tag);
                 model.IsEnable = (bool)dataGridView1.Rows[e.RowIndex].Cells[5].Tag;
 
@@ -120,11 +120,11 @@ namespace DirvingTest
             }
             if(e.ColumnIndex == 7)
             {
-                ModelChapter model = new ModelChapter();
-                model.Id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
+                ChapterInfo model = new ChapterInfo();
+                model.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Tag);
                 if(DialogResult.Yes == MessageBox.Show("您确认删除此条信息?", "确认窗口", MessageBoxButtons.YesNo))
                 {
-                    if(true == DeleteModel(model.Id))
+                    if(true == DeleteModel(model.ID))
                     {
                         dataGridView1.Rows.RemoveAt(e.RowIndex);
                     }
@@ -152,15 +152,15 @@ namespace DirvingTest
 
         private void labelAdd_Click(object sender, EventArgs e)
         {
-            ModelChapter model = new ModelChapter();
+            ChapterInfo model = new ChapterInfo();
 
-            model.Id = SystemConfig._maxBankId + 1;
+            model.ID = SystemConfig._maxBankId + 1;
             model.Classification = 1;
 
             doShowModelInfo(model);
         }
 
-        private void doShowModelInfo(ModelChapter model)
+        private void doShowModelInfo(ChapterInfo model)
         {
             _formModelAdd.TopLevel = false;
             _formModelAdd.Parent = panelModelInfo;
@@ -170,12 +170,12 @@ namespace DirvingTest
             _formModelAdd.Show();
         }
 
-        public bool SendBack(ModelChapter model, bool Replace)
+        public bool SendBack(ChapterInfo model, bool Replace)
         {
             if (true == Replace)
             {
                 //List<ModelChapter> list = null;
-                Dictionary<int, ModelChapter> list = null;
+                Dictionary<int, ChapterInfo> list = null;
                 string path = "";
 
                 list = ModelManager.m_DicIntensifyList;
@@ -191,12 +191,12 @@ namespace DirvingTest
                         this.panelModelInfo.SendToBack();
                         if(isReplace != true)
                         {
-                            SystemConfig._maxBankId = model.Id;
+                            SystemConfig._maxBankId = model.ID;
 
                             SystemConfig.SaveModelId();
                         }
                         
-                        AddItem(model.Id, model.Tittle, model.IsEnable, model.Classification, model.Count);
+                        AddItem(model.ID, model.Name, model.IsEnable, model.Classification, model.Count);
                         
                         return true;
                     }
@@ -243,7 +243,7 @@ namespace DirvingTest
         {
             try
             {
-                Dictionary<int, ModelChapter> list = null;
+                Dictionary<int, ChapterInfo> list = null;
                 string path = "";
                 
                 list = ModelManager.m_DicBankList;

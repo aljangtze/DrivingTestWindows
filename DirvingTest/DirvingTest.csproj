@@ -112,7 +112,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\ModelChapter.cs" />
+    <Compile Include="ChapterManager\ChapterManager.cs" />
+    <Compile Include="ChapterManager\ChapterType.cs" />
+    <Compile Include="ChapterManager\FormChapterModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChapterManager\FormChapterModify.Designer.cs">
+      <DependentUpon>FormChapterModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChapterManager\FormChapterManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChapterManager\FormChapterManager.Designer.cs">
+      <DependentUpon>FormChapterManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChapterManager\ChapterInfo.cs" />
+    <Compile Include="ChapterManager\FormChapterAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChapterManager\FormChapterAdd.Designer.cs">
+      <DependentUpon>FormChapterAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="StreamUtil.cs" />
     <Compile Include="FormIntensifySelect.cs">
       <SubType>Form</SubType>
@@ -319,6 +339,15 @@
     </Compile>
     <Compile Include="UserManager\UserInfo.cs" />
     <Compile Include="UserManager\UserManager.cs" />
+    <EmbeddedResource Include="ChapterManager\FormChapterModify.resx">
+      <DependentUpon>FormChapterModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChapterManager\FormChapterManager.resx">
+      <DependentUpon>FormChapterManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChapterManager\FormChapterAdd.resx">
+      <DependentUpon>FormChapterAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormIntensifySelect.resx">
       <DependentUpon>FormIntensifySelect.cs</DependentUpon>
     </EmbeddedResource>
@@ -472,6 +501,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.sql" />
     <Content Include="ApplicationIcon.ico" />
     <Content Include="Resources\01.jpg" />
     <Content Include="data.sql" />

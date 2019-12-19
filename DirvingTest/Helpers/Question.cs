@@ -56,6 +56,8 @@ namespace DirvingTest
         /// </summary>
         public List<int> CorrectAnswer;
 
+        public List<int> Answers;
+
         /// <summary>
         /// 选项信息
         /// </summary>

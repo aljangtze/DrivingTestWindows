@@ -945,11 +945,13 @@ namespace DirvingTest
                 question.Options = new List<string>();
                 question.OptionsEmphasize = new List<string>();
                 question.CorrectAnswer = new List<int>();
+                question.Answers = new List<int>();
 
                 for (int i = 1; i <= 4; i++)
                 {
                     question.Options.Add(row["option" + i.ToString()].ToString());
                     question.OptionsEmphasize.Add(row["option" + i.ToString() + "Emphasize"].ToString());
+                    question.Answers.Add(Convert.ToInt32(row["answer" + i.ToString()].ToString()));
                     if ("1".Equals(row["answer" + i.ToString()].ToString()))
                         question.CorrectAnswer.Add(i);
                 }

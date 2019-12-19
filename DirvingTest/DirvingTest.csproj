@@ -146,6 +146,7 @@
     <Compile Include="Exams\FormTrainErrorInfo.Designer.cs">
       <DependentUpon>FormTrainErrorInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\QuestionManagerSql.cs" />
     <Compile Include="PageControl.cs">
       <SubType>UserControl</SubType>
     </Compile>

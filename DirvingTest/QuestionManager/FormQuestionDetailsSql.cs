@@ -23,7 +23,10 @@ namespace DirvingTest
         {
             InitializeComponent();
         }
-        
+
+        int m_chapterId = 0;
+        int m_bankId = 0;
+        int m_skillId = 0;
         public void SetDataInfo(DataRow dataRow)
         {
             textBoxEmphasizeA.Text = "";
@@ -41,20 +44,20 @@ namespace DirvingTest
 
             try
             {
-                int chapterId = 0;
+
                 if (!string.IsNullOrEmpty(dataRow["chapter_id"].ToString()))
-                    chapterId = Convert.ToInt32(dataRow["chapter_id"]);
+                    m_chapterId = Convert.ToInt32(dataRow["chapter_id"]);
 
-                int skillId = 0;
+
                 if (!string.IsNullOrEmpty(dataRow["skill_id"].ToString()))
-                    skillId = Convert.ToInt32(dataRow["skill_id"]);
+                    m_skillId = Convert.ToInt32(dataRow["skill_id"]);
 
-                int bankId = 0;
+
                 if (!string.IsNullOrEmpty(dataRow["bank_id"].ToString()))
-                    bankId = Convert.ToInt32(dataRow["bank_id"]);
+                    m_bankId = Convert.ToInt32(dataRow["bank_id"]);
 
+                ///更新分类
                 int classificationId = Convert.ToInt32(dataRow["classification"]);
-
                 comboBoxClassification.Items.Clear();
                 comboBoxClassification.BeginUpdate();
                 for (int i = 1; i < Question._ModelClassificationInfo.Length; i++)
@@ -64,7 +67,8 @@ namespace DirvingTest
                 comboBoxClassification.EndUpdate();
                 comboBoxClassification.SelectedIndex = classificationId - 1;
 
-                UpdateUI(chapterId, skillId, bankId, classificationId);
+                //更新分组
+                UpdateGroups(m_chapterId, m_skillId, m_bankId);
 
                 int id = Convert.ToInt32(dataRow["id"]);
                 BindUIByQuesiton(id);
@@ -78,16 +82,7 @@ namespace DirvingTest
             }
         }
 
-        /// <summary>
-        /// 更新分类
-        /// </summary>
-        private void UpdateUI( int chapterId, int skillId, int bankId, int classificationId)
-        {
 
-            UpdateGroups(chapterId, skillId, bankId);
-
-            richTextBoxTittle.Focus();
-        }
 
         /// <summary>
         /// 更新技巧和章节信息
@@ -183,11 +178,15 @@ namespace DirvingTest
             textBoxTittleImage.Text = "";
             if (!string.IsNullOrEmpty(question.ImagePath))
             {
+                textBoxTittleImage.Text = question.ImagePath;
                 textBoxTittleImage.Text = Directory.GetCurrentDirectory() + "\\Images\\" + Path.GetFileName(question.ImagePath);
                 _pathImage = textBoxTittleImage.Text;
             }
+            
             if (!string.IsNullOrEmpty(question.FlashPath))
             {
+                
+                textBoxTittleImage.Text = question.FlashPath;
                 textBoxTittleImage.Text = Directory.GetCurrentDirectory() + "\\Flash\\" + Path.GetFileName(question.FlashPath);
                 _pathFlash = textBoxTittleImage.Text;
             }
@@ -195,11 +194,12 @@ namespace DirvingTest
             if(question.Options != null&& question.Options.Count > 0)
             {
                 textBoxOptionA.Text = question.Options[0];
-				if(string.IsNullOrEmpty(textBoxOptionA.Text) && question.Type == 1)
-					textBoxOptionA.Text = "正确";
+                //if(string.IsNullOrEmpty(textBoxOptionA.Text) && question.Type == 1)
+                //	textBoxOptionA.Text = "正确";
+                //            textBoxOptionB.Text = question.Options[1];
+                //if(string.IsNullOrEmpty(textBoxOptionB.Text) && question.Type == 1)
+                //	textBoxOptionB.Text = "错误";
                 textBoxOptionB.Text = question.Options[1];
-				if(string.IsNullOrEmpty(textBoxOptionB.Text) && question.Type == 1)
-					textBoxOptionB.Text = "错误";
                 textBoxOptionC.Text = question.Options[2];
                 textBoxOptionD.Text = question.Options[3];
                 
@@ -215,7 +215,6 @@ namespace DirvingTest
                 }
             }
 
-            //string rightAnswer = "";
             foreach(var correct in question.CorrectAnswer)
             {
 				if(correct == 1)
@@ -227,34 +226,29 @@ namespace DirvingTest
 				if(correct == 4)
 					checkBoxD.Checked = true;
             }
-
-            //textBoxCorrectAnswer.Text = rightAnswer;
         }
 
-        private void BindUIToQuestion()
+        private bool BindUIToQuestion(out Question question)
         {
-            Question question = m_question;
+            question = new Question();
             question.Tittle = richTextBoxTittle.Text;
             question.Classification = comboBoxClassification.SelectedIndex + 1;
-            ChapterInfo modelSkill = ((KeyValuePair<int,ChapterInfo>)comboBoxSkill.SelectedItem).Value;
-            if (null == modelSkill)
-                question.Skill = 0;
-            else
-                question.Skill = modelSkill.ID;
-
-
-            ChapterInfo modelBank = ((KeyValuePair<int, ChapterInfo>)cboxBank.SelectedItem).Value;
-            if (null == modelBank)
-                question.BankId = 0;
-            else
-                question.BankId = modelBank.ID;
-
-            ChapterInfo modelChapter = ((KeyValuePair<int, ChapterInfo>)comboBoxChapter.SelectedItem).Value;
-            question.Module = modelChapter.ID;
             question.TittleEmphasize = string.IsNullOrEmpty(textBoxEmphasize.Text)?"" : textBoxEmphasize.Text;
             question.SkillNotice = string.IsNullOrEmpty(richTextBoxSkillNotice.Text) ? "" : richTextBoxSkillNotice.Text;
             question.SkillNotice = question.SkillNotice.Replace("\n", "&");
-            if(!string.IsNullOrEmpty(textBoxTittleImage.Text))
+
+            if (comboBoxChapter.SelectedItem != null)
+            {
+
+                ChapterInfo chapterInfo = (ChapterInfo)comboBoxChapter.SelectedItem;
+                question.Module = chapterInfo.ID;
+            }
+            else
+            {
+                question.Module = 0;
+            }
+
+            if (!string.IsNullOrEmpty(textBoxTittleImage.Text))
             {
                 string extension = Path.GetExtension(_pathImage);
                 if(!string.IsNullOrEmpty(_pathImage))
@@ -266,7 +260,11 @@ namespace DirvingTest
                     question.FlashPath = question.Id.ToString() + Path.GetExtension(_pathFlash);
                 }
             }
-
+            else
+            {
+                question.ImagePath = "";
+                question.FlashPath = "";
+            }
 
             if (radioButtonType1.Checked == true)
                 question.Type = 1;
@@ -286,18 +284,21 @@ namespace DirvingTest
             if (answerCount > 1)
                 question.Type = 3;
 
+            question.Options = new List<string>();
             question.Options.Clear();
             question.Options.Add(textBoxOptionA.Text);
             question.Options.Add(textBoxOptionB.Text);
             question.Options.Add(textBoxOptionC.Text);
             question.Options.Add(textBoxOptionD.Text);
 
+            question.OptionsEmphasize = new List<string>();
             question.OptionsEmphasize.Clear();
             question.OptionsEmphasize.Add(textBoxEmphasizeA.Text);
             question.OptionsEmphasize.Add(textBoxEmphasizeB.Text);
             question.OptionsEmphasize.Add(textBoxEmphasizeC.Text);
             question.OptionsEmphasize.Add(textBoxEmphasizeD.Text);
 
+            question.CorrectAnswer = new List<int>();
             question.CorrectAnswer.Clear();
             if(checkBoxA.Checked)
 				question.CorrectAnswer.Add(1);
@@ -307,6 +308,14 @@ namespace DirvingTest
 				question.CorrectAnswer.Add(3);
 			if(checkBoxD.Checked)
 				question.CorrectAnswer.Add(4);
+
+            question.Answers = new List<int>();
+            question.Answers.Add(checkBoxA.Checked ? 1 : 0);
+            question.Answers.Add(checkBoxB.Checked ? 1 : 0);
+            question.Answers.Add(checkBoxC.Checked ? 1 : 0);
+            question.Answers.Add(checkBoxD.Checked ? 1 : 0);
+
+            return true;
         }
 
         /// <summary>
@@ -314,19 +323,13 @@ namespace DirvingTest
         /// </summary>
         private void UpdateOptionInfo()
         {
-			checkBoxA.Checked = false;
-			checkBoxB.Checked = false;
-			checkBoxC.Checked = false;
-			checkBoxD.Checked = false;
+            return;
             if (radioButtonType2.Checked == true)
             {
-                //textBoxCorrectAnswer.Text = "";
                 textBoxEmphasizeC.Visible = true;
                 textBoxEmphasizeD.Visible = true;
                 textBoxOptionC.Visible = true;
                 textBoxOptionD.Visible = true;
-                //buttonBrowseC.Visible = true;
-                //buttonBrowseD.Visible = true;
 
                 labelC.Visible = true;
                 labelD.Visible = true;
@@ -335,72 +338,46 @@ namespace DirvingTest
 
                 textBoxOptionA.Text = m_question.Options[0];
                 textBoxOptionB.Text = m_question.Options[1];
+                textBoxOptionC.Text = m_question.Options[2];
+                textBoxOptionD.Text = m_question.Options[3];
+
+                textBoxEmphasizeA.Text = m_question.OptionsEmphasize[0];
+                textBoxEmphasizeB.Text = m_question.OptionsEmphasize[1];
+                textBoxEmphasizeC.Text = m_question.OptionsEmphasize[2];
+                textBoxEmphasizeD.Text = m_question.OptionsEmphasize[3];
+
                 textBoxOptionA.Enabled = true;
                 textBoxOptionB.Enabled = true;
-				checkBoxC.Visible = true;
-				checkBoxD.Visible = true;
+                checkBoxC.Visible = true;
+                checkBoxD.Visible = true;
             }
             else
             {
                 //textBoxCorrectAnswer.Text = "";
-                textBoxEmphasizeC.Visible = false;
-                textBoxEmphasizeD.Visible = false;
-                textBoxOptionC.Visible = false;
-                textBoxOptionD.Visible = false;
-                buttonBrowseC.Visible = false;
-                buttonBrowseD.Visible = false;
-                labelC.Visible = false;
-                labelD.Visible = false;
-                labelImageC.Visible = false;
-                labelImageD.Visible = false;
-                textBoxOptionA.Text = "正确";
-                textBoxOptionB.Text = "错误";
+                //textBoxEmphasizeC.Visible = false;
+                //textBoxEmphasizeD.Visible = false;
+                //textBoxOptionC.Visible = false;
+                //textBoxOptionD.Visible = false;
+                //buttonBrowseC.Visible = false;
+                //buttonBrowseD.Visible = false;
+                //labelC.Visible = false;
+                //labelD.Visible = false;
+                //labelImageC.Visible = false;
+                //labelImageD.Visible = false;
+                textBoxEmphasizeA.Text = m_question.OptionsEmphasize[0];
+                textBoxEmphasizeB.Text = m_question.OptionsEmphasize[1];
+                textBoxOptionA.Text = "对";
+                textBoxOptionB.Text = "错";
                 textBoxOptionA.Enabled = false;
                 textBoxOptionB.Enabled = false;
-				checkBoxC.Visible = false;
-				checkBoxD.Visible = false;
+				//checkBoxC.Visible = false;
+				//checkBoxD.Visible = false;
             }
         }
 
         private void radioButtonType2_CheckedChanged(object sender, EventArgs e)
         {
             UpdateOptionInfo();
-        }
-
-        private void textBoxCorrectAnswer_TextChanged(object sender, EventArgs e)
-        {
-            // m_CorrectAnswer.Clear();
-            // string answerString = textBoxCorrectAnswer.Text;
-            // string strAnswerResult = "";
-            // if (answerString.IndexOf("1") != -1 || answerString.IndexOf("A") != -1 || answerString.IndexOf("a") != -1)
-            // {
-                // strAnswerResult = strAnswerResult + "A";
-                // m_CorrectAnswer.Add(1);
-            // }
-            // if (answerString.IndexOf("2") != -1 || answerString.IndexOf("B") != -1 || answerString.IndexOf("b") != -1)
-            // {
-                // strAnswerResult = strAnswerResult + "B";
-                // m_CorrectAnswer.Add(2);
-            // }
-
-            // if (radioButtonType2.Checked && (answerString.IndexOf("3") != -1 || answerString.IndexOf("C") != -1 || answerString.IndexOf("c") != -1))
-            // {
-                // strAnswerResult = strAnswerResult + "C";
-                // m_CorrectAnswer.Add(3);
-            // }
-
-            // if (radioButtonType2.Checked && (answerString.IndexOf("4") != -1 || answerString.IndexOf("D") != -1 || answerString.IndexOf("d") != -1))
-            // {
-                // strAnswerResult = strAnswerResult + "D";
-                // m_CorrectAnswer.Add(4);
-            // }
-
-            // labelCorrectAnswer.Text = strAnswerResult;
-
-            // if(labelCorrectAnswer.Text.Length > 1)
-            // {
-                // m_question.Type = 3;
-            // }
         }
 
         private bool CheckQuestionInfo()
@@ -469,28 +446,68 @@ namespace DirvingTest
             if (DialogResult.No == MessageBox.Show("确认要保存此题目信息吗？", "确认信息", MessageBoxButtons.YesNo))
                 return;
 
-            //BindUIToQuestion();
-            //if (true == FormBack(m_question, true))
-            //{
-            //    if(!string.IsNullOrEmpty(_pathImage))
-            //    {
-            //        string path = Directory.GetCurrentDirectory() + "\\Images\\" + m_question.Id.ToString() + Path.GetExtension(_pathImage);
-            //        if(path != _pathImage)
-            //            QuestionManager.FileCopy(_pathImage, path);
-            //    }
-                
-            //    if(!string.IsNullOrEmpty(_pathFlash))
-            //    {
-            //        string path = Directory.GetCurrentDirectory() + "\\Flash\\" + m_question.Id.ToString() + Path.GetExtension(_pathFlash);
-            //        if (path != _pathFlash)
-            //            QuestionManager.FileCopy(_pathImage, path);
-            //    }
+            BindUIToQuestion(out Question question);
 
-            //    MessageBox.Show("保存题目信息成功，题目id:" + m_question.Id.ToString() + ".", "提示信息", MessageBoxButtons.OK);
-            //}
-            //else
-            //    MessageBox.Show("保存题目信息失败，题目id:" + m_question.Id.ToString() + "请检查题目信息！", "提示信息", MessageBoxButtons.OK);
+            if (true == QuestionManagerSql.UpdateQuestion(question, m_question))
+            {
+                //MessageBox.Show("保存题目信息成功，题目id:" + m_question.Id.ToString() + ".", "提示信息", MessageBoxButtons.OK);
+            }
+            else
+            {
+                MessageBox.Show("保存题目信息失败，题目id:" + m_question.Id.ToString() + "请检查题目信息！", "提示信息", MessageBoxButtons.OK);
+                return;
+            }
 
+
+            ChapterInfo chapterSkill = (ChapterInfo)comboBoxSkill.SelectedItem;
+
+            bool result = false;
+            if (chapterSkill.ID != m_skillId)
+            {
+                if (chapterSkill.ID == 0)
+                {
+                    result = QuestionManagerSql.DeleteQuestionGroup(m_question.Id, m_skillId);
+                }
+                else
+                {
+                    result = QuestionManagerSql.UpdateQuestionGroup(m_question.Id, chapterSkill.ID, m_skillId, 1);
+                }
+                if (result)
+                {
+                    //MessageBox.Show("保存技巧信息成功，题目id:" + m_question.Id.ToString() + ".", "提示信息", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    MessageBox.Show("保存技巧信息失败，题目id:" + m_question.Id.ToString() + "技巧ID：" + m_skillId + "新的技巧ID：" + chapterSkill.ID + "请检查题目信息！", "提示信息", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+
+            result = false;
+            ChapterInfo chapterBank = (ChapterInfo)cboxBank.SelectedItem;
+            if(chapterBank.ID != m_bankId)
+            {
+                if(chapterBank.ID == 0)
+                {
+                    result = QuestionManagerSql.DeleteQuestionGroup(m_question.Id, m_bankId);
+                }
+                else
+                {
+                    result = QuestionManagerSql.UpdateQuestionGroup(m_question.Id, chapterBank.ID, m_bankId, 2);
+                }
+
+                if (result)
+                {
+                    //MessageBox.Show("保存强化信息成功，题目id:" + m_question.Id.ToString() + ".", "提示信息", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    MessageBox.Show("保存强化信息失败，题目id:" + m_question.Id.ToString() + "强化ID：" + m_skillId + "新的强化ID：" + chapterSkill.ID + "请检查题目信息！", "提示信息", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+
+            DialogResult = DialogResult.Yes;
         }
 
         private void buttonBack_Click(object sender, EventArgs e)

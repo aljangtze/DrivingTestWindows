@@ -893,7 +893,7 @@ namespace DirvingTest
 
                 foreach (DataRow row in data.Rows)
                 {
-                    questionList.Add(Convert.ToInt32(row["question_id"]));
+                    questionList.Add(Convert.ToInt32(row["id"]));
                 }
 
                 return GetQuestionListWidthList(questionList);

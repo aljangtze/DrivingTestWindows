@@ -43,8 +43,10 @@ namespace DirvingTest
         }
 
         int m_type = 0;
-        public void SetShowType(int Type)
+        bool IsDoError = false;
+        public void SetShowType(int Type, bool isDoError=false)
         {
+            IsDoError = isDoError;
             m_type = Type;
             if(Type == 0)
             {
@@ -65,9 +67,12 @@ namespace DirvingTest
             }
             else if(Type==1)
             {
-                panelSimulation.Visible = false;
-                panelSkill.BringToFront();
-                panelSkill.Visible = true;
+                panelSimulation.Visible = true;
+                panelSimulation.BringToFront();
+                panelSkill.Visible = false;
+                //panelSimulation.Visible = false;
+                //panelSkill.BringToFront();
+                //panelSkill.Visible = true;
                 _status.IsSkillTrain = true;
                 //labelTitle.Visible = true;
                 richTextBoxTitle.Visible = true;
@@ -77,6 +82,7 @@ namespace DirvingTest
                 chkBoxEmphasize.Checked = false;
                 checkBoxAutoRead.Checked = false;
                 checkBoxAutoRead.Visible = true;
+                //checkBoxAutoRead.Visible = false;
                 _status.IsShowCorrectAnswer = true;
                 _status.incorectAnswers = 0;
             }
@@ -132,6 +138,9 @@ namespace DirvingTest
                 if(Convert.ToInt32(((Control)sender).Tag) == 4)
                     checkBoxD.Checked = true;
             }
+
+            //TDOO:
+            //单选或判断题做错的时候，显示技巧练习并语音阅读
         }
 
         private void VoiceStop()
@@ -348,17 +357,21 @@ namespace DirvingTest
                                 return;
                             }
                         }
+
+                        QuestionManager.RecordQuestionAnswer(questionOld.Id, false);
                     
-                        if (_status.IsSkillTrain == false)
+                        //if (_status.IsSkillTrain == false)
                         {
                             FormSimulationErrorInfo errorInfo = new FormSimulationErrorInfo();
-                            errorInfo.SetInfo(questionOld, _status.CurrentIdx);
+                            errorInfo.SetInfo(questionOld, _status.CurrentIdx, _status.IsSkillTrain);
                             errorInfo.ShowDialog();
                         }
                     }
                     else
                     {
-                        if (SystemConfig._examType == 0)
+
+                    QuestionManager.RecordQuestionAnswer(questionOld.Id, true);
+                    if (SystemConfig._examType == 0)
                         {
                             _status.Score += 1;
                         }
@@ -704,7 +717,13 @@ namespace DirvingTest
             if (_status.IsSkillTrain && true == checkBoxAutoRead.Checked)
             {
                 _voiceHelper.StopSpeaker();
-                _voiceHelper.Speeker(richTextBoxExplain.Text.Replace("&", " "));
+                string info = richTextBoxExplain.Text.Replace("&", " ");
+                System.Threading.Thread td = new System.Threading.Thread(() => {
+                    _voiceHelper.Speeker(info);
+                });
+                td.IsBackground = true;
+                td.Start();
+                
             }
         }
 
@@ -1067,10 +1086,11 @@ namespace DirvingTest
                 }
 
                 form.SendBack += FormBack;
-                form.SetAnswers(_status.AnswerQuestion);
-                if(DialogResult.Yes == form.ShowDialog())
+                form.SetAnswers(_status.AnswerQuestion, IsDoError);
+                IsDoError = true;
+                if (DialogResult.Yes == form.ShowDialog())
                 {
-
+                    
                 }
                 else
                 {
@@ -1096,7 +1116,7 @@ namespace DirvingTest
 
         public bool FormBack(List<Question> list)
         {
-            this.SetShowType(m_type);
+            this.SetShowType(m_type, IsDoError);
             this.SetQuestions(list);
             this.ResetControlsInfo(_status.AllQuestion.Count);
             return true;
@@ -1195,8 +1215,14 @@ namespace DirvingTest
 
         private void pictureBoxVoice_Click(object sender, EventArgs e)
         {
-            _voiceHelper = VoiceHelper.getVoiceHelper();
-            _voiceHelper.Speeker(richTextBoxExplain.Text.ToString());
+            string info = richTextBoxExplain.Text.ToString();
+            System.Threading.Thread td = new System.Threading.Thread(() => {
+                _voiceHelper = VoiceHelper.getVoiceHelper();
+                _voiceHelper.Speeker(info);
+            });
+            td.IsBackground = true;
+            td.Start();
+
             richTextBoxExplain.Focus();
         }
 
@@ -1328,11 +1354,36 @@ namespace DirvingTest
             //if (checkBoxAutoRead.Checked == true)
             //    _voiceHelper.Speeker(richTextBoxExplain.Text);
             //else
+            if (checkBoxAutoRead.Checked == false)
+            {
+                panelSimulation.Visible = true;
+                panelSimulation.BringToFront();
+                panelSkill.Visible = false;
+            }
+            else
+            {
+                //panelSimulation.Visible = false;
+                //panelSkill.BringToFront();
+                //panelSkill.Visible = true;
+            }
 
-            if(checkBoxAutoRead.Checked == false)
+            if (checkBoxAutoRead.Checked == false)
                 _voiceHelper.StopSpeaker();
             else
-                _voiceHelper.Speeker(richTextBoxExplain.Text);
+            {
+                string info = richTextBoxExplain.Text;
+                System.Threading.Thread td = new System.Threading.Thread(() => {
+                    
+                    _voiceHelper.Speeker(info);
+                });
+                td.IsBackground = true;
+                td.Start();
+
+                if(checkBoxAutoRead.Checked)
+                {
+
+                }
+            }
 
             btnNext.Focus();
         }
@@ -1484,6 +1535,9 @@ namespace DirvingTest
     {
         public int id = 0;
         public string answerString = "";
+        /// <summary>
+        /// 0 未回答 1 答对 2 答错
+        /// </summary>
         public int isRight = 0;
         public bool isCheck = false;
     }

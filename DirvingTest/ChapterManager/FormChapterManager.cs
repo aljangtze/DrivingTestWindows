@@ -60,7 +60,8 @@ namespace DirvingTest
             row.Cells.Add(chkBoxCell);
 
             DataGridViewTextBoxCell txtBox1 = new DataGridViewTextBoxCell();
-            txtBox1.Value = (dataGridView1.Rows.Count + 1).ToString();
+            //txtBox1.Value = (dataGridView1.Rows.Count + 1).ToString();
+            txtBox1.Value = chapter.ID.ToString();
             txtBox1.Tag = chapter.ID.ToString();
 
             row.Cells.Add(txtBox1);
@@ -194,6 +195,8 @@ namespace DirvingTest
                 modelChapter.Name = row["name"].ToString();
                 modelChapter.Count = Convert.ToInt32(row["count"].ToString());
                 modelChapter.ChapterType = Convert.ToInt32(row["type"].ToString());
+                modelChapter.ChapterSqlString = row["sql"].ToString();
+                modelChapter.SqlParamter = row["sql_parameter"].ToString();
                 string classficationName = row["classification_name"].ToString();
 
                 AddItem(modelChapter, classficationName);

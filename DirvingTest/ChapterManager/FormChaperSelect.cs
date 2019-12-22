@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace DirvingTest
 {
-    public partial class FormIntensifySelect : Form, InterfaceForm
+    public partial class FormChaperSelect : Form, InterfaceForm
     {
-        public FormIntensifySelect()
+        public FormChaperSelect()
         {
             InitializeComponent();
         }
@@ -21,42 +21,46 @@ namespace DirvingTest
             /// <summary>
             /// 技巧练习
             /// </summary>
-            ChapterSkill = 3,
+            ChapterSkill = 1,
             /// <summary>
             /// 套题练习
             /// </summary>
-            ChapterSuite = 4,
+            ChapterSuite = 2,
             /// <summary>
             /// 强化练习
             /// </summary>
-            ChapterIntensity = 5
+            ChapterIntensity = 3
         }
 
-        private SupportChapterType g_ChapterType = SupportChapterType.ChapterSkill;
+        private int g_ChapterType = 1;
         private SerializableDictionary<int, int> g_Relation_Question_List = new SerializableDictionary<int,int>();
 
-        Dictionary<int, ChapterInfo> chapterList = new Dictionary<int, ChapterInfo>();
-        public void SetChapterType(SupportChapterType chapterType)
+        List<ChapterInfo> chapterList = new List<ChapterInfo>();
+        public void SetChapterType(int chapterType)
         {
             g_ChapterType = chapterType;
-            switch(g_ChapterType)
+            switch (g_ChapterType)
             {
-                case SupportChapterType.ChapterSkill:
+                case 1:
                     lblInfo.Text = "技巧练习--专业的技巧助您快速掌握答题技巧";
                     this.picHeader.Image = global::DirvingTest.Properties.Resources.edit_group;
-                    chapterList = ModelManager.m_DicSkillList;
-                    g_Relation_Question_List = QuestionManager.m_Relation_Question_Skill;
+                    ChapterManager.GetChapterList((int)chapterType, out chapterList);
+                    //chapterList = ModelManager.m_DicSkillList;
+                    //g_Relation_Question_List = QuestionManager.m_Relation_Question_Skill;
                     
                     break;
-                case SupportChapterType.ChapterIntensity:
-                    lblInfo.Text = "错题练习--强化练习容易错误的题目，帮助更好通过考试。";
-                    chapterList = ModelManager.m_DicIntensifyList;
-                    g_Relation_Question_List = QuestionManager.m_Relation_Question_Intensity;
-                    break;
-                case SupportChapterType.ChapterSuite:
+
+                case 2:
                     lblInfo.Text = "套题练习--专业的题库分类助您快速掌握相关题型";
-                    chapterList = ModelManager.m_DicBankList;
-                    g_Relation_Question_List = QuestionManager.m_Relation_Question_Suite;
+                    ChapterManager.GetChapterList((int)chapterType, out chapterList);
+                    //chapterList = ModelManager.m_DicBankList;
+                    //g_Relation_Question_List = QuestionManager.m_Relation_Question_Suite;
+                    break;
+                case 3:
+                    lblInfo.Text = "错题练习--强化练习容易错误的题目，帮助更好通过考试。";
+                    ChapterManager.GetChapterList((int)chapterType, out chapterList);
+                    //chapterList = ModelManager.m_DicIntensifyList;
+                    //g_Relation_Question_List = QuestionManager.m_Relation_Question_Intensity;
                     break;
             }
         }
@@ -75,8 +79,8 @@ namespace DirvingTest
             }
         }
 
-        private int g_ChapterId = 1;
-        private int g_FirstChapterId = 1;
+        private ChapterInfo g_ChapterInfo = new ChapterInfo();
+        private int g_FirstChapterId = 0;
         void GenCotrols()
         {
             int i = 0;
@@ -86,9 +90,9 @@ namespace DirvingTest
 
             foreach (var modelInfo in this.chapterList)
             {
-                listTittle.Add(modelInfo.Value.Name);
-                dicModelId.Add(modelInfo.Key, modelInfo.Value.Name);
-                modeList.Add(modelInfo.Value);
+                listTittle.Add(modelInfo.Name);
+                dicModelId.Add(modelInfo.ID, modelInfo.Name);
+                modeList.Add(modelInfo);
             }
 
             modeList.Sort();
@@ -120,7 +124,7 @@ namespace DirvingTest
                     {
                         //if (modelInfo.Value.Classification == 1 || modelInfo.Value.Classification == 2)
                         //    continue;
-                        if (modelInfo.Classification == 1 || modelInfo.Classification == 2)
+                        if (modelInfo.Classification == 1 || modelInfo.Classification == 2 || modelInfo.Classification == 5)
                             continue;
                     }
                     //客车
@@ -160,7 +164,7 @@ namespace DirvingTest
                 tableLayoutPanel1.Controls.Add(radio);
 				radio.CheckedChanged += new System.EventHandler(this.radioButtonTemplate_CheckedChanged);
                 //radio.Tag = modelInfo.Value.Id;
-                radio.Tag = modelInfo.ID;
+                radio.Tag = modelInfo;
 
                 if (i == 0)
                 {
@@ -195,10 +199,21 @@ namespace DirvingTest
         {
             FormSimulation _simulaForm = FormMain.m_formSimulation;
 
-            //List<Question> list = QuestionManager.GenQuestionBySkill(SkillId);
-            List<Question> list = QuestionManager.GenQuestionFromRelation(g_ChapterId, g_Relation_Question_List);
+            ////List<Question> list = QuestionManager.GenQuestionBySkill(SkillId);
+            //List<Question> list = QuestionManager.GenQuestionFromRelation(g_ChapterInfo, g_Relation_Question_List);
 
-            if (g_ChapterId != g_FirstChapterId)
+            //if (g_ChapterInfo != g_FirstChapterId)
+            List<Question> list = new List<Question>();
+            if (g_ChapterInfo.ChapterType == 3)
+            {
+                list = QuestionManager.GetErrorQuestionFromDB(g_ChapterInfo);
+            }
+            else
+            {
+                list = QuestionManager.GetQuestionsFromDB(g_ChapterInfo.ID);
+            }
+
+            if (g_ChapterInfo.ID != g_FirstChapterId)
             {
                 if (!LicenseHelper.IsValid())
                 {
@@ -236,17 +251,26 @@ namespace DirvingTest
 
         private void radioButtonTemplate_CheckedChanged(object sender, EventArgs e)
         {
-            g_ChapterId = Convert.ToInt32(((RadioButton)sender).Tag);
+            g_ChapterInfo = (ChapterInfo)(((RadioButton)sender).Tag);
         }
 
         private void btnRadom_Click(object sender, EventArgs e)
         {
             FormSimulation _simulaForm = FormMain.m_formSimulation;
-            
-            //List<Question> list = QuestionManager.GenQuestionBySkill(g_ChapterId);
-            List<Question> list = QuestionManager.GenQuestionFromRelation(g_ChapterId, g_Relation_Question_List);
 
-            if (g_ChapterId != g_FirstChapterId)
+            //List<Question> list = QuestionManager.GenQuestionBySkill(g_ChapterId);
+            //List<Question> list = QuestionManager.GenQuestionFromRelation(g_ChapterInfo, g_Relation_Question_List);
+            List<Question> list = new List<Question>();
+            if (g_ChapterInfo.ChapterType == 3)
+            {
+                list = QuestionManager.GetErrorQuestionFromDB(g_ChapterInfo);
+            }
+            else
+            {
+                list = QuestionManager.GetQuestionsFromDB(g_ChapterInfo.ID);
+            }
+
+            if (g_ChapterInfo.ID != g_FirstChapterId)
             {
                 if (!LicenseHelper.IsValid())
                 {

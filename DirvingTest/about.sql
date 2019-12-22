@@ -12,3 +12,51 @@ UPDATE groups as a SET count = (select count from (select group_id, type, count(
 where exists (select * from (select group_id, type, count(1) as count from group_questions group by group_id, type) as c where a.id=c.group_id and a.type=c.type);
 
 vacuum
+
+*易错题分组
+select a.* from answers  as a 
+left join questions as q on a.question_id=q.id 
+where q.classification=3 and user_id=1
+order by a.lastupdatetime limit 100;
+
+select a.* from answers  as a 
+left join questions as q on a.question_id=q.id 
+where q.classification=3 and user_id=1 and a.errorNumber/a.answerNumber > 0.7
+order by a.lastupdatetime limit 100;
+
+select a.* from answers  as a 
+left join questions as q on a.question_id=q.id 
+where q.classification=3 and user_id=1 and a.errorNumber > 3
+order by a.lastupdatetime limit 100;
+
+select a.* from answers  as a 
+left join questions as q on a.question_id=q.id 
+where q.classification=3 and user_id=1 and a.errorNumber > 5
+order by a.lastupdatetime limit 100;
+
+select * from questions as q
+left join answers as a on a.question_id=q.id and user_id=1
+where a.question_id is NULL and q.classification=3 order by question_id limit 100;
+
+最近错误的100个题(科目一)
+select a.* from answers  as a 
+left join questions as q on a.question_id=q.id 
+where q.classification={1} and user_id={0}
+order by a.lastupdatetime limit 100;
+
+错误率大于70%的题100个题(科目一)
+select a.* from answers  as a 
+left join questions as q on a.question_id=q.id 
+where q.classification={1} and user_id={0} and a.errorNumber/a.answerNumber > {2}
+order by a.lastupdatetime limit 100;
+
+错误超过3次的100个题(科目一）
+select a.* from answers  as a 
+left join questions as q on a.question_id=q.id 
+where q.classification={1} and user_id={0} and a.errorNumber > {2}
+order by a.lastupdatetime limit 100;
+
+错误超过5次的100个题(科目一）
+select * from questions as q
+left join answers as a on a.question_id=q.id and user_id={0}
+where a.question_id is NULL and q.classification={1} order by question_id limit 100;

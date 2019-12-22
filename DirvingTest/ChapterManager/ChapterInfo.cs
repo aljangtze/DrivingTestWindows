@@ -34,6 +34,10 @@ namespace DirvingTest
         /// </summary>
         public int ChapterType = 0;
 
+        public string ChapterSqlString = "";
+
+        public string SqlParamter = "";
+
         public override string ToString()
         {
             return Name.ToString();

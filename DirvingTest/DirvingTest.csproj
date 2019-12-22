@@ -133,6 +133,12 @@
     <Compile Include="ChapterManager\FormChapterAdd.Designer.cs">
       <DependentUpon>FormChapterAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChapterManager\FormChaperSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChapterManager\FormChaperSelect.Designer.cs">
+      <DependentUpon>FormChaperSelect.cs</DependentUpon>
+    </Compile>
     <Compile Include="StreamUtil.cs" />
     <Compile Include="FormIntensifySelect.cs">
       <SubType>Form</SubType>
@@ -319,6 +325,12 @@
     <Compile Include="Helpers\SystemConfig.cs" />
     <Compile Include="Helpers\VoiceHelper.cs" />
     <Compile Include="SerializableDictionary.cs" />
+    <Compile Include="UserManager\FormUserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserManager\FormUserLogin.Designer.cs">
+      <DependentUpon>FormUserLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserManager\FormUserModify.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -347,6 +359,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChapterManager\FormChapterAdd.resx">
       <DependentUpon>FormChapterAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChapterManager\FormChaperSelect.resx">
+      <DependentUpon>FormChaperSelect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormIntensifySelect.resx">
       <DependentUpon>FormIntensifySelect.cs</DependentUpon>
@@ -437,6 +452,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exams\FormSimulationWelcom.resx">
       <DependentUpon>FormSimulationWelcom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserManager\FormUserLogin.resx">
+      <DependentUpon>FormUserLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserManager\FormUserModify.resx">
       <DependentUpon>FormUserModify.cs</DependentUpon>

@@ -267,6 +267,9 @@ namespace DirvingTest
         private void FormMain_Shown(object sender, EventArgs e)
         {
             LoadExamInfo();
+
+            FormUserLogin formUserLogin = new FormUserLogin();
+            formUserLogin.ShowDialog();
         }
 
         private void btnQuestionManage_Click(object sender, EventArgs e)
@@ -372,11 +375,14 @@ namespace DirvingTest
                     //break;
                 case 5:
 
-                    FormIntensifySelect formChapterSelect = new FormIntensifySelect();
+                    //FormIntensifySelect formChapterSelect = new FormIntensifySelect();
+                    //formChapterSelect.SetChapterType((FormIntensifySelect.SupportChapterType)tag);
+                    //form = formChapterSelect;
 
-                    formChapterSelect.SetChapterType((FormIntensifySelect.SupportChapterType)tag);
+                    FormChaperSelect formChapterSelect = new FormChaperSelect();
+                    formChapterSelect.SetChapterType((tag-2));
                     form = formChapterSelect;
-                    
+
                     break;
                 case 6:
                     form = new FormPurchase();

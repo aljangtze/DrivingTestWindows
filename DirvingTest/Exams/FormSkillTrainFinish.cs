@@ -21,8 +21,10 @@ namespace DirvingTest
             InitializeComponent();
         }
 
-        public void SetAnswers(Dictionary<int, AnswerQuestion> answerList)
+        bool IsDoError = false;
+        public void SetAnswers(Dictionary<int, AnswerQuestion> answerList, bool isDoError=false)
         {
+            IsDoError = isDoError;
             int AllCount = answerList.Count;
             int WrongCount = 0;
             int RightCount = 0;
@@ -44,6 +46,7 @@ namespace DirvingTest
             labelIncorrectCount.Text = WrongCount.ToString();
             labelNoanswerCount.Text = NoAnswerCount.ToString();
 
+
             if(WrongCount== 0)
             {
                 buttonRetun.Text = "关闭";
@@ -52,10 +55,23 @@ namespace DirvingTest
             {      
                 buttonRetun.Text = "重做错题";
             }
+
+            //TODO:如果是做错题的，就再做一次和不做了
+            if(IsDoError)
+            {
+                buttonRetun.Text = "不做了";
+            }
             
         }
         private void buttonRetun_Click(object sender, EventArgs e)
         {
+            if (true == IsDoError)
+            {
+                DialogResult = DialogResult.Cancel;
+                Close();
+                return;
+            }
+
             m_QuestionList.Clear();
 
             foreach (var answer in m_AnswerList)

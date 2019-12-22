@@ -53,7 +53,7 @@ namespace DirvingTest
         /// 题目目与技巧之间的关系列表，字典存储
         /// </summary>
         /// 
-        public static SerializableDictionary<int, int> m_Relation_Question_Skill = new SerializableDictionary<int,int>();
+        public static SerializableDictionary<int, int> m_Relation_Question_Skill = new SerializableDictionary<int, int>();
 
         /// <summary>
         /// 题目与套题练习分组
@@ -68,7 +68,7 @@ namespace DirvingTest
         [Obsolete]
         /// <summary>
         /// </summary>
-        public static string g_QuestionDir =　"Images";
+        public static string g_QuestionDir = "Images";
         //static int QUESTION_NUM = 0;
         static readonly Random rnd = new Random(Guid.NewGuid().GetHashCode());
 
@@ -119,7 +119,7 @@ namespace DirvingTest
 
             Question question = new Question();
             question.Id = Convert.ToInt32(configFile.SettingGroups["QuesitonInfo"].Settings["Id"].RawValue);
-            try 
+            try
             {
                 question.Url = configFile.SettingGroups["QuesitonInfo"].Settings["Url"].RawValue;
             }
@@ -242,7 +242,7 @@ namespace DirvingTest
             TimeSpan timeSpan = DateTime.Now - dateStart;
             Console.WriteLine(string.Format("Question ID: {0} Read Time: {1} ms", question.Id, timeSpan.TotalMilliseconds));
             return question;
-            }
+        }
 
         public static void GetRealationShipFromDB(int type)
         {
@@ -271,7 +271,7 @@ namespace DirvingTest
                 return;
             }
 
-            
+
         }
 
         public static void SaveQuestionMaxNum()
@@ -423,7 +423,7 @@ namespace DirvingTest
                     if (null == question)
                         continue;
 
-                    if(question.Id!=i)
+                    if (question.Id != i)
                     {
                         int x = 100;
                     }
@@ -453,7 +453,7 @@ namespace DirvingTest
 
                 //if (question.Type == 3)
                 //    m_SelectedMultList.Add(question);
-                    
+
             }
         }
 
@@ -470,7 +470,7 @@ namespace DirvingTest
             Dictionary<int, int> rule = new Dictionary<int, int>();
             Dictionary<int, int> currentQuestion = new Dictionary<int, int>();
             //0 C1 科目一,考试,消分考试
-            if (examType == 0 || examType ==3)
+            if (examType == 0 || examType == 3)
             {
                 if (driverType == 0)
                 {
@@ -494,7 +494,7 @@ namespace DirvingTest
 
                     questionList = GenChargeQuestion(100, rule, currentQuestion, examType);
                 }
-                else if(driverType == 2)
+                else if (driverType == 2)
                 {
                     //生成货车题目
                     for (int i = 0; i < SystemConfig.TruckRule.Count; i++)
@@ -507,7 +507,7 @@ namespace DirvingTest
 
                     questionList = GenChargeQuestion(100, rule, currentQuestion, examType);
                 }
-                else if(driverType ==3)
+                else if (driverType == 3)
                 {
                     //摩托车
                     questionList = GenChargeQuestionMotor(50, currentQuestion, examType);
@@ -526,7 +526,7 @@ namespace DirvingTest
                 //科目四有5道多选题
                 questionList = GenChargeQuestion(50, rule, currentQuestion, examType);
                 List<Question> question1 = new List<Question>();
-                foreach(Question question in questionList)
+                foreach (Question question in questionList)
                 {
                     if (question.Type == 1)
                         question1.Add(question);
@@ -622,19 +622,19 @@ namespace DirvingTest
             else
                 return lst;
 
-            List<Question> tempQuestionList  = new List<Question>();
-            foreach(Question question in m_QuestionsList)
+            List<Question> tempQuestionList = new List<Question>();
+            foreach (Question question in m_QuestionsList)
             {
                 int chapterId = question.Module;
                 int count = 0;
-                if(true == rule.TryGetValue(chapterId, out count))
+                if (true == rule.TryGetValue(chapterId, out count))
                 {
                     if (count > 0)
                         tempQuestionList.Add(question);
                 }
             }
-            
-            
+
+
             HashSet<int> arrExam = new HashSet<int>();//剔除重复抽取的题目
             for (var i = 0; i < Math.Min(questionCount, tempQuestionList.Count); i++)
             {
@@ -644,7 +644,7 @@ namespace DirvingTest
                 {
                     ret = rnd.Next(0, tempQuestionList.Count);
                 }
-                
+
                 //抽题
                 Question ques = tempQuestionList[ret];
 
@@ -706,15 +706,15 @@ namespace DirvingTest
             else
             {
                 curQuestionList[14] = 0;
-                rule[14] =50;
+                rule[14] = 50;
                 moduleId = 14;
             }
 
-            
+
             List<Question> tempQuestionsList = new List<Question>();
-            foreach(Question question in m_QuestionsList)
+            foreach (Question question in m_QuestionsList)
             {
-                if(question.Module == moduleId)
+                if (question.Module == moduleId)
                 {
                     tempQuestionsList.Add(question);
                 }
@@ -799,7 +799,7 @@ namespace DirvingTest
             //rule[question.Module] = count1;
             curQuestionList.Remove(question.Module);
             curQuestionList.Add(question.Module, count2 + 1);
-            
+
 
             return false;
         }
@@ -813,7 +813,7 @@ namespace DirvingTest
         /// <param name="skillId"></param>
         /// <returns></returns>
         public static List<Question> GenQuestionBySkill(int skillId)
-        {           
+        {
             //使用新的方法进行获取
             return GenQuestionFromRelation(skillId, QuestionManager.m_Relation_Question_Skill);
         }
@@ -857,6 +857,65 @@ namespace DirvingTest
 
             return list;
         }
+
+        public static List<Question> GetQuestionsFromDB(int group_id)
+        {
+            List<Question> list = new List<Question>();
+            try
+            {
+                List<int> questionList = new List<int>();
+                string sql = @"select * from group_questions where group_id=@group_id";
+                DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@group_id", group_id) });
+                foreach (DataRow row in data.Rows)
+                {
+                    questionList.Add(Convert.ToInt32(row["question_id"]));
+                }
+
+                return GetQuestionListWidthList(questionList);
+            }
+            catch (Exception ex)
+            {
+                return list;
+            }
+        }
+
+        public static List<Question> GetErrorQuestionFromDB(ChapterInfo chapterInfo)
+        {   
+            List<Question> list = new List<Question>();
+            try
+            {
+                if (string.IsNullOrEmpty(chapterInfo.ChapterSqlString))
+                    return list;
+
+                List<int> questionList = new List<int>();
+                string sql = string.Format(chapterInfo.ChapterSqlString, UserManager.LoginUser.ID, chapterInfo.Classification, chapterInfo.SqlParamter);
+                DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@user_id", UserManager.LoginUser.ID) });
+
+                foreach (DataRow row in data.Rows)
+                {
+                    questionList.Add(Convert.ToInt32(row["question_id"]));
+                }
+
+                return GetQuestionListWidthList(questionList);
+            }
+            catch (Exception ex)
+            {
+                return list;
+            }
+        }
+
+
+        private static List<Question> GetQuestionListWidthList(List<int> idList)
+        {
+            List<Question> list = new List<Question>();
+            foreach (int question_id in idList)
+            {
+                m_QuestionsDictionary.TryGetValue(question_id, out Question question);
+                list.Add(question);
+            }
+            return list;
+        }
+
         #endregion
 
         #region 过时的函数
@@ -1085,9 +1144,9 @@ namespace DirvingTest
             if (MoudleId == 0 || MoudleId > SystemConfig.Subject1MoudleCount + SystemConfig.Subject2MoudleCount)
                 return "未分类";
 
-            if(MoudleId <= SystemConfig.Subject1MoudleCount)
+            if (MoudleId <= SystemConfig.Subject1MoudleCount)
             {
-                return SystemConfig.Subject1MoudleInfo[MoudleId-1];
+                return SystemConfig.Subject1MoudleInfo[MoudleId - 1];
             }
             else
             {
@@ -1143,9 +1202,9 @@ namespace DirvingTest
             if (question1.FlashPath != question2.FlashPath)
                 return false;
 
-            if(question1.Options == null || question2.Options == null)
+            if (question1.Options == null || question2.Options == null)
             {
-                if(question1.Options != question2.Options)
+                if (question1.Options != question2.Options)
                     return false;
             }
             else
@@ -1168,7 +1227,7 @@ namespace DirvingTest
 
         [Obsolete]
         public static Question ComposeQuestion(string strTitle, string strTittleEmphasize, string strNomalExplain, string strSkillExplain,
-                int MoudleId, int SkillId, string strImagePath, string strFlashPath, int corectAnswer, List<string>Options)
+                int MoudleId, int SkillId, string strImagePath, string strFlashPath, int corectAnswer, List<string> Options)
         {
             Question question = new Question();
             question.Id = SystemConfig._maxCount + 1;
@@ -1188,11 +1247,11 @@ namespace DirvingTest
             question.CorrectAnswer.Add(corectAnswer);
 
             question.Type = 1;
-            if(Options  != null)
+            if (Options != null)
             {
                 question.Type = 0;
                 question.Options = new List<string>();
-                foreach(var option in Options)
+                foreach (var option in Options)
                 {
                     question.Options.Add(option);
                 }
@@ -1210,13 +1269,13 @@ namespace DirvingTest
         /// <returns></returns>
         private static bool SaveQuestion(Question question)
         {
-            string newFile = Directory.GetCurrentDirectory() + "//Questions//" +  question.Id + ".txt";
+            string newFile = Directory.GetCurrentDirectory() + "//Questions//" + question.Id + ".txt";
             using (var sw = new StreamWriter(newFile, false, Encoding.UTF8))
             {
                 sw.WriteLine(question.Tittle);            // 问题
                 sw.WriteLine(SPLIT_STR);
                 if (!string.IsNullOrEmpty(question.ImagePath))
-                { 
+                {
                     sw.WriteLine(Path.GetFileName(question.ImagePath));          // 问题图片列表，以逗号分隔
                 }
                 if (!string.IsNullOrEmpty(question.FlashPath))
@@ -1349,7 +1408,7 @@ namespace DirvingTest
         /// <returns></returns>
         public static bool UpdateQuestion(Question question)
         {
-            if(false == SaveQuestion(question))
+            if (false == SaveQuestion(question))
                 return false;
 
             if (question.Id > SystemConfig._maxCount)
@@ -1372,7 +1431,7 @@ namespace DirvingTest
 
             SystemConfig.SaveProblemToMoudle();
             SystemConfig.SaveProblemToSkill();
-            
+
             return true;
         }
 
@@ -1389,7 +1448,7 @@ namespace DirvingTest
                 return;
             }
 
-            for (int i = 0; i < m_QuestionsList.Count;i++ )
+            for (int i = 0; i < m_QuestionsList.Count; i++)
             {
                 Question obj = m_QuestionsList[i];
                 if (obj.Id != question.Id)
@@ -1443,6 +1502,60 @@ namespace DirvingTest
                 MessageBox.Show("拷贝图片或视频信息出错！", "错误提示", MessageBoxButtons.OK);
                 return false;
             }
+        }
+
+
+        /// <summary>
+        /// 记录题目的结果
+        /// </summary>
+        /// <param name="questionId"></param>
+        /// <param name="isRight"></param>
+        /// <returns></returns>
+        public static bool RecordQuestionAnswer(int question_id, bool isRight = true)
+        {
+            if (UserManager.LoginUser.ID <= 0 && UserManager.IsLogin == false)
+            {
+                return true;
+            }
+
+            bool isExists = IsRecordExists(question_id, UserManager.LoginUser.ID);
+            int result = 0;
+            if (isExists)
+            {
+                string sql = "";
+                if (isRight == true)
+                    sql = @"update answers set answerNumber=answerNumber+1, rightNumber=rightNumber+1 ";
+                else
+                    sql = @"update answers set answerNumber=answerNumber+1, errorNumber=errorNumber+1 ";
+
+                sql = sql + " where question_id=@question_id and user_id=@user_id";
+                result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sql, new SQLiteParameter[] { new SQLiteParameter("@question_id", question_id), new SQLiteParameter("@user_id", UserManager.LoginUser.ID) });
+            }
+            else
+            {
+                string sql = "";
+                if (isRight)
+                {
+                    sql = @"insert into answers (question_id, user_id, answerNumber, rightNumber, lastupdatetime) values (@question_id, @user_id, 1, @rightNumber, @lastupdatetime)";
+                    result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sql, new SQLiteParameter[] { new SQLiteParameter("@question_id", question_id), new SQLiteParameter("@user_id", UserManager.LoginUser.ID), new SQLiteParameter("@rightNumber", 1), new SQLiteParameter("@lastupdatetime", DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss")) });
+                }
+                else
+                {
+                    sql = @"insert into answers (question_id, user_id, answerNumber, errorNumber, lastupdatetime) values (@question_id, @user_id, 1, @errorNumber, @lastupdatetime)";
+                    result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sql, new SQLiteParameter[] { new SQLiteParameter("@question_id", question_id), new SQLiteParameter("@user_id", UserManager.LoginUser.ID), new SQLiteParameter("@errorNumber", 1), new SQLiteParameter("@lastupdatetime", DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss")) });
+                }
+            }
+
+
+
+            return result > 0;
+        }
+
+        private static bool IsRecordExists(int question_id, int user_id)
+        {
+            string sql = @"select * from answers where question_id=@question_id and user_id=@user_id";
+            DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@question_id", question_id), new SQLiteParameter("@user_id", user_id) });
+            return data.Rows.Count > 0;
         }
     }
 }

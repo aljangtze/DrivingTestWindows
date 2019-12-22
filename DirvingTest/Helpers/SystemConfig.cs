@@ -74,7 +74,7 @@ namespace DirvingTest
         public static Dictionary<int, int> ProblemToSkill;
 
         public static int _examType = 0; //考试类型 0 科目一 1 科目四 2 恢复资格考试
-        public static int _driverType = 0; //车辆类型 0 小车 1客车 2货车
+        public static int _driverType = 0; //车辆类型 0 小车 1客车 2货车 3 摩托车
         public static int _maxCount = 0;
         
         public static int _maxModuleId = 0;

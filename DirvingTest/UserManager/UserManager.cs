@@ -35,10 +35,10 @@ namespace DirvingTest
             }
         }
 
-        public bool IsLogin { get; set; }
+        public static bool IsLogin { get; set; }
 
 
-        public UserInfo LoginUser = new UserInfo();
+        public static UserInfo LoginUser = new UserInfo();
 
         /// <summary>
         /// 用户登录
@@ -47,12 +47,12 @@ namespace DirvingTest
         /// <param name="password"></param>
         /// <returns></returns>
 
-        public bool Login(string name, string password)
+        public static bool Login(string name, string password)
         {
             try
             {
 
-                string sql = @"select * from questions where name=@name and password=@password";
+                string sql = @"select * from users where name=@name and password=@password";
                 DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@name", name), new SQLiteParameter("@password", password) });
 
                 if (data.Rows.Count <= 0)

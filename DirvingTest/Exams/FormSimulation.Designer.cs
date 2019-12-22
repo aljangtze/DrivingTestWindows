@@ -68,6 +68,10 @@
             this.labelX1 = new System.Windows.Forms.Label();
             this.labelTittleExamInfo = new System.Windows.Forms.Label();
             this.panelAnswerResult = new System.Windows.Forms.Panel();
+            this.panelAnswer1 = new CotrolLibrary.PanelAnswer();
+            this.panelTemplate = new System.Windows.Forms.Panel();
+            this.labelTitleTemplate = new System.Windows.Forms.Label();
+            this.labelAnswerTemplate = new System.Windows.Forms.Label();
             this.labelAnswerPanel = new System.Windows.Forms.Label();
             this.labelNotice = new System.Windows.Forms.Label();
             this.panelImageInfo = new System.Windows.Forms.Panel();
@@ -93,12 +97,9 @@
             this.richTextBoxExplain = new System.Windows.Forms.RichTextBox();
             this.pictureBoxVoice = new System.Windows.Forms.PictureBox();
             this.imageButtonClose = new CotrolLibrary.ImageButton();
-            this.panelTemplate = new System.Windows.Forms.Panel();
-            this.labelAnswerTemplate = new System.Windows.Forms.Label();
-            this.labelTitleTemplate = new System.Windows.Forms.Label();
-            this.panelAnswer1 = new CotrolLibrary.PanelAnswer();
             this.panelQuestion.SuspendLayout();
             this.panelAnswerResult.SuspendLayout();
+            this.panelTemplate.SuspendLayout();
             this.panelImageInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
@@ -108,7 +109,6 @@
             this.panelSkill.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxExplain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoice)).BeginInit();
-            this.panelTemplate.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -131,7 +131,6 @@
             this.panelQuestion.Controls.Add(this.checkBoxC);
             this.panelQuestion.Controls.Add(this.checkBoxB);
             this.panelQuestion.Controls.Add(this.checkBoxA);
-            this.panelQuestion.Controls.Add(this.labelAnswerInfo);
             this.panelQuestion.Controls.Add(this.btnWrong);
             this.panelQuestion.Controls.Add(this.btnRight);
             this.panelQuestion.Controls.Add(this.labelAnswer);
@@ -142,6 +141,7 @@
             this.panelQuestion.Controls.Add(this.labelX10);
             this.panelQuestion.Controls.Add(this.labelX11);
             this.panelQuestion.Controls.Add(this.richTextBoxTitle);
+            this.panelQuestion.Controls.Add(this.labelAnswerInfo);
             this.panelQuestion.Location = new System.Drawing.Point(235, 35);
             this.panelQuestion.Name = "panelQuestion";
             this.panelQuestion.Size = new System.Drawing.Size(810, 371);
@@ -630,6 +630,52 @@
             this.panelAnswerResult.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
             this.panelAnswerResult.Resize += new System.EventHandler(this.panelAnswerResult_Resize);
             // 
+            // panelAnswer1
+            // 
+            this.panelAnswer1.AnswerText = "A";
+            this.panelAnswer1.BackColor = System.Drawing.Color.Cyan;
+            this.panelAnswer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelAnswer1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.panelAnswer1.Location = new System.Drawing.Point(43, 6);
+            this.panelAnswer1.Name = "panelAnswer1";
+            this.panelAnswer1.NumText = "100";
+            this.panelAnswer1.Size = new System.Drawing.Size(36, 36);
+            this.panelAnswer1.TabIndex = 12;
+            this.panelAnswer1.Visible = false;
+            // 
+            // panelTemplate
+            // 
+            this.panelTemplate.BackColor = System.Drawing.Color.Cyan;
+            this.panelTemplate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelTemplate.Controls.Add(this.labelTitleTemplate);
+            this.panelTemplate.Controls.Add(this.labelAnswerTemplate);
+            this.panelTemplate.Location = new System.Drawing.Point(3, 4);
+            this.panelTemplate.Name = "panelTemplate";
+            this.panelTemplate.Size = new System.Drawing.Size(29, 28);
+            this.panelTemplate.TabIndex = 11;
+            this.panelTemplate.Visible = false;
+            this.panelTemplate.Click += new System.EventHandler(this.panelTemplate_Click);
+            // 
+            // labelTitleTemplate
+            // 
+            this.labelTitleTemplate.AutoSize = true;
+            this.labelTitleTemplate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelTitleTemplate.Location = new System.Drawing.Point(-1, 0);
+            this.labelTitleTemplate.Name = "labelTitleTemplate";
+            this.labelTitleTemplate.Size = new System.Drawing.Size(32, 16);
+            this.labelTitleTemplate.TabIndex = 8;
+            this.labelTitleTemplate.Text = "100";
+            // 
+            // labelAnswerTemplate
+            // 
+            this.labelAnswerTemplate.AutoSize = true;
+            this.labelAnswerTemplate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelAnswerTemplate.Location = new System.Drawing.Point(12, 14);
+            this.labelAnswerTemplate.Name = "labelAnswerTemplate";
+            this.labelAnswerTemplate.Size = new System.Drawing.Size(16, 16);
+            this.labelAnswerTemplate.TabIndex = 9;
+            this.labelAnswerTemplate.Text = "A";
+            // 
             // labelAnswerPanel
             // 
             this.labelAnswerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -728,13 +774,11 @@
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panelMain.Controls.Add(this.panelSimulation);
             this.panelMain.Controls.Add(this.chkBoxEmphasize);
             this.panelMain.Controls.Add(this.labelX2);
             this.panelMain.Controls.Add(this.labelAnswerPanel);
             this.panelMain.Controls.Add(this.panelAnswerResult);
             this.panelMain.Controls.Add(this.labelX9);
-            this.panelMain.Controls.Add(this.panelSkill);
             this.panelMain.Controls.Add(this.imageButtonClose);
             this.panelMain.Controls.Add(this.labelImageInfo);
             this.panelMain.Controls.Add(this.checkBoxAutoRead);
@@ -750,6 +794,8 @@
             this.panelMain.Controls.Add(this.btnNext);
             this.panelMain.Controls.Add(this.btnPrevious);
             this.panelMain.Controls.Add(this.panelQuestion);
+            this.panelMain.Controls.Add(this.panelSkill);
+            this.panelMain.Controls.Add(this.panelSimulation);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.panelMain.Location = new System.Drawing.Point(0, 0);
@@ -875,9 +921,9 @@
             this.panelSkill.Controls.Add(this.label5);
             this.panelSkill.Controls.Add(this.richTextBoxExplain);
             this.panelSkill.Controls.Add(this.pictureBoxVoice);
-            this.panelSkill.Location = new System.Drawing.Point(27, 37);
+            this.panelSkill.Location = new System.Drawing.Point(27, 21);
             this.panelSkill.Name = "panelSkill";
-            this.panelSkill.Size = new System.Drawing.Size(194, 368);
+            this.panelSkill.Size = new System.Drawing.Size(194, 384);
             this.panelSkill.TabIndex = 62;
             // 
             // pictureBoxExplain
@@ -916,7 +962,7 @@
             this.richTextBoxExplain.Location = new System.Drawing.Point(0, 33);
             this.richTextBoxExplain.Name = "richTextBoxExplain";
             this.richTextBoxExplain.ReadOnly = true;
-            this.richTextBoxExplain.Size = new System.Drawing.Size(192, 333);
+            this.richTextBoxExplain.Size = new System.Drawing.Size(192, 349);
             this.richTextBoxExplain.TabIndex = 1;
             this.richTextBoxExplain.Text = "";
             this.richTextBoxExplain.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
@@ -950,52 +996,6 @@
             this.imageButtonClose.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButtonClose_Click);
             this.imageButtonClose.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
             // 
-            // panelTemplate
-            // 
-            this.panelTemplate.BackColor = System.Drawing.Color.Cyan;
-            this.panelTemplate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelTemplate.Controls.Add(this.labelTitleTemplate);
-            this.panelTemplate.Controls.Add(this.labelAnswerTemplate);
-            this.panelTemplate.Location = new System.Drawing.Point(3, 4);
-            this.panelTemplate.Name = "panelTemplate";
-            this.panelTemplate.Size = new System.Drawing.Size(29, 28);
-            this.panelTemplate.TabIndex = 11;
-            this.panelTemplate.Visible = false;
-            this.panelTemplate.Click += new System.EventHandler(this.panelTemplate_Click);
-            // 
-            // labelAnswerTemplate
-            // 
-            this.labelAnswerTemplate.AutoSize = true;
-            this.labelAnswerTemplate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelAnswerTemplate.Location = new System.Drawing.Point(12, 14);
-            this.labelAnswerTemplate.Name = "labelAnswerTemplate";
-            this.labelAnswerTemplate.Size = new System.Drawing.Size(16, 16);
-            this.labelAnswerTemplate.TabIndex = 9;
-            this.labelAnswerTemplate.Text = "A";
-            // 
-            // labelTitleTemplate
-            // 
-            this.labelTitleTemplate.AutoSize = true;
-            this.labelTitleTemplate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelTitleTemplate.Location = new System.Drawing.Point(-1, 0);
-            this.labelTitleTemplate.Name = "labelTitleTemplate";
-            this.labelTitleTemplate.Size = new System.Drawing.Size(32, 16);
-            this.labelTitleTemplate.TabIndex = 8;
-            this.labelTitleTemplate.Text = "100";
-            // 
-            // panelAnswer1
-            // 
-            this.panelAnswer1.AnswerText = "A";
-            this.panelAnswer1.BackColor = System.Drawing.Color.Cyan;
-            this.panelAnswer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelAnswer1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.panelAnswer1.Location = new System.Drawing.Point(43, 6);
-            this.panelAnswer1.Name = "panelAnswer1";
-            this.panelAnswer1.NumText = "100";
-            this.panelAnswer1.Size = new System.Drawing.Size(36, 36);
-            this.panelAnswer1.TabIndex = 12;
-            this.panelAnswer1.Visible = false;
-            // 
             // FormSimulation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -1014,6 +1014,8 @@
             this.panelQuestion.ResumeLayout(false);
             this.panelQuestion.PerformLayout();
             this.panelAnswerResult.ResumeLayout(false);
+            this.panelTemplate.ResumeLayout(false);
+            this.panelTemplate.PerformLayout();
             this.panelImageInfo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
@@ -1026,8 +1028,6 @@
             this.panelSkill.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxExplain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoice)).EndInit();
-            this.panelTemplate.ResumeLayout(false);
-            this.panelTemplate.PerformLayout();
             this.ResumeLayout(false);
 
         }

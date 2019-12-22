@@ -21,7 +21,7 @@ namespace DirvingTest
             InitializeComponent();
         }
 
-        public void SetInfo(Question question, int id)
+        public void SetInfo(Question question, int id, bool isTrain=false)
         {
             labelTitle.Text = id + "." + question.Tittle;
 
@@ -67,7 +67,16 @@ namespace DirvingTest
 
             _imagePath = question.ImagePath;
             _flashPath = question.FlashPath;
-            labelNormalNotice.Text = question.NormalNotice;
+
+            if (isTrain)
+            {
+                labelNormalNotice.Text = question.SkillNotice;
+            }
+            else
+            {
+                labelNormalNotice.Text = question.NormalNotice;
+                timer1.Start();
+            }
             
         }
 
@@ -104,6 +113,17 @@ namespace DirvingTest
                     pictureBox1.Image = Image.FromFile(Directory.GetCurrentDirectory() + "\\Images\\" + Path.GetFileName(_imagePath));
                 }
             }
+
+            //TODO:阅读技巧
+            VoiceHelper _voiceHelper = VoiceHelper.getVoiceHelper();
+            string info = labelNormalNotice.Text.ToString();
+            System.Threading.Thread td = new System.Threading.Thread(() => {
+                _voiceHelper = VoiceHelper.getVoiceHelper();
+                _voiceHelper.Speeker(info);
+            });
+            td.IsBackground = true;
+            td.Start();
+
         }
 
     }

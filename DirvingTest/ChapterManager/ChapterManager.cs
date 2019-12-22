@@ -48,16 +48,59 @@ namespace DirvingTest
             try
             {
                 Dictionary<int, ChapterInfo> m_List = new Dictionary<int, ChapterInfo>();
-                string sql = @"select g.id,g.name, g.type, g.classification as classification_id, g.status, count(gq.question_id) as count, g.name as classification_name, gt.name as group_type from groups as g 
+                string sql = @"select  g.sql, g.sql_parameter, g.id,g.name, g.type, g.classification as classification_id, g.status, count(gq.question_id) as count, g.name as classification_name, gt.name as group_type from groups as g 
                             left join group_questions as gq on gq.group_id=g.id and gq.type=g.type
 							left join classfication as c on g.classification=c.id
 							left join group_type as gt on g.type = gt.id
-                                where g.type=@type group by g.id,g.name,g.type, g.classification, g.status";
+                                where g.type=@type group by g.id,g.name,g.type, g.classification, g.status order by g.name";
                 data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@type", type) });
                 
                 return true;
             }
             catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
+
+        /// <summary>
+        /// 获取列表
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        public static bool GetChapterList(int type, out List<ChapterInfo> chapterInfos)
+        {
+            chapterInfos = new List<ChapterInfo>();
+            try
+            {
+                Dictionary<int, ChapterInfo> m_List = new Dictionary<int, ChapterInfo>();
+                string sql = @"select g.sql, g.sql_parameter, g.id,g.name, g.type, g.classification as classification_id, g.status, count(gq.question_id) as count, g.name as classification_name, gt.name as group_type from groups as g 
+                            left join group_questions as gq on gq.group_id=g.id and gq.type=g.type
+							left join classfication as c on g.classification=c.id
+							left join group_type as gt on g.type = gt.id
+                                where g.type=@type group by g.id,g.name,g.type, g.classification, g.status order by g.id";
+                DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@type", type) });
+
+                foreach (DataRow row in data.Rows)
+                {
+                    ChapterInfo modelChapter = new ChapterInfo();
+                    modelChapter.ID = Convert.ToInt32(row["id"].ToString());
+                    modelChapter.Classification = Convert.ToInt32(row["classification_id"].ToString());
+                    modelChapter.IsEnable = row["status"].ToString() == "1";
+                    modelChapter.Name = row["name"].ToString();
+                    modelChapter.Count = Convert.ToInt32(row["count"].ToString());
+                    modelChapter.ChapterType = Convert.ToInt32(row["type"].ToString());
+                    modelChapter.ChapterSqlString = row["sql"].ToString();
+                    modelChapter.SqlParamter = row["sql_parameter"].ToString();
+                    string classficationName = row["classification_name"].ToString();
+
+                    chapterInfos.Add(modelChapter);
+                }
+
+                return true;
+            }
+            catch (Exception ex)
             {
                 return false;
             }

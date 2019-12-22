@@ -69,6 +69,7 @@ namespace DirvingTest
                     user.Password = row["password"].ToString();
                     user.Status = Convert.ToInt32(row["status"].ToString()) == 1;
                     user.Type = Convert.ToInt32(row["type"].ToString());
+                    user.UserName = row["name"].ToString();
                     LoginUser = user;
                     IsLogin = true;
                     return true;

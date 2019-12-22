@@ -41,7 +41,6 @@
             this.checkBoxC = new System.Windows.Forms.CheckBox();
             this.checkBoxB = new System.Windows.Forms.CheckBox();
             this.checkBoxA = new System.Windows.Forms.CheckBox();
-            this.labelAnswerInfo = new System.Windows.Forms.Label();
             this.btnWrong = new System.Windows.Forms.Button();
             this.btnRight = new System.Windows.Forms.Button();
             this.labelAnswer = new System.Windows.Forms.Label();
@@ -52,6 +51,7 @@
             this.labelX10 = new System.Windows.Forms.Label();
             this.labelX11 = new System.Windows.Forms.Label();
             this.richTextBoxTitle = new System.Windows.Forms.RichTextBox();
+            this.labelAnswerInfo = new System.Windows.Forms.Label();
             this.checkBoxAutoRead = new System.Windows.Forms.CheckBox();
             this.checkBoxAutoChange = new System.Windows.Forms.CheckBox();
             this.btnPrevious = new System.Windows.Forms.Button();
@@ -81,6 +81,13 @@
             this.labelTimer = new System.Windows.Forms.Label();
             this.labelClassInfo = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.chkBoxEmphasize = new System.Windows.Forms.CheckBox();
+            this.imageButtonClose = new CotrolLibrary.ImageButton();
+            this.panelSkill = new System.Windows.Forms.Panel();
+            this.pictureBoxExplain = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.richTextBoxExplain = new System.Windows.Forms.RichTextBox();
+            this.pictureBoxVoice = new System.Windows.Forms.PictureBox();
             this.panelSimulation = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.labelDriverInfo = new System.Windows.Forms.Label();
@@ -90,13 +97,7 @@
             this.label102 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.chkBoxEmphasize = new System.Windows.Forms.CheckBox();
-            this.panelSkill = new System.Windows.Forms.Panel();
-            this.pictureBoxExplain = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.richTextBoxExplain = new System.Windows.Forms.RichTextBox();
-            this.pictureBoxVoice = new System.Windows.Forms.PictureBox();
-            this.imageButtonClose = new CotrolLibrary.ImageButton();
+            this.chkBoxShowError = new System.Windows.Forms.CheckBox();
             this.panelQuestion.SuspendLayout();
             this.panelAnswerResult.SuspendLayout();
             this.panelTemplate.SuspendLayout();
@@ -104,11 +105,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
             this.panelMain.SuspendLayout();
-            this.panelSimulation.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelSkill.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxExplain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoice)).BeginInit();
+            this.panelSimulation.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -285,18 +286,6 @@
             this.checkBoxA.CheckedChanged += new System.EventHandler(this.checkBoxA_CheckedChanged);
             this.checkBoxA.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
             // 
-            // labelAnswerInfo
-            // 
-            this.labelAnswerInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelAnswerInfo.BackColor = System.Drawing.Color.White;
-            this.labelAnswerInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelAnswerInfo.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.labelAnswerInfo.Location = new System.Drawing.Point(16, 278);
-            this.labelAnswerInfo.Name = "labelAnswerInfo";
-            this.labelAnswerInfo.Size = new System.Drawing.Size(123, 35);
-            this.labelAnswerInfo.TabIndex = 63;
-            this.labelAnswerInfo.Text = "正确答案：";
-            // 
             // btnWrong
             // 
             this.btnWrong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -438,11 +427,23 @@
             this.richTextBoxTitle.ContentsResized += new System.Windows.Forms.ContentsResizedEventHandler(this.richTextBoxTitle_ContentsResized);
             this.richTextBoxTitle.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
             // 
+            // labelAnswerInfo
+            // 
+            this.labelAnswerInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelAnswerInfo.BackColor = System.Drawing.Color.White;
+            this.labelAnswerInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelAnswerInfo.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.labelAnswerInfo.Location = new System.Drawing.Point(16, 278);
+            this.labelAnswerInfo.Name = "labelAnswerInfo";
+            this.labelAnswerInfo.Size = new System.Drawing.Size(123, 35);
+            this.labelAnswerInfo.TabIndex = 63;
+            this.labelAnswerInfo.Text = "正确答案：";
+            // 
             // checkBoxAutoRead
             // 
             this.checkBoxAutoRead.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxAutoRead.AutoSize = true;
-            this.checkBoxAutoRead.Location = new System.Drawing.Point(1131, 473);
+            this.checkBoxAutoRead.Location = new System.Drawing.Point(1291, 442);
             this.checkBoxAutoRead.Name = "checkBoxAutoRead";
             this.checkBoxAutoRead.Size = new System.Drawing.Size(142, 23);
             this.checkBoxAutoRead.TabIndex = 47;
@@ -774,6 +775,7 @@
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panelMain.Controls.Add(this.chkBoxShowError);
             this.panelMain.Controls.Add(this.chkBoxEmphasize);
             this.panelMain.Controls.Add(this.labelX2);
             this.panelMain.Controls.Add(this.labelAnswerPanel);
@@ -802,6 +804,103 @@
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1475, 694);
             this.panelMain.TabIndex = 0;
+            // 
+            // chkBoxEmphasize
+            // 
+            this.chkBoxEmphasize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.chkBoxEmphasize.AutoSize = true;
+            this.chkBoxEmphasize.Location = new System.Drawing.Point(1131, 444);
+            this.chkBoxEmphasize.Name = "chkBoxEmphasize";
+            this.chkBoxEmphasize.Size = new System.Drawing.Size(104, 23);
+            this.chkBoxEmphasize.TabIndex = 63;
+            this.chkBoxEmphasize.Text = "使用强调";
+            this.chkBoxEmphasize.UseVisualStyleBackColor = true;
+            this.chkBoxEmphasize.CheckedChanged += new System.EventHandler(this.chkBoxEmphasize_CheckedChanged);
+            this.chkBoxEmphasize.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
+            // 
+            // imageButtonClose
+            // 
+            this.imageButtonClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.imageButtonClose.BackColor = System.Drawing.Color.Transparent;
+            this.imageButtonClose.BackgroundImage = global::DirvingTest.Properties.Resources.CloseStandard;
+            this.imageButtonClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.imageButtonClose.HeadImage = null;
+            this.imageButtonClose.Location = new System.Drawing.Point(1440, 12);
+            this.imageButtonClose.MouseClickImage = global::DirvingTest.Properties.Resources.CloseMove;
+            this.imageButtonClose.MouseOverImage = global::DirvingTest.Properties.Resources.CloseMove;
+            this.imageButtonClose.Name = "imageButtonClose";
+            this.imageButtonClose.Size = new System.Drawing.Size(23, 21);
+            this.imageButtonClose.TabIndex = 2;
+            this.imageButtonClose.TextFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.imageButtonClose.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButtonClose_Click);
+            this.imageButtonClose.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
+            // 
+            // panelSkill
+            // 
+            this.panelSkill.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.panelSkill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelSkill.Controls.Add(this.pictureBoxExplain);
+            this.panelSkill.Controls.Add(this.label5);
+            this.panelSkill.Controls.Add(this.richTextBoxExplain);
+            this.panelSkill.Controls.Add(this.pictureBoxVoice);
+            this.panelSkill.Location = new System.Drawing.Point(27, 21);
+            this.panelSkill.Name = "panelSkill";
+            this.panelSkill.Size = new System.Drawing.Size(194, 384);
+            this.panelSkill.TabIndex = 62;
+            // 
+            // pictureBoxExplain
+            // 
+            this.pictureBoxExplain.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxExplain.Image = global::DirvingTest.Properties.Resources.Max1;
+            this.pictureBoxExplain.Location = new System.Drawing.Point(159, 2);
+            this.pictureBoxExplain.Name = "pictureBoxExplain";
+            this.pictureBoxExplain.Size = new System.Drawing.Size(26, 20);
+            this.pictureBoxExplain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxExplain.TabIndex = 13;
+            this.pictureBoxExplain.TabStop = false;
+            this.pictureBoxExplain.Click += new System.EventHandler(this.pictureBoxExplain_Click);
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.ForeColor = System.Drawing.Color.DarkRed;
+            this.label5.Location = new System.Drawing.Point(8, 7);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(68, 17);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "技巧分析";
+            // 
+            // richTextBoxExplain
+            // 
+            this.richTextBoxExplain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBoxExplain.BackColor = System.Drawing.Color.Aqua;
+            this.richTextBoxExplain.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.richTextBoxExplain.Location = new System.Drawing.Point(0, 33);
+            this.richTextBoxExplain.Name = "richTextBoxExplain";
+            this.richTextBoxExplain.ReadOnly = true;
+            this.richTextBoxExplain.Size = new System.Drawing.Size(192, 349);
+            this.richTextBoxExplain.TabIndex = 1;
+            this.richTextBoxExplain.Text = "";
+            this.richTextBoxExplain.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
+            // 
+            // pictureBoxVoice
+            // 
+            this.pictureBoxVoice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxVoice.Image = global::DirvingTest.Properties.Resources._2015061404343267_easyicon_net_64;
+            this.pictureBoxVoice.Location = new System.Drawing.Point(131, 2);
+            this.pictureBoxVoice.Name = "pictureBoxVoice";
+            this.pictureBoxVoice.Size = new System.Drawing.Size(25, 25);
+            this.pictureBoxVoice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxVoice.TabIndex = 12;
+            this.pictureBoxVoice.TabStop = false;
+            this.pictureBoxVoice.Click += new System.EventHandler(this.pictureBoxVoice_Click);
             // 
             // panelSimulation
             // 
@@ -899,102 +998,17 @@
             this.pictureBox2.TabIndex = 53;
             this.pictureBox2.TabStop = false;
             // 
-            // chkBoxEmphasize
+            // chkBoxShowError
             // 
-            this.chkBoxEmphasize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.chkBoxEmphasize.AutoSize = true;
-            this.chkBoxEmphasize.Location = new System.Drawing.Point(1131, 444);
-            this.chkBoxEmphasize.Name = "chkBoxEmphasize";
-            this.chkBoxEmphasize.Size = new System.Drawing.Size(104, 23);
-            this.chkBoxEmphasize.TabIndex = 63;
-            this.chkBoxEmphasize.Text = "使用强调";
-            this.chkBoxEmphasize.UseVisualStyleBackColor = true;
-            this.chkBoxEmphasize.CheckedChanged += new System.EventHandler(this.chkBoxEmphasize_CheckedChanged);
-            this.chkBoxEmphasize.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
-            // 
-            // panelSkill
-            // 
-            this.panelSkill.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.panelSkill.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelSkill.Controls.Add(this.pictureBoxExplain);
-            this.panelSkill.Controls.Add(this.label5);
-            this.panelSkill.Controls.Add(this.richTextBoxExplain);
-            this.panelSkill.Controls.Add(this.pictureBoxVoice);
-            this.panelSkill.Location = new System.Drawing.Point(27, 21);
-            this.panelSkill.Name = "panelSkill";
-            this.panelSkill.Size = new System.Drawing.Size(194, 384);
-            this.panelSkill.TabIndex = 62;
-            // 
-            // pictureBoxExplain
-            // 
-            this.pictureBoxExplain.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxExplain.Image = global::DirvingTest.Properties.Resources.Max1;
-            this.pictureBoxExplain.Location = new System.Drawing.Point(159, 2);
-            this.pictureBoxExplain.Name = "pictureBoxExplain";
-            this.pictureBoxExplain.Size = new System.Drawing.Size(26, 20);
-            this.pictureBoxExplain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxExplain.TabIndex = 13;
-            this.pictureBoxExplain.TabStop = false;
-            this.pictureBoxExplain.Click += new System.EventHandler(this.pictureBoxExplain_Click);
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.ForeColor = System.Drawing.Color.DarkRed;
-            this.label5.Location = new System.Drawing.Point(8, 7);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 17);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "技巧分析";
-            // 
-            // richTextBoxExplain
-            // 
-            this.richTextBoxExplain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBoxExplain.BackColor = System.Drawing.Color.Aqua;
-            this.richTextBoxExplain.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.richTextBoxExplain.Location = new System.Drawing.Point(0, 33);
-            this.richTextBoxExplain.Name = "richTextBoxExplain";
-            this.richTextBoxExplain.ReadOnly = true;
-            this.richTextBoxExplain.Size = new System.Drawing.Size(192, 349);
-            this.richTextBoxExplain.TabIndex = 1;
-            this.richTextBoxExplain.Text = "";
-            this.richTextBoxExplain.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
-            // 
-            // pictureBoxVoice
-            // 
-            this.pictureBoxVoice.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxVoice.Image = global::DirvingTest.Properties.Resources._2015061404343267_easyicon_net_64;
-            this.pictureBoxVoice.Location = new System.Drawing.Point(131, 2);
-            this.pictureBoxVoice.Name = "pictureBoxVoice";
-            this.pictureBoxVoice.Size = new System.Drawing.Size(25, 25);
-            this.pictureBoxVoice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxVoice.TabIndex = 12;
-            this.pictureBoxVoice.TabStop = false;
-            this.pictureBoxVoice.Click += new System.EventHandler(this.pictureBoxVoice_Click);
-            // 
-            // imageButtonClose
-            // 
-            this.imageButtonClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.imageButtonClose.BackColor = System.Drawing.Color.Transparent;
-            this.imageButtonClose.BackgroundImage = global::DirvingTest.Properties.Resources.CloseStandard;
-            this.imageButtonClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.imageButtonClose.HeadImage = null;
-            this.imageButtonClose.Location = new System.Drawing.Point(1440, 12);
-            this.imageButtonClose.MouseClickImage = global::DirvingTest.Properties.Resources.CloseMove;
-            this.imageButtonClose.MouseOverImage = global::DirvingTest.Properties.Resources.CloseMove;
-            this.imageButtonClose.Name = "imageButtonClose";
-            this.imageButtonClose.Size = new System.Drawing.Size(23, 21);
-            this.imageButtonClose.TabIndex = 2;
-            this.imageButtonClose.TextFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.imageButtonClose.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButtonClose_Click);
-            this.imageButtonClose.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.panelQuestion_PreviewKeyDown);
+            this.chkBoxShowError.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.chkBoxShowError.AutoSize = true;
+            this.chkBoxShowError.Location = new System.Drawing.Point(1131, 473);
+            this.chkBoxShowError.Name = "chkBoxShowError";
+            this.chkBoxShowError.Size = new System.Drawing.Size(142, 23);
+            this.chkBoxShowError.TabIndex = 64;
+            this.chkBoxShowError.Text = "错误显示提示";
+            this.chkBoxShowError.UseVisualStyleBackColor = true;
+            this.chkBoxShowError.Visible = false;
             // 
             // FormSimulation
             // 
@@ -1021,13 +1035,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).EndInit();
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
-            this.panelSimulation.ResumeLayout(false);
-            this.panelSimulation.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelSkill.ResumeLayout(false);
             this.panelSkill.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxExplain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxVoice)).EndInit();
+            this.panelSimulation.ResumeLayout(false);
+            this.panelSimulation.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1101,5 +1115,6 @@
         private System.Windows.Forms.Label labelTitleTemplate;
         private System.Windows.Forms.Label labelAnswerTemplate;
         private CotrolLibrary.PanelAnswer panelAnswer1;
+        private System.Windows.Forms.CheckBox chkBoxShowError;
     }
 }

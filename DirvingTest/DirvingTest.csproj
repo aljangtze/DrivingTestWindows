@@ -139,6 +139,12 @@
     <Compile Include="ChapterManager\FormChaperSelect.Designer.cs">
       <DependentUpon>FormChaperSelect.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exams\FormTrainErrorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exams\FormTrainErrorInfo.Designer.cs">
+      <DependentUpon>FormTrainErrorInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="StreamUtil.cs" />
     <Compile Include="FormIntensifySelect.cs">
       <SubType>Form</SubType>
@@ -362,6 +368,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChapterManager\FormChaperSelect.resx">
       <DependentUpon>FormChaperSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exams\FormTrainErrorInfo.resx">
+      <DependentUpon>FormTrainErrorInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormIntensifySelect.resx">
       <DependentUpon>FormIntensifySelect.cs</DependentUpon>

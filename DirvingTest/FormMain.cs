@@ -270,6 +270,12 @@ namespace DirvingTest
 
             FormUserLogin formUserLogin = new FormUserLogin();
             formUserLogin.ShowDialog();
+
+            if(UserManager.IsLogin)
+            {
+                lblLogin.Visible = false;
+                lblUserName.Text = "登录用户:" + UserManager.LoginUser.UserName;
+            }
         }
 
         private void btnQuestionManage_Click(object sender, EventArgs e)
@@ -818,6 +824,18 @@ namespace DirvingTest
             form.Show();
 
             activeFrom = form;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            FormUserLogin formUserLogin = new FormUserLogin();
+            formUserLogin.ShowDialog();
+
+            if (UserManager.IsLogin)
+            {
+                lblLogin.Visible = false;
+                lblUserName.Text = "登录用户:" + UserManager.LoginUser.UserName;
+            }
         }
     }
 }

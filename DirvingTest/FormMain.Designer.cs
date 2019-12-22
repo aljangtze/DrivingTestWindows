@@ -57,6 +57,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageButtonClose = new CotrolLibrary.ImageButton();
             this.imageButtonMin = new CotrolLibrary.ImageButton();
+            this.lblLogin = new System.Windows.Forms.Label();
+            this.lblUserName = new System.Windows.Forms.Label();
             this.contextMenuStrip1.SuspendLayout();
             this.panelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).BeginInit();
@@ -148,6 +150,8 @@
             this.panelTitle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelTitle.BackgroundImage = global::DirvingTest.Properties.Resources.backgroudTitle;
             this.panelTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelTitle.Controls.Add(this.lblUserName);
+            this.panelTitle.Controls.Add(this.lblLogin);
             this.panelTitle.Controls.Add(this.btnInitialQuestions);
             this.panelTitle.Controls.Add(this.pictureBoxMenu);
             this.panelTitle.Controls.Add(this.btnPractise);
@@ -443,6 +447,33 @@
             this.imageButtonMin.TextFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.imageButtonMin.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButtonMin_Click);
             // 
+            // lblLogin
+            // 
+            this.lblLogin.AutoSize = true;
+            this.lblLogin.BackColor = System.Drawing.Color.Transparent;
+            this.lblLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblLogin.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblLogin.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lblLogin.Location = new System.Drawing.Point(974, 6);
+            this.lblLogin.Name = "lblLogin";
+            this.lblLogin.Size = new System.Drawing.Size(35, 14);
+            this.lblLogin.TabIndex = 25;
+            this.lblLogin.Text = "登录";
+            this.lblLogin.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // lblUserName
+            // 
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.BackColor = System.Drawing.Color.Transparent;
+            this.lblUserName.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblUserName.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblUserName.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lblUserName.Location = new System.Drawing.Point(506, 58);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(70, 14);
+            this.lblUserName.TabIndex = 26;
+            this.lblUserName.Text = "登录用户:";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -496,6 +527,8 @@
         private System.Windows.Forms.ToolStripMenuItem MenuEasyErrorChapterManager;
         private CotrolLibrary.ImageButton btnInitialQuestions;
         private System.Windows.Forms.ToolStripMenuItem MenuUserManager;
+        private System.Windows.Forms.Label lblLogin;
+        private System.Windows.Forms.Label lblUserName;
     }
 }
 

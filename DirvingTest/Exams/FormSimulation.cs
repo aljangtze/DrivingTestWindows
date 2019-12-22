@@ -29,7 +29,7 @@ namespace DirvingTest
 
         [DllImport("user32.dll", EntryPoint = "FindWindow")]
         private static extern Int32 FindWindow(string lpClassName, string lpWindowName);
- 
+
         #endregion
         FormBigImage formBig = new FormBigImage();
         private bool CanClose = false;
@@ -44,11 +44,11 @@ namespace DirvingTest
 
         int m_type = 0;
         bool IsDoError = false;
-        public void SetShowType(int Type, bool isDoError=false)
+        public void SetShowType(int Type, bool isDoError = false)
         {
             IsDoError = isDoError;
             m_type = Type;
-            if(Type == 0)
+            if (Type == 0)
             {
                 panelSimulation.Visible = true;
                 panelSimulation.BringToFront();
@@ -60,12 +60,14 @@ namespace DirvingTest
                 chkBoxEmphasize.Checked = false;
                 checkBoxAutoChange.Checked = false;
                 checkBoxAutoChange.Visible = false;
+                chkBoxShowError.Visible = false;
+                chkBoxShowError.Checked = false;
                 checkBoxAutoRead.Checked = false;
                 checkBoxAutoRead.Visible = false;
                 _status.IsShowCorrectAnswer = false;
                 _status.incorectAnswers = 0;
             }
-            else if(Type==1)
+            else if (Type == 1)
             {
                 panelSimulation.Visible = true;
                 panelSimulation.BringToFront();
@@ -81,7 +83,9 @@ namespace DirvingTest
                 chkBoxEmphasize.Visible = true;
                 chkBoxEmphasize.Checked = false;
                 checkBoxAutoRead.Checked = false;
-                checkBoxAutoRead.Visible = true;
+                chkBoxShowError.Visible = true;
+                chkBoxShowError.Checked = false;
+                checkBoxAutoRead.Visible = false;
                 //checkBoxAutoRead.Visible = false;
                 _status.IsShowCorrectAnswer = true;
                 _status.incorectAnswers = 0;
@@ -129,13 +133,13 @@ namespace DirvingTest
             }
             else
             {
-                if(Convert.ToInt32(((Control)sender).Tag) == 1)
+                if (Convert.ToInt32(((Control)sender).Tag) == 1)
                     checkBoxA.Checked = true;
-                if(Convert.ToInt32(((Control)sender).Tag) == 2)
+                if (Convert.ToInt32(((Control)sender).Tag) == 2)
                     checkBoxB.Checked = true;
-                if(Convert.ToInt32(((Control)sender).Tag) == 3)
+                if (Convert.ToInt32(((Control)sender).Tag) == 3)
                     checkBoxC.Checked = true;
-                if(Convert.ToInt32(((Control)sender).Tag) == 4)
+                if (Convert.ToInt32(((Control)sender).Tag) == 4)
                     checkBoxD.Checked = true;
             }
 
@@ -169,7 +173,7 @@ namespace DirvingTest
         public void GenControlsOfQuestions(int questionNum)
         {
             DateTime dateTime1 = System.DateTime.Now;
-            if(questionNum <=0 || questionNum > 100)
+            if (questionNum <= 0 || questionNum > 100)
                 return;
 
             //int panelWith = 0;
@@ -181,7 +185,7 @@ namespace DirvingTest
             {
                 CotrolLibrary.PanelAnswer panel = new CotrolLibrary.PanelAnswer();
                 panel.BorderStyle = panelTemplate.BorderStyle;
-                panel.Height = panelAnswer1.Height-2;
+                panel.Height = panelAnswer1.Height - 2;
                 panel.Width = panelAnswer1.Width - 6;
                 panel.Font = panelAnswer1.Font;
 
@@ -194,8 +198,8 @@ namespace DirvingTest
                 panel.Top = 8 + (i / 10) * (panelAnswer1.Height + 6);
 
                 panel.Tag = data;
-                
-                panel.NumText = (i+1).ToString();
+
+                panel.NumText = (i + 1).ToString();
                 panel.AnswerText = "";
                 panel.Click += new CotrolLibrary.PanelAnswer.ClickEventHandler(panelTemplate_Click);
 
@@ -237,7 +241,7 @@ namespace DirvingTest
             {
                 CotrolLibrary.PanelAnswer panel = _status.AllQeustionPanels[i];
                 panel.AnswerText = "";
-                panel.NumText = (i+1).ToString();
+                panel.NumText = (i + 1).ToString();
 
                 PanelData data = (PanelData)panel.Tag;
                 data.id = i;
@@ -268,7 +272,7 @@ namespace DirvingTest
 
 
             panelMain.Left = (int)Math.Round((this.Width - panelMain.Width) / 2.0);
-            panelMain.Top = (int)Math.Round((this.Height - panelMain.Height) / 2.0);            
+            panelMain.Top = (int)Math.Round((this.Height - panelMain.Height) / 2.0);
         }
 
         private void panelTemplate_Click(object sender, EventArgs e)
@@ -294,7 +298,7 @@ namespace DirvingTest
         {
             if (_status.AllQuestion.Count <= _status.CurrentIdx + 1)
             {
-               // MessageBox.Show("已经答完全部题目，正确率：" + labPer.Text);
+                // MessageBox.Show("已经答完全部题目，正确率：" + labPer.Text);
                 MessageBox.Show("已经答完全部题目");
                 return;
             }
@@ -310,77 +314,86 @@ namespace DirvingTest
             //检查上个答案是否正确
             //if (_status.firstLoaded == false)
             //{
-                PanelData panelDataOld = (PanelData)_status.AllQeustionPanels[_status.CurrentIdx].Tag;
-                _status.AllQeustionPanels[_status.CurrentIdx].BackColor = panelDataOld.isRight < 2 ? Color.White : Color.Red;
+            PanelData panelDataOld = (PanelData)_status.AllQeustionPanels[_status.CurrentIdx].Tag;
+            _status.AllQeustionPanels[_status.CurrentIdx].BackColor = panelDataOld.isRight < 2 ? Color.White : Color.Red;
 
-                if (_status.AllQuestion.Count <= 0)
-                    return;
+            if (_status.AllQuestion.Count <= 0)
+                return;
 
-                Question questionOld = _status.AllQuestion[_status.CurrentIdx];
+            Question questionOld = _status.AllQuestion[_status.CurrentIdx];
 
-                //将上一个题目的状态更新到答题信息
-                AnswerQuestion Answer = null;
-                _status.AnswerQuestion.TryGetValue(questionOld.Id, out Answer);
-                Answer.RightStatus = panelDataOld.isRight;
-                Answer.AnswerString = panelDataOld.answerString;
+            //将上一个题目的状态更新到答题信息
+            AnswerQuestion Answer = null;
+            _status.AnswerQuestion.TryGetValue(questionOld.Id, out Answer);
+            Answer.RightStatus = panelDataOld.isRight;
+            Answer.AnswerString = panelDataOld.answerString;
 
-                if (panelDataOld.isCheck == false && panelDataOld.isRight != 0)
+            if (panelDataOld.isCheck == false && panelDataOld.isRight != 0)
+            {
+                panelDataOld.isCheck = true;
+
+                if (panelDataOld.isRight == 2)
                 {
-                    panelDataOld.isCheck = true;
-
-                    if (panelDataOld.isRight == 2)
+                    //答题完成
+                    _status.incorectAnswers++;
+                    if (_status.IsSkillTrain == false && true == ShowAutoSubmit)
                     {
-                        //答题完成
-                        _status.incorectAnswers++;
-                        if (_status.IsSkillTrain == false && true == ShowAutoSubmit)
+                        if ((SystemConfig._examType == 0 && _status.incorectAnswers >= 11) ||
+                        (SystemConfig._examType == 1 && _status.incorectAnswers >= 6))
                         {
-                            if ((SystemConfig._examType == 0 && _status.incorectAnswers >= 11) ||
-                            (SystemConfig._examType == 1 && _status.incorectAnswers >= 6))
+                            ShowAutoSubmit = false;
+                            FormSimulationSubmit submit = new FormSimulationSubmit();
+                            submit.SetInfo(true);
+                            DialogResult result = submit.ShowDialog();
+                            if (DialogResult.Cancel == result)
                             {
-                                ShowAutoSubmit = false;
-                                FormSimulationSubmit submit = new FormSimulationSubmit();
-                                submit.SetInfo(true);
-                                DialogResult result = submit.ShowDialog();
-                                if (DialogResult.Cancel == result)
-                                {
-                                    return;
-                                }
-                                else
-                                {
-                                    FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
-                                    if (DialogResult.OK == simulaInfo.ShowDialog())
-                                    {
-                                        _status.IsShowCorrectAnswer = true;
-                                    }
-                                }
-
                                 return;
                             }
-                        }
+                            else
+                            {
+                                FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
+                                if (DialogResult.OK == simulaInfo.ShowDialog())
+                                {
+                                    _status.IsShowCorrectAnswer = true;
+                                }
+                            }
 
-                        QuestionManager.RecordQuestionAnswer(questionOld.Id, false);
-                    
-                        //if (_status.IsSkillTrain == false)
-                        {
-                            FormSimulationErrorInfo errorInfo = new FormSimulationErrorInfo();
-                            errorInfo.SetInfo(questionOld, _status.CurrentIdx, _status.IsSkillTrain);
-                            errorInfo.ShowDialog();
+                            return;
                         }
+                    }
+
+                    QuestionManager.RecordQuestionAnswer(questionOld.Id, false);
+
+                    if (_status.IsSkillTrain == false)
+                    {
+                        FormSimulationErrorInfo errorInfo = new FormSimulationErrorInfo();
+                        errorInfo.SetInfo(questionOld, _status.CurrentIdx, _status.IsSkillTrain);
+                        errorInfo.ShowDialog();
                     }
                     else
                     {
-
-                    QuestionManager.RecordQuestionAnswer(questionOld.Id, true);
-                    if (SystemConfig._examType == 0)
+                        if (true == chkBoxShowError.Checked)
                         {
-                            _status.Score += 1;
-                        }
-                        else
-                        {
-                            _status.Score += 2;
+                            FormTrainErrorInfo errorInfo = new FormTrainErrorInfo();
+                            errorInfo.SetInfo(questionOld, _status.CurrentIdx, panelMain.Width, _status.IsSkillTrain);
+                            errorInfo.ShowDialog();
                         }
                     }
                 }
+                else
+                {
+
+                    QuestionManager.RecordQuestionAnswer(questionOld.Id, true);
+                    if (SystemConfig._examType == 0)
+                    {
+                        _status.Score += 1;
+                    }
+                    else
+                    {
+                        _status.Score += 2;
+                    }
+                }
+            }
 
             Question question = _status.AllQuestion[id];
             PanelData panelDataNew = (PanelData)_status.AllQeustionPanels[id].Tag;
@@ -396,7 +409,7 @@ namespace DirvingTest
             int FontSizeNormal = 18;
             int FontSizeEmphasize = 20;
             int HeightOffset = 5;
-            if(Height > 800)
+            if (Height > 800)
             {
                 FontSizeNormal = 20;
                 FontSizeEmphasize = 22;
@@ -428,7 +441,7 @@ namespace DirvingTest
                 {
                     //查找强调并显示
                     //题目信息强调
-                    string[] emphasizeList = question.TittleEmphasize.Split(new char[3]{'&',',','，'});
+                    string[] emphasizeList = question.TittleEmphasize.Split(new char[3] { '&', ',', '，' });
                     for (int i = 0; i < emphasizeList.Length; i++)
                     {
                         richTextBoxTitle.Find(emphasizeList[i]);
@@ -687,8 +700,8 @@ namespace DirvingTest
                 {
                     pictureBox1.Dock = DockStyle.None;
                     pictureBox1.Height = panelImageInfo.Height;
-                    pictureBox1.Width =(int)(1.0*imageInfo.Width / imageInfo.Height * pictureBox1.Height);
-                    pictureBox1.Left = (panelImageInfo.Width - pictureBox1.Width)/2;
+                    pictureBox1.Width = (int)(1.0 * imageInfo.Width / imageInfo.Height * pictureBox1.Height);
+                    pictureBox1.Left = (panelImageInfo.Width - pictureBox1.Width) / 2;
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 }
 
@@ -718,12 +731,13 @@ namespace DirvingTest
             {
                 _voiceHelper.StopSpeaker();
                 string info = richTextBoxExplain.Text.Replace("&", " ");
-                System.Threading.Thread td = new System.Threading.Thread(() => {
+                System.Threading.Thread td = new System.Threading.Thread(() =>
+                {
                     _voiceHelper.Speeker(info);
                 });
                 td.IsBackground = true;
                 td.Start();
-                
+
             }
         }
 
@@ -738,13 +752,13 @@ namespace DirvingTest
                 _status.AllQuestion.Clear();
 
             //排序
-            List<Question>lst = QuestionManager.GenQuestionsByExam(SystemConfig._examType, SystemConfig._driverType);
-            int [] count = new int [15] {0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-            int [] typeCount = new int[3]{0, 0, 0};
-            foreach(var question in lst)
+            List<Question> lst = QuestionManager.GenQuestionsByExam(SystemConfig._examType, SystemConfig._driverType);
+            int[] count = new int[15] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            int[] typeCount = new int[3] { 0, 0, 0 };
+            foreach (var question in lst)
             {
-                typeCount[question.Type-1] += 1;
-                count[question.Module-1] += 1;
+                typeCount[question.Type - 1] += 1;
+                count[question.Module - 1] += 1;
             }
 
             _status.AllQuestion.AddRange(lst);
@@ -753,14 +767,14 @@ namespace DirvingTest
             return _status.AllQuestion.Count;
         }
 
-        public void SetQuestions(List<Question> list, bool isFlutte=true)
+        public void SetQuestions(List<Question> list, bool isFlutte = true)
         {
             if (_status.AllQuestion.Count > 0)
                 _status.AllQuestion.Clear();
 
             //打乱答案顺序
             FlutteOptions(list);
-            
+
 
             //打乱题目顺序
             if (isFlutte == true)
@@ -774,19 +788,19 @@ namespace DirvingTest
 
         }
 
-        public void ReorderQuestions(List<Question>list)
+        public void ReorderQuestions(List<Question> list)
         {
             List<Question> type1List = new List<Question>();
             List<Question> type2List = new List<Question>();
             List<Question> type3List = new List<Question>();
-            
-            foreach(Question question in list)
+
+            foreach (Question question in list)
             {
-                if(question.Type == 1)
+                if (question.Type == 1)
                 {
                     type1List.Add(question);
                 }
-                else if(question.Type==2)
+                else if (question.Type == 2)
                 {
                     type2List.Add(question);
                 }
@@ -811,7 +825,7 @@ namespace DirvingTest
             for (int i = 0; i < list.Count; i++)
             {
 
-                index = ran.Next(0, list.Count-1);
+                index = ran.Next(0, list.Count - 1);
                 if (index != i)
                 {
                     temp = list[i];
@@ -825,9 +839,9 @@ namespace DirvingTest
         {
             Random rnd = new Random(Guid.NewGuid().GetHashCode());
 
-            foreach(Question question in list)
+            foreach (Question question in list)
             {
-                if(question.Type ==1)
+                if (question.Type == 1)
                     continue;
 
                 HashSet<int> questionOrder = new HashSet<int>();
@@ -846,7 +860,7 @@ namespace DirvingTest
                 int index = 0;
                 List<int> curCorrectAnswer = new List<int>();
                 List<string> curOptions = new List<string>();
-                List<string>curOptionsEmphasize = new List<string>();
+                List<string> curOptionsEmphasize = new List<string>();
                 curCorrectAnswer.AddRange(question.CorrectAnswer);
                 curOptions.AddRange(question.Options);
                 curOptionsEmphasize.AddRange(question.OptionsEmphasize);
@@ -857,8 +871,8 @@ namespace DirvingTest
                 foreach (var i in questionOrder)
                 {
                     index++;
-                    question.Options.Add(curOptions[i-1]);
-                    question.OptionsEmphasize.Add(curOptionsEmphasize[i-1]);
+                    question.Options.Add(curOptions[i - 1]);
+                    question.OptionsEmphasize.Add(curOptionsEmphasize[i - 1]);
 
                     foreach (int anwserId in curCorrectAnswer)
                     {
@@ -870,9 +884,9 @@ namespace DirvingTest
                     }
                 }
             }
-           
+
         }
-        
+
         /// <summary>
         /// 生成答案
         /// </summary>
@@ -938,13 +952,13 @@ namespace DirvingTest
         private void timer1_Tick(object sender, EventArgs e)
         {
             labelTimer.Text = (_EndTime - DateTime.Now).Minutes.ToString() + ":" + (_EndTime - DateTime.Now).Seconds.ToString();
-            if(_EndTime<=DateTime.Now)
+            if (_EndTime <= DateTime.Now)
             {
                 timer1.Stop();
-                if(!_status.IsSkillTrain)
+                if (!_status.IsSkillTrain)
                 {
                     FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
-                    if(DialogResult.OK == simulaInfo.ShowDialog())
+                    if (DialogResult.OK == simulaInfo.ShowDialog())
                     {
                         _status.IsShowCorrectAnswer = true;
                     }
@@ -959,7 +973,7 @@ namespace DirvingTest
                     FormSkillTrainFinish form = new FormSkillTrainFinish();
                     form.SendBack += FormBack;
                     form.SetAnswers(_status.AnswerQuestion);
-                    if(DialogResult.Yes == form.ShowDialog())
+                    if (DialogResult.Yes == form.ShowDialog())
                     {
 
                     }
@@ -974,8 +988,8 @@ namespace DirvingTest
         private void btnFinish_Click(object sender, EventArgs e)
         {
             //更新当前答题结果
-            PanelData panelDataNow= (PanelData)_status.AllQeustionPanels[_status.CurrentIdx].Tag;
-            Question questionNow= _status.AllQuestion[_status.CurrentIdx];
+            PanelData panelDataNow = (PanelData)_status.AllQeustionPanels[_status.CurrentIdx].Tag;
+            Question questionNow = _status.AllQuestion[_status.CurrentIdx];
             AnswerQuestion Answer = null;
             _status.AnswerQuestion.TryGetValue(questionNow.Id, out Answer);
             Answer.RightStatus = panelDataNow.isRight;
@@ -1034,7 +1048,7 @@ namespace DirvingTest
                 btnPrevious.PerformClick();
                 btnNext.PerformClick();
             }
-            if(btnPrevious.Enabled == false)
+            if (btnPrevious.Enabled == false)
             {
                 btnNext.PerformClick();
                 btnPrevious.PerformClick();
@@ -1051,11 +1065,11 @@ namespace DirvingTest
                 }
                 else
                 {
-                   
-                    for(int i= 0; i < _status.AllQeustionPanels.Count; i++)
+
+                    for (int i = 0; i < _status.AllQeustionPanels.Count; i++)
                     {
                         PanelData panelDataOld = (PanelData)_status.AllQeustionPanels[i].Tag;
-                        if(panelDataOld.isRight == 0)
+                        if (panelDataOld.isRight == 0)
                         {
                             _status.AllQeustionPanels[i].BackColor = Color.Red;
                         }
@@ -1075,6 +1089,13 @@ namespace DirvingTest
             }
             else
             {
+                FormSimulationSubmit submit = new FormSimulationSubmit();
+                submit.SetInfo(false);
+                DialogResult result = submit.ShowDialog();
+                if (DialogResult.Cancel == result)
+                {
+                    return;
+                }
                 FormSkillTrainFinish form = new FormSkillTrainFinish();
                 for (int i = 0; i < _status.AllQeustionPanels.Count; i++)
                 {
@@ -1090,11 +1111,11 @@ namespace DirvingTest
                 IsDoError = true;
                 if (DialogResult.Yes == form.ShowDialog())
                 {
-                    
+
                 }
                 else
                 {
-                   //Hide();
+                    //Hide();
                 }
 
                 //FormErrorInfo form1 = new FormErrorInfo();
@@ -1109,7 +1130,7 @@ namespace DirvingTest
                 //{
                 //    Hide();
                 //}
-                
+
             }
 
         }
@@ -1152,18 +1173,19 @@ namespace DirvingTest
                     labelDriverInfo.Text = "小车类";
                     break;
             }
-            if(examType == 0)
+            if (examType == 0)
             {
-                labelExamInfo.Text = "科目一";   
+                labelExamInfo.Text = "科目一";
             }
-            else if(examType ==1)
+            else if (examType == 1)
             {
                 labelExamInfo.Text = "科目四";
-            }else if(examType ==2)
+            }
+            else if (examType == 2)
             {
                 labelExamInfo.Text = "恢复资格考试";
             }
-            else if(examType ==3)
+            else if (examType == 3)
             {
                 labelExamInfo.Text = "消分考试";
             }
@@ -1201,9 +1223,9 @@ namespace DirvingTest
         private void imageButtonClose_Click(object sender, EventArgs e)
         {
             VoiceStop();
-            if(DialogResult.OK != MessageBox.Show("正在考试，是否立即退出?", "确认信息", MessageBoxButtons.OKCancel))
+            if (DialogResult.OK != MessageBox.Show("正在考试，是否立即退出?", "确认信息", MessageBoxButtons.OKCancel))
                 return;
-            
+
             SetFormFullScreen(false);
             Hide();
         }
@@ -1216,7 +1238,8 @@ namespace DirvingTest
         private void pictureBoxVoice_Click(object sender, EventArgs e)
         {
             string info = richTextBoxExplain.Text.ToString();
-            System.Threading.Thread td = new System.Threading.Thread(() => {
+            System.Threading.Thread td = new System.Threading.Thread(() =>
+            {
                 _voiceHelper = VoiceHelper.getVoiceHelper();
                 _voiceHelper.Speeker(info);
             });
@@ -1243,13 +1266,13 @@ namespace DirvingTest
             if (panelData.isCheck == true)
                 return;
 
-            char [] ch = new char[1] ;
+            char[] ch = new char[1];
             ch[0] = (char)(64 + Convert.ToInt32(((CheckBox)sender).Tag));
             string answer = new String(ch);
 
-            string currentAnswerList = _status.AllQeustionPanels[_status.CurrentIdx].AnswerText; 
+            string currentAnswerList = _status.AllQeustionPanels[_status.CurrentIdx].AnswerText;
             //如果是一样的则直接返回
-            if(((CheckBox)sender).Checked == true)
+            if (((CheckBox)sender).Checked == true)
             {
                 //如果已经选中，则返回，未选中则加入并计算是答案是否正确
                 if (currentAnswerList.IndexOf(answer) != -1)
@@ -1268,12 +1291,12 @@ namespace DirvingTest
                 else
                     return;
             }
-            
+
             //检查结果是否正确
             _status.AllQeustionPanels[_status.CurrentIdx].AnswerText = labelAnswer.Text;
             panelData.answerString = labelAnswer.Text;
 
-            if(_status.AllQuestion[_status.CurrentIdx].CorrectAnswer.Count != panelData.answerString.Length)
+            if (_status.AllQuestion[_status.CurrentIdx].CorrectAnswer.Count != panelData.answerString.Length)
             {
                 panelData.isRight = 2;
             }
@@ -1282,9 +1305,9 @@ namespace DirvingTest
                 panelData.isRight = 1;
                 for (int i = 0; i < _status.AllQuestion[_status.CurrentIdx].CorrectAnswer.Count; i++)
                 {
-                    ch[0] = (char)(64+_status.AllQuestion[_status.CurrentIdx].CorrectAnswer[i]);
+                    ch[0] = (char)(64 + _status.AllQuestion[_status.CurrentIdx].CorrectAnswer[i]);
                     string rightAnswerOne = new String(ch);
-                    if(panelData.answerString.IndexOf(rightAnswerOne) == -1)
+                    if (panelData.answerString.IndexOf(rightAnswerOne) == -1)
                     {
                         panelData.isRight = 2;
                         break;
@@ -1331,7 +1354,7 @@ namespace DirvingTest
                     btnD.PerformClick();
             }
 
-            if(e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Enter)
             {
                 btnFinish.PerformClick();
             }
@@ -1339,11 +1362,11 @@ namespace DirvingTest
             {
                 btnNext.PerformClick();
             }
-            if(e.KeyCode == Keys.Subtract || e.KeyCode == Keys.Up || e.KeyCode == Keys.Left)
+            if (e.KeyCode == Keys.Subtract || e.KeyCode == Keys.Up || e.KeyCode == Keys.Left)
             {
                 btnPrevious.PerformClick();
             }
-            if(e.KeyCode == Keys.Delete)
+            if (e.KeyCode == Keys.Delete)
             {
                 imageButtonClose.PerformClick();
             }
@@ -1356,9 +1379,9 @@ namespace DirvingTest
             //else
             if (checkBoxAutoRead.Checked == false)
             {
-                panelSimulation.Visible = true;
-                panelSimulation.BringToFront();
-                panelSkill.Visible = false;
+                //panelSimulation.Visible = true;
+                //panelSimulation.BringToFront();
+                //panelSkill.Visible = false;
             }
             else
             {
@@ -1369,28 +1392,31 @@ namespace DirvingTest
 
             if (checkBoxAutoRead.Checked == false)
                 _voiceHelper.StopSpeaker();
-            else
-            {
-                string info = richTextBoxExplain.Text;
-                System.Threading.Thread td = new System.Threading.Thread(() => {
-                    
-                    _voiceHelper.Speeker(info);
-                });
-                td.IsBackground = true;
-                td.Start();
 
-                if(checkBoxAutoRead.Checked)
-                {
+            return;
+            //else
+            //{
+            //    string info = richTextBoxExplain.Text;
+            //    System.Threading.Thread td = new System.Threading.Thread(() =>
+            //    {
 
-                }
-            }
+            //        _voiceHelper.Speeker(info);
+            //    });
+            //    td.IsBackground = true;
+            //    td.Start();
 
-            btnNext.Focus();
+            //    if (checkBoxAutoRead.Checked)
+            //    {
+
+            //    }
+            //}
+
+            //btnNext.Focus();
         }
 
         private void FormSimulation_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.F4 && e.Modifiers == Keys.Alt)
+            if (e.KeyCode == Keys.F4 && e.Modifiers == Keys.Alt)
             {
                 CanClose = true;
             }
@@ -1398,7 +1424,7 @@ namespace DirvingTest
 
         private void FormSimulation_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(CanClose == true)
+            if (CanClose == true)
             {
                 e.Cancel = true;
                 CanClose = false;
@@ -1408,7 +1434,7 @@ namespace DirvingTest
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Question question = _status.AllQuestion[_status.CurrentIdx];
-            if(!string.IsNullOrEmpty(question.ImagePath))
+            if (!string.IsNullOrEmpty(question.ImagePath))
             {
                 formBig.SetInfo(question.ImagePath, question.FlashPath);
                 formBig.Show();
@@ -1423,7 +1449,7 @@ namespace DirvingTest
         private void axShockwaveFlash1_Enter(object sender, EventArgs e)
         {
             Question question = _status.AllQuestion[_status.CurrentIdx];
-            if(!string.IsNullOrEmpty(question.FlashPath))
+            if (!string.IsNullOrEmpty(question.FlashPath))
             {
                 formBig.SetInfo(question.ImagePath, question.FlashPath);
                 formBig.ShowDialog();
@@ -1459,7 +1485,7 @@ namespace DirvingTest
                     PanelData data = (PanelData)panel.Tag;
                     if (data == null)
                         continue;
-                     
+
                     int id = data.id;
 
                     panel.Width = Math.Min(panelWidth, panel.Width);
@@ -1468,7 +1494,7 @@ namespace DirvingTest
                     panel.Top = 4 + (id / 10) * (panel.Height + 2);
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -1486,7 +1512,15 @@ namespace DirvingTest
                 HeightOffset = 10;
             }
 
+            if (true == chkBoxEmphasize.Checked)
+                checkBoxAutoRead.Checked = true;
+            else
+                checkBoxAutoRead.Checked = false;
+
+
             ShowId(_status.CurrentIdx);
+
+
             return;
 
             Question question = _status.AllQuestion[_status.CurrentIdx];
@@ -1508,7 +1542,7 @@ namespace DirvingTest
                 richTextBoxD.Find(question.OptionsEmphasize[3]);
                 richTextBoxD.SelectionFont = new Font("宋体", FontSizeNormal, FontStyle.Bold);
                 richTextBoxD.SelectionColor = Color.OrangeRed;
-            }            
+            }
             else
             {
                 richTextBoxTitle.Find(question.TittleEmphasize);

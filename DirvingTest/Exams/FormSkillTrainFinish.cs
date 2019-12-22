@@ -45,26 +45,44 @@ namespace DirvingTest
             labelCorrectCout.Text = RightCount.ToString();
             labelIncorrectCount.Text = WrongCount.ToString();
             labelNoanswerCount.Text = NoAnswerCount.ToString();
-
-
-            if(WrongCount== 0)
-            {
-                buttonRetun.Text = "关闭";
-            }
+            buttonRetun.Text = "关闭";
+            if (false == IsDoError)
+                btnOk.Text = "重做错题";
             else
-            {      
-                buttonRetun.Text = "重做错题";
-            }
+                btnOk.Text = "再做一次";
+
+            //if(WrongCount== 0)
+            //{
+            //    buttonRetun.Text = "关闭";
+            //}
+            //else
+            //{      
+            //    buttonRetun.Text = "重做错题";
+            //}
 
             //TODO:如果是做错题的，就再做一次和不做了
-            if(IsDoError)
-            {
-                buttonRetun.Text = "不做了";
-            }
-            
+            //if(IsDoError)
+            //{
+            //    buttonRetun.Text = "不做了";
+            //}
+            //else
+            //{
+            //    btnOk.Text = "关闭";
+            //}
+
         }
+
+        /// <summary>
+        /// 处理关闭
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonRetun_Click(object sender, EventArgs e)
         {
+            DialogResult = DialogResult.Cancel;
+            Close();
+            return;
+
             if (true == IsDoError)
             {
                 DialogResult = DialogResult.Cancel;
@@ -94,13 +112,49 @@ namespace DirvingTest
             Close();
         }
 
+        /// <summary>
+        /// 处理再做一次，重做错题
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnOk_Click(object sender, EventArgs e)
         {
+
+            //m_QuestionList.Clear();
+
+            //foreach (var answer in m_AnswerList)
+            //{
+            //    if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
+            //        m_QuestionList.Add(answer.Value.question);
+            //}
+
+            //if (0 == m_QuestionList.Count)
+            //{
+            //    DialogResult = DialogResult.Cancel;
+            //    Close();
+            //    return;
+            //}
+
+            //if (SendBack != null)
+            //    SendBack(m_QuestionList);
+
+            //DialogResult = DialogResult.Yes;
+            //Close();
+
+
             m_QuestionList.Clear();
 
             foreach (var answer in m_AnswerList)
             {
-                m_QuestionList.Add(answer.Value.question);
+                if (IsDoError)
+                {
+                    m_QuestionList.Add(answer.Value.question);
+                }
+                else
+                {
+                    if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
+                        m_QuestionList.Add(answer.Value.question);
+                }
             }
 
             if (SendBack != null)

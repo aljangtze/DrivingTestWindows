@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel4 = new System.Windows.Forms.Panel();
-			this.buttonRetun = new System.Windows.Forms.Button();
+            this.btnRepeat = new System.Windows.Forms.Button();
             this.btnOk = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.labelScore = new System.Windows.Forms.Label();
@@ -39,7 +39,7 @@
             this.labelName = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-			this.panel4.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -48,26 +48,25 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.MediumPurple;
-            this.panel4.Controls.Add(this.buttonRetun);
+            this.panel4.Controls.Add(this.btnRepeat);
             this.panel4.Controls.Add(this.btnOk);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(0, 282);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(435, 64);
             this.panel4.TabIndex = 7;
-			// 
-            // buttonRetun
             // 
-            this.buttonRetun.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.buttonRetun.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonRetun.Location = new System.Drawing.Point(45, 5);
-            this.buttonRetun.Name = "buttonRetun";
-            this.buttonRetun.Size = new System.Drawing.Size(148, 49);
-            this.buttonRetun.TabIndex = 1;
-            this.buttonRetun.Text = "查看错题";
-            this.buttonRetun.UseVisualStyleBackColor = true;
-            this.buttonRetun.Click += new System.EventHandler(this.buttonRetun_Click);
-            
+            // btnRepeat
+            // 
+            this.btnRepeat.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnRepeat.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnRepeat.Location = new System.Drawing.Point(45, 5);
+            this.btnRepeat.Name = "btnRepeat";
+            this.btnRepeat.Size = new System.Drawing.Size(148, 49);
+            this.btnRepeat.TabIndex = 1;
+            this.btnRepeat.Text = "再考一次";
+            this.btnRepeat.UseVisualStyleBackColor = true;
+            this.btnRepeat.Click += new System.EventHandler(this.btnRepeat_Click);
             // 
             // btnOk
             // 
@@ -202,7 +201,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label labelScore;
-        private System.Windows.Forms.Button buttonRetun;
+        private System.Windows.Forms.Button btnRepeat;
 
     }
 }

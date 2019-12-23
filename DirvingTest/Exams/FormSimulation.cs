@@ -354,8 +354,19 @@ namespace DirvingTest
                                 FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                                 if (DialogResult.OK == simulaInfo.ShowDialog())
                                 {
+                                    int questionCount = this.GenQuestions();
+                                    this.ResetControlsInfo(questionCount);
+                                    this.SetShowType(0);
+                                    this.Show();
+                                }
+                                else
+                                {
                                     _status.IsShowCorrectAnswer = true;
                                 }
+
+                                
+
+                                
                             }
 
                             return;
@@ -960,12 +971,14 @@ namespace DirvingTest
                     FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                     if (DialogResult.OK == simulaInfo.ShowDialog())
                     {
-                        _status.IsShowCorrectAnswer = true;
+                        int questionCount = this.GenQuestions();
+                        this.ResetControlsInfo(questionCount);
+                        this.SetShowType(0);
+                        this.Show();
                     }
                     else
                     {
-                        //SetFormFullScreen(false);
-                        //Hide();
+                        _status.IsShowCorrectAnswer = true;
                     }
                 }
                 else
@@ -1020,6 +1033,13 @@ namespace DirvingTest
                             {
                                 FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                                 if (DialogResult.OK == simulaInfo.ShowDialog())
+                                {
+                                    int questionCount = this.GenQuestions();
+                                    this.ResetControlsInfo(questionCount);
+                                    this.SetShowType(0);
+                                    this.Show();
+                                }
+                                else
                                 {
                                     _status.IsShowCorrectAnswer = true;
                                 }
@@ -1078,12 +1098,14 @@ namespace DirvingTest
                     FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                     if (DialogResult.OK == simulaInfo.ShowDialog())
                     {
-                        _status.IsShowCorrectAnswer = true;
+                        int questionCount = this.GenQuestions();
+                        this.ResetControlsInfo(questionCount);
+                        this.SetShowType(0);
+                        this.Show();
                     }
                     else
                     {
-                        //SetFormFullScreen(false);
-                        //Hide();
+                        _status.IsShowCorrectAnswer = true;
                     }
                 }
             }

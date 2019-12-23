@@ -40,6 +40,8 @@
             this.MenuUserManager = new System.Windows.Forms.ToolStripMenuItem();
             this.Register = new System.Windows.Forms.ToolStripMenuItem();
             this.panelTitle = new System.Windows.Forms.Panel();
+            this.lblUserName = new System.Windows.Forms.Label();
+            this.lblLogin = new System.Windows.Forms.Label();
             this.btnInitialQuestions = new CotrolLibrary.ImageButton();
             this.pictureBoxMenu = new System.Windows.Forms.PictureBox();
             this.btnPractise = new CotrolLibrary.ImageButton();
@@ -57,8 +59,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageButtonClose = new CotrolLibrary.ImageButton();
             this.imageButtonMin = new CotrolLibrary.ImageButton();
-            this.lblLogin = new System.Windows.Forms.Label();
-            this.lblUserName = new System.Windows.Forms.Label();
             this.contextMenuStrip1.SuspendLayout();
             this.panelTitle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu)).BeginInit();
@@ -177,6 +177,33 @@
             this.panelTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitle_MouseDown);
             this.panelTitle.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panelTitle_MouseUp);
             // 
+            // lblUserName
+            // 
+            this.lblUserName.AutoSize = true;
+            this.lblUserName.BackColor = System.Drawing.Color.Transparent;
+            this.lblUserName.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblUserName.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblUserName.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lblUserName.Location = new System.Drawing.Point(506, 58);
+            this.lblUserName.Name = "lblUserName";
+            this.lblUserName.Size = new System.Drawing.Size(70, 14);
+            this.lblUserName.TabIndex = 26;
+            this.lblUserName.Text = "登录用户:";
+            // 
+            // lblLogin
+            // 
+            this.lblLogin.AutoSize = true;
+            this.lblLogin.BackColor = System.Drawing.Color.Transparent;
+            this.lblLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblLogin.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblLogin.ForeColor = System.Drawing.Color.Goldenrod;
+            this.lblLogin.Location = new System.Drawing.Point(974, 6);
+            this.lblLogin.Name = "lblLogin";
+            this.lblLogin.Size = new System.Drawing.Size(35, 14);
+            this.lblLogin.TabIndex = 25;
+            this.lblLogin.Text = "登录";
+            this.lblLogin.Click += new System.EventHandler(this.label2_Click);
+            // 
             // btnInitialQuestions
             // 
             this.btnInitialQuestions.BackColor = System.Drawing.Color.Transparent;
@@ -223,7 +250,7 @@
             this.btnPractise.Size = new System.Drawing.Size(119, 37);
             this.btnPractise.TabIndex = 23;
             this.btnPractise.Tag = "4";
-            this.btnPractise.Text = "套题练习";
+            this.btnPractise.Text = "强化练习";
             this.btnPractise.TextFont = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnPractise.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButton_Click);
             // 
@@ -240,7 +267,7 @@
             this.btnRecoverExam.Size = new System.Drawing.Size(119, 37);
             this.btnRecoverExam.TabIndex = 22;
             this.btnRecoverExam.Tag = "5";
-            this.btnRecoverExam.Text = "强化练习";
+            this.btnRecoverExam.Text = "错题练习";
             this.btnRecoverExam.TextFont = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnRecoverExam.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButton_Click);
             // 
@@ -446,33 +473,6 @@
             this.imageButtonMin.TabIndex = 0;
             this.imageButtonMin.TextFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.imageButtonMin.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.imageButtonMin_Click);
-            // 
-            // lblLogin
-            // 
-            this.lblLogin.AutoSize = true;
-            this.lblLogin.BackColor = System.Drawing.Color.Transparent;
-            this.lblLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblLogin.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblLogin.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lblLogin.Location = new System.Drawing.Point(974, 6);
-            this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(35, 14);
-            this.lblLogin.TabIndex = 25;
-            this.lblLogin.Text = "登录";
-            this.lblLogin.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // lblUserName
-            // 
-            this.lblUserName.AutoSize = true;
-            this.lblUserName.BackColor = System.Drawing.Color.Transparent;
-            this.lblUserName.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblUserName.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblUserName.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.lblUserName.Location = new System.Drawing.Point(506, 58);
-            this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(70, 14);
-            this.lblUserName.TabIndex = 26;
-            this.lblUserName.Text = "登录用户:";
             // 
             // FormMain
             // 

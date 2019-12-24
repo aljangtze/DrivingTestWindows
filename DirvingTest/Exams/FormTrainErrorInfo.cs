@@ -21,11 +21,11 @@ namespace DirvingTest
             InitializeComponent();
         }
 
-        int ParentWidth = 1000;
-        public void SetInfo(Question question, int id, int parentWidth, bool isTrain=false)
+        int ParentHeight = 1000;
+        public void SetInfo(Question question, int id, int parentHeight, bool isTrain=false)
         {
             //labelTitle.Text = id + "." + question.Tittle;
-            ParentWidth = parentWidth;
+            ParentHeight = parentHeight;
 
             if (question.Type > 1)
             {
@@ -94,8 +94,9 @@ namespace DirvingTest
 
         private void FormSimulationErrorInfo_Shown(object sender, EventArgs e)
         {
-            Left = ParentWidth * 2 / 3;
-            Top = 50;
+            //Top = ParentHeight * 2 / 3;
+            //Left = 50;
+
 
             if (string.IsNullOrEmpty(_imagePath) && string.IsNullOrEmpty(_flashPath))
             {
@@ -131,5 +132,17 @@ namespace DirvingTest
 
         }
 
+        private void FormTrainErrorInfo_Load(object sender, EventArgs e)
+        {
+
+            int iActulaWidth = Screen.PrimaryScreen.Bounds.Width;
+
+            int iActulaHeight = Screen.PrimaryScreen.Bounds.Height;
+
+            Width = iActulaWidth - 200;
+            Height = iActulaHeight/2 - 20;
+            Left = 100;
+            Top = iActulaHeight / 2 - 20;
+        }
     }
 }

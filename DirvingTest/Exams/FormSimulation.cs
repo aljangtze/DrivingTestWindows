@@ -42,6 +42,7 @@ namespace DirvingTest
             InitializeComponent();
         }
 
+        bool IsShowSkill = false;
         int m_type = 0;
         bool IsDoError = false;
         public void SetShowType(int Type, bool isDoError = false)
@@ -56,14 +57,17 @@ namespace DirvingTest
                 _status.IsSkillTrain = false;
                 //labelTitle.Visible = false;
                 richTextBoxTitle.Visible = true;
-                chkBoxEmphasize.Visible = false;
-                chkBoxEmphasize.Checked = false;
+                
                 checkBoxAutoChange.Checked = false;
                 checkBoxAutoChange.Visible = false;
                 chkBoxShowError.Visible = false;
                 chkBoxShowError.Checked = false;
+
+                chkBoxEmphasize.Visible = false;
+                chkBoxEmphasize.Checked = false;
                 checkBoxAutoRead.Checked = false;
                 checkBoxAutoRead.Visible = false;
+
                 _status.IsShowCorrectAnswer = false;
                 _status.incorectAnswers = 0;
             }
@@ -80,8 +84,10 @@ namespace DirvingTest
                 richTextBoxTitle.Visible = true;
                 checkBoxAutoChange.Checked = false;
                 checkBoxAutoChange.Visible = true;
-                chkBoxEmphasize.Visible = true;
+                
+                chkBoxEmphasize.Visible = false;
                 chkBoxEmphasize.Checked = false;
+
                 checkBoxAutoRead.Checked = false;
                 chkBoxShowError.Visible = true;
                 chkBoxShowError.Checked = false;
@@ -363,10 +369,6 @@ namespace DirvingTest
                                 {
                                     _status.IsShowCorrectAnswer = true;
                                 }
-
-                                
-
-                                
                             }
 
                             return;
@@ -385,8 +387,10 @@ namespace DirvingTest
                     {
                         if (true == chkBoxShowError.Checked)
                         {
+                            UpdateTittleInfo(_status.CurrentIdx, true);
+
                             FormTrainErrorInfo errorInfo = new FormTrainErrorInfo();
-                            errorInfo.SetInfo(questionOld, _status.CurrentIdx, panelMain.Width, _status.IsSkillTrain);
+                            errorInfo.SetInfo(questionOld, _status.CurrentIdx, panelMain.Height, _status.IsSkillTrain);
                             errorInfo.ShowDialog();
                         }
                     }
@@ -406,16 +410,48 @@ namespace DirvingTest
                 }
             }
 
+
+
+
+
+
+            #region 显示题目信息
+            UpdateTittleInfo(id);
+            #endregion
+
+            //更新状态
+            _status.PrevIdx = id;
+            _status.CurrentIdx = id;
+
+            //处理上一题、下一题
+            btnPrevious.Enabled = (id != 0);
+            btnNext.Enabled = (id != _status.AllQuestion.Count - 1);
+
+            if (_status.IsSkillTrain && true == checkBoxAutoRead.Checked)
+            {
+                _voiceHelper.StopSpeaker();
+                string info = richTextBoxExplain.Text.Replace("&", " ");
+                System.Threading.Thread td = new System.Threading.Thread(() =>
+                {
+                    _voiceHelper.Speeker(info);
+                });
+                td.IsBackground = true;
+                td.Start();
+
+            }
+        }
+
+        void UpdateTittleInfo(int id, bool isErrorEmphaize=false)
+        {
             Question question = _status.AllQuestion[id];
             PanelData panelDataNew = (PanelData)_status.AllQeustionPanels[id].Tag;
             labelAnswer.Text = panelDataNew.answerString;
 
-            if (id == 0)
+            if (id == 0 && !isErrorEmphaize)
             {
                 _status.firstLoaded = true;
                 _status.AllQeustionPanels[id].BackColor = panelTemplate.BackColor;
             }
-
 
             int FontSizeNormal = 18;
             int FontSizeEmphasize = 20;
@@ -428,7 +464,9 @@ namespace DirvingTest
             }
 
             #region 显示题目信息
-            _status.AllQeustionPanels[id].BackColor = panelTemplate.BackColor;
+            if(!isErrorEmphaize)
+                _status.AllQeustionPanels[id].BackColor = panelTemplate.BackColor;
+
             int top = 0;
             richTextBoxTitle.Font = new Font("宋体", FontSizeNormal);
             if (false == _status.IsSkillTrain)
@@ -448,7 +486,7 @@ namespace DirvingTest
                 richTextBoxExplain.Font = new Font("宋体", FontSizeNormal, FontStyle.Bold);
 
                 richTextBoxTitle.Text = (id + 1) + "." + question.Tittle;
-                if (chkBoxEmphasize.Checked)
+                if (chkBoxEmphasize.Checked || isErrorEmphaize)
                 {
                     //查找强调并显示
                     //题目信息强调
@@ -483,7 +521,7 @@ namespace DirvingTest
                 richTextBoxD.Text = "D. " + question.Options[3];
                 //答案信息强调
                 //技巧时并且勾选了强调才增加强调
-                if (_status.IsSkillTrain && chkBoxEmphasize.Checked)
+                if (_status.IsSkillTrain && (chkBoxEmphasize.Checked || isErrorEmphaize))
                 {
                     string[] emphasizeList0 = question.OptionsEmphasize[0].Split(new char[3] { '&', ',', '，' });
                     for (int i = 0; i < emphasizeList0.Length; i++)
@@ -529,6 +567,9 @@ namespace DirvingTest
                     //richTextBoxD.SelectionFont = new Font("宋体", FontSizeNormal, FontStyle.Bold);
                     //richTextBoxD.SelectionColor = Color.OrangeRed;
                 }
+
+                if (isErrorEmphaize)
+                    return;
 
                 //判断是否多选题
                 btnRight.Visible = false;
@@ -729,28 +770,8 @@ namespace DirvingTest
                 this.axShockwaveFlash1.Play();
             }
             #endregion
-
-            //更新状态
-            _status.PrevIdx = id;
-            _status.CurrentIdx = id;
-
-            //处理上一题、下一题
-            btnPrevious.Enabled = (id != 0);
-            btnNext.Enabled = (id != _status.AllQuestion.Count - 1);
-
-            if (_status.IsSkillTrain && true == checkBoxAutoRead.Checked)
-            {
-                _voiceHelper.StopSpeaker();
-                string info = richTextBoxExplain.Text.Replace("&", " ");
-                System.Threading.Thread td = new System.Threading.Thread(() =>
-                {
-                    _voiceHelper.Speeker(info);
-                });
-                td.IsBackground = true;
-                td.Start();
-
-            }
         }
+
 
         #region 生成题目并打乱答案
         /// <summary>
@@ -1396,9 +1417,9 @@ namespace DirvingTest
 
         private void checkBoxAutoRead_CheckedChanged(object sender, EventArgs e)
         {
-            //if (checkBoxAutoRead.Checked == true)
-            //    _voiceHelper.Speeker(richTextBoxExplain.Text);
-            //else
+            if (checkBoxAutoRead.Checked == true)
+                _voiceHelper.Speeker(richTextBoxExplain.Text);
+            
             if (checkBoxAutoRead.Checked == false)
             {
                 //panelSimulation.Visible = true;
@@ -1534,10 +1555,10 @@ namespace DirvingTest
                 HeightOffset = 10;
             }
 
-            if (true == chkBoxEmphasize.Checked)
-                checkBoxAutoRead.Checked = true;
-            else
-                checkBoxAutoRead.Checked = false;
+            //if (true == chkBoxEmphasize.Checked)
+            //    checkBoxAutoRead.Checked = true;
+            //else
+            //    checkBoxAutoRead.Checked = false;
 
 
             ShowId(_status.CurrentIdx);
@@ -1583,6 +1604,37 @@ namespace DirvingTest
                 richTextBoxD.Find(question.OptionsEmphasize[3]);
                 richTextBoxD.SelectionFont = new Font("宋体", FontSizeNormal);
                 richTextBoxD.SelectionColor = Color.Black;
+            }
+        }
+
+        private void labelX7_Click(object sender, EventArgs e)
+        {
+            if (!_status.IsSkillTrain)
+                return;
+
+            IsShowSkill = !IsShowSkill;
+            if (false == IsShowSkill)
+            {
+                panelSimulation.Visible = true;
+                panelSimulation.BringToFront();
+                panelSkill.Visible = false;
+
+                chkBoxEmphasize.Visible = false;
+                chkBoxEmphasize.Checked = false;
+                checkBoxAutoRead.Checked = false;
+                checkBoxAutoRead.Visible = false;
+            }
+            else
+            {
+                panelSimulation.Visible = false;
+                panelSkill.BringToFront();
+                panelSkill.Visible = true;
+
+                chkBoxEmphasize.Visible = true;
+                chkBoxEmphasize.Checked = false;
+                checkBoxAutoRead.Visible = true;
+                checkBoxAutoRead.Checked = false;
+                
             }
         }
     }

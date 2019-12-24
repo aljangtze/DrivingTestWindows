@@ -25,7 +25,7 @@ namespace DirvingTest
                 labelInfo1.Top = 24;
                 labelInfo2.Visible = false;
                 labelInfo1.Height = 87;
-                btnBack.Focus();
+                btnSubmit.Focus();
             }
             else
             {
@@ -34,7 +34,7 @@ namespace DirvingTest
                 labelInfo1.Text = "1、点击【确认交卷】将提交考试成绩！";
                 labelInfo2.Text = "2、点击【继续考试】将关闭本窗口，继续考试！";
                 labelInfo2.Visible = true;
-                btnSubmit.Focus();
+                btnBack.Focus();
             }
         }
     }

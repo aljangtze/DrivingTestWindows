@@ -81,6 +81,7 @@
             this.labelTimer = new System.Windows.Forms.Label();
             this.labelClassInfo = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.chkBoxShowError = new System.Windows.Forms.CheckBox();
             this.chkBoxEmphasize = new System.Windows.Forms.CheckBox();
             this.imageButtonClose = new CotrolLibrary.ImageButton();
             this.panelSkill = new System.Windows.Forms.Panel();
@@ -97,7 +98,6 @@
             this.label102 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.chkBoxShowError = new System.Windows.Forms.CheckBox();
             this.panelQuestion.SuspendLayout();
             this.panelAnswerResult.SuspendLayout();
             this.panelTemplate.SuspendLayout();
@@ -443,7 +443,7 @@
             // 
             this.checkBoxAutoRead.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxAutoRead.AutoSize = true;
-            this.checkBoxAutoRead.Location = new System.Drawing.Point(1291, 442);
+            this.checkBoxAutoRead.Location = new System.Drawing.Point(1289, 455);
             this.checkBoxAutoRead.Name = "checkBoxAutoRead";
             this.checkBoxAutoRead.Size = new System.Drawing.Size(142, 23);
             this.checkBoxAutoRead.TabIndex = 47;
@@ -457,7 +457,7 @@
             // 
             this.checkBoxAutoChange.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBoxAutoChange.AutoSize = true;
-            this.checkBoxAutoChange.Location = new System.Drawing.Point(1131, 415);
+            this.checkBoxAutoChange.Location = new System.Drawing.Point(1131, 419);
             this.checkBoxAutoChange.Name = "checkBoxAutoChange";
             this.checkBoxAutoChange.Size = new System.Drawing.Size(104, 23);
             this.checkBoxAutoChange.TabIndex = 46;
@@ -531,6 +531,7 @@
             this.labelX7.Name = "labelX7";
             this.labelX7.Size = new System.Drawing.Size(190, 58);
             this.labelX7.TabIndex = 1;
+            this.labelX7.Click += new System.EventHandler(this.labelX7_Click);
             // 
             // labelX6
             // 
@@ -760,6 +761,7 @@
             this.labelTimer.TabIndex = 50;
             this.labelTimer.Text = "45:50";
             this.labelTimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelTimer.Click += new System.EventHandler(this.labelX7_Click);
             // 
             // labelClassInfo
             // 
@@ -805,11 +807,23 @@
             this.panelMain.Size = new System.Drawing.Size(1475, 694);
             this.panelMain.TabIndex = 0;
             // 
+            // chkBoxShowError
+            // 
+            this.chkBoxShowError.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.chkBoxShowError.AutoSize = true;
+            this.chkBoxShowError.Location = new System.Drawing.Point(1131, 455);
+            this.chkBoxShowError.Name = "chkBoxShowError";
+            this.chkBoxShowError.Size = new System.Drawing.Size(142, 23);
+            this.chkBoxShowError.TabIndex = 64;
+            this.chkBoxShowError.Text = "错误显示提示";
+            this.chkBoxShowError.UseVisualStyleBackColor = true;
+            this.chkBoxShowError.Visible = false;
+            // 
             // chkBoxEmphasize
             // 
             this.chkBoxEmphasize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.chkBoxEmphasize.AutoSize = true;
-            this.chkBoxEmphasize.Location = new System.Drawing.Point(1131, 444);
+            this.chkBoxEmphasize.Location = new System.Drawing.Point(1289, 419);
             this.chkBoxEmphasize.Name = "chkBoxEmphasize";
             this.chkBoxEmphasize.Size = new System.Drawing.Size(104, 23);
             this.chkBoxEmphasize.TabIndex = 63;
@@ -997,18 +1011,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 53;
             this.pictureBox2.TabStop = false;
-            // 
-            // chkBoxShowError
-            // 
-            this.chkBoxShowError.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.chkBoxShowError.AutoSize = true;
-            this.chkBoxShowError.Location = new System.Drawing.Point(1131, 473);
-            this.chkBoxShowError.Name = "chkBoxShowError";
-            this.chkBoxShowError.Size = new System.Drawing.Size(142, 23);
-            this.chkBoxShowError.TabIndex = 64;
-            this.chkBoxShowError.Text = "错误显示提示";
-            this.chkBoxShowError.UseVisualStyleBackColor = true;
-            this.chkBoxShowError.Visible = false;
             // 
             // FormSimulation
             // 

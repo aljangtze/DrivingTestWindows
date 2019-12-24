@@ -103,7 +103,7 @@
             // 
             this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 6;
+            this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -130,7 +130,7 @@
             // radioButtonTemplate
             // 
             this.radioButtonTemplate.BackColor = System.Drawing.Color.Transparent;
-            this.radioButtonTemplate.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.radioButtonTemplate.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.radioButtonTemplate.ForeColor = System.Drawing.Color.Navy;
             this.radioButtonTemplate.Location = new System.Drawing.Point(4, 4);
             this.radioButtonTemplate.Name = "radioButtonTemplate";
@@ -195,18 +195,18 @@
             this.lblInfo.TabIndex = 2;
             this.lblInfo.Text = "强化练习--强化练习容易错误的题目，帮助更好通过考试。";
             // 
-            // pictureBox1
+            // picHeader
             // 
             this.picHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
             this.picHeader.Image = global::DirvingTest.Properties.Resources.notes2;
             this.picHeader.Location = new System.Drawing.Point(46, 8);
-            this.picHeader.Name = "pictureBox1";
+            this.picHeader.Name = "picHeader";
             this.picHeader.Size = new System.Drawing.Size(64, 55);
             this.picHeader.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picHeader.TabIndex = 0;
             this.picHeader.TabStop = false;
             // 
-            // FormIntensifySelect
+            // FormChaperSelect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -215,7 +215,7 @@
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panelDown);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormIntensifySelect";
+            this.Name = "FormChaperSelect";
             this.Text = "9";
             this.Load += new System.EventHandler(this.FormSkillSelect_Load);
             this.panelDown.ResumeLayout(false);

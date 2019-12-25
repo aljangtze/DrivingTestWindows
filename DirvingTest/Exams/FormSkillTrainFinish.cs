@@ -47,15 +47,9 @@ namespace DirvingTest
             labelNoanswerCount.Text = NoAnswerCount.ToString();
             buttonRetun.Text = "关闭";
             if (false == IsDoError)
-            {
-                btnOk.Text = "再做一次";
-                buttonRetun.Text = "重做错题";
-            }
+                btnOk.Text = "重做错题";
             else
-            {
                 btnOk.Text = "再做一次";
-                buttonRetun.Text = "关闭";
-            }
 
             //if(WrongCount== 0)
             //{
@@ -85,28 +79,7 @@ namespace DirvingTest
         /// <param name="e"></param>
         private void buttonRetun_Click(object sender, EventArgs e)
         {
-            if (IsDoError == false)
-            {
-                m_QuestionList.Clear();
-
-                foreach (var answer in m_AnswerList)
-                {
-
-                    if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
-                        m_QuestionList.Add(answer.Value.question);
-
-                }
-
-                if (SendBack != null)
-                    SendBack(m_QuestionList);
-
-                this.DialogResult = DialogResult.Yes;
-            }
-            else
-            {
-                DialogResult = DialogResult.Cancel;
-            }
-            
+            DialogResult = DialogResult.Cancel;
             Close();
             return;
 
@@ -173,15 +146,15 @@ namespace DirvingTest
 
             foreach (var answer in m_AnswerList)
             {
-                //if (IsDoError)
+                if (IsDoError)
                 {
                     m_QuestionList.Add(answer.Value.question);
                 }
-                //else
-                //{
-                //    if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
-                //        m_QuestionList.Add(answer.Value.question);
-                //}
+                else
+                {
+                    if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
+                        m_QuestionList.Add(answer.Value.question);
+                }
             }
 
             if (SendBack != null)

@@ -1615,25 +1615,25 @@ namespace DirvingTest
             IsShowSkill = !IsShowSkill;
             if (false == IsShowSkill)
             {
-                panelSimulation.Visible = true;
-                panelSimulation.BringToFront();
-                panelSkill.Visible = false;
+                //panelSimulation.Visible = true;
+                //panelSimulation.BringToFront();
+                //panelSkill.Visible = false;
 
                 chkBoxEmphasize.Visible = false;
                 chkBoxEmphasize.Checked = false;
-                checkBoxAutoRead.Checked = false;
-                checkBoxAutoRead.Visible = false;
+                //checkBoxAutoRead.Checked = false;
+                //checkBoxAutoRead.Visible = false;
             }
             else
             {
-                panelSimulation.Visible = false;
-                panelSkill.BringToFront();
-                panelSkill.Visible = true;
+                //panelSimulation.Visible = false;
+                //panelSkill.BringToFront();
+                //panelSkill.Visible = true;
 
                 chkBoxEmphasize.Visible = true;
-                chkBoxEmphasize.Checked = false;
-                checkBoxAutoRead.Visible = true;
-                checkBoxAutoRead.Checked = false;
+                chkBoxEmphasize.Checked = true;
+                //checkBoxAutoRead.Visible = true;
+                //checkBoxAutoRead.Checked = false;
                 
             }
         }

@@ -906,6 +906,24 @@ namespace DirvingTest
         }
 
 
+        public static bool ClearErrorQuestion()
+        {
+            try
+            {
+                string sql = string.Format("delete from answers where user_id=@user_id;vacuum");
+
+                int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sql, new SQLiteParameter[] { new SQLiteParameter("@user_id", UserManager.LoginUser.ID) });
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+                return false;
+            }
+        }
+
+
         private static List<Question> GetQuestionListWidthList(List<int> idList)
         {
             List<Question> list = new List<Question>();

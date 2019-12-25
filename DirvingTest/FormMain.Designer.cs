@@ -179,29 +179,30 @@
             // 
             // lblUserName
             // 
-            this.lblUserName.AutoSize = true;
             this.lblUserName.BackColor = System.Drawing.Color.Transparent;
             this.lblUserName.Cursor = System.Windows.Forms.Cursors.Default;
             this.lblUserName.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblUserName.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.lblUserName.Location = new System.Drawing.Point(664, 32);
+            this.lblUserName.Location = new System.Drawing.Point(506, 49);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(112, 14);
+            this.lblUserName.Size = new System.Drawing.Size(140, 14);
             this.lblUserName.TabIndex = 26;
             this.lblUserName.Text = "登录用户:未登录";
+            this.lblUserName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblLogin
             // 
             this.lblLogin.AutoSize = true;
             this.lblLogin.BackColor = System.Drawing.Color.Transparent;
             this.lblLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblLogin.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblLogin.Font = new System.Drawing.Font("宋体", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblLogin.ForeColor = System.Drawing.Color.Goldenrod;
-            this.lblLogin.Location = new System.Drawing.Point(974, 6);
+            this.lblLogin.Location = new System.Drawing.Point(851, 85);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(35, 14);
+            this.lblLogin.Size = new System.Drawing.Size(89, 19);
             this.lblLogin.TabIndex = 25;
-            this.lblLogin.Text = "登录";
+            this.lblLogin.Text = "用户登录";
+            this.lblLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblLogin.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnInitialQuestions
@@ -210,7 +211,7 @@
             this.btnInitialQuestions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnInitialQuestions.ForeColor = System.Drawing.SystemColors.Control;
             this.btnInitialQuestions.HeadImage = null;
-            this.btnInitialQuestions.Location = new System.Drawing.Point(869, 81);
+            this.btnInitialQuestions.Location = new System.Drawing.Point(946, 30);
             this.btnInitialQuestions.MouseClickImage = global::DirvingTest.Properties.Resources.ButtonImage2;
             this.btnInitialQuestions.MouseOverImage = global::DirvingTest.Properties.Resources.ButtonImage2;
             this.btnInitialQuestions.Name = "btnInitialQuestions";
@@ -227,7 +228,7 @@
             this.pictureBoxMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBoxMenu.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxMenu.Image = global::DirvingTest.Properties.Resources.menu;
-            this.pictureBoxMenu.Location = new System.Drawing.Point(603, 27);
+            this.pictureBoxMenu.Location = new System.Drawing.Point(603, 22);
             this.pictureBoxMenu.Name = "pictureBoxMenu";
             this.pictureBoxMenu.Size = new System.Drawing.Size(23, 23);
             this.pictureBoxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -410,7 +411,7 @@
             this.labelChangeExamType.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelChangeExamType.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelChangeExamType.ForeColor = System.Drawing.Color.Goldenrod;
-            this.labelChangeExamType.Location = new System.Drawing.Point(506, 32);
+            this.labelChangeExamType.Location = new System.Drawing.Point(506, 27);
             this.labelChangeExamType.Name = "labelChangeExamType";
             this.labelChangeExamType.Size = new System.Drawing.Size(91, 14);
             this.labelChangeExamType.TabIndex = 4;

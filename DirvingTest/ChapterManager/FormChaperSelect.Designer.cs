@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblInfo = new System.Windows.Forms.Label();
             this.picHeader = new System.Windows.Forms.PictureBox();
+            this.btnClear = new CotrolLibrary.ImageButton();
             this.panelDown.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelTop.SuspendLayout();
@@ -113,7 +114,7 @@
             this.tableLayoutPanel1.Controls.Add(this.radioButtonTemplate, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 45);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 10;
+            this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
@@ -145,6 +146,7 @@
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.Color.Azure;
+            this.panelTop.Controls.Add(this.btnClear);
             this.panelTop.Controls.Add(this.panel3);
             this.panelTop.Controls.Add(this.label2);
             this.panelTop.Controls.Add(this.lblInfo);
@@ -206,6 +208,20 @@
             this.picHeader.TabIndex = 0;
             this.picHeader.TabStop = false;
             // 
+            // btnClear
+            // 
+            this.btnClear.BackgroundImage = global::DirvingTest.Properties.Resources._20150614043555476_easyicon_net_512;
+            this.btnClear.HeadImage = null;
+            this.btnClear.Location = new System.Drawing.Point(908, 14);
+            this.btnClear.MouseClickImage = global::DirvingTest.Properties.Resources._20150614043603514_easyicon_net_512;
+            this.btnClear.MouseOverImage = global::DirvingTest.Properties.Resources._20150614043603514_easyicon_net_512;
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(138, 40);
+            this.btnClear.TabIndex = 31;
+            this.btnClear.Text = "清除错题";
+            this.btnClear.TextFont = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnClear.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.btnClear_Click);
+            // 
             // FormChaperSelect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -243,5 +259,6 @@
         private CotrolLibrary.ImageButton btnSequence;
         private System.Windows.Forms.Label labelInfo;
         private CotrolLibrary.ImageButton btnRadom;
+        private CotrolLibrary.ImageButton btnClear;
     }
 }

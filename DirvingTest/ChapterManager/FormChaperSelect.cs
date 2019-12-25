@@ -47,7 +47,7 @@ namespace DirvingTest
                     ChapterManager.GetChapterList((int)chapterType, out chapterList);
                     //chapterList = ModelManager.m_DicSkillList;
                     //g_Relation_Question_List = QuestionManager.m_Relation_Question_Skill;
-                    
+                    btnClear.Visible = false;
                     break;
 
                 case 2:
@@ -55,10 +55,12 @@ namespace DirvingTest
                     ChapterManager.GetChapterList((int)chapterType, out chapterList);
                     //chapterList = ModelManager.m_DicBankList;
                     //g_Relation_Question_List = QuestionManager.m_Relation_Question_Suite;
+                    btnClear.Visible = false;
                     break;
                 case 3:
                     lblInfo.Text = "错题练习--强化练习容易错误的题目，帮助更好通过考试。";
                     ChapterManager.GetChapterList((int)chapterType, out chapterList);
+                    btnClear.Visible = true;
                     //chapterList = ModelManager.m_DicIntensifyList;
                     //g_Relation_Question_List = QuestionManager.m_Relation_Question_Intensity;
                     break;
@@ -264,10 +266,12 @@ namespace DirvingTest
             if (g_ChapterInfo.ChapterType == 3)
             {
                 list = QuestionManager.GetErrorQuestionFromDB(g_ChapterInfo);
+                
             }
             else
             {
                 list = QuestionManager.GetQuestionsFromDB(g_ChapterInfo.ID);
+
             }
 
             if (g_ChapterInfo.ID != g_FirstChapterId)
@@ -308,6 +312,18 @@ namespace DirvingTest
         public void ReloadForm()
         {
             FormSkillSelect_Load(null, null);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            if(false == QuestionManager.ClearErrorQuestion())
+            {
+                MessageBox.Show("清空题目失败", "错误提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                MessageBox.Show("清空题目成功", "消息提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

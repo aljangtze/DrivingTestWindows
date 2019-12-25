@@ -813,9 +813,9 @@
             this.chkBoxShowError.AutoSize = true;
             this.chkBoxShowError.Location = new System.Drawing.Point(1131, 455);
             this.chkBoxShowError.Name = "chkBoxShowError";
-            this.chkBoxShowError.Size = new System.Drawing.Size(142, 23);
+            this.chkBoxShowError.Size = new System.Drawing.Size(104, 23);
             this.chkBoxShowError.TabIndex = 64;
-            this.chkBoxShowError.Text = "错误显示提示";
+            this.chkBoxShowError.Text = "做错提示";
             this.chkBoxShowError.UseVisualStyleBackColor = true;
             this.chkBoxShowError.Visible = false;
             // 

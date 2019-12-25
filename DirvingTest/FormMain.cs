@@ -271,10 +271,15 @@ namespace DirvingTest
             FormUserLogin formUserLogin = new FormUserLogin();
             formUserLogin.ShowDialog();
 
-            if(UserManager.IsLogin)
+            if (UserManager.IsLogin)
             {
-                lblLogin.Visible = false;
+                lblLogin.Text = "切换用户";
                 lblUserName.Text = "登录用户:" + UserManager.LoginUser.UserName;
+            }
+            else
+            {
+                lblUserName.Text = "登录用户:" + "未登录";
+                lblLogin.Text = "用户登录";
             }
         }
 
@@ -833,8 +838,14 @@ namespace DirvingTest
 
             if (UserManager.IsLogin)
             {
-                lblLogin.Visible = false;
+                lblLogin.Text = "切换用户";
+                //lblLogin.Visible = false;
                 lblUserName.Text = "登录用户:" + UserManager.LoginUser.UserName;
+            }
+            else
+            {
+                lblUserName.Text = "登录用户:" + "未登录";
+                lblLogin.Text = "用户登录";
             }
         }
     }

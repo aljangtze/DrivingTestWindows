@@ -10,14 +10,15 @@ using System.Windows.Forms;
 
 namespace DirvingTest
 {
-    public partial class FormQuestionManage : Form, InterfaceForm
+    public partial class FormQuestionManageSql : Form, InterfaceForm
     {
         FormQuestionDetails m_details = null;
-        public FormQuestionManage()
+        public FormQuestionManageSql()
         {
             InitializeComponent();
         }
 
+        ChapterManager chapterManager;
         private void FormQuestionManage_Load(object sender, EventArgs e)
         {
             dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.PaleTurquoise;
@@ -29,48 +30,16 @@ namespace DirvingTest
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             dataGridView1.RowsDefaultCellStyle.WrapMode = (DataGridViewTriState.True);
 
-            //dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            chapterManager = new ChapterManager();
+            chapterManager.GetChapterTypeList(out List<ChapterType> chapterTypeList, true);
+            cboxChaperType.Items.Clear();
 
-            m_details = new FormQuestionDetails();
-             m_details.FormBack += SendBack;
-            m_details.TopLevel = false;
-            m_details.Parent = this.panelDetails;
-        }
-
-        private void FormQuestionManage_Shown(object sender, EventArgs e)
-        {
-            ChapterInfo modelNull = new ChapterInfo();
-            modelNull.ID = 0;
-            modelNull.Name = "全部";
-
-            ChapterInfo modelNotSplit = new ChapterInfo();
-            modelNotSplit.ID = -1;
-            modelNotSplit.Name = "未分类";
-
-            comboBoxChapter.Items.Add(modelNull);
-            foreach (var model in ModelManager.m_DicMoudleList)
+            foreach (ChapterType chapterType in chapterTypeList)
             {
-                comboBoxChapter.Items.Add(model);
+                cboxChaperType.Items.Add(chapterType);
             }
 
-            comboBoxSkill.Items.Add(modelNull);
-            foreach(var model in ModelManager.m_DicSkillList)
-            {
-                comboBoxSkill.Items.Add(model.Value);
-            }
-            comboBoxSkill.Items.Add(modelNotSplit);
-
-            comboBoxBank.Items.Add(modelNull);
-            foreach(var model in ModelManager.m_DicBankList)
-            {
-                comboBoxBank.Items.Add(model.Value);
-            }
-            comboBoxBank.Items.Add(modelNotSplit);
-
-            comboBoxBank.SelectedIndex = 0;
-            comboBoxSkill.SelectedIndex = 0;
-            comboBoxChapter.SelectedIndex = 1;
-            
+            cboxChaperType.SelectedIndex = 0;
 
             foreach (var classification in Question._ModelClassificationInfo)
             {
@@ -83,9 +52,16 @@ namespace DirvingTest
                 comboBoxType.Items.Add(typeInfo);
             }
             comboBoxType.SelectedIndex = 0;
+            isLoadSuccess = true;
+        }
 
+        bool isLoadSuccess = false;
+        private void FormQuestionManage_Shown(object sender, EventArgs e)
+        {
             RefreshQuestions();
         }
+
+        
 
         private void AddItem(Question question)
         {
@@ -229,6 +205,11 @@ namespace DirvingTest
         //TODO;更新题目列表
         private void RefreshQuestions()
         {
+            if (false == isLoadSuccess)
+                return;
+
+
+            return;
             try
             {
                 dataGridView1.Rows.Clear();
@@ -243,31 +224,31 @@ namespace DirvingTest
                             continue;
                     }
 
-                    ChapterInfo modelSkill = (ChapterInfo)comboBoxSkill.SelectedItem;
-                    if(modelSkill.ID == -1)
-                    {
-                        //未分类
-                        if (question.Skill != 0)
-                            continue;
-                    }
-                    else if(modelSkill.ID !=0)
-                    {
-                        if (question.Skill != modelSkill.ID)
-                            continue;
-                    }
+                    //ChapterInfo modelSkill = (ChapterInfo)comboBoxSkill.SelectedItem;
+                    //if(modelSkill.ID == -1)
+                    //{
+                    //    //未分类
+                    //    if (question.Skill != 0)
+                    //        continue;
+                    //}
+                    //else if(modelSkill.ID !=0)
+                    //{
+                    //    if (question.Skill != modelSkill.ID)
+                    //        continue;
+                    //}
 
-                    ChapterInfo modelBank = (ChapterInfo)comboBoxBank.SelectedItem;
-                    if(modelBank.ID ==-1)
-                    {
-                        //未分类
-                        if (question.BankId != 0)
-                            continue;
-                    }
-                    else if(modelBank.ID !=0)
-                    {
-                        if (question.BankId != modelBank.ID)
-                            continue;
-                    }
+                    //ChapterInfo modelBank = (ChapterInfo)comboBoxBank.SelectedItem;
+                    //if(modelBank.ID ==-1)
+                    //{
+                    //    //未分类
+                    //    if (question.BankId != 0)
+                    //        continue;
+                    //}
+                    //else if(modelBank.ID !=0)
+                    //{
+                    //    if (question.BankId != modelBank.ID)
+                    //        continue;
+                    //}
 
                     //if (0 != comboBoxSkill.SelectedIndex)
                     //{
@@ -463,6 +444,33 @@ namespace DirvingTest
         private void button2_Click(object sender, EventArgs e)
         {
             pageControl1.TotalCount = 200;
+        }
+
+        private void cboxChaperType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cboxChaperType.SelectedIndex < 0)
+                return;
+
+            ChapterType chapterType = (ChapterType)cboxChaperType.SelectedItem;
+            ChapterManager.GetChapterList(chapterType.ID, out List<ChapterInfo> chapterInfoList);
+
+            comboBoxChapter.Items.Clear();
+            ChapterInfo modelNull = new ChapterInfo();
+            modelNull.ID = 0;
+            modelNull.Name = "全部";
+            comboBoxChapter.Items.Add(modelNull);
+
+            ChapterInfo modelNotSplit = new ChapterInfo();
+            modelNotSplit.ID = -1;
+            modelNotSplit.Name = "未分类";
+            comboBoxChapter.Items.Add(modelNotSplit);
+
+            foreach (ChapterInfo chapterInfo in chapterInfoList)
+            {
+                comboBoxChapter.Items.Add(chapterInfo);
+            }
+
+            comboBoxChapter.SelectedIndex = 0;
         }
     }
 }

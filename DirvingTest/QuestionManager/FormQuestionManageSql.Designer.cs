@@ -1,6 +1,6 @@
 ﻿namespace DirvingTest
 {
-    partial class FormQuestionManage
+    partial class FormQuestionManageSql
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cboxSkill = new System.Windows.Forms.ComboBox();
-            this.comboBoxEasyError = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.comboBoxBank = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.cboxChaperType = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.textBoxFilterOptions = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBoxFilterTittle = new System.Windows.Forms.TextBox();
@@ -56,8 +53,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.comboBoxClassification = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBoxSkill = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.comboBoxChapter = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.labelTittle = new System.Windows.Forms.Label();
@@ -73,9 +68,8 @@
             this.Column6 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panelManager = new System.Windows.Forms.Panel();
-            this.panelDetails = new System.Windows.Forms.Panel();
             this.pageControl1 = new DirvingTest.PageControl();
-            this.button2 = new System.Windows.Forms.Button();
+            this.panelDetails = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -87,12 +81,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Azure;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.cboxSkill);
-            this.panel1.Controls.Add(this.comboBoxEasyError);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.comboBoxBank);
-            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.cboxChaperType);
+            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.textBoxFilterOptions);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.textBoxFilterTittle);
@@ -103,8 +93,6 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.comboBoxClassification);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.comboBoxSkill);
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.comboBoxChapter);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.labelTittle);
@@ -114,54 +102,28 @@
             this.panel1.Size = new System.Drawing.Size(1039, 143);
             this.panel1.TabIndex = 2;
             // 
-            // cboxSkill
+            // cboxChaperType
             // 
-            this.cboxSkill.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboxSkill.FormattingEnabled = true;
-            this.cboxSkill.Location = new System.Drawing.Point(471, 17);
-            this.cboxSkill.Name = "cboxSkill";
-            this.cboxSkill.Size = new System.Drawing.Size(156, 20);
-            this.cboxSkill.TabIndex = 20;
+            this.cboxChaperType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboxChaperType.FormattingEnabled = true;
+            this.cboxChaperType.Location = new System.Drawing.Point(68, 53);
+            this.cboxChaperType.Name = "cboxChaperType";
+            this.cboxChaperType.Size = new System.Drawing.Size(156, 20);
+            this.cboxChaperType.TabIndex = 23;
+            this.cboxChaperType.SelectedIndexChanged += new System.EventHandler(this.cboxChaperType_SelectedIndexChanged);
             // 
-            // comboBoxEasyError
+            // label11
             // 
-            this.comboBoxEasyError.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxEasyError.FormattingEnabled = true;
-            this.comboBoxEasyError.Location = new System.Drawing.Point(848, 82);
-            this.comboBoxEasyError.Name = "comboBoxEasyError";
-            this.comboBoxEasyError.Size = new System.Drawing.Size(156, 20);
-            this.comboBoxEasyError.TabIndex = 18;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(780, 86);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 12);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "易错题分类:";
-            // 
-            // comboBoxBank
-            // 
-            this.comboBoxBank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxBank.FormattingEnabled = true;
-            this.comboBoxBank.Location = new System.Drawing.Point(848, 53);
-            this.comboBoxBank.Name = "comboBoxBank";
-            this.comboBoxBank.Size = new System.Drawing.Size(156, 20);
-            this.comboBoxBank.TabIndex = 16;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(793, 57);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(59, 12);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "套题分类:";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(12, 57);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(59, 12);
+            this.label11.TabIndex = 22;
+            this.label11.Text = "分组类型:";
             // 
             // textBoxFilterOptions
             // 
-            this.textBoxFilterOptions.Location = new System.Drawing.Point(313, 85);
+            this.textBoxFilterOptions.Location = new System.Drawing.Point(478, 88);
             this.textBoxFilterOptions.Name = "textBoxFilterOptions";
             this.textBoxFilterOptions.Size = new System.Drawing.Size(156, 21);
             this.textBoxFilterOptions.TabIndex = 6;
@@ -169,7 +131,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(258, 88);
+            this.label8.Location = new System.Drawing.Point(423, 91);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(59, 12);
             this.label8.TabIndex = 15;
@@ -179,7 +141,7 @@
             // 
             this.textBoxFilterTittle.Location = new System.Drawing.Point(68, 85);
             this.textBoxFilterTittle.Name = "textBoxFilterTittle";
-            this.textBoxFilterTittle.Size = new System.Drawing.Size(156, 21);
+            this.textBoxFilterTittle.Size = new System.Drawing.Size(349, 21);
             this.textBoxFilterTittle.TabIndex = 5;
             // 
             // label6
@@ -193,9 +155,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(495, 85);
+            this.button1.Location = new System.Drawing.Point(690, 88);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(206, 23);
             this.button1.TabIndex = 7;
             this.button1.Text = "筛选";
             this.button1.UseVisualStyleBackColor = true;
@@ -214,7 +176,7 @@
             this.panel4.Controls.Add(this.checkBoxSelectAll);
             this.panel4.Location = new System.Drawing.Point(0, 117);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(888, 24);
+            this.panel4.Size = new System.Drawing.Size(1036, 24);
             this.panel4.TabIndex = 11;
             // 
             // labelQuestionCount
@@ -222,7 +184,7 @@
             this.labelQuestionCount.AutoSize = true;
             this.labelQuestionCount.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelQuestionCount.ForeColor = System.Drawing.Color.Maroon;
-            this.labelQuestionCount.Location = new System.Drawing.Point(781, 6);
+            this.labelQuestionCount.Location = new System.Drawing.Point(971, 6);
             this.labelQuestionCount.Name = "labelQuestionCount";
             this.labelQuestionCount.Size = new System.Drawing.Size(33, 12);
             this.labelQuestionCount.TabIndex = 12;
@@ -231,7 +193,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(819, 7);
+            this.label7.Location = new System.Drawing.Point(1009, 7);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(17, 12);
             this.label7.TabIndex = 13;
@@ -240,7 +202,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(761, 8);
+            this.label5.Location = new System.Drawing.Point(951, 8);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(17, 12);
             this.label5.TabIndex = 11;
@@ -305,7 +267,7 @@
             // 
             this.comboBoxType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxType.FormattingEnabled = true;
-            this.comboBoxType.Location = new System.Drawing.Point(610, 52);
+            this.comboBoxType.Location = new System.Drawing.Point(904, 57);
             this.comboBoxType.Name = "comboBoxType";
             this.comboBoxType.Size = new System.Drawing.Size(75, 20);
             this.comboBoxType.TabIndex = 4;
@@ -314,7 +276,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(576, 56);
+            this.label4.Location = new System.Drawing.Point(870, 61);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 12);
             this.label4.TabIndex = 10;
@@ -324,7 +286,7 @@
             // 
             this.comboBoxClassification.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxClassification.FormattingEnabled = true;
-            this.comboBoxClassification.Location = new System.Drawing.Point(452, 52);
+            this.comboBoxClassification.Location = new System.Drawing.Point(746, 57);
             this.comboBoxClassification.Name = "comboBoxClassification";
             this.comboBoxClassification.Size = new System.Drawing.Size(96, 20);
             this.comboBoxClassification.TabIndex = 3;
@@ -333,45 +295,26 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(395, 57);
+            this.label3.Location = new System.Drawing.Point(689, 62);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 12);
             this.label3.TabIndex = 8;
             this.label3.Text = "题目类别：";
             // 
-            // comboBoxSkill
-            // 
-            this.comboBoxSkill.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxSkill.FormattingEnabled = true;
-            this.comboBoxSkill.Location = new System.Drawing.Point(848, 21);
-            this.comboBoxSkill.Name = "comboBoxSkill";
-            this.comboBoxSkill.Size = new System.Drawing.Size(156, 20);
-            this.comboBoxSkill.TabIndex = 2;
-            this.comboBoxSkill.SelectedIndexChanged += new System.EventHandler(this.comboBoxChapter_SelectedValueChanged);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(793, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 12);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "技巧分类:";
-            // 
             // comboBoxChapter
             // 
             this.comboBoxChapter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxChapter.FormattingEnabled = true;
-            this.comboBoxChapter.Location = new System.Drawing.Point(207, 54);
+            this.comboBoxChapter.Location = new System.Drawing.Point(313, 54);
             this.comboBoxChapter.Name = "comboBoxChapter";
-            this.comboBoxChapter.Size = new System.Drawing.Size(156, 20);
+            this.comboBoxChapter.Size = new System.Drawing.Size(323, 20);
             this.comboBoxChapter.TabIndex = 1;
             this.comboBoxChapter.SelectedValueChanged += new System.EventHandler(this.comboBoxChapter_SelectedValueChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(152, 58);
+            this.label1.Location = new System.Drawing.Point(258, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 12);
             this.label1.TabIndex = 4;
@@ -391,14 +334,14 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle25.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -411,26 +354,26 @@
             this.Column10,
             this.Column6,
             this.Column9});
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView1.Location = new System.Drawing.Point(0, 143);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView1.RowTemplate.Height = 23;
@@ -453,8 +396,8 @@
             // 
             // Column3
             // 
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.Column3.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column3.HeaderText = "题目名称";
             this.Column3.Name = "Column3";
             this.Column3.Width = 400;
@@ -511,17 +454,9 @@
             this.panelManager.Size = new System.Drawing.Size(1039, 582);
             this.panelManager.TabIndex = 4;
             // 
-            // panelDetails
-            // 
-            this.panelDetails.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDetails.Location = new System.Drawing.Point(0, 0);
-            this.panelDetails.Name = "panelDetails";
-            this.panelDetails.Size = new System.Drawing.Size(1039, 582);
-            this.panelDetails.TabIndex = 5;
-            // 
             // pageControl1
             // 
-            this.pageControl1.CurrentPage = 0;
+            this.pageControl1.CurrentPage = 1;
             this.pageControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pageControl1.Location = new System.Drawing.Point(0, 541);
             this.pageControl1.Name = "pageControl1";
@@ -530,17 +465,15 @@
             this.pageControl1.TabIndex = 4;
             this.pageControl1.TotalCount = 100;
             // 
-            // button2
+            // panelDetails
             // 
-            this.button2.Location = new System.Drawing.Point(665, 88);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "筛选";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.panelDetails.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDetails.Location = new System.Drawing.Point(0, 0);
+            this.panelDetails.Name = "panelDetails";
+            this.panelDetails.Size = new System.Drawing.Size(1039, 582);
+            this.panelDetails.TabIndex = 5;
             // 
-            // FormQuestionManage
+            // FormQuestionManageSql
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -549,7 +482,7 @@
             this.Controls.Add(this.panelManager);
             this.Controls.Add(this.panelDetails);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormQuestionManage";
+            this.Name = "FormQuestionManageSql";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FormQuestionManage";
             this.Load += new System.EventHandler(this.FormQuestionManage_Load);
@@ -575,8 +508,6 @@
         private System.Windows.Forms.Panel panelDetails;
         private System.Windows.Forms.ComboBox comboBoxChapter;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBoxSkill;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBoxClassification;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboBoxType;
@@ -595,10 +526,6 @@
         private System.Windows.Forms.TextBox textBoxFilterOptions;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBoxFilterTittle;
-        private System.Windows.Forms.ComboBox comboBoxBank;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBoxEasyError;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -609,8 +536,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewButtonColumn Column6;
         private System.Windows.Forms.DataGridViewButtonColumn Column9;
-        private System.Windows.Forms.ComboBox cboxSkill;
         private PageControl pageControl1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox cboxChaperType;
     }
 }

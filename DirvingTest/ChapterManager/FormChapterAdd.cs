@@ -19,6 +19,14 @@ namespace DirvingTest
             chapterManager = new ChapterManager();
             m_chapter = new ChapterInfo();
 
+            chapterManager.GetChapterTypeList(out List<ChapterType> chapterTypeList);
+
+            cboxChapterType.Items.Clear();
+            foreach (ChapterType chapterTypeInfo in chapterTypeList)
+            {
+                cboxChapterType.Items.Add(chapterTypeInfo);
+            }
+
         }
 
         ChapterManager chapterManager;
@@ -79,6 +87,8 @@ namespace DirvingTest
             m_chapter.IsEnable = comboBoxStatus.SelectedIndex == 0 ? true : false;
             m_chapter.Classification = comboBoxType.SelectedIndex + 1;
             m_chapter.ChapterType = _Type;
+            m_chapter.ChapterSqlString = txtSql.Text;
+            m_chapter.SqlParamter = txtParamerter.Text;
             if (false == chapterManager.AddChapter(m_chapter))
             {
                 MessageBox.Show("保存信息失败！", "提示信息", MessageBoxButtons.OK);

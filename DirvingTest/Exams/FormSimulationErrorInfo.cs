@@ -122,7 +122,7 @@ namespace DirvingTest
                 _voiceHelper.Speeker(info);
             });
             td.IsBackground = true;
-            td.Start();
+            //td.Start();
 
         }
 

@@ -27,12 +27,15 @@ namespace DirvingTest
         {
             
             string userName = "";
+            string userPassword = "";
 
             string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            folderPath = Path.Combine(folderPath, "DrivingTest");
             string filePath = Path.Combine(folderPath, "user.ini");
             if (File.Exists(filePath))
             {
                 userName = ConfigFileHelper.IniReadValue("UserInfo", "UserName", filePath);
+                userPassword = ConfigFileHelper.IniReadValue("UserInfo", "UserPassword", filePath);
             }
             
             txtName.Text = userName;
@@ -60,8 +63,14 @@ namespace DirvingTest
                 SystemConfig._IsLogin = UserManager.LoginUser.Type == 1;
 
                 string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
+                folderPath = Path.Combine(folderPath, "DrivingTest");
+                if (!Directory.Exists(folderPath))
+                    Directory.CreateDirectory(folderPath);
                 string filePath = Path.Combine(folderPath, "user.ini");
                 ConfigFileHelper.IniWriteValue("UserInfo", "UserName", UserManager.LoginUser.UserName, filePath);
+                ConfigFileHelper.IniWriteValue("UserInfo", "UserPassword", UserManager.LoginUser.Password, filePath);
+                
                 DialogResult = DialogResult.OK;
                 Close();
             }

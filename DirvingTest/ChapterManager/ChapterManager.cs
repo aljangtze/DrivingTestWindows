@@ -14,13 +14,20 @@ namespace DirvingTest
         /// </summary>
         /// <param name="chapterTypeList"></param>
         /// <returns></returns>
-        public bool GetChapterTypeList(out List<ChapterType> chapterTypeList)
+        public bool GetChapterTypeList(out List<ChapterType> chapterTypeList, bool isFilter=false)
         {
             chapterTypeList = new List<ChapterType>();
             try
             {
-                string sql = @"select * from group_type where 1=@data";
-                DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, new SQLiteParameter[] { new SQLiteParameter("@data", 1) });
+                
+                string sql = @"select * from group_type where id<@data";
+                SQLiteParameter[] sqlPara;
+                if (isFilter)
+                    sqlPara = new SQLiteParameter[] { new SQLiteParameter("@data", 3) };
+                else
+                    sqlPara = new SQLiteParameter[] { new SQLiteParameter("@data", 10) };
+
+                DataTable data = SQLiteHelper.SQLiteHelper.GetDataTable(sql, sqlPara);
                 foreach (DataRow row in data.Rows)
                 {
                     ChapterType typeData = new ChapterType();
@@ -122,15 +129,17 @@ namespace DirvingTest
         {
             try
             {
-                string sqlString = @"insert into groups (name, type, status, count, classification)
+                string sqlString = @"insert into groups (name, type, status, count, classification, sql, sql_parameter)
                                 values
-                                (@name, @type, 1, @count, @classification)";
+                                (@name, @type, 1, @count, @classification, @sql, @sql_parameter)";
 
                 List<SQLiteParameter> parameters = new List<SQLiteParameter>();
                 parameters.Add(new SQLiteParameter("@name", chapter.Name));
                 parameters.Add(new SQLiteParameter("@type", chapter.ChapterType));
                 parameters.Add(new SQLiteParameter("@count", chapter.Count));
                 parameters.Add(new SQLiteParameter("@classification", chapter.Classification));
+                parameters.Add(new SQLiteParameter("@sql", chapter.ChapterSqlString));
+                parameters.Add(new SQLiteParameter("@sql_parameter", chapter.SqlParamter));
 
                 int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
                 if (result <= 0)
@@ -151,7 +160,7 @@ namespace DirvingTest
         {
             try
             {
-                string sqlString = @"update groups set name=@name, type=@type, status=@status, count=@count, classification=@classification where id=@id";
+                string sqlString = @"update groups set name=@name, type=@type, status=@status, count=@count, classification=@classification, sql=@sql, sql_parameter=@sql_parameter where id=@id";
 
                 //SQLiteParameter[] parameters = new SQLiteParameter[23];
                 List<SQLiteParameter> parameters = new List<SQLiteParameter>();
@@ -161,6 +170,8 @@ namespace DirvingTest
                 parameters.Add(new SQLiteParameter("@type", chapter.ChapterType));
                 parameters.Add(new SQLiteParameter("@count", chapter.Count));
                 parameters.Add(new SQLiteParameter("@classification", chapter.Classification));
+                parameters.Add(new SQLiteParameter("@sql", chapter.ChapterSqlString));
+                parameters.Add(new SQLiteParameter("@sql_parameter", chapter.SqlParamter));
 
                 int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
                 if (result <= 0)

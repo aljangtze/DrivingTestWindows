@@ -362,8 +362,9 @@ namespace DirvingTest
                                 FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                                 if (DialogResult.OK == simulaInfo.ShowDialog())
                                 {
-                                    int questionCount = this.GenQuestions();
-                                    this.ResetControlsInfo(questionCount);
+                                    //int questionCount = this.GenQuestions();
+                                    //this.ResetControlsInfo(questionCount);
+                                    this.ResetControlsInfo(_status.AllQuestion.Count);
                                     this.SetShowType(0);
                                     this.Show();
                                 }
@@ -994,8 +995,9 @@ namespace DirvingTest
                     FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                     if (DialogResult.OK == simulaInfo.ShowDialog())
                     {
-                        int questionCount = this.GenQuestions();
-                        this.ResetControlsInfo(questionCount);
+                        //int questionCount = this.GenQuestions();
+                        //this.ResetControlsInfo(questionCount);
+                        this.ResetControlsInfo(_status.AllQuestion.Count);
                         this.SetShowType(0);
                         this.Show();
                     }
@@ -1057,8 +1059,9 @@ namespace DirvingTest
                                 FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                                 if (DialogResult.OK == simulaInfo.ShowDialog())
                                 {
-                                    int questionCount = this.GenQuestions();
-                                    this.ResetControlsInfo(questionCount);
+                                    //int questionCount = this.GenQuestions();
+                                    //this.ResetControlsInfo(questionCount);
+                                    this.ResetControlsInfo(_status.AllQuestion.Count);
                                     this.SetShowType(0);
                                     this.Show();
                                 }
@@ -1121,8 +1124,9 @@ namespace DirvingTest
                     FormSimulationInfo simulaInfo = new FormSimulationInfo(_status.Score);
                     if (DialogResult.OK == simulaInfo.ShowDialog())
                     {
-                        int questionCount = this.GenQuestions();
-                        this.ResetControlsInfo(questionCount);
+                        //int questionCount = this.GenQuestions();
+                        //this.ResetControlsInfo(questionCount);
+                        this.ResetControlsInfo(_status.AllQuestion.Count);
                         this.SetShowType(0);
                         this.Show();
                     }

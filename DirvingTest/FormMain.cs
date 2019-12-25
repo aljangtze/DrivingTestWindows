@@ -557,7 +557,7 @@ namespace DirvingTest
                     return;
             }
 
-            Form form = new FormQuestionManage();
+            Form form = new FormQuestionManageSql();
             if (activeFrom != null)
                 activeFrom.Close();
 

@@ -56,6 +56,8 @@ namespace DirvingTest
             cboxType.SelectedIndex = chapter.Classification-1;
             cboxChapterType.SelectedIndex = chapter.ChapterType;
             cboxStatus.SelectedIndex = chapter.IsEnable ? 1 : 0;
+            txtSql.Text = chapter.ChapterSqlString;
+            txtParamerter.Text = chapter.SqlParamter;
             return true;
         }
         private void imageButtonSave_Click(object sender, EventArgs e)
@@ -68,9 +70,11 @@ namespace DirvingTest
             }
 
             m_chapter.Name = richTextBoxTittle.Text;
-            m_chapter.IsEnable = cboxStatus.SelectedIndex == 0 ? true : false;
+            m_chapter.IsEnable = cboxStatus.SelectedIndex == 1 ? true : false;
             m_chapter.Classification = cboxType.SelectedIndex + 1;
             m_chapter.ChapterType = cboxChapterType.SelectedIndex;
+            m_chapter.ChapterSqlString = txtSql.Text;
+            m_chapter.SqlParamter = txtParamerter.Text;
             if (false == chapterManager.UpdateChapter(m_chapter))
             {
                 MessageBox.Show("更新信息失败！", "提示信息", MessageBoxButtons.OK);

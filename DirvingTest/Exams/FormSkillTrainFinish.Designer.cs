@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel4 = new System.Windows.Forms.Panel();
-            this.buttonRetun = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.btnOk = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.labelAllCount = new System.Windows.Forms.Label();
@@ -48,6 +48,8 @@
             this.labelName = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnRepeat = new System.Windows.Forms.Button();
+            this.btnRepatError = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -57,7 +59,9 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.MediumPurple;
-            this.panel4.Controls.Add(this.buttonRetun);
+            this.panel4.Controls.Add(this.btnRepatError);
+            this.panel4.Controls.Add(this.btnRepeat);
+            this.panel4.Controls.Add(this.btnCancel);
             this.panel4.Controls.Add(this.btnOk);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(0, 327);
@@ -65,17 +69,17 @@
             this.panel4.Size = new System.Drawing.Size(491, 64);
             this.panel4.TabIndex = 11;
             // 
-            // buttonRetun
+            // btnCancel
             // 
-            this.buttonRetun.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.buttonRetun.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.buttonRetun.Location = new System.Drawing.Point(262, 6);
-            this.buttonRetun.Name = "buttonRetun";
-            this.buttonRetun.Size = new System.Drawing.Size(148, 49);
-            this.buttonRetun.TabIndex = 1;
-            this.buttonRetun.Text = "重做错题";
-            this.buttonRetun.UseVisualStyleBackColor = true;
-            this.buttonRetun.Click += new System.EventHandler(this.buttonRetun_Click);
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnCancel.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnCancel.Location = new System.Drawing.Point(262, 6);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(148, 49);
+            this.btnCancel.TabIndex = 1;
+            this.btnCancel.Text = "关闭";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.buttonRetun_Click);
             // 
             // btnOk
             // 
@@ -269,6 +273,30 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "信  息  提  示";
             // 
+            // btnRepeat
+            // 
+            this.btnRepeat.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnRepeat.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnRepeat.Location = new System.Drawing.Point(62, 6);
+            this.btnRepeat.Name = "btnRepeat";
+            this.btnRepeat.Size = new System.Drawing.Size(148, 49);
+            this.btnRepeat.TabIndex = 2;
+            this.btnRepeat.Text = "再做一次";
+            this.btnRepeat.UseVisualStyleBackColor = true;
+            this.btnRepeat.Click += new System.EventHandler(this.btnRepeat_Click);
+            // 
+            // btnRepatError
+            // 
+            this.btnRepatError.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnRepatError.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnRepatError.Location = new System.Drawing.Point(262, 6);
+            this.btnRepatError.Name = "btnRepatError";
+            this.btnRepatError.Size = new System.Drawing.Size(148, 49);
+            this.btnRepatError.TabIndex = 3;
+            this.btnRepatError.Text = "重做错题";
+            this.btnRepatError.UseVisualStyleBackColor = true;
+            this.btnRepatError.Click += new System.EventHandler(this.btnRepatError_Click);
+            // 
             // FormSkillTrainFinish
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -295,7 +323,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button buttonRetun;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnOk;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label labelCorrectCout;
@@ -314,5 +342,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label labelAllCount;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnRepeat;
+        private System.Windows.Forms.Button btnRepatError;
     }
 }

@@ -45,9 +45,11 @@ namespace DirvingTest
         bool IsShowSkill = false;
         int m_type = 0;
         bool IsDoError = false;
-        public void SetShowType(int Type, bool isDoError = false)
+        bool IsErrorType = false;
+        public void SetShowType(int Type, bool isDoError = false, bool isErrorType = false)
         {
             IsDoError = isDoError;
+            IsErrorType = isErrorType;
             m_type = Type;
             if (Type == 0)
             {
@@ -1006,7 +1008,7 @@ namespace DirvingTest
                 {
                     FormSkillTrainFinish form = new FormSkillTrainFinish();
                     form.SendBack += FormBack;
-                    form.SetAnswers(_status.AnswerQuestion);
+                    form.SetAnswers(_status.AnswerQuestion, false, IsErrorType);
                     if (DialogResult.Yes == form.ShowDialog())
                     {
 
@@ -1139,6 +1141,7 @@ namespace DirvingTest
                 {
                     return;
                 }
+
                 FormSkillTrainFinish form = new FormSkillTrainFinish();
                 for (int i = 0; i < _status.AllQeustionPanels.Count; i++)
                 {
@@ -1150,11 +1153,11 @@ namespace DirvingTest
                 }
 
                 form.SendBack += FormBack;
-                form.SetAnswers(_status.AnswerQuestion, IsDoError);
-                IsDoError = true;
-                if (DialogResult.Yes == form.ShowDialog())
+                form.SetAnswers(_status.AnswerQuestion, IsDoError, IsErrorType);
+                
+                if (DialogResult.No != form.ShowDialog())
                 {
-
+                    IsDoError = true;
                 }
                 else
                 {
@@ -1180,7 +1183,7 @@ namespace DirvingTest
 
         public bool FormBack(List<Question> list)
         {
-            this.SetShowType(m_type, IsDoError);
+            this.SetShowType(m_type, IsDoError, IsErrorType);
             this.SetQuestions(list);
             this.ResetControlsInfo(_status.AllQuestion.Count);
             return true;

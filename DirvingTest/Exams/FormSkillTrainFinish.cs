@@ -15,16 +15,34 @@ namespace DirvingTest
         public delegate bool WantSendBack(List<Question> AnswerList);
         Dictionary<int, AnswerQuestion> m_AnswerList = new Dictionary<int, AnswerQuestion>();
         public WantSendBack SendBack = null;
-        
+
         public FormSkillTrainFinish()
         {
             InitializeComponent();
         }
 
+        bool IsErrorType = false;
         bool IsDoError = false;
-        public void SetAnswers(Dictionary<int, AnswerQuestion> answerList, bool isDoError=false)
+        public void SetAnswers(Dictionary<int, AnswerQuestion> answerList, bool isDoError = false, bool isErrorType = false)
         {
             IsDoError = isDoError;
+            IsErrorType = isErrorType;
+
+            if (false == IsDoError && true == IsErrorType)
+            {
+                btnRepeat.Visible = true;
+                btnRepatError.Visible = true;
+                btnOk.Visible = false;
+                btnCancel.Visible = false;
+            }
+            else
+            {
+                btnRepeat.Visible = false;
+                btnRepatError.Visible = false;
+                btnOk.Visible = true;
+                btnCancel.Visible = true;
+            }
+
             int AllCount = answerList.Count;
             int WrongCount = 0;
             int RightCount = 0;
@@ -45,7 +63,7 @@ namespace DirvingTest
             labelCorrectCout.Text = RightCount.ToString();
             labelIncorrectCount.Text = WrongCount.ToString();
             labelNoanswerCount.Text = NoAnswerCount.ToString();
-            buttonRetun.Text = "关闭";
+            btnCancel.Text = "关闭";
             if (false == IsDoError)
                 btnOk.Text = "重做错题";
             else
@@ -94,7 +112,7 @@ namespace DirvingTest
 
             foreach (var answer in m_AnswerList)
             {
-                if (answer.Value.RightStatus == 2 || answer.Value.RightStatus==0)
+                if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
                     m_QuestionList.Add(answer.Value.question);
             }
 
@@ -155,6 +173,44 @@ namespace DirvingTest
                     if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
                         m_QuestionList.Add(answer.Value.question);
                 }
+            }
+
+            if (SendBack != null)
+                SendBack(m_QuestionList);
+
+            this.DialogResult = DialogResult.Yes;
+            Close();
+        }
+
+        private void btnRepeat_Click(object sender, EventArgs e)
+        {
+            m_QuestionList.Clear();
+
+            foreach (var answer in m_AnswerList)
+            {
+
+                m_QuestionList.Add(answer.Value.question);
+
+            }
+
+            if (SendBack != null)
+                SendBack(m_QuestionList);
+            //if(IsDoError)
+            //    this.
+            //else
+                this.DialogResult = DialogResult.No;
+            Close();
+        }
+
+        private void btnRepatError_Click(object sender, EventArgs e)
+        {
+            m_QuestionList.Clear();
+
+            foreach (var answer in m_AnswerList)
+            {
+
+                if (answer.Value.RightStatus == 2 || answer.Value.RightStatus == 0)
+                    m_QuestionList.Add(answer.Value.question);
             }
 
             if (SendBack != null)

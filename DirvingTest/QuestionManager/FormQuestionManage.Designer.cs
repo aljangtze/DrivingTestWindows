@@ -33,6 +33,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBoxEasyError = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.comboBoxBank = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBoxFilterOptions = new System.Windows.Forms.TextBox();
@@ -59,6 +61,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.labelTittle = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panelManager = new System.Windows.Forms.Panel();
+            this.panelDetails = new System.Windows.Forms.Panel();
             this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,10 +73,6 @@
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.panelManager = new System.Windows.Forms.Panel();
-            this.panelDetails = new System.Windows.Forms.Panel();
-            this.comboBoxEasyError = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -108,6 +108,24 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(888, 143);
             this.panel1.TabIndex = 2;
+            // 
+            // comboBoxEasyError
+            // 
+            this.comboBoxEasyError.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxEasyError.FormattingEnabled = true;
+            this.comboBoxEasyError.Location = new System.Drawing.Point(643, 79);
+            this.comboBoxEasyError.Name = "comboBoxEasyError";
+            this.comboBoxEasyError.Size = new System.Drawing.Size(156, 20);
+            this.comboBoxEasyError.TabIndex = 18;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(575, 83);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(71, 12);
+            this.label10.TabIndex = 19;
+            this.label10.Text = "易错题分类:";
             // 
             // comboBoxBank
             // 
@@ -381,7 +399,7 @@
             this.Column9});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -406,6 +424,24 @@
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
+            // panelManager
+            // 
+            this.panelManager.Controls.Add(this.dataGridView1);
+            this.panelManager.Controls.Add(this.panel1);
+            this.panelManager.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelManager.Location = new System.Drawing.Point(0, 0);
+            this.panelManager.Name = "panelManager";
+            this.panelManager.Size = new System.Drawing.Size(888, 582);
+            this.panelManager.TabIndex = 4;
+            // 
+            // panelDetails
+            // 
+            this.panelDetails.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDetails.Location = new System.Drawing.Point(0, 0);
+            this.panelDetails.Name = "panelDetails";
+            this.panelDetails.Size = new System.Drawing.Size(888, 582);
+            this.panelDetails.TabIndex = 5;
+            // 
             // Column1
             // 
             this.Column1.HeaderText = "*";
@@ -425,7 +461,7 @@
             this.Column3.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column3.HeaderText = "题目名称";
             this.Column3.Name = "Column3";
-            this.Column3.Width = 250;
+            this.Column3.Width = 500;
             // 
             // Column7
             // 
@@ -467,42 +503,6 @@
             this.Column9.HeaderText = "删除";
             this.Column9.Name = "Column9";
             this.Column9.Width = 40;
-            // 
-            // panelManager
-            // 
-            this.panelManager.Controls.Add(this.dataGridView1);
-            this.panelManager.Controls.Add(this.panel1);
-            this.panelManager.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelManager.Location = new System.Drawing.Point(0, 0);
-            this.panelManager.Name = "panelManager";
-            this.panelManager.Size = new System.Drawing.Size(888, 582);
-            this.panelManager.TabIndex = 4;
-            // 
-            // panelDetails
-            // 
-            this.panelDetails.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDetails.Location = new System.Drawing.Point(0, 0);
-            this.panelDetails.Name = "panelDetails";
-            this.panelDetails.Size = new System.Drawing.Size(888, 582);
-            this.panelDetails.TabIndex = 5;
-            // 
-            // comboBoxEasyError
-            // 
-            this.comboBoxEasyError.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxEasyError.FormattingEnabled = true;
-            this.comboBoxEasyError.Location = new System.Drawing.Point(643, 79);
-            this.comboBoxEasyError.Name = "comboBoxEasyError";
-            this.comboBoxEasyError.Size = new System.Drawing.Size(156, 20);
-            this.comboBoxEasyError.TabIndex = 18;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(575, 83);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 12);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "易错题分类:";
             // 
             // FormQuestionManage
             // 
@@ -559,6 +559,10 @@
         private System.Windows.Forms.TextBox textBoxFilterOptions;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBoxFilterTittle;
+        private System.Windows.Forms.ComboBox comboBoxBank;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox comboBoxEasyError;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -569,9 +573,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.DataGridViewButtonColumn Column6;
         private System.Windows.Forms.DataGridViewButtonColumn Column9;
-        private System.Windows.Forms.ComboBox comboBoxBank;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBoxEasyError;
-        private System.Windows.Forms.Label label10;
     }
 }

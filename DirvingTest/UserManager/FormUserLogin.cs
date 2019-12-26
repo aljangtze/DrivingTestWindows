@@ -46,7 +46,7 @@ namespace DirvingTest
             else 
             {
                 MessageBox.Show("登录成功!", "提示信息", MessageBoxButtons.OK);
-
+                SystemConfig._IsLogin = UserManager.LoginUser.Type == 1;
                 DialogResult = DialogResult.OK;
                 Close();
             }

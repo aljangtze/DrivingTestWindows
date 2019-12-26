@@ -6,6 +6,7 @@ using System.Text;
 //using System.Threading.Tasks;
 using System.Management;
 using System.IO;
+using System.Data.SQLite;
 
 namespace DirvingTest
 {
@@ -177,10 +178,11 @@ namespace DirvingTest
         {
             try
             { 
-                string licenseInfo = FileHelper.ReadTextFile("license.dat");
-                if (string.IsNullOrEmpty(licenseInfo))
-                    return false;
+                //string licenseInfo = FileHelper.ReadTextFile("license.dat");
+                //if (string.IsNullOrEmpty(licenseInfo))
+                //    return false;
 
+                string licenseInfo = GetLicense();
                 string resultInfo = "";
                 
                 if(false == LicenseChecked(licenseInfo, out resultInfo))
@@ -205,7 +207,10 @@ namespace DirvingTest
                     return false;
                 }
 
-                if (false == FileHelper.WriteToTextFile(licenseInfo, "license.dat"))
+                
+
+                //if (false == FileHelper.WriteToTextFile(licenseInfo, "license.dat"))
+                if(false == LicenseHelper.UpdateLicense(licenseInfo))
                 {
                     resultInfo = "授权信息保存失败，请联系开发人员";
                     return false;
@@ -222,6 +227,52 @@ namespace DirvingTest
                 resultInfo = ex.ToString();
                 return false;
             }
+        }
+
+        public static bool UpdateLicense(string license)
+        {
+            try
+            {
+                string sqlString = @"delete from license;insert into license (license) values (@license)";
+
+                List<SQLiteParameter> parameters = new List<SQLiteParameter>();
+                parameters.Add(new SQLiteParameter("@license", license));
+
+                int result = SQLiteHelper.SQLiteHelper.ExecuteNonQuery(sqlString, parameters.ToArray());
+                if (result <= 0)
+                {
+                    Console.WriteLine("Error" + license);
+                    //MessageBox.Show(ques)
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public static string GetLicense()
+        {
+
+            try
+            {
+                string sqlString = @"select license from license limit 1";
+
+                List<SQLiteParameter> parameters = new List<SQLiteParameter>();
+                parameters.Add(new SQLiteParameter("@license", ""));
+                object license = SQLiteHelper.SQLiteHelper.ExecuteScalar(sqlString, parameters.ToArray());
+                if (null == license)
+                    return "";
+
+                return license.ToString();
+            }
+            catch (Exception ex)
+            {
+                return "";
+            }
+            
         }
 
         public static bool LicenseChecked(string licenseInfo, out string resultInfo)

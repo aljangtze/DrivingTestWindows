@@ -47,7 +47,7 @@ namespace DirvingTest
                     ChapterManager.GetChapterList((int)chapterType, out chapterList);
                     //chapterList = ModelManager.m_DicSkillList;
                     //g_Relation_Question_List = QuestionManager.m_Relation_Question_Skill;
-                    btnClear.Visible = false;
+                    lblClearQuestions.Visible = false;
                     break;
 
                 case 2:
@@ -55,12 +55,12 @@ namespace DirvingTest
                     ChapterManager.GetChapterList((int)chapterType, out chapterList);
                     //chapterList = ModelManager.m_DicBankList;
                     //g_Relation_Question_List = QuestionManager.m_Relation_Question_Suite;
-                    btnClear.Visible = false;
+                    lblClearQuestions.Visible = false;
                     break;
                 case 3:
                     lblInfo.Text = "错题练习--强化练习容易错误的题目，帮助更好通过考试。";
                     ChapterManager.GetChapterList((int)chapterType, out chapterList);
-                    btnClear.Visible = true;
+                    lblClearQuestions.Visible = true;
                     //chapterList = ModelManager.m_DicIntensifyList;
                     //g_Relation_Question_List = QuestionManager.m_Relation_Question_Intensity;
                     break;
@@ -215,7 +215,7 @@ namespace DirvingTest
                 list = QuestionManager.GetQuestionsFromDB(g_ChapterInfo.ID);
             }
 
-            if (g_ChapterInfo.ID != g_FirstChapterId)
+            if (g_ChapterInfo.ID != g_FirstChapterId || g_ChapterType == 3)
             {
                 if (!LicenseHelper.IsValid())
                 {
@@ -244,7 +244,11 @@ namespace DirvingTest
             list.Sort();
             _simulaForm.SetQuestions(list, false);
 
-            _simulaForm.SetShowType(1);
+            if(g_ChapterType == 3)
+                _simulaForm.SetShowType(1, false, true);
+            else
+                _simulaForm.SetShowType(1);
+
             _simulaForm.ResetControlsInfo(Math.Min(count, 100));
             
 
@@ -314,9 +318,9 @@ namespace DirvingTest
             FormSkillSelect_Load(null, null);
         }
 
-        private void btnClear_Click(object sender, EventArgs e)
+        private void lblClearQuestions_Click(object sender, EventArgs e)
         {
-            if(false == QuestionManager.ClearErrorQuestion())
+            if (false == QuestionManager.ClearErrorQuestion())
             {
                 MessageBox.Show("清空题目失败", "错误提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

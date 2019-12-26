@@ -25,7 +25,11 @@ namespace DirvingTest
             dataGridView1.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridView1.Rows.Clear();
 
-             m_details = new FormQuestionDetails();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
+            dataGridView1.RowsDefaultCellStyle.WrapMode = (DataGridViewTriState.True);
+
+            m_details = new FormQuestionDetails();
              m_details.FormBack += SendBack;
             m_details.TopLevel = false;
             m_details.Parent = this.panelDetails;
@@ -109,7 +113,7 @@ namespace DirvingTest
             row.Cells.Add(chkBoxCell);
 
             DataGridViewTextBoxCell txtBox1 = new DataGridViewTextBoxCell();
-            txtBox1.Value = (dataGridView1.Rows.Count + 1).ToString();
+            txtBox1.Value = Convert.ToInt32(dataGridView1.Rows.Count + 1);
             //txtBox1.Tag = question.Id.ToString();
             txtBox1.ToolTipText = "ID=" + question.Id.ToString();
             row.Cells.Add(txtBox1);
@@ -378,6 +382,9 @@ namespace DirvingTest
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             Question curQuestion = null;
+
+            if (e.RowIndex < 0)
+                return;
 
             //编辑
             if (e.ColumnIndex == 8)

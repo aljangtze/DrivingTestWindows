@@ -40,7 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblInfo = new System.Windows.Forms.Label();
             this.picHeader = new System.Windows.Forms.PictureBox();
-            this.btnClear = new CotrolLibrary.ImageButton();
+            this.lblClearQuestions = new System.Windows.Forms.Label();
             this.panelDown.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelTop.SuspendLayout();
@@ -146,7 +146,7 @@
             // panelTop
             // 
             this.panelTop.BackColor = System.Drawing.Color.Azure;
-            this.panelTop.Controls.Add(this.btnClear);
+            this.panelTop.Controls.Add(this.lblClearQuestions);
             this.panelTop.Controls.Add(this.panel3);
             this.panelTop.Controls.Add(this.label2);
             this.panelTop.Controls.Add(this.lblInfo);
@@ -208,19 +208,16 @@
             this.picHeader.TabIndex = 0;
             this.picHeader.TabStop = false;
             // 
-            // btnClear
+            // lblClearQuestions
             // 
-            this.btnClear.BackgroundImage = global::DirvingTest.Properties.Resources._20150614043555476_easyicon_net_512;
-            this.btnClear.HeadImage = null;
-            this.btnClear.Location = new System.Drawing.Point(908, 14);
-            this.btnClear.MouseClickImage = global::DirvingTest.Properties.Resources._20150614043603514_easyicon_net_512;
-            this.btnClear.MouseOverImage = global::DirvingTest.Properties.Resources._20150614043603514_easyicon_net_512;
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(138, 40);
-            this.btnClear.TabIndex = 31;
-            this.btnClear.Text = "清除错题";
-            this.btnClear.TextFont = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnClear.Click += new CotrolLibrary.ImageButton.ClickEventHandler(this.btnClear_Click);
+            this.lblClearQuestions.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblClearQuestions.Location = new System.Drawing.Point(897, 14);
+            this.lblClearQuestions.Name = "lblClearQuestions";
+            this.lblClearQuestions.Size = new System.Drawing.Size(118, 30);
+            this.lblClearQuestions.TabIndex = 33;
+            this.lblClearQuestions.Text = "清除错题";
+            this.lblClearQuestions.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblClearQuestions.Click += new System.EventHandler(this.lblClearQuestions_Click);
             // 
             // FormChaperSelect
             // 
@@ -259,6 +256,6 @@
         private CotrolLibrary.ImageButton btnSequence;
         private System.Windows.Forms.Label labelInfo;
         private CotrolLibrary.ImageButton btnRadom;
-        private CotrolLibrary.ImageButton btnClear;
+        private System.Windows.Forms.Label lblClearQuestions;
     }
 }

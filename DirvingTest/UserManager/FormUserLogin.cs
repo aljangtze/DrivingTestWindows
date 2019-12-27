@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 //using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -24,7 +25,17 @@ namespace DirvingTest
 
         private void FormManagerLogin_Load(object sender, EventArgs e)
         {
-            txtName.Text = UserManager.LoginUser.UserName;
+            
+            string userName = "";
+
+            string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string filePath = Path.Combine(folderPath, "user.ini");
+            if (File.Exists(filePath))
+            {
+                userName = ConfigFileHelper.IniReadValue("UserInfo", "UserName", filePath);
+            }
+            
+            txtName.Text = userName;
             txtPassword.Text = "";
         }
 
@@ -47,6 +58,10 @@ namespace DirvingTest
             {
                 MessageBox.Show("登录成功!", "提示信息", MessageBoxButtons.OK);
                 SystemConfig._IsLogin = UserManager.LoginUser.Type == 1;
+
+                string folderPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+                string filePath = Path.Combine(folderPath, "user.ini");
+                ConfigFileHelper.IniWriteValue("UserInfo", "UserName", UserManager.LoginUser.UserName, filePath);
                 DialogResult = DialogResult.OK;
                 Close();
             }
